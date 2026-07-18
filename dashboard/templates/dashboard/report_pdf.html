@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Business Analytics Report</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+
+            @bottom-right {
+                content: "Page " counter(page) " sur " counter(pages);
+                font-family: 'Helvetica', sans-serif;
+                font-size: 10pt;
+                color: #666;
+            }
+
+            @bottom-left {
+                content: "Stream Partner Analytics";
+                font-family: 'Helvetica', sans-serif;
+                font-size: 10pt;
+                color: #666;
+            }
+        }
+
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fcfcfc;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #264653;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Cover Page */
+        .cover {
+            height: 25cm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            page-break-after: always;
+        }
+
+        .cover-logo {
+            width: 150px;
+            margin-bottom: 2rem;
+        }
+
+        .cover-title {
+            font-size: 3rem;
+            color: #2A9D8F;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .cover-subtitle {
+            font-size: 1.5rem;
+            color: #E76F51;
+            margin-bottom: 3rem;
+        }
+
+        .cover-date {
+            font-size: 1.2rem;
+            color: #666;
+            background: #eee;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Layout */
+        .page-break {
+            page-break-before: always;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #2A9D8F;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        /* KPI Cards Grid */
+        .kpi-grid {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 15px;
+            margin-bottom: 30px;
+        }
+
+        .kpi-card {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-top: 4px solid #F4A261;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 33%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .kpi-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .kpi-card .value {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #264653;
+            margin: 0;
+        }
+
+        .kpi-card .trend {
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .trend.up {
+            color: #2A9D8F;
+        }
+
+        .trend.down {
+            color: #E76F51;
+        }
+
+        /* Charts */
+        .chart-container {
+            background: #264653;
+            /* Dark background for charts to match white text */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Tables */
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        table.data-table th,
+        table.data-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table.data-table th {
+            background-color: #f4f4f4;
+            color: #333;
+            font-weight: bold;
+        }
+
+        table.data-table tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        /* Reviews */
+        .review-card {
+            background: #fff;
+            border-left: 4px solid #E9C46A;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .review-header {
+            font-weight: bold;
+            color: #264653;
+            margin-bottom: 5px;
+        }
+
+        .stars {
+            color: #E9C46A;
+            letter-spacing: 2px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mt-5 {
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cover Page -->
+    <div class="cover">
+        {% if logo_uri %}
+        <img src="{{ logo_uri }}" alt="Stream Partner Logo" class="cover-logo">
+        {% else %}
+        <div style="font-size: 4rem; color: #2A9D8F; font-weight: bold; margin-bottom: 2rem;">SP</div>
+        {% endif %}
+
+        <h1 class="cover-title">Rapport Analytique</h1>
+        <h2 class="cover-subtitle">Performances & Activités</h2>
+
+        <div class="cover-date">
+            Période : Du {{ data.start_date|date:"d M Y" }} au {{ data.end_date|date:"d M Y" }}<br>
+            ({{ data.period_days }} jours)
+        </div>
+
+        <div style="margin-top: 100px; color: #888;">
+            <p>Généré automatiquement par Stream Partner System</p>
+        </div>
+    </div>
+
+    <!-- Sommaire -->
+    <h2 class="section-title">Sommaire</h2>
+    <ul style="font-size: 1.2rem; line-height: 2;">
+        <li>1. Vue d'Ensemble</li>
+        <li>2. Utilisateurs & Croissance</li>
+        <li>3. Abonnements & Revenus</li>
+        <li>4. Performances des Plateformes</li>
+        <li>5. Avis & Satisfaction Clients</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- Section 1: KPIs -->
+    <h2 class="section-title">1. Vue d'Ensemble</h2>
+    <p>Ce rapport couvre les statistiques globales sur la période des {{ data.period_days }} derniers jours.</p>
+
+    <table class="kpi-grid">
+        <tr>
+            <td class="kpi-card" style="border-top-color: #2A9D8F;">
+                <h3>Nouveaux Utilisateurs</h3>
+                <p class="value">+{{ data.new_users }}</p>
+                <p class="trend {% if data.user_growth >= 0 %}up{% else %}down{% endif %}">
+                    {% if data.user_growth >= 0 %}▲{% else %}▼{% endif %}
+                    {{ data.user_growth|floatformat:1 }}% vs période précédente
+                </p>
+            </td>
+            <td class="kpi-card" style="border-top-color: #F4A261;">
+                <h3>Nouvelles Commandes</h3>
+                <p class="value">{{ data.total_orders }}</p>
+                <p class="trend up">Total Abonnés Actifs: {{ data.active_subs }}</p>
+            </td>
+            <td class="kpi-card" style="border-top-color: #E76F51;">
+                <h3>Chiffre d'Affaire (Période)</h3>
+                <p class="value">{{ data.revenue }} FCFA</p>
+                <p class="trend">Basé sur les commandes complétées</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="kpi-grid">
+        <tr>
+            <td class="kpi-card">
+                <h3>Utilisateurs Totaux</h3>
+                <p class="value">{{ data.total_users }}</p>
+            </td>
+            <td class="kpi-card">
+                <h3>Taux de Conversion</h3>
+                <p class="value">{{ data.conversion_rate|floatformat:1 }}%</p>
+                <p class="trend">Commandes Complétées: {{ data.completed_orders }}</p>
+            </td>
+            <td class="kpi-card">
+                <h3>Avis (Score Moyen)</h3>
+                <p class="value">{{ data.all_reviews_avg|floatformat:1 }} / 5</p>
+                <p class="trend">Moyenne Globale Historique</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Section 2: Commandes -->
+    <h2 class="section-title">2. Entonnoir de Conversion des Commandes</h2>
+    <p>Aperçu de l'état d'avancement des nouvelles commandes passées au cours de la période. Un taux de conversion élevé
+        indique un processus de paiement et de validation fluide.</p>
+
+    {% if data.charts.orders_bar %}
+    <div class="chart-container">
+        <h3 style="color: white; margin-top: 0;">Répartition par Statut</h3>
+        <img src="data:image/png;base64,{{ data.charts.orders_bar }}" alt="Order Status Breakdowns">
+    </div>
+    {% else %}
+    <p>Aucune donnée de commande pour le graphique.</p>
+    {% endif %}
+
+    <div class="page-break"></div>
+
+    <!-- Section 4: Plateformes -->
+    <h2 class="section-title">3. Performances des Plateformes</h2>
+    <p>Popularité des services demandés par vos clients. Ceci est basé sur le volume total de commandes complétées
+        nouvellement générées dans la période.</p>
+
+    {% if data.charts.platforms_pie %}
+    <div class="chart-container">
+        <h3 style="color: white; margin-top: 0;">Part de Marché (Volume des Ventes)</h3>
+        <img src="data:image/png;base64,{{ data.charts.platforms_pie }}" alt="Platform Popularity">
+    </div>
+    {% endif %}
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Top</th>
+                <th>Plateforme</th>
+                <th>Commandes Complétées</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for platform in data.platforms_list %}
+            <tr>
+                <td>#{{ forloop.counter }}</td>
+                <td><strong>{{ platform.platform|title }}</strong></td>
+                <td>{{ platform.count }} ventes</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="3" class="text-center">Aucune commande complétée durant cette période.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Section 5: Avis -->
+    <h2 class="section-title mt-5">4. Avis & Satisfaction Clients</h2>
+    <p>Score du mois: <strong>{{ data.avg_stars_period|floatformat:1 }} / 5</strong></p>
+
+    <div style="margin-top: 20px;">
+        <h3>Derniers Avis (Top 10)</h3>
+        {% for review in data.recent_reviews %}
+        <div class="review-card">
+            <div class="review-header">
+                {{ review.user.get_full_name|default:review.user.phone_number }}
+                <span style="color: #999; font-weight: normal; font-size: 0.9em; float: right;">
+                    {{ review.create_at|date:"d M Y" }}
+                </span>
+            </div>
+            <div class="stars">
+                {% for i in '12345' %}
+                {% if forloop.counter <= review.stars %}★{% else %}☆{% endif %} {% endfor %} </div>
+                    {% if review.comment %}
+                    <p style="margin-top: 10px; font-style: italic; color: #555;">"{{ review.comment }}"</p>
+                    {% endif %}
+            </div>
+            {% empty %}
+            <p>Aucun avis soumis durant cette période.</p>
+            {% endfor %}
+        </div>
+
+</body>
+
+</html>

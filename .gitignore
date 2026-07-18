@@ -1,0 +1,17 @@
+.idea
+.vscode
+.venv
+.env
+__pycache__/
+*.pyc
+db.sqlite3
+Dockerfile
+tree.txt
+backfill_motifs.py
+foo.py
+test_*.py
+media/
+docker/
+docker-compose.yaml
+Dockerfile
+entrypoint.sh
