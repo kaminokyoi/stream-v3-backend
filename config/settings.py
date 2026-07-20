@@ -41,6 +41,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'stream-v2-production.up.railway.app',
     'streampartner.in',
+    'api.streampartner.in',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -48,6 +49,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1/',
     'https://stream-v2-production.up.railway.app',
     'https://streampartner.in',
+    'https://api.streampartner.in'
 ]
 
 # CORS Configuration — allow Next.js frontends to consume the API
