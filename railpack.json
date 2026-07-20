@@ -1,5 +1,5 @@
 {
-  "packages": [
+  "buildAptPackages": [
     "libgobject-2.0-0",
     "libglib2.0-0",
     "libpango-1.0-0",
