@@ -26,9 +26,15 @@ class AdminCardSerializer(serializers.ModelSerializer):
         read_only_fields = ('created_at',)
 
     def get_masked_numero(self, obj):
+        numero = obj.numero
+        if not numero or numero.startswith('gAAAAA'):
+            return '**** **** **** ****'
         return obj.masked_numero
 
     def get_formatted_numero(self, obj):
+        numero = obj.numero
+        if not numero or numero.startswith('gAAAAA'):
+            return 'Erreur de déchiffrement'
         return obj.formatted_numero
 
     def get_linked_accounts(self, obj):

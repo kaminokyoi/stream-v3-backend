@@ -9,6 +9,9 @@ from dateutil.relativedelta import relativedelta
 from cryptography.fernet import Fernet
 import base64
 import hashlib
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def get_fernet():
@@ -25,6 +28,7 @@ class EncryptedCharField(models.CharField):
         try:
             return get_fernet().decrypt(value.encode()).decode()
         except Exception:
+            logger.warning(f"EncryptedCharField: failed to decrypt value (len={len(str(value))}). Possible key mismatch.")
             return value
 
     def to_python(self, value):

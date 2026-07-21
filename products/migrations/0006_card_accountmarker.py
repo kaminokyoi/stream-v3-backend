@@ -11,11 +11,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        # Remove old CharField card
-        migrations.RemoveField(
-            model_name='account',
-            name='card',
-        ),
         # Create Card model
         migrations.CreateModel(
             name='Card',
@@ -47,6 +42,15 @@ class Migration(migrations.Migration):
                 'verbose_name': 'Marqueur',
                 'verbose_name_plural': 'Marqueurs',
             },
+        ),
+        # Remove old CharField card if it exists (raw SQL to avoid error if column missing)
+        migrations.RunSQL(
+            sql=[
+                "ALTER TABLE products_account DROP COLUMN IF EXISTS card;",
+            ],
+            reverse_sql=[
+                "ALTER TABLE products_account ADD COLUMN card varchar(255) DEFAULT '';",
+            ],
         ),
         # Add card as FK (null=True so existing accounts don't break)
         migrations.AddField(
