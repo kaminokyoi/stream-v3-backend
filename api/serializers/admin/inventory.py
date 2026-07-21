@@ -28,6 +28,7 @@ class AdminSubscriptionSerializer(serializers.ModelSerializer):
     duration = serializers.CharField(source='order.duration', read_only=True)
     type = serializers.CharField(source='order.type', read_only=True)
     price = serializers.IntegerField(source='order.price', read_only=True)
+    purchase_date = serializers.DateTimeField(source='order.purchase_date', read_only=True)
     profile_number = serializers.CharField(source='profile.number', read_only=True, default='')
     profile_code = serializers.CharField(source='profile.code', read_only=True, default='')
     account_number = serializers.SerializerMethodField()
@@ -37,7 +38,7 @@ class AdminSubscriptionSerializer(serializers.ModelSerializer):
         model = Subscription
         fields = (
             'id', 'user', 'user_name', 'user_phone', 'order', 'platform',
-            'duration', 'type', 'price', 'expiration_date', 'status',
+            'duration', 'type', 'price', 'purchase_date', 'expiration_date', 'status',
             'profile', 'profile_number', 'profile_code', 'account_number',
             'markers',
         )
