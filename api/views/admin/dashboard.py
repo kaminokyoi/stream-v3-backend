@@ -121,14 +121,19 @@ class AdminDashboardView(APIView):
             except (ValueError, TypeError):
                 pass
         if period == 'today':
-            return now.replace(hour=0, minute=0), TruncDay(field), None
+            return now.replace(hour=0, minute=0, second=0, microsecond=0), TruncDay(field), now
         if period == '30_days':
-            return now - timedelta(days=30), TruncDay(field), None
+            start = now - timedelta(days=30)
+            return start.replace(hour=0, minute=0, second=0, microsecond=0), TruncDay(field), now
         if period == '6_months':
-            return now - timedelta(days=180), TruncMonth(field), None
+            start = now - timedelta(days=180)
+            return start.replace(hour=0, minute=0, second=0, microsecond=0), TruncMonth(field), now
         if period == '1_year':
-            return now - timedelta(days=365), TruncMonth(field), None
-        return now - timedelta(days=7), TruncDay(field), None
+            start = now - timedelta(days=365)
+            return start.replace(hour=0, minute=0, second=0, microsecond=0), TruncMonth(field), now
+        # Default: 7_days
+        start = now - timedelta(days=7)
+        return start.replace(hour=0, minute=0, second=0, microsecond=0), TruncDay(field), now
 
     def _revenue_data(self, period, start_date=None, end_date=None):
         start, trunc, end = self._time_filter(period, 'purchase_date', start_date, end_date)
