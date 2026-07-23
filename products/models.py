@@ -141,15 +141,17 @@ class Account(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Date de création')
 
     def add_profile(self):
+        from django.db.models import F
         if self.profiles >= self.max_profile:
             return False
+        Account.objects.filter(pk=self.pk).update(profiles=F('profiles') + 1)
         self.profiles += 1
-        self.save()
         return True
 
     def delete_profile(self):
+        from django.db.models import F
+        Account.objects.filter(pk=self.pk).update(profiles=F('profiles') - 1)
         self.profiles -= 1
-        self.save()
 
     @property
     def used_places(self):
@@ -207,6 +209,10 @@ class Account(models.Model):
         constraints = [
             models.UniqueConstraint(fields=['number', 'platform'], name='unique_account_number_per_platform'),
             models.UniqueConstraint(fields=['email', 'platform'], name='unique_account_email_per_platform')
+        ]
+        indexes = [
+            models.Index(fields=['status', 'end_date'], name='account_status_end_idx'),
+            models.Index(fields=['platform', 'status'], name='account_platform_status_idx'),
         ]
         ordering = ['-remaining_day']
 

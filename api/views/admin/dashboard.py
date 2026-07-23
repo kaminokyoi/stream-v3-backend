@@ -9,6 +9,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 from django.conf import settings
+from django.core.cache import cache
 from django.db.models import Sum, Count, Q
 from django.db.models.functions import TruncDay, TruncMonth
 from django.http import HttpResponse
@@ -39,8 +40,13 @@ class AdminDashboardView(APIView):
             return self._chart_data(request)
         return self._stats(request)
 
-    # ----- Stats (default) -----
+    # ----- Stats (default) — cached 60s -----
     def _stats(self, request):
+        cache_key = 'admin_dashboard_stats'
+        cached = cache.get(cache_key)
+        if cached:
+            return Response(cached)
+
         now = timezone.now()
         total_revenue = Order.objects.filter(status='completed').aggregate(Sum('price'))['price__sum'] or 0
         total_users = User.objects.count()
@@ -51,7 +57,7 @@ class AdminDashboardView(APIView):
         platforms = (
             Order.objects.values('platform').annotate(count=Count('id')).order_by('-count')
         )
-        return Response({
+        stats_data = {
             'total_revenue': total_revenue,
             'total_users': total_users,
             'active_subs': active_subs,
@@ -69,7 +75,9 @@ class AdminDashboardView(APIView):
                 }
                 for o in last_orders
             ],
-        })
+        }
+        cache.set(cache_key, stats_data, 60)
+        return Response(stats_data)
 
     # ----- Chart data -----
     def _chart_data(self, request):

@@ -12,14 +12,30 @@ logger = getLogger(__name__)
 
 @shared_task
 def update_remaining_days():
-    """Recalculate remaining_day for all active accounts."""
+    """Recalculate remaining_day for all active accounts (bulk)."""
     from products.models import Account
+    from django.db.models import F
+    from django.db.models.functions import Now
+    from django.db.models import ExpressionWrapper, IntegerField
+    from django.db.models import Case, When, Value
+
     accounts = Account.objects.filter(status='activate', end_date__isnull=False)
-    count = 0
-    for account in accounts:
-        account.update_remaining_days()
-        count += 1
-    logger.info(f"Updated remaining days for {count} accounts")
+    count = accounts.count()
+    if count == 0:
+        return 0
+
+    # Bulk update: calculate days remaining in SQL
+    # remaining_day = max(0, (end_date - now).days)
+    accounts.update(
+        remaining_day=Case(
+            When(end_date__gt=Now(), then=ExpressionWrapper(
+                F('end_date__date') - Now(),
+                output_field=IntegerField(),
+            )),
+            default=Value(0),
+        )
+    )
+    logger.info(f"Bulk updated remaining days for {count} accounts")
     return count
 
 
@@ -64,11 +80,15 @@ def check_expiring_subscriptions_task():
         status__in=['active', 'expired'],
         expiration_date__date__lt=today,
     ).select_related('user', 'order', 'profile')
+    expired_ids = []
     for sub in subs_expired:
         notify_subscription_expired(sub)
-        sub.status = 'expired'
-        sub.save(update_fields=['status'])
+        expired_ids.append(sub.id)
         counts['expired'] += 1
+
+    # Bulk update instead of per-row save
+    if expired_ids:
+        Subscription.objects.filter(id__in=expired_ids).update(status='expired')
 
     logger.info(
         f"Expiration check: {counts['3_days']} 3-day warnings, "

@@ -41,7 +41,9 @@ logger = logging.getLogger(__name__)
 class AdminSubscriptionViewSet(viewsets.ModelViewSet):
     """Admin subscription management with profile/marker/renew helpers."""
     permission_classes = [IsAdminUser]
-    queryset = Subscription.objects.select_related('user', 'order', 'profile').all()
+    queryset = Subscription.objects.select_related(
+        'user', 'order', 'profile', 'profile__account',
+    ).prefetch_related('markers').all()
 
     def get_serializer_class(self):
         if self.action == 'create':
@@ -49,12 +51,6 @@ class AdminSubscriptionViewSet(viewsets.ModelViewSet):
         return AdminSubscriptionSerializer
 
     def get_queryset(self):
-        now = timezone.now()
-        # Auto-expire (matches dashboard behavior)
-        Subscription.objects.filter(
-            status='active', expiration_date__lte=now
-        ).update(status='expired')
-
         qs = self.queryset
         q = self.request.GET.get('q')
         if q:
@@ -76,9 +72,9 @@ class AdminSubscriptionViewSet(viewsets.ModelViewSet):
 
         status_filter = self.request.GET.get('status', 'active')
         if status_filter == 'expired':
-            qs = qs.filter(Q(status='expired') | Q(expiration_date__lte=now)).order_by('-order__purchase_date')
+            qs = qs.filter(Q(status='expired') | Q(expiration_date__lte=timezone.now())).order_by('-order__purchase_date')
         else:
-            qs = qs.filter(status='active', expiration_date__gt=now).order_by('-order__purchase_date')
+            qs = qs.filter(status='active', expiration_date__gt=timezone.now()).order_by('-order__purchase_date')
         return qs
 
     @action(detail=True, methods=['post'])
@@ -209,12 +205,16 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
     """Admin account CRUD + renew + markers."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminAccountSerializer
-    queryset = Account.objects.all().order_by('-remaining_day')
+    queryset = Account.objects.select_related('card').all().order_by('-remaining_day')
 
     def get_queryset(self):
-        qs = self.queryset.annotate(
-            used_profiles_count=Count('profile', distinct=True),
-        ).prefetch_related('markers')
+        qs = self.queryset.prefetch_related('markers').annotate(
+            _active_subs_count=Count(
+                'profile__subscriptions',
+                filter=Q(profile__subscriptions__status='active'),
+                distinct=True,
+            ),
+        )
         platform = self.request.GET.get('platform')
         if platform:
             qs = qs.filter(platform=platform)
@@ -270,7 +270,9 @@ class AdminProfileViewSet(viewsets.ModelViewSet):
     """Admin profile CRUD."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminProfileSerializer
-    queryset = Profile.objects.select_related('account').all().order_by('account__platform', 'account__number', 'number')
+    queryset = Profile.objects.select_related('account').prefetch_related(
+        'subscriptions__user', 'subscriptions__markers',
+    ).all().order_by('account__platform', 'account__number', 'number')
 
     def get_queryset(self):
         qs = self.queryset

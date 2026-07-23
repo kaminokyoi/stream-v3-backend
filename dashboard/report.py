@@ -2,7 +2,7 @@ import io
 import base64
 from datetime import timedelta
 from django.utils import timezone
-from django.db.models import Count, Q
+from django.db.models import Count, Q, Sum, Avg
 
 import matplotlib
 matplotlib.use('Agg')
@@ -50,23 +50,23 @@ def collect_report_data(period_days=30):
     completed_orders = orders_period.filter(status='completed').count()
     conversion_rate = (completed_orders / total_orders * 100) if total_orders > 0 else 0
 
-    # 4. Revenues (approximated from completed orders in period)
-    revenue = sum([order.price for order in orders_period.filter(status='completed')])
+    # 4. Revenues (aggregate, no Python loop)
+    revenue = orders_period.filter(status='completed').aggregate(
+        total=Sum('price')
+    )['total'] or 0
 
     # 5. Platforms (completed orders in period)
     platforms_data = orders_period.filter(status='completed').values('platform').annotate(count=Count('id')).order_by('-count')
     platforms_list = list(platforms_data)
     
-    # 6. Reviews
+    # 6. Reviews (aggregate, no Python loop)
     recent_reviews = Review.objects.filter(create_at__gte=start_date).select_related('user').order_by('-create_at')[:10]
     avg_stars_period = 0
     if recent_reviews:
         avg_stars_period = sum([r.stars for r in recent_reviews]) / len(recent_reviews)
     
-    all_reviews_avg = 0
-    all_reviews = Review.objects.all()
-    if all_reviews.exists():
-        all_reviews_avg = sum([r.stars for r in all_reviews]) / all_reviews.count()
+    all_reviews_agg = Review.objects.aggregate(avg=Avg('stars'), count=Count('id'))
+    all_reviews_avg = all_reviews_agg['avg'] or 0
 
     # --- Generate Charts ---
     charts = {}

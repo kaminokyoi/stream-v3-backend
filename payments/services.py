@@ -135,9 +135,11 @@ class PaymentCompletionService:
         order.subscription = subscription
         order.save()
 
-        # Update user subscription count
-        order.user.total_subscriptions += 1
-        order.user.save()
+        # Update user subscription count (atomic, race-free)
+        from django.db.models import F
+        order.user.__class__.objects.filter(pk=order.user.pk).update(
+            total_subscriptions=F('total_subscriptions') + 1
+        )
 
         return subscription
 

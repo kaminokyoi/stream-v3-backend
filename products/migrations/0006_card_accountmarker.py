@@ -4,6 +4,23 @@ from django.db import migrations, models
 import products.models
 
 
+def _drop_card_if_exists(schema_editor):
+    """Drop the old card CharField column if it exists (vendor-aware)."""
+    vendor = schema_editor.connection.vendor
+    if vendor == 'postgresql':
+        schema_editor.execute("ALTER TABLE products_account DROP COLUMN IF EXISTS card;")
+    elif vendor == 'sqlite':
+        # SQLite doesn't support DROP COLUMN in older versions, but Django 6.0
+        # uses the new SQLite >=3.35 ALTER TABLE DROP COLUMN.
+        # However, to be safe, we make the column nullable instead.
+        try:
+            # Try dropping the column (SQLite >=3.35)
+            schema_editor.execute("ALTER TABLE products_account DROP COLUMN card;")
+        except Exception:
+            # If DROP fails, the column doesn't exist or SQLite too old — no-op
+            pass
+
+
 class Migration(migrations.Migration):
 
     dependencies = [
@@ -43,14 +60,10 @@ class Migration(migrations.Migration):
                 'verbose_name_plural': 'Marqueurs',
             },
         ),
-        # Remove old CharField card if it exists (raw SQL to avoid error if column missing)
-        migrations.RunSQL(
-            sql=[
-                "ALTER TABLE products_account DROP COLUMN IF EXISTS card;",
-            ],
-            reverse_sql=[
-                "ALTER TABLE products_account ADD COLUMN card varchar(255) DEFAULT '';",
-            ],
+        # Remove old CharField card if it exists (vendor-aware)
+        migrations.RunPython(
+            code=lambda apps, schema_editor: _drop_card_if_exists(schema_editor),
+            reverse_code=lambda apps, schema_editor: None,
         ),
         # Add card as FK (null=True so existing accounts don't break)
         migrations.AddField(

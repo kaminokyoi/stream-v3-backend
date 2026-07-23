@@ -128,18 +128,19 @@ def check_expiring_cards_task():
     from dateutil.relativedelta import relativedelta
 
     today = timezone.now().date()
-    expired_count = 0
-
     active_cards = Card.objects.filter(status='actif')
-    for card in active_cards:
-        expiry_limit = card.expiration_date + relativedelta(months=1)
+    expired_ids = []
+    for card in active_cards.values('id', 'expiration_date'):
+        expiry_limit = card['expiration_date'] + relativedelta(months=1)
         if today >= expiry_limit:
-            card.status = 'inactif'
-            card.save(update_fields=['status'])
-            expired_count += 1
+            expired_ids.append(card['id'])
 
+    if expired_ids:
+        Card.objects.filter(id__in=expired_ids).update(status='inactif')
+
+    expired_count = len(expired_ids)
     if expired_count > 0:
-        logger.info(f"Card expiration check: {expired_count} cards marked as inactif.")
+        logger.info(f"Card expiration check: {expired_count} cards marked as inactif (bulk).")
     return expired_count
 
 

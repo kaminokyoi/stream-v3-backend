@@ -82,11 +82,11 @@ class AdminRenewSerializer(serializers.Serializer):
 
 class AdminAccountSerializer(serializers.ModelSerializer):
     """Admin account listing (full credentials visible)."""
-    used_places = serializers.IntegerField(read_only=True)
-    available_places = serializers.IntegerField(read_only=True)
     current_remaining_days = serializers.IntegerField(read_only=True)
     card = serializers.SerializerMethodField()
     markers = serializers.SerializerMethodField()
+    used_places = serializers.SerializerMethodField()
+    available_places = serializers.SerializerMethodField()
 
     class Meta:
         model = Account
@@ -106,6 +106,18 @@ class AdminAccountSerializer(serializers.ModelSerializer):
     def get_markers(self, obj):
         from api.serializers.admin.cards import AdminAccountMarkerSerializer
         return AdminAccountMarkerSerializer(obj.markers.all(), many=True).data
+
+    def get_used_places(self, obj):
+        cached = getattr(obj, '_active_subs_count', None)
+        if cached is not None:
+            return cached
+        return obj.used_places
+
+    def get_available_places(self, obj):
+        cached = getattr(obj, '_active_subs_count', None)
+        if cached is not None:
+            return max(0, obj.place - cached)
+        return obj.available_places
 
 
 class AdminProfileSubscriptionSerializer(serializers.ModelSerializer):
@@ -139,8 +151,9 @@ class AdminProfileSerializer(serializers.ModelSerializer):
         read_only_fields = ('created_at',)
 
     def get_active_subscriptions_count(self, obj):
-        return obj.subscriptions.filter(status__in=['active', 'expired']).count()
+        subs = obj.subscriptions.all()
+        return sum(1 for s in subs if s.status in ('active', 'expired'))
 
     def get_active_subscriptions(self, obj):
-        subs = obj.subscriptions.filter(status__in=['active', 'expired']).select_related('user').prefetch_related('markers')
+        subs = [s for s in obj.subscriptions.all() if s.status in ('active', 'expired')]
         return AdminProfileSubscriptionSerializer(subs, many=True).data

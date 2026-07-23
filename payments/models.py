@@ -82,8 +82,9 @@ class Order(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.pk and self.user:
-            self.user.total_orders += 1
-            self.user.save()
+            from django.db.models import F
+            User = self.user.__class__
+            User.objects.filter(pk=self.user.pk).update(total_orders=F('total_orders') + 1)
         super().save(*args, **kwargs)
 
     def __str__(self):
@@ -92,6 +93,11 @@ class Order(models.Model):
     class Meta:
         verbose_name = "Commande"
         verbose_name_plural = "Commandes"
+        indexes = [
+            models.Index(fields=['status', 'purchase_date'], name='order_status_date_idx'),
+            models.Index(fields=['-purchase_date'], name='order_purchase_date_desc'),
+            models.Index(fields=['platform', 'status'], name='order_platform_status_idx'),
+        ]
 
 
 class Subscription(models.Model):
@@ -127,6 +133,10 @@ class Subscription(models.Model):
     class Meta:
         verbose_name = "Abonnement"
         verbose_name_plural = "Abonnements"
+        indexes = [
+            models.Index(fields=['status', 'expiration_date'], name='sub_status_exp_idx'),
+            models.Index(fields=['user', 'status'], name='sub_user_status_idx'),
+        ]
 
 
 class PaymentProof(models.Model):
@@ -169,6 +179,9 @@ class PaymentProof(models.Model):
     class Meta:
         verbose_name = "Preuve de paiement"
         verbose_name_plural = "Preuves de paiement"
+        indexes = [
+            models.Index(fields=['validated', 'rejected', '-submitted_at'], name='proof_status_idx'),
+        ]
 
 
 class GiftCode(models.Model):

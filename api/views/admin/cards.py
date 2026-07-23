@@ -13,7 +13,7 @@ class AdminCardViewSet(viewsets.ModelViewSet):
     """Admin card CRUD with search."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminCardSerializer
-    queryset = Card.objects.all().order_by('expiration_date', 'status')
+    queryset = Card.objects.prefetch_related('account_set').all().order_by('expiration_date', 'status')
 
     def get_queryset(self):
         qs = self.queryset
