@@ -30,14 +30,18 @@ class AdminPlatformSerializer(serializers.ModelSerializer):
 
 class AdminReviewSerializer(serializers.ModelSerializer):
     user_name = serializers.SerializerMethodField()
+    user_email = serializers.SerializerMethodField()
 
     class Meta:
         model = Review
-        fields = ('id', 'user', 'user_name', 'stars', 'comment', 'create_at')
+        fields = ('id', 'user', 'user_name', 'user_email', 'stars', 'comment', 'create_at')
         read_only_fields = ('create_at',)
 
     def get_user_name(self, obj):
         return obj.user.get_full_name() if obj.user else None
+
+    def get_user_email(self, obj):
+        return obj.user.email if obj.user and obj.user.email else None
 
 
 class AdminFaqSerializer(serializers.ModelSerializer):

@@ -38,11 +38,23 @@ class PlatformListSerializer(serializers.ModelSerializer):
     shared_prices = serializers.SerializerMethodField()
     personal_prices = serializers.SerializerMethodField()
     has_personal = serializers.BooleanField()
+    poster_url = serializers.SerializerMethodField()
+    video_url = serializers.SerializerMethodField()
 
     class Meta:
         model = Platform
         fields = ('id', 'name', 'sub', 'has_personal', 'order',
-                  'shared_prices', 'personal_prices')
+                  'shared_prices', 'personal_prices', 'poster_url', 'video_url')
+
+    def get_poster_url(self, obj):
+        if obj.poster:
+            return obj.poster.url
+        return None
+
+    def get_video_url(self, obj):
+        if obj.video:
+            return obj.video.url
+        return None
 
     def get_shared_prices(self, obj):
         return obj.get_shared_prices()

@@ -69,6 +69,26 @@ class AdminUserViewSet(viewsets.ModelViewSet):
         return AdminUserSerializer
 
     @action(detail=False, methods=['get'])
+    def countries(self, request):
+        """Return distinct country codes from all users."""
+        from users.models import User
+        codes = User.objects.exclude(country_code='').exclude(country_code__isnull=True).values_list('country_code', flat=True).distinct().order_by('country_code')
+        return Response(list(codes))
+
+    @action(detail=True, methods=['post'])
+    def reset_password(self, request, pk=None):
+        """Generate a password reset link for a user (admin action)."""
+        from django.contrib.auth.tokens import default_token_generator
+        from django.urls import reverse
+        from django.conf import settings
+        user = self.get_object()
+        token = default_token_generator.make_token(user)
+        uid = user.pk
+        frontend_url = getattr(settings, 'FRONTEND_URL', 'https://streampartner.in')
+        reset_url = f"{frontend_url}/password-reset?uid={uid}&token={token}"
+        return Response({'reset_url': reset_url, 'detail': 'Lien généré.'})
+
+    @action(detail=False, methods=['get'])
     def export_csv(self, request):
         """Export all users to CSV."""
         qs = self.get_queryset()

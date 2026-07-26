@@ -205,7 +205,7 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
     """Admin account CRUD + renew + markers."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminAccountSerializer
-    queryset = Account.objects.select_related('card').all().order_by('-remaining_day')
+    queryset = Account.objects.select_related('card').all().order_by('-remaining_day', 'status')
 
     def get_queryset(self):
         qs = self.queryset.prefetch_related('markers').annotate(
@@ -215,14 +215,47 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
                 distinct=True,
             ),
         )
+        q = self.request.GET.get('q')
+        if q:
+            qs = qs.filter(Q(number__icontains=q) | Q(email__icontains=q))
         platform = self.request.GET.get('platform')
         if platform:
             qs = qs.filter(platform=platform)
+        type_filter = self.request.GET.get('type')
+        if type_filter:
+            qs = qs.filter(type=type_filter)
+        card_filter = self.request.GET.get('card')
+        if card_filter:
+            qs = qs.filter(card_id=card_filter)
         status_filter = self.request.GET.get('status')
         if status_filter == 'activate':
             qs = qs.filter(status='activate')
         elif status_filter == 'desactivate':
             qs = qs.filter(status='desactivate')
+        elif status_filter == 'libre':
+            qs = qs.annotate(
+                _used_places=Count(
+                    'profile__subscriptions',
+                    filter=Q(profile__subscriptions__status='active'),
+                    distinct=True,
+                )
+            ).filter(_used_places=0)
+        elif status_filter == 'occupe':
+            qs = qs.annotate(
+                _used_places=Count(
+                    'profile__subscriptions',
+                    filter=Q(profile__subscriptions__status='active'),
+                    distinct=True,
+                )
+            ).filter(_used_places__gt=0, _used_places__lt=F('place'))
+        elif status_filter == 'complet':
+            qs = qs.annotate(
+                _used_places=Count(
+                    'profile__subscriptions',
+                    filter=Q(profile__subscriptions__status='active'),
+                    distinct=True,
+                )
+            ).filter(_used_places__gte=F('place'))
         return qs
 
     @action(detail=True, methods=['post'])
