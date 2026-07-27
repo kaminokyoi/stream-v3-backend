@@ -60,6 +60,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:3000',
     'http://127.0.0.1:3001',
     'http://127.0.0.1:8081',
+    'https://stream-v3-web-user.vercel.app',
     'https://cadmin.streampartner.in',
     'https://streampartner.in',
     'https://user.streampartner.in',
