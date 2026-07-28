@@ -14,6 +14,10 @@ from api.views.admin import (
     AdminDashboardView, DownloadImageView,
 )
 from api.views.admin.cards import AdminCardViewSet, AdminAccountMarkerViewSet
+from api.views.admin.twofa import (
+    twofa_status, twofa_setup, twofa_verify_setup,
+    twofa_disable, twofa_regenerate_recovery,
+)
 
 router = DefaultRouter()
 router.register(r'users', AdminUserViewSet, basename='admin-user')
@@ -38,6 +42,12 @@ urlpatterns = [
     path('dashboard/', AdminDashboardView.as_view(), name='admin-dashboard'),
     # Image download utility
     path('download-image/', DownloadImageView.as_view(), name='admin-download-image'),
+    # 2FA
+    path('2fa/status/', twofa_status, name='admin-2fa-status'),
+    path('2fa/setup/', twofa_setup, name='admin-2fa-setup'),
+    path('2fa/verify-setup/', twofa_verify_setup, name='admin-2fa-verify-setup'),
+    path('2fa/disable/', twofa_disable, name='admin-2fa-disable'),
+    path('2fa/regenerate-recovery/', twofa_regenerate_recovery, name='admin-2fa-regenerate'),
     # CRUD routers
     path('', include(router.urls)),
 ]

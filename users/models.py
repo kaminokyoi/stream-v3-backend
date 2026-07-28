@@ -56,6 +56,16 @@ class User(AbstractBaseUser, PermissionsMixin):
     
     email = models.EmailField(blank=True, null=True, unique=True, verbose_name="Email")
 
+    twofa_enabled = models.BooleanField(default=False, verbose_name="2FA activé")
+    twofa_method = models.CharField(
+        max_length=10,
+        choices=[('totp', 'TOTP'), ('email', 'Email'), ('whatsapp', 'WhatsApp')],
+        default='totp',
+        verbose_name="Méthode 2FA"
+    )
+    twofa_secret = models.CharField(max_length=64, blank=True, default='', verbose_name="Secret 2FA")
+    twofa_recovery_codes = models.JSONField(default=list, blank=True, verbose_name="Codes de récupération")
+
     groups = models.ManyToManyField(
         Group,
         verbose_name=_('groups'),
@@ -100,4 +110,22 @@ class User(AbstractBaseUser, PermissionsMixin):
     class Meta:
         verbose_name = 'Utilisateur'
         verbose_name_plural = 'Utilisateurs'
+
+
+class TwoFACode(models.Model):
+    """Temporary 2FA verification code (email or WhatsApp)."""
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='twofa_codes')
+    code = models.CharField(max_length=6, verbose_name='Code')
+    method = models.CharField(max_length=10, choices=[('totp', 'TOTP'), ('email', 'Email'), ('whatsapp', 'WhatsApp')], verbose_name='Méthode')
+    created_at = models.DateTimeField(auto_now_add=True)
+    expires_at = models.DateTimeField(verbose_name='Expiration')
+    verified = models.BooleanField(default=False)
+
+    class Meta:
+        verbose_name = 'Code 2FA'
+        verbose_name_plural = 'Codes 2FA'
+        indexes = [
+            models.Index(fields=['user', 'verified']),
+            models.Index(fields=['expires_at']),
+        ]
 
