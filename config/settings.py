@@ -28,6 +28,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-please-change-me-in-dev-only')
 
+# Fernet key for field-level encryption (Card.numero).
+# MUST be identical across all environments (local + prod) once cards exist.
+# Generate with:  python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+FERNET_KEY = os.getenv('FERNET_KEY', '').strip() or None
+
 # SECURITY WARNING: don't run with debug turned on in production!
 if os.getenv('ENVIRONMENT') == 'production':
     DEBUG = False
@@ -301,6 +306,11 @@ REPORT_PERIOD_DAYS = int(os.getenv('REPORT_PERIOD_DAYS', '7'))
 
 # Subscription Notification Email
 SUBSCRIPTION_NOTIFICATION_EMAIL = os.getenv('SUBSCRIPTION_NOTIFICATION_EMAIL', 'streampartnernotif@gmail.com')
+
+# 2FA — WhatsApp OTP via Whatomate
+WHATOMATE_BASE_URL = os.getenv('WHATOMATE_BASE_URL', 'https://wapi.streampartner.in')
+WHATOMATE_API_KEY = os.getenv('WHATOMATE_API_KEY', '')
+WHATOMATE_TEMPLATE_NAME = os.getenv('WHATOMATE_TEMPLATE_NAME', 'otp')
 
 
 # ---------------------------------------------------------------------------
