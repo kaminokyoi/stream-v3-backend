@@ -82,7 +82,6 @@ def send_push_to_admins(title: str, body: str, data: Dict, notification_type: st
     """Send a push notification to all admin users (is_staff or is_superuser).
 
     Stores a PushNotification record per admin for history/read tracking.
-    Uses bulk operations for efficiency.
     """
     from users.models import User
     from django.db.models import Q
@@ -93,29 +92,8 @@ def send_push_to_admins(title: str, body: str, data: Dict, notification_type: st
         .distinct()
     )
 
-    if not admin_ids:
-        return
-
-    # Bulk-fetch all admin tokens in 1 query
-    all_tokens = list(
-        PushToken.objects.filter(user_id__in=admin_ids, is_active=True)
-        .values_list('token', flat=True)
-    )
-    if all_tokens:
-        _send_to_expo(all_tokens, title, body, data)
-
-    # Bulk-create PushNotification records
-    notifs = [
-        PushNotification(
-            user_id=uid,
-            title=title,
-            body=body,
-            data=data or {},
-            notification_type=notification_type,
-        )
-        for uid in admin_ids
-    ]
-    PushNotification.objects.bulk_create(notifs)
+    for admin_id in admin_ids:
+        send_push_to_user(admin_id, title, body, data, notification_type)
 
 
 def send_push_notification(user_ids: List[int], title: str, body: str, data: Dict, notification_type: str = "system") -> None:
