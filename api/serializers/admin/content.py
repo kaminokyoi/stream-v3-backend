@@ -23,9 +23,16 @@ class AdminPriceTierSerializer(serializers.ModelSerializer):
 
 
 class AdminPlatformSerializer(serializers.ModelSerializer):
+    logo_url = serializers.SerializerMethodField()
+
     class Meta:
         model = Platform
-        fields = ('id', 'name', 'sub', 'poster', 'video', 'has_personal', 'order')
+        fields = ('id', 'name', 'sub', 'color', 'logo', 'logo_url', 'poster', 'video', 'has_personal', 'order')
+
+    def get_logo_url(self, obj):
+        if obj.logo:
+            return obj.logo.url
+        return None
 
 
 class AdminReviewSerializer(serializers.ModelSerializer):

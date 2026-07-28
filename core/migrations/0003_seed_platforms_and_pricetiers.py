@@ -4,22 +4,24 @@ from django.db import migrations
 
 
 PLATFORMS = [
-    # name, order, has_personal
-    ('Netflix',       0,  True),
-    ('Disney Plus',   1,  False),
-    ('HBO Max',       2,  True),
-    ('Paramount+',    3,  False),
-    ('Prime Video',   4,  True),
-    ('Spotify',       5,  True),
-    ('Apple Music',   6,  True),
-    ('Crunchyroll',   7,  True),
-    ('Surfshark',     8,  True),
+    # name, order, has_personal, color
+    ('Disney+',       0,  False, '#A855F7'),
+    ('Paramount+',    1,  False, '#7DD3FC'),
+    ('Apple TV',      2,  False, '#000000'),
+    ('HBO Max',       3,  True,  '#9CA3AF'),
+    ('Netflix',       4,  True,  '#EF4444'),
+    ('Prime Video',   5,  True,  '#3B82F6'),
+    ('Crunchyroll',   6,  True,  '#F97316'),
+    ('Spotify',       7,  True,  '#22C55E'),
+    ('Apple Music',   8,  True,  '#F472B6'),
+    ('Surfshark',     9,  True,  '#7DD3FC'),
+    ('Onoff',         10, False, '#3B82F6'),
 ]
 
 PRICE_TIERS = [
     # platform, type, category, base_price, description
     ('Netflix',       'mutual',   '',         2500,  ''),
-    ('Disney Plus',   'mutual',   '',         2500,  ''),
+    ('Disney+',       'mutual',   '',         2500,  ''),
     ('HBO Max',       'mutual',   '',         2500,  ''),
     ('Paramount+',    'mutual',   '',         2500,  ''),
     ('Prime Video',   'mutual',   '',         2000,  ''),
@@ -43,10 +45,10 @@ def seed(apps, schema_editor):
     Platform = apps.get_model('core', 'Platform')
     PriceTier = apps.get_model('core', 'PriceTier')
 
-    for name, order, has_personal in PLATFORMS:
+    for name, order, has_personal, color in PLATFORMS:
         Platform.objects.get_or_create(
             name=name,
-            defaults={'order': order, 'has_personal': has_personal},
+            defaults={'order': order, 'has_personal': has_personal, 'color': color},
         )
 
     for platform_name, account_type, category, base_price, description in PRICE_TIERS:

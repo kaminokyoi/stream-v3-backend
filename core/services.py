@@ -24,24 +24,37 @@ from .models import Review
 class SubscriptionAccessService:
     """Builds the user dashboard data with platform-specific access masking."""
 
-    PLATFORM_STYLES = {
-        'Netflix': ('ph-monitor-play', '#E50914', 'images/netflix.svg'),
-        'Disney Plus': ('ph-star', '#3B82F6', 'images/disney_plus.svg'),
-        'Prime Video': ('ph-video', '#38BDF8', 'images/prime_video.svg'),
-        'Spotify': ('ph-music-notes', '#22C55E', 'images/spotify.svg'),
-        'HBO Max': ('ph-film-strip', '#A855F7', 'images/hbo_max.svg'),
-        'Crunchyroll': ('ph-lightning', '#F97316', 'images/crunchyroll.svg'),
-        'Apple Music': ('ph-music-note', '#EC4899', 'images/apple_music.svg'),
-        'Apple TV': ('ph-tv', '#A3A3A3', 'images/apple_tv.svg'),
-        'Paramount Plus': ('ph-film-slate', '#0064FF', 'images/paramount_plus.svg'),
-        'Surfshark': ('ph-shield-check', '#22D3EE', 'images/surfshark.svg'),
-        'Onoff': ('ph-phone', '#60A5FA', 'images/onoff.svg'),
+    PLATFORM_ICONS = {
+        'Netflix': 'ph-monitor-play',
+        'Disney+': 'ph-star',
+        'Prime Video': 'ph-video',
+        'Spotify': 'ph-music-notes',
+        'HBO Max': 'ph-film-strip',
+        'Crunchyroll': 'ph-lightning',
+        'Apple Music': 'ph-music-note',
+        'Apple TV': 'ph-tv',
+        'Paramount+': 'ph-film-slate',
+        'Surfshark': 'ph-shield-check',
+        'Onoff': 'ph-phone',
     }
 
     @classmethod
     def get_platform_style(cls, name: str) -> tuple[str, str, str]:
-        """Return (icon, color, logo_path) for a platform name."""
-        return cls.PLATFORM_STYLES.get(name, ('ph-play-circle', '#ffffff', ''))
+        """Return (icon, color, logo_path) for a platform name.
+
+        Color and logo are fetched from the Platform model (DB-driven).
+        Icon falls back to a hardcoded Phosphor icon map.
+        """
+        from .models import Platform
+        icon = cls.PLATFORM_ICONS.get(name, 'ph-play-circle')
+        try:
+            platform = Platform.objects.get(name=name)
+            color = platform.color or '#ffffff'
+            logo = platform.logo.url if platform.logo else ''
+        except Platform.DoesNotExist:
+            color = '#ffffff'
+            logo = ''
+        return (icon, color, logo)
 
     @classmethod
     def build_dashboard_subscriptions(cls, user) -> tuple[list[dict], list[dict]]:

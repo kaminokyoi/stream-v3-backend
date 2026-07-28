@@ -21,6 +21,11 @@ def video_upload_path(instance, filename):
 
     return os.path.join('videos', name, filename.lower())
 
+def logo_upload_path(instance, filename):
+    name = instance.name.lower().replace(" ", "-").replace("+", "plus")
+    filename = f"{name}-logo.{filename.split('.')[-1]}"
+    return os.path.join('logos', name, filename.lower())
+
 
 class Platform(models.Model):
     """
@@ -29,6 +34,8 @@ class Platform(models.Model):
     """
     name = models.CharField(verbose_name='Plateforme', max_length=128, unique=True)
     sub = models.CharField(max_length=125, blank=True, verbose_name="Detail")
+    color = models.CharField(max_length=7, default='#7DD3FC', verbose_name="Couleur (hex)")
+    logo = models.ImageField(upload_to=logo_upload_path, null=True, blank=True, verbose_name="Logo")
     poster = models.ImageField(upload_to=poster_upload_path, null=True, blank=True)
     video = models.FileField(upload_to=video_upload_path, null=True, blank=True)
     has_personal = models.BooleanField(default=False, verbose_name="Offre personnelle disponible")
@@ -43,6 +50,8 @@ class Platform(models.Model):
         return self.name
 
     def delete(self, *args, **kwargs):
+        if self.logo:
+            self.logo.delete(save=False)
         if self.poster:
             self.poster.delete(save=False)
         if self.video:

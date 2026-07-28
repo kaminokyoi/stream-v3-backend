@@ -4,7 +4,6 @@ import core.models
 import django.db.models.deletion
 from django.db import migrations, models
 
-
 class Migration(migrations.Migration):
 
     initial = True
@@ -31,6 +30,8 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=128, unique=True, verbose_name='Plateforme')),
                 ('sub', models.CharField(blank=True, max_length=125, verbose_name='Detail')),
+                ('color', models.CharField(default='#7DD3FC', max_length=7, verbose_name='Couleur (hex)')),
+                ('logo', models.ImageField(blank=True, null=True, upload_to=core.models.logo_upload_path, verbose_name='Logo')),
                 ('poster', models.ImageField(blank=True, null=True, upload_to=core.models.poster_upload_path)),
                 ('video', models.FileField(blank=True, null=True, upload_to=core.models.video_upload_path)),
                 ('has_personal', models.BooleanField(default=False, verbose_name='Offre personnelle disponible')),

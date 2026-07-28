@@ -24,7 +24,7 @@ class PlatformPricingSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Platform
-        fields = ('id', 'name', 'sub', 'has_personal', 'shared_prices', 'personal_prices')
+        fields = ('id', 'name', 'sub', 'color', 'has_personal', 'shared_prices', 'personal_prices')
 
     def get_shared_prices(self, obj):
         return obj.get_shared_prices()
@@ -40,11 +40,12 @@ class PlatformListSerializer(serializers.ModelSerializer):
     has_personal = serializers.BooleanField()
     poster_url = serializers.SerializerMethodField()
     video_url = serializers.SerializerMethodField()
+    logo_url = serializers.SerializerMethodField()
 
     class Meta:
         model = Platform
-        fields = ('id', 'name', 'sub', 'has_personal', 'order',
-                  'shared_prices', 'personal_prices', 'poster_url', 'video_url')
+        fields = ('id', 'name', 'sub', 'color', 'has_personal', 'order',
+                  'shared_prices', 'personal_prices', 'poster_url', 'video_url', 'logo_url')
 
     def get_poster_url(self, obj):
         if obj.poster:
@@ -54,6 +55,11 @@ class PlatformListSerializer(serializers.ModelSerializer):
     def get_video_url(self, obj):
         if obj.video:
             return obj.video.url
+        return None
+
+    def get_logo_url(self, obj):
+        if obj.logo:
+            return obj.logo.url
         return None
 
     def get_shared_prices(self, obj):
