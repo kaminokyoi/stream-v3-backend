@@ -24,6 +24,7 @@ from decimal import Decimal
 
 from django.core.management.base import BaseCommand
 from django.db import connection, transaction
+from django.utils import timezone
 
 from users.models import User
 from core.models import Platform, PriceTier, Review, Faq
@@ -85,7 +86,6 @@ def parse_datetime(val):
         try:
             dt = datetime.strptime(val, fmt)
             if not is_aware(dt) and settings.USE_TZ:
-                from django.utils import timezone
                 dt = make_aware(dt, timezone.get_default_timezone())
             return dt
         except ValueError:
@@ -171,7 +171,7 @@ class Command(BaseCommand):
                             'is_active': parse_bool(r.get('is_active', 't')),
                             'is_staff': parse_bool(r.get('is_staff')),
                             'is_admin': parse_bool(r.get('is_admin')),
-                            'date_joined': parse_datetime(r.get('date_joined')) or datetime.now(),
+                            'date_joined': parse_datetime(r.get('date_joined')) or timezone.now(),
                             'email': r.get('email', '') or None,
                         },
                     )
@@ -194,7 +194,7 @@ class Command(BaseCommand):
                             'nom': r.get('nom', ''),
                             'cvv': r.get('cvv', ''),
                             'telephone': r.get('telephone', ''),
-                            'expiration_date': parse_date(r.get('expiration_date')) or datetime.now().date(),
+                            'expiration_date': parse_date(r.get('expiration_date')) or timezone.now().date(),
                             'status': r.get('status', 'actif'),
                         },
                     )
@@ -279,8 +279,8 @@ class Command(BaseCommand):
                         defaults={
                             'code': r.get('code', ''),
                             'days': parse_int(r.get('days')) or 0,
-                            'start_date': parse_datetime(r.get('start_date')) or datetime.now(),
-                            'end_date': parse_datetime(r.get('end_date')) or datetime.now(),
+                            'start_date': parse_datetime(r.get('start_date')) or timezone.now(),
+                            'end_date': parse_datetime(r.get('end_date')) or timezone.now(),
                             'status': parse_bool(r.get('status')),
                             'platform': platform,
                             'usage_limit': parse_int(r.get('usage_limit')) or 1,
@@ -312,7 +312,7 @@ class Command(BaseCommand):
                             'platform': platform,
                             'price': parse_int(r.get('price')) or 0,
                             'duration': r.get('duration', '1 mois'),
-                            'purchase_date': parse_datetime(r.get('purchase_date')) or datetime.now(),
+                            'purchase_date': parse_datetime(r.get('purchase_date')) or timezone.now(),
                             'status': r.get('status', 'pending_payment'),
                             'type': r.get('type', 'mutual'),
                             'motif': r.get('motif', 'subscription'),
@@ -351,7 +351,7 @@ class Command(BaseCommand):
                             'order': order,
                             'user': user or order.user,
                             'profile': profile,
-                            'expiration_date': parse_datetime(r.get('expiration_date')) or datetime.now(),
+                            'expiration_date': parse_datetime(r.get('expiration_date')) or timezone.now(),
                             'status': r.get('status', 'active'),
                         },
                     )
@@ -398,7 +398,7 @@ class Command(BaseCommand):
                             'order': order,
                             'image': image,
                             'image2': image2 if image2 else None,
-                            'submitted_at': parse_datetime(r.get('submitted_at')) or datetime.now(),
+                            'submitted_at': parse_datetime(r.get('submitted_at')) or timezone.now(),
                             'validated': parse_bool(r.get('validated')),
                             'validated_at': parse_datetime(r.get('validated_at')),
                             'rejected': parse_bool(r.get('rejected')),
@@ -429,7 +429,7 @@ class Command(BaseCommand):
                             'profile_code': r.get('profile_code', ''),
                             'account_number': r.get('account_number', ''),
                             'platform': map_platform(r.get('platform', '')),
-                            'linked_at': parse_datetime(r.get('linked_at')) or datetime.now(),
+                            'linked_at': parse_datetime(r.get('linked_at')) or timezone.now(),
                             'unlinked_at': parse_datetime(r.get('unlinked_at')),
                         },
                     )
@@ -452,7 +452,7 @@ class Command(BaseCommand):
                             'user': user,
                             'stars': parse_int(r.get('stars')) or 0,
                             'comment': r.get('comment', ''),
-                            'create_at': parse_datetime(r.get('create_at')) or datetime.now(),
+                            'create_at': parse_datetime(r.get('create_at')) or timezone.now(),
                         },
                     )
                     if was_created: created += 1
@@ -493,7 +493,7 @@ class Command(BaseCommand):
                             'number': r.get('number', ''),
                             'name': r.get('name', ''),
                             'is_active': parse_bool(r.get('is_active', 't')),
-                            'created_at': parse_datetime(r.get('created_at')) or datetime.now(),
+                            'created_at': parse_datetime(r.get('created_at')) or timezone.now(),
                         },
                     )
                     if was_created: created += 1
