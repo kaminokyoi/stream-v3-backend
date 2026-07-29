@@ -17,7 +17,7 @@ class PriceTierInline(admin.TabularInline):
 
 
 class PlatformAdmin(admin.ModelAdmin):
-    list_display = ('name', 'has_personal', 'order', 'display_tiers_summary')
+    list_display = ('name', 'color', 'has_personal', 'order', 'display_tiers_summary')
     list_editable = ('order', 'has_personal')
     inlines = [PriceTierInline]
 
@@ -26,8 +26,11 @@ class PlatformAdmin(admin.ModelAdmin):
             'fields': ('name', 'sub', 'has_personal', 'order'),
         }),
         ("Media", {
-            'fields': ('poster', 'video'),
+            'fields': ('logo', 'poster', 'video'),
         }),
+        (None, {
+            'fields': ('color',),
+        })
     )
 
     def display_tiers_summary(self, obj):
