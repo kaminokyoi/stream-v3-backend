@@ -95,10 +95,11 @@ class DashboardView(APIView):
             ],
             'pricing': get_all_prices(),
             'user_review': (
-                {'id': user_review.id, 'stars': user_review.stars, 'comment': user_review.comment}
+                {'id': user_review.id, 'stars': user_review.stars, 'comment': user_review.comment,
+                 'updated_at': (user_review.updated_at or user_review.create_at).isoformat() if user_review else None}
                 if user_review else None
             ),
-            'show_review_modal': SubscriptionAccessService.should_show_review_modal(user),
+            'review_prompt': SubscriptionAccessService.get_review_prompt(user),
         })
 
 
@@ -112,6 +113,7 @@ class OrderViewSet(mixins.ListModelMixin,
     """User orders: list, detail, create (purchase init), cancel."""
     serializer_class = OrderSerializer
     permission_classes = [IsAuthenticated]
+    lookup_field = 'order_id'
 
     def get_queryset(self):
         return Order.objects.filter(user=self.request.user).order_by('-purchase_date')
@@ -151,7 +153,7 @@ class OrderViewSet(mixins.ListModelMixin,
         )
 
     @action(detail=True, methods=['post'])
-    def cancel(self, request, pk=None):
+    def cancel(self, request, order_id=None):
         """Cancel an order (delete if not completed)."""
         order = self.get_object()
         if order.status == 'completed':

@@ -122,7 +122,7 @@ class Account(models.Model):
     # New fields
     place = models.PositiveIntegerField(default=2, verbose_name="Places disponibles",
                                         help_text="Nombre maximum d'abonnements pouvant être liés à ce compte")
-    start_date = models.DateTimeField(null=True, blank=True, verbose_name="Date de début")
+    start_date = models.DateTimeField(default=timezone.now(), null=True, blank=True, verbose_name="Date de début")
     end_date = models.DateTimeField(null=True, blank=True, verbose_name="Date de fin")
     month_count = models.PositiveIntegerField(default=0, verbose_name="Nombre de mois")
     card = models.ForeignKey(Card, null=True, blank=True, on_delete=models.SET_NULL, verbose_name="Carte")

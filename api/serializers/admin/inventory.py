@@ -119,6 +119,12 @@ class AdminAccountSerializer(serializers.ModelSerializer):
             return max(0, obj.place - cached)
         return obj.available_places
 
+    def get_current_remaining_days(self, obj):
+        start = obj.start_date
+        end = obj.end_date
+        remaining_days = int(start - end)
+        return remaining_days
+
 
 class AdminProfileSubscriptionSerializer(serializers.ModelSerializer):
     """Lightweight subscription info for profile occupation display."""

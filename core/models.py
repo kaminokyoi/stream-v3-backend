@@ -169,6 +169,7 @@ class Review(models.Model):
     comment = models.TextField(blank=True, verbose_name="Commentaire")
 
     create_at = models.DateTimeField(auto_now_add=True, verbose_name="Depuis")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="Modifié le")
 
     def save(self, *args, **kwargs):
         if self.stars is None:

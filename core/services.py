@@ -201,11 +201,54 @@ class SubscriptionAccessService:
         return orders_data, pending_orders_data
 
     @classmethod
+    def get_review_prompt(cls, user) -> dict:
+        """Determine whether to show a review popup and which type.
+
+        Returns:
+            {'show': False} — don't show
+            {'show': True, 'type': 'first'} — first review prompt
+            {'show': True, 'type': 'update', 'review': {...}} — update existing review
+        """
+        from datetime import timedelta
+        now = timezone.now()
+        seven_days_ago = now - timedelta(days=7)
+        sixty_days_ago = now - timedelta(days=60)
+
+        active_subs = Subscription.objects.filter(user=user, status='active')
+        # A subscription counts as ≥7 days old if its order was purchased ≥7 days ago
+        has_old_enough_sub = active_subs.filter(
+            order__purchase_date__lte=seven_days_ago
+        ).exists()
+
+        if not active_subs.exists():
+            return {'show': False}
+
+        review = Review.objects.filter(user=user).first()
+
+        if not review:
+            if has_old_enough_sub:
+                return {'show': True, 'type': 'first'}
+            return {'show': False}
+
+        # Has a review — check if it's old enough for an update prompt
+        last_modified = review.updated_at or review.create_at
+        if last_modified <= sixty_days_ago and has_old_enough_sub:
+            return {
+                'show': True,
+                'type': 'update',
+                'review': {
+                    'id': review.id,
+                    'stars': review.stars,
+                    'comment': review.comment,
+                    'updated_at': last_modified.isoformat(),
+                },
+            }
+        return {'show': False}
+
+    @classmethod
     def should_show_review_modal(cls, user) -> bool:
-        """True if the user has an active subscription and has not reviewed yet."""
-        has_active_subs = Subscription.objects.filter(user=user, status='active').exists()
-        has_review = Review.objects.filter(user=user).exists()
-        return has_active_subs and not has_review
+        """Legacy boolean wrapper around get_review_prompt."""
+        return cls.get_review_prompt(user).get('show', False)
 
 
 class ReviewService:

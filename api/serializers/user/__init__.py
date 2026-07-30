@@ -134,5 +134,5 @@ class ReviewMeSerializer(serializers.ModelSerializer):
     """Read serializer for the current user's review."""
     class Meta:
         model = Review
-        fields = ('id', 'stars', 'comment', 'create_at')
+        fields = ('id', 'stars', 'comment', 'create_at', 'updated_at')
         read_only_fields = fields
