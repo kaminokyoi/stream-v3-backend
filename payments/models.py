@@ -126,8 +126,11 @@ class Subscription(models.Model):
         return f"Abonnement {self.order.platform}"
     
     def save(self, *args, **kwargs):
-        if not self.pk and not hasattr(self, 'expiration_date') or not self.expiration_date:
-            self.expiration_date = calculate_expiration(self.order.duration, self.order.purchase_date)
+        if (not self.pk and not self.expiration_date) or not self.expiration_date:
+            try:
+                self.expiration_date = calculate_expiration(self.order.duration, self.order.purchase_date)
+            except Exception:
+                pass
         super().save(*args, **kwargs)
 
     class Meta:

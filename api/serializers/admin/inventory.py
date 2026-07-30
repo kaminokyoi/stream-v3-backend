@@ -82,7 +82,7 @@ class AdminRenewSerializer(serializers.Serializer):
 
 class AdminAccountSerializer(serializers.ModelSerializer):
     """Admin account listing (full credentials visible)."""
-    current_remaining_days = serializers.IntegerField(read_only=True)
+    current_remaining_days = serializers.SerializerMethodField()
     card = serializers.SerializerMethodField()
     markers = serializers.SerializerMethodField()
     used_places = serializers.SerializerMethodField()
@@ -120,10 +120,7 @@ class AdminAccountSerializer(serializers.ModelSerializer):
         return obj.available_places
 
     def get_current_remaining_days(self, obj):
-        start = obj.start_date
-        end = obj.end_date
-        remaining_days = int(start - end)
-        return remaining_days
+        return obj.current_remaining_days
 
 
 class AdminProfileSubscriptionSerializer(serializers.ModelSerializer):

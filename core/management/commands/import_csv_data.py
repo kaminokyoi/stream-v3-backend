@@ -80,6 +80,11 @@ def parse_datetime(val):
         return None
     from django.utils.timezone import make_aware, is_aware
     from django.conf import settings
+
+    # Normalize short timezone offsets: +00 → +0000, +01 → +0100
+    import re
+    val = re.sub(r'([+-])(\d{2})$', r'\g<1>\g<2>00', val)
+
     for fmt in ('%Y-%m-%d %H:%M:%S.%f%z', '%Y-%m-%d %H:%M:%S%z',
                 '%Y-%m-%d %H:%M:%S.%f', '%Y-%m-%d %H:%M:%S',
                 '%Y-%m-%d', '%Y-%m'):
@@ -90,7 +95,16 @@ def parse_datetime(val):
             return dt
         except ValueError:
             continue
-    return None
+
+    # Last resort: dateutil.parser handles any ISO format
+    try:
+        from dateutil import parser as dateutil_parser
+        dt = dateutil_parser.parse(val)
+        if not is_aware(dt) and settings.USE_TZ:
+            dt = make_aware(dt, timezone.get_default_timezone())
+        return dt
+    except Exception:
+        return None
 
 
 def parse_date(val):

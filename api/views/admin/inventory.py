@@ -309,10 +309,29 @@ class AdminProfileViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         qs = self.queryset
+        q = self.request.GET.get('q')
+        if q:
+            qs = qs.filter(Q(number__icontains=q) | Q(account__number__icontains=q) | Q(account__platform__icontains=q))
         platform = self.request.GET.get('platform')
         if platform:
             qs = qs.filter(account__platform=platform)
         account = self.request.GET.get('account')
         if account:
             qs = qs.filter(account__number=account)
+        type_filter = self.request.GET.get('type')
+        if type_filter:
+            qs = qs.filter(account__type=type_filter)
+        status_filter = self.request.GET.get('status')
+        if status_filter:
+            qs = qs.annotate(
+                _active_count=Count(
+                    'subscriptions',
+                    filter=Q(subscriptions__status='active'),
+                    distinct=True,
+                )
+            )
+            if status_filter == 'occupe':
+                qs = qs.filter(_active_count__gt=0)
+            elif status_filter == 'libre':
+                qs = qs.filter(_active_count=0)
         return qs
