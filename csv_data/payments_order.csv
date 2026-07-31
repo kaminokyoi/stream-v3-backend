@@ -1,0 +1,1431 @@
+id,order_id,platform,price,duration,purchase_date,status,type,user_id,renewal_from_id,gift_code_id,subscription_id,motif
+1376,473f2a32-2cd5-4b50-8a3b-f9f660766407,Netflix,2000,1 mois,2026-06-08 15:28:31.876394+00,completed,mutual,540,,,,subscription
+1101,b8535344-fb0a-4ef2-a332-f42b2edd6b48,Netflix,2500,1 mois,2026-05-17 14:15:36.365046+00,completed,mutual,837,,,564,subscription
+1070,f6a63286-94a1-470b-a0ad-ad0fe45034a5,Netflix,7000,3 mois,2026-09-24 22:24:24.10894+00,completed,mutual,566,191,,191,subscription
+818,de073279-1c1a-4e21-8f75-32712f81e386,Spotify,2000,1 mois,2026-04-26 23:15:00+00,completed,mutual,17,171,,171,subscription
+768,ab4d2b0b-38e2-45f6-9aa4-d629bb952807,Prime Video,2000,1 mois,2026-04-21 20:52:13.904818+00,completed,mutual,963,,,,subscription
+72,83fff89b-e4d0-4f4d-898d-5e07ba7a5633,Disney Plus,2500,1 mois,2026-03-19 00:02:20.720931+00,completed,mutual,498,,,52,subscription
+50,6a69ab40-d7b4-4a8d-a523-1f7a727ed55f,Netflix,2500,1 mois,2026-03-17 19:51:41.433695+00,completed,mutual,523,,,30,subscription
+938,90505db8-ac59-494a-a722-a1681b4b6d01,Prime Video,2000,1 mois,2026-05-02 22:44:09.415818+00,completed,mutual,881,,,509,subscription
+827,45827094-ca87-43ac-84bd-b6ae5ec39bb5,Surfshark,1500,1 mois,2026-04-27 15:52:14.937408+00,completed,mutual,859,180,,180,subscription
+784,77f7fc76-62f5-46a9-8fc0-5ca27ea3dde8,Netflix,2500,1 mois,2026-04-21 18:48:39.510705+00,completed,mutual,792,92,,92,subscription
+1078,3483ff10-39ff-4d4f-a53b-20429eabefb1,Netflix,2500,1 mois,2026-05-15 13:28:17.921051+00,completed,mutual,1011,,,557,subscription
+900,a353bcd4-e55a-4157-9a8f-d089918696f5,Hbo Max,2500,1 mois,2026-05-01 09:34:17.420402+00,completed,mutual,429,,,489,subscription
+947,a71e1e49-d944-4bc7-89b6-67eaf1c42aa7,Crunchyroll,1500,1 mois,2026-05-04 10:53:29.874419+00,completed,mutual,939,,,514,subscription
+1085,dbc2aeab-528a-402f-ab7b-bbe7c4cfd555,Spotify,2000,1 mois,2026-05-16 16:28:02.979339+00,completed,mutual,885,,,559,subscription
+1030,4cd7dc64-3adb-46c1-89e3-7eee75d9be99,Netflix,2500,1 mois,2026-05-09 17:30:56.71945+00,completed,mutual,475,339,,339,subscription
+835,56e06ece-05f6-4a95-aac9-b1b2bf25468c,Prime Video,2000,1 mois,2026-04-26 20:30:25.16637+00,completed,mutual,607,,,468,subscription
+1607,c2b5ec9b-27ed-498f-8332-145a1d8dcce2,Paramount Plus,2500,1 mois,2026-06-20 12:55:14.402198+00,completed,mutual,1114,,,762,subscription
+957,5ff3a083-9498-4eee-82ab-535daec602cc,Netflix,2500,1 mois,2026-05-05 14:16:40.759975+00,completed,mutual,615,,,519,subscription
+1124,92b1e2a9-e8e7-4777-9900-56627dbae68f,Crunchyroll,1500,1 mois,2026-05-19 08:21:02.656803+00,completed,mutual,98,,,574,subscription
+843,c9246b6a-d953-41a4-be3a-6a518b470b67,Netflix,2500,1 mois,2026-04-27 12:44:44.037448+00,completed,mutual,979,,,470,subscription
+907,f07f9b8d-bf13-4ee5-9163-f6387042f0dc,Netflix,2500,1 mois,2026-05-01 19:31:39.614763+00,completed,mutual,120,242,,242,subscription
+19,1e8b19d3-3fbd-4de6-b9f7-a4733f5c54cf,Netflix,2500,1 mois,2026-03-16 18:06:44.934237+00,completed,mutual,143,,,9,subscription
+850,5bf0b2d9-5934-4360-8cea-d3c496feaece,Netflix,2500,1 mois,2026-04-27 21:26:34.158658+00,completed,mutual,974,,,473,subscription
+914,849c9793-6319-4a37-b264-f40dc7fe22d0,Prime Video,2000,1 mois,2026-05-01 21:54:58.556762+00,completed,mutual,108,,,497,subscription
+920,3fed0c62-b503-492d-958b-44c4614ca0fa,Netflix,2500,1 mois,2026-05-02 14:30:19.860532+00,completed,mutual,887,,,500,subscription
+927,15eb2262-6a8c-4bec-92be-3b0965843a0d,Netflix,2500,1 mois,2026-04-30 17:01:08.640207+00,completed,mutual,87,233,,233,subscription
+858,44c2baec-cdd8-45b4-b977-15afe4b70a9f,Hbo Max,2500,1 mois,2026-04-28 16:47:17.327444+00,completed,mutual,863,198,,198,subscription
+864,e9fe7884-343a-4b6a-afba-b4f99186ca59,Surfshark,1500,1 mois,2026-04-28 20:01:23.040542+00,completed,mutual,985,,,481,subscription
+1094,fa53a3f4-24eb-4184-8772-d124a94a6a26,Netflix,2500,1 mois,2026-05-16 17:22:55.276642+00,completed,mutual,56,27,,27,subscription
+871,05023808-1b16-42e7-878e-4263da6d2185,Prime Video,2000,1 mois,2026-04-29 17:22:00.743586+00,completed,mutual,865,217,,217,subscription
+966,b3ed059c-5bd1-4b71-adf5-8f83b1719745,Prime Video,2000,1 mois,2026-05-06 19:32:50.030733+00,completed,mutual,999,,,522,subscription
+972,b10a93b6-c60d-4bfd-9419-01a646cb663b,Netflix,7000,3 mois,2026-05-07 16:55:09.204969+00,completed,mutual,670,,,524,subscription
+71,29e2e5e8-6d1b-447a-a38b-0eb9ed8def00,Crunchyroll,4000,3 mois,2026-03-18 23:52:16.135163+00,completed,mutual,635,,,51,subscription
+980,ebffdc28-f97c-4ada-85f0-648737db9b68,Prime Video,2000,1 mois,2026-05-08 16:08:52.344888+00,completed,mutual,875,,,528,subscription
+82,b626ad02-c7dd-45c5-a8f0-1d132d2be5ea,Apple TV,3000,1 mois,2026-03-19 12:12:42.416264+00,completed,mutual,498,,,70,subscription
+988,81031710-7460-4830-ad97-243986fdc248,Netflix,2500,1 mois,2026-05-04 14:14:00+00,completed,mutual,158,303,,303,subscription
+994,603b9463-8bc2-478d-a82b-c69f455be6c5,Netflix,2500,1 mois,2026-05-09 20:35:52.692128+00,completed,mutual,1003,,,535,subscription
+105,a6692632-7d0c-4da4-81c2-c2ef11a97bf3,Crunchyroll,1500,1 mois,2026-03-20 09:15:25.923374+00,completed,mutual,809,,,71,subscription
+1037,3a58708e-960a-4f30-92f8-02954b0c6a9f,Netflix,2500,1 mois,2026-05-11 23:46:00+00,completed,mutual,457,322,,322,subscription
+112,8c527757-0e5d-408c-ba12-313eb505332c,Spotify,5500,3 mois,2026-03-20 16:50:13.054471+00,completed,mutual,811,,,78,subscription
+1002,e2d203e8-3bae-4745-a0ce-4a4c70bbda17,Prime Video,2000,1 mois,2026-05-10 08:25:36.668294+00,completed,mutual,624,,,538,subscription
+1248,f4a8e8ae-dfb8-4c35-854e-f381b3d33215,Netflix,2500,1 mois,2026-05-29 17:10:51.322785+00,completed,mutual,694,,,621,subscription
+49,e61670ce-e8f6-410e-b5ff-892b474e5902,Netflix,2500,1 mois,2026-03-17 19:31:39.329889+00,completed,mutual,790,,,29,subscription
+118,966316ee-7788-4068-9c06-101351dd855e,Surfshark,4000,3 mois,2026-03-20 19:29:36.359069+00,completed,mutual,795,,,79,subscription
+1149,dd8fc0d5-89f5-4824-a610-1eb74eab7c5e,Spotify,2000,1 mois,2026-05-19 00:00:00+00,completed,mutual,957,426,,426,subscription
+1016,fe6bcdac-ce66-4c1a-89b8-87831d72e023,Prime Video,2000,1 mois,2026-05-08 23:58:00+00,completed,mutual,85,108,,108,subscription
+1136,c10a73be-831e-46e4-8ea5-356225ef639f,Netflix,2500,1 mois,2026-05-21 12:39:19.025436+00,completed,mutual,1015,,,579,subscription
+1051,c6542437-ec9e-4362-a388-5933b6dae55f,Netflix,2500,1 mois,2026-05-10 23:36:00+00,completed,mutual,929,371,,371,subscription
+85,3b36f56f-089e-4079-a8f3-19e54007dbc5,Netflix,7000,3 mois,2026-03-19 13:19:21.447064+00,completed,mutual,109,,,59,subscription
+1058,cbd45c15-991f-4584-a86a-c8fe43143dbe,Prime Video,5000,1 mois,2026-05-09 23:21:00+00,completed,personal,467,357,,357,subscription
+89,05a5144a-e90c-411e-9211-996a46cd8445,Netflix,2500,1 mois,2026-03-19 17:08:41.099095+00,completed,mutual,683,,,63,subscription
+1116,d0ad79bc-3666-47e4-ad69-e8b229216367,Netflix,2500,1 mois,2026-05-18 18:09:28.625724+00,completed,mutual,554,,,567,subscription
+1170,080e9883-ab33-4d3d-976b-16f251aa0b8f,Netflix,5500,1 mois,2026-05-24 12:16:46.02103+00,completed,personal,839,128,,128,subscription
+1164,bcb4fca0-5660-468c-839f-5079c9a4903d,Prime Video,10000,6 mois,2026-05-23 17:14:57.314845+00,completed,mutual,1021,,,589,subscription
+35,b1cd4e3a-9dc5-4f8f-b2e2-0662ff20127b,Prime Video,2000,1 mois,2026-03-17 16:33:24.989165+00,completed,mutual,787,,,23,subscription
+1183,04b47a21-ae07-4442-ba2b-654295261d19,Netflix,2500,1 mois,2026-05-23 13:37:48.002779+00,completed,mutual,638,42,,42,renewal
+1189,7894d1e4-7c9f-4c3d-aa92-99a2732c4561,Netflix,7000,3 mois,2026-05-24 19:19:19.456998+00,completed,mutual,188,135,,135,renewal
+1195,64856010-2b37-4e26-b5bd-248d97db41cc,Disney Plus,2500,1 mois,2026-05-26 22:42:54.398372+00,completed,mutual,1026,,,601,subscription
+1211,ccaa9b11-4ad4-4626-9ab1-4599756163b0,Netflix,2500,1 mois,2026-05-28 11:50:21.554937+00,completed,mutual,1031,,,612,subscription
+939,7318ab54-eb52-497c-8679-48e227430d17,Apple Music,2000,1 mois,2026-05-02 23:13:04.065491+00,completed,mutual,986,,,,subscription
+1377,c7decd2b-f9d3-40af-abfa-9d2fce0ba4c3,Prime Video,2000,1 mois,2026-06-08 15:29:05.631284+00,completed,mutual,540,,,,subscription
+1125,8066da21-1cc8-479e-9e22-f66a5d380aff,Netflix,2500,1 mois,2026-05-17 12:35:20.128866+00,completed,mutual,112,41,,41,subscription
+1382,31b9ff35-5e9d-4dcf-b3d6-42c6810f3442,Paramount Plus,2500,1 mois,2026-06-08 18:28:59.815479+00,completed,mutual,475,342,,342,renewal
+828,718dbb86-5e33-4d65-90c8-cc564afd618c,Hbo Max,2500,1 mois,2026-04-27 15:38:29.60858+00,completed,mutual,859,178,,178,subscription
+836,b8a6da9d-cdbd-4b94-96fa-741ba8636abe,Prime Video,2000,1 mois,2026-04-24 23:28:00+00,completed,mutual,540,173,,173,subscription
+769,0dede361-a216-4bbd-9904-e5e87a9a49b2,Hbo Max,2500,1 mois,2026-04-21 21:02:57.181626+00,completed,mutual,964,,,442,subscription
+1031,80443745-84c8-4718-b09c-ccc87a7e4e5e,Prime Video,2000,1 mois,2026-05-09 17:27:09.952286+00,completed,mutual,475,337,,337,subscription
+842,d250baf5-0bdb-403f-908d-e93846553b90,Netflix,2500,1 mois,2026-04-27 12:21:29.182986+00,completed,mutual,980,,,471,subscription
+948,1e925b51-6c52-4c9f-a469-098cafc17116,Netflix,2500,1 mois,2026-05-04 13:16:17.641973+00,completed,mutual,771,,,515,subscription
+777,2e257c69-a289-4c7e-8910-9784c5bb3a44,Netflix,7000,3 mois,2026-04-22 08:23:10.437839+00,completed,mutual,299,,,446,subscription
+954,768f22fa-c782-416f-9508-146b26dc9afe,Netflix,2500,1 mois,2026-05-03 17:28:38.880363+00,completed,mutual,879,260,,260,subscription
+893,a73dff28-86a5-4f3c-aca0-ed0965b94b68,Netflix,7000,3 mois,2026-04-29 20:28:07.887205+00,completed,mutual,651,224,,224,subscription
+964,5b5ab094-fb5a-4c9f-9cea-af80a9540c0e,Prime Video,2000,1 mois,2026-05-06 17:40:26.187682+00,completed,mutual,859,,,521,subscription
+859,56478753-57f8-475f-840d-d2fd89c4b159,Paramount Plus,2500,1 mois,2026-04-28 16:46:43.047881+00,completed,mutual,863,197,,197,subscription
+801,75cf5b70-ebe0-4289-b00d-db809a599337,Prime Video,2000,1 mois,2026-04-24 00:22:23.546918+00,completed,mutual,969,,,455,subscription
+1071,626880c1-18f5-4ed0-a971-9b1118189d78,Netflix,2500,1 mois,2026-05-14 11:50:51.259575+00,completed,mutual,1009,,,551,subscription
+808,30875278-36ee-4630-bfaa-95d7991f514c,Netflix,2500,1 mois,2026-04-24 12:28:21.161939+00,completed,mutual,840,129,,129,subscription
+1077,249c2249-0534-444b-a0e0-35dc562a8181,Netflix,2500,1 mois,2026-05-15 13:02:42.941376+00,completed,mutual,300,,,556,subscription
+901,ddbec873-5ba8-4312-91d1-e935dde89a64,Prime Video,2000,1 mois,2026-05-01 09:37:10.217743+00,completed,mutual,429,,,490,subscription
+906,c0d2d3cf-9aa3-4c5a-a0bf-9b3b70756645,Netflix,2500,1 mois,2026-05-01 13:05:42.526855+00,completed,mutual,541,,,494,subscription
+973,d3d7819a-0f6a-4d54-9e25-dc6ca69ddeb6,Surfshark,1500,1 mois,2026-05-07 17:53:08.447362+00,completed,mutual,1000,,,525,subscription
+872,5a47b635-ff0e-4726-960a-d8578d1b4dea,Prime Video,2000,1 mois,2026-04-22 23:28:00+00,completed,mutual,427,140,,140,subscription
+1225,5527849e-5599-446d-905e-f2df8d12488c,Netflix,2500,1 mois,2026-05-28 19:17:21.295545+00,completed,mutual,857,,,616,subscription
+1196,305f1f11-d931-49b7-8198-15e2ad32bc4c,Surfshark,1500,1 mois,2026-05-26 22:44:44.297455+00,completed,mutual,1026,,,602,subscription
+1086,31be9571-00b8-44c9-b7ca-a85dfcb16546,Netflix,2500,1 mois,2026-05-27 15:47:05.551045+00,completed,mutual,979,470,,470,subscription
+921,60e0c2d0-3fbe-47b7-a31b-850a54a34ab2,Prime Video,2000,1 mois,2026-05-02 15:19:54.616362+00,completed,mutual,715,,,503,subscription
+981,48d2ece6-211f-457c-a8f7-65746b8da88d,Spotify,2000,1 mois,2026-05-08 16:32:51.434528+00,completed,mutual,610,,,529,subscription
+849,5b584cb4-2a17-4fe2-a1c1-eadd7709015b,Netflix,5500,1 mois,2026-04-27 21:25:32.906885+00,completed,personal,982,,,474,subscription
+1093,ad5b921d-1482-4f6c-b20d-baf46a453412,Netflix,2500,1 mois,2026-05-16 21:05:00.637064+00,completed,mutual,336,,,562,subscription
+1857,ad8b18e3-57fd-400e-b33d-878717689460,Prime Video,2000,1 mois,2026-07-01 22:49:12.558626+00,completed,mutual,1203,,,,subscription
+1100,bcb70575-4d88-4b62-ae18-6d4bbe084f3d,Crunchyroll,1500,1 mois,2026-05-17 11:20:12.293845+00,completed,mutual,1012,,,565,subscription
+989,1c308994-fd36-490b-80c1-23be91b6fdb1,Prime Video,2000,1 mois,2026-05-06 23:13:08.3492+00,completed,mutual,226,309,,309,subscription
+1130,de7d6cfe-c241-4766-8108-ef663c4be6ce,Netflix,2500,1 mois,2026-05-20 19:08:54.42029+00,completed,mutual,28,,,576,subscription
+1003,ffc7ada1-afd2-4cac-bc5b-a6ec0beb8686,Netflix,2500,1 mois,2026-05-10 17:41:15.217573+00,completed,mutual,1004,,,537,subscription
+1237,fe890301-2bd7-4d13-857f-4b8384306f8c,Netflix,5500,1 mois,2026-05-27 20:11:14.517208+00,completed,personal,616,183,,183,renewal
+1117,e234bbc4-120e-4179-9364-599824388cde,Apple TV,3000,1 mois,2026-05-18 12:52:00+00,completed,mutual,498,70,,70,subscription
+1017,032af6fc-e0c6-412c-ae63-fbec79f328aa,Surfshark,1500,1 mois,2026-05-08 23:57:00+00,completed,mutual,85,110,,110,subscription
+1241,d9643377-792e-4202-9c40-5f6c0827e04d,Prime Video,2000,1 mois,2026-05-28 18:55:03.357929+00,completed,mutual,863,479,,479,renewal
+1165,51b5f2ec-7901-4018-9870-31e70a866765,Netflix,13000,6 mois,2026-05-23 17:33:22.817044+00,completed,mutual,1021,,,590,subscription
+1244,8da00590-c360-4767-b197-c7530cc33b98,Spotify,2000,1 mois,2026-05-29 08:29:34.844526+00,completed,mutual,876,,,619,subscription
+241,2a3a9564-79af-4d69-8058-6094df63684b,Apple TV,3000,1 mois,2026-03-25 16:53:14.725152+00,completed,mutual,28,,,130,subscription
+1253,351fdcf5-1a1f-4802-9662-1dd827947198,Prime Video,2000,1 mois,2026-05-30 07:31:31.547251+00,completed,mutual,21,229,,229,renewal
+1190,3f8508ee-ee02-4c0d-9d6c-71e1b1988547,Prime Video,2000,1 mois,2026-05-24 19:20:25.810749+00,completed,mutual,188,136,,136,renewal
+1158,7d7f0cbb-bd2b-4146-b78b-e4126bb5f3ac,Spotify,2000,1 mois,2026-05-23 11:26:08.997628+00,completed,mutual,432,,,586,subscription
+242,6ea4399a-bac6-499b-be76-9af964f9d15e,Netflix,2500,1 mois,2026-03-25 17:12:18.043692+00,completed,mutual,398,,,131,subscription
+1257,ba9e66fa-cec4-4563-867d-7a4c3cbe4b1c,Netflix,2500,1 mois,2026-05-29 19:43:09.356338+00,completed,mutual,100,221,,221,renewal
+1184,410a90a6-0213-4914-a6a0-da106f2af164,Netflix,2500,1 mois,2026-05-25 18:13:09.788952+00,completed,mutual,959,,,599,subscription
+1202,5dbb6c6a-7ba7-4977-a893-89d096f1389b,Surfshark,1500,1 mois,2026-05-27 12:18:23.651618+00,completed,mutual,887,,,604,subscription
+1206,b79f54b0-1221-4b8e-920e-d45e97df3e9d,Spotify,2000,1 mois,2026-05-26 23:15:00+00,completed,mutual,17,171,,171,renewal
+884,50ce04f3-4b00-4eaa-a186-1048f0500fc4,Netflix,2500,1 mois,2026-04-29 23:10:00+00,completed,mutual,703,,,,subscription
+211,128cb13d-6d76-4517-a922-7211c36b20ad,Netflix,2500,1 mois,2026-03-24 10:09:24.55058+00,completed,mutual,834,,,117,subscription
+1059,bc406fa9-ad84-4649-a503-8188b18f568f,Spotify,2000,1 mois,2026-05-06 23:43:00+00,completed,mutual,19,,,,subscription
+243,3ce5d4e4-0db7-48b8-bc98-0457f626eb7e,Netflix,2500,1 mois,2026-03-25 17:53:51.583328+00,completed,mutual,841,,,132,subscription
+244,cea8194e-874f-4b80-b44c-7a0134c6256d,Crunchyroll,1500,1 mois,2026-03-25 18:24:29.414016+00,completed,mutual,842,,,133,subscription
+181,aff51c4f-390e-463b-8100-0a03c35b8da9,Apple Music,2000,1 mois,2026-03-23 12:41:09.075301+00,completed,mutual,827,,,98,subscription
+292,8e68ca34-09e3-42d6-a6b6-e668a02d7f43,Netflix,2500,1 mois,2026-03-27 13:49:34.661765+00,completed,mutual,855,,,165,subscription
+930,b250be3c-a18b-4a04-8ce3-222c2e653e40,Spotify,2000,1 mois,2026-04-30 23:13:00+00,completed,mutual,85,252,,252,subscription
+1118,c46e3e26-2dfe-49f5-b122-210384974ee8,Prime Video,2000,1 mois,2026-05-18 20:48:41.483631+00,completed,mutual,1013,,,,subscription
+1383,1d05d62e-483e-4725-add0-c30efed81ff1,Netflix,2500,1 mois,2026-06-15 17:30:56.71945+00,failed,mutual,475,339,,,extension
+820,66c32066-8229-4d5d-800b-b2a235bcc83d,Netflix,2500,1 mois,2026-05-07 17:10:16.457461+00,completed,mutual,17,317,,317,subscription
+885,17a46f86-b7f2-443b-95c5-542325cf649c,Netflix,2500,1 mois,2026-04-27 15:58:03.208886+00,completed,mutual,21,181,,181,subscription
+1064,4758705f-3e64-40b3-bea5-26b0835b20bb,Prime Video,2000,1 mois,2026-05-12 15:00:45.76198+00,completed,mutual,925,370,,370,subscription
+940,4ac1e12c-698f-49ae-b75f-2f84d89ff1a0,Netflix,10500,1 mois,2026-05-03 07:40:11.758728+00,completed,personal,993,,,513,subscription
+1069,bfaf88f9-8bf1-42bb-b87d-ee52341a676c,Prime Video,54000,1 an,2026-05-14 11:27:51.188397+00,completed,personal,997,,,552,subscription
+829,e34bb4a3-a36d-43fb-8f65-e81e42cbabc5,Netflix,7000,3 mois,2026-04-25 09:42:13.68295+00,completed,mutual,849,145,,145,subscription
+770,4b66407e-1e12-46ec-b14c-4ab3511a930e,Surfshark,1500,1 mois,2026-04-21 21:10:31.621377+00,completed,mutual,964,,,443,subscription
+837,4154b214-00e0-4852-855b-4eb001be59d4,Netflix,2500,1 mois,2026-04-22 23:29:00+00,completed,mutual,540,172,,172,subscription
+1025,3903062e-9353-41ca-b127-71df1c75c5fa,Netflix,2500,1 mois,2026-05-11 18:07:57.600409+00,completed,mutual,915,,,542,subscription
+894,5b72a2c4-2a7a-4279-aace-e28e596f6b25,Netflix,7000,3 mois,2026-04-30 22:27:34.293457+00,completed,mutual,228,,,485,subscription
+1212,21348dcc-e087-4f10-86fa-57fa59d1b051,Crunchyroll,1500,1 mois,2026-05-28 12:10:16.594415+00,completed,mutual,1031,,,613,subscription
+949,a9fae501-e680-428b-99bf-1868f9f21e9d,Netflix,2500,1 mois,2026-05-04 16:07:02.268573+00,completed,mutual,424,,,516,subscription
+844,16a7e6a0-f75c-4834-b174-faadf415c366,Crunchyroll,1500,1 mois,2026-04-27 16:19:05.110924+00,completed,mutual,979,,,476,subscription
+1229,5785732d-5df2-45d8-aaa1-ee799f73e06f,Prime Video,2000,1 mois,2026-05-22 23:28:00+00,completed,mutual,427,140,,140,renewal
+1220,fc0203d8-8ea1-44bd-a28b-f0cb8b2859ce,Crunchyroll,1500,1 mois,2026-05-28 16:30:00.536765+00,completed,mutual,741,,,615,subscription
+902,f011afbc-9ad3-467f-85ad-724237e99d26,Surfshark,1500,1 mois,2026-05-01 09:39:12.772782+00,completed,mutual,429,,,491,subscription
+1079,7ffe6e30-08a1-410e-a13e-ebfff203fa4f,Surfshark,1500,1 mois,2026-04-28 13:23:54.26489+00,completed,mutual,862,193,,193,subscription
+958,5458cacb-9bef-4caf-805c-fa5ea5901fb4,Spotify,2000,1 mois,2026-05-02 23:33:00+00,completed,mutual,609,277,,277,subscription
+802,52c71a05-8633-48d8-9f2f-438fa4d5ae1e,Prime Video,2000,1 mois,2026-04-24 13:24:35.969146+00,completed,mutual,743,,,456,subscription
+860,a95d7954-c439-4f17-8906-ded008a3723c,Prime Video,2000,1 mois,2026-04-28 17:53:44.735047+00,completed,mutual,863,,,479,subscription
+965,71f3a3a7-88f0-4df8-991f-ebe1235e23ea,Netflix,2500,1 mois,2026-05-05 23:52:00+00,completed,mutual,912,343,,343,subscription
+298,6c19a7de-aeec-473d-b79b-0d647581dfc0,Netflix,2500,1 mois,2026-03-27 16:47:40.630874+00,completed,mutual,102,,,169,subscription
+908,2da9179d-a778-41ef-9540-cfd50541475e,Netflix,2500,1 mois,2026-05-01 15:27:46.107413+00,completed,mutual,425,,,495,subscription
+809,460d14f3-0946-4081-be95-a103878223a8,Netflix,2500,1 mois,2026-04-24 01:41:30.29828+00,completed,mutual,450,127,,127,subscription
+1084,7e0decdd-b020-4460-8302-7e3c05a7fbcf,Netflix,2500,1 mois,2026-05-17 20:25:49.880862+00,completed,mutual,946,407,,407,subscription
+866,2e89829e-0446-40a4-ab42-397038db0795,Netflix,2500,1 mois,2026-04-26 12:53:38.164164+00,completed,mutual,327,163,,163,subscription
+2147,7013eb10-996a-4bb8-9da7-f8618a989005,Netflix,2500,1 mois,2026-07-04 23:02:00+00,completed,mutual,143,9,,9,renewal
+303,9dbbdfd7-d96c-4424-be2a-c00a62a8b89a,Spotify,2000,1 mois,2026-03-28 12:13:07.37413+00,completed,mutual,17,,,171,subscription
+817,1f11d26b-124b-42fc-8473-091d336cf34f,Netflix,5500,1 mois,2026-04-24 12:16:46.02103+00,completed,personal,839,128,,128,subscription
+1032,968b16a1-c944-4186-899a-59f01cb15f06,Hbo Max,2500,1 mois,2026-05-09 17:27:10.615523+00,completed,mutual,475,338,,338,subscription
+915,de76903a-230d-4665-ad8b-e6c25824a3d4,Disney Plus,2500,1 mois,2026-05-01 23:59:14.863021+00,completed,mutual,816,,,499,subscription
+873,d8605911-9984-4a8f-8577-b147cc37e834,Surfshark,1500,1 mois,2026-04-28 16:52:43.555697+00,completed,mutual,863,200,,200,subscription
+974,7f936385-9f49-48af-a1f9-454e65fd76ec,Spotify,2000,1 mois,2026-05-06 19:44:36.644451+00,completed,mutual,671,307,,307,subscription
+1172,9ffaaae3-1ceb-4236-8b63-ecd6e725d559,Surfshark,1500,1 mois,2026-05-19 00:00:00+00,completed,mutual,533,48,,48,subscription
+1131,11336772-b2cc-4524-82aa-988928571283,Onoff,7000,1 mois,2026-05-20 19:30:40.080983+00,completed,personal,452,,,577,subscription
+882,672d4100-d820-4218-9420-eeae466ae515,Spotify,2000,1 mois,2026-04-30 13:54:59.360633+00,completed,mutual,158,,,483,subscription
+1095,a150d6c5-0eef-4944-bf3a-7b31e3a6b325,Disney Plus,2500,1 mois,2026-05-16 11:51:44.477249+00,completed,mutual,498,52,,52,subscription
+982,e364e9b0-1a21-47e3-bd25-209404d33551,Netflix,2500,1 mois,2026-05-08 16:35:34.265201+00,completed,mutual,528,,,530,subscription
+1166,0e6cc60c-4bdc-47e6-9d08-f9824f8b324f,Prime Video,2000,1 mois,2026-05-24 06:48:33.076638+00,completed,mutual,1022,,,592,subscription
+1109,9bbdab13-5376-4261-a19f-9d1870076e11,Netflix,2500,1 mois,2026-05-17 23:20:00+00,completed,mutual,803,64,,64,subscription
+963,fdcee69e-a350-4ad7-b215-d7aecaf5f5cf,Netflix,2500,1 mois,2026-04-26 23:13:00+00,completed,mutual,857,176,,176,subscription
+1145,d695df2f-19fe-41a9-a59f-923ff573d8da,Hbo Max,2500,1 mois,2026-05-21 21:07:10.759552+00,completed,mutual,964,442,,442,subscription
+1102,82337cf3-6218-493e-82a7-324d70f3a509,Apple Music,2000,1 mois,2026-05-17 17:10:06.859096+00,completed,mutual,1013,,,569,subscription
+1053,4d9f5c61-137a-4f4d-82c7-45df3044db83,Prime Video,2000,1 mois,2026-05-13 15:22:50.873095+00,completed,mutual,691,379,,379,subscription
+1004,0331c429-995f-42c4-b007-6eacd1b3df89,Surfshark,1500,1 mois,2026-05-10 10:20:52.739871+00,completed,mutual,859,346,,346,subscription
+1151,22be98f1-a553-455a-a9e0-c01894744e3e,Disney Plus,2500,1 mois,2026-05-22 14:31:59.414617+00,completed,mutual,67,,,,subscription
+1018,87d22484-5087-44bb-9a44-776f2d51aa6d,Hbo Max,2500,1 mois,2026-05-08 23:58:00+00,completed,mutual,85,109,,109,subscription
+1138,f62d0422-b812-4e0c-93e3-1684fbcc7cf7,Hbo Max,2500,1 mois,2026-05-21 13:33:41.62733+00,completed,mutual,887,,,580,subscription
+1060,b8edc308-e41f-4510-af58-483671cf1488,Surfshark,1500,1 mois,2026-04-27 15:12:07.696312+00,completed,mutual,28,175,,175,subscription
+1185,7066ae3f-4e72-4253-ab22-c31c02d6972a,Apple Music,2000,1 mois,2026-05-22 13:10:22.21235+00,completed,mutual,827,98,,98,renewal
+1201,f69e14c4-22a6-44d7-827a-87fa2c83e5f0,Surfshark,1500,1 mois,2026-05-27 15:52:14.937408+00,completed,mutual,859,180,,180,extension
+1191,71022709-99a3-4ee0-97f5-1d086103ab41,Netflix,2500,1 mois,2026-05-24 12:28:21.161939+00,completed,mutual,840,129,,129,renewal
+778,28dbfe65-1bf3-455c-b0bb-c478ddeba63c,Netflix,2500,1 mois,2026-04-21 18:55:00+00,completed,mutual,584,,,,subscription
+1207,b2dc46c0-28ac-46ab-a07a-e682bc8d4746,Netflix,2500,1 mois,2026-05-27 15:58:03.208886+00,completed,mutual,21,181,,181,renewal
+1208,6b8e8efc-ef39-4eeb-9955-f52c44808b25,Spotify,2000,1 mois,2026-05-28 11:09:31.984753+00,completed,mutual,10,,,609,subscription
+1054,713913a3-5984-45a1-be14-08f80122571d,Netflix,4500,1 mois,2026-05-12 23:23:00+00,completed,personal,539,389,,389,subscription
+1192,3da28ba0-1e5a-4b9e-bcc4-c4221760334c,Netflix,2500,1 mois,2026-05-26 15:09:44.159219+00,completed,mutual,855,165,,165,renewal
+771,85de25ae-150f-41ba-9483-43d397dcf87e,Crunchyroll,1500,1 mois,2026-04-21 21:15:18.111652+00,completed,mutual,928,,,,subscription
+1065,f4ec5f44-c6c2-49bc-8dcc-7f843b146fee,Crunchyroll,1500,1 mois,2026-05-14 09:58:51.95302+00,completed,mutual,1008,,,547,subscription
+779,88697dfe-012e-4d46-914e-ea97b250994c,Netflix,2500,1 mois,2026-04-17 12:35:20.128866+00,completed,mutual,112,41,,41,subscription
+821,bed65028-ec75-4eba-8681-3b604fec7a88,Disney Plus,7000,3 mois,2026-04-26 06:59:26.134867+00,completed,mutual,228,,,460,subscription
+886,c1258912-197f-416b-b9ca-c9a1feb5c7a5,Netflix,2500,1 mois,2026-04-29 19:43:09.356338+00,completed,mutual,100,221,,221,subscription
+1047,5d6c5282-3749-4eb9-a5b7-3c5ee4351cd6,Netflix,5500,1 mois,2026-05-12 18:22:31.173271+00,completed,personal,926,,,546,subscription
+787,421970f0-d9f2-48fb-b46c-eec61880e993,Netflix,2500,1 mois,2026-04-22 22:28:00.012696+00,completed,mutual,784,,,451,subscription
+950,86e9a7f9-7979-46e2-8a33-06eab7838297,Netflix,2500,1 mois,2026-04-25 07:53:35.563566+00,completed,mutual,119,142,,142,subscription
+838,0e02c73b-2d2b-4e11-a217-6cfeecf5a723,Netflix,2500,1 mois,2026-04-26 21:43:51.397477+00,completed,mutual,976,,,469,subscription
+1384,ac416c62-3171-4896-9bb1-b5026024db95,Netflix,2500,1 mois,2026-06-15 17:30:56.71945+00,completed,mutual,475,339,,339,extension
+803,714d8b32-c378-4676-9024-d3f26effe8e9,Disney Plus,2500,1 mois,2026-04-24 19:13:36.657107+00,completed,mutual,964,,,457,subscription
+1139,2d70ab81-328f-49c1-a0a3-b2705a64c665,Surfshark,1500,1 mois,2026-05-21 21:12:48.690462+00,completed,mutual,964,443,,443,subscription
+895,bcabe916-dd3f-43de-a656-376d54dd132a,Netflix,2500,1 mois,2026-05-02 12:31:32.603677+00,completed,mutual,873,244,,244,subscription
+845,7944697b-b613-4805-9b5d-17315408a409,Netflix,2500,1 mois,2026-04-27 17:21:49.295277+00,completed,mutual,981,,,475,subscription
+810,72faf3fd-9c79-4d84-8669-8f8236156f74,Netflix,2500,1 mois,2026-04-25 13:43:26.34613+00,completed,mutual,973,,,459,subscription
+1213,e826ebf6-fd42-4691-a5f5-01a3e39be889,Netflix,2500,1 mois,2026-05-28 12:21:41.344887+00,completed,mutual,71,,,614,subscription
+967,85ab2d84-9eff-4c10-882c-09d7562fe707,Netflix,2500,1 mois,2026-05-05 23:02:00+00,completed,mutual,143,9,,9,subscription
+909,b3696b16-225b-46d3-920a-a520110f0e0d,Prime Video,5000,1 mois,2026-05-01 17:24:25.933653+00,completed,personal,870,237,,237,subscription
+852,f38d6c51-df71-4b03-8156-5f6b66d7b264,Prime Video,2000,1 mois,2026-04-29 12:21:07.3395+00,completed,mutual,859,209,,209,subscription
+1080,e9fd4702-5d25-4648-9391-1fb83626f334,Hbo Max,2500,1 mois,2026-05-15 20:54:46.652567+00,completed,mutual,862,,,558,subscription
+857,420f1c2c-d4b3-44a8-b856-449175b5bc70,Netflix,2500,1 mois,2026-04-28 16:49:13.746506+00,completed,mutual,863,199,,199,subscription
+1227,70dcf40d-3444-426c-a4a1-bcbfe48b4452,Spotify,5500,3 mois,2026-05-28 19:38:55.550913+00,completed,mutual,53,,,617,subscription
+867,3e60d779-3137-439b-a03a-810b9b1047b2,Netflix,2500,1 mois,2026-04-28 23:42:00+00,completed,mutual,607,205,,205,subscription
+916,62f3199e-4021-485c-8e3f-49f70713373d,Hbo Max,13000,6 mois,2026-05-02 00:02:27.380974+00,completed,mutual,816,,,498,subscription
+975,074fac1e-a7b3-4171-ae5f-538f6aee4e31,Spotify,2000,1 mois,2026-05-03 18:58:05.089816+00,completed,mutual,571,265,,265,subscription
+1173,823a03da-6994-469c-9cb5-96ef3cca03f5,Disney Plus,2500,1 mois,2026-05-19 00:00:00+00,completed,mutual,533,47,,47,subscription
+874,480ed0eb-87c2-4b2a-ba2b-71a8970c81ba,Surfshark,1500,1 mois,2026-04-24 23:18:00+00,completed,mutual,427,137,,137,subscription
+1061,d42f322f-a1c4-4a25-86c6-374eb2763e53,Netflix,2500,1 mois,2026-05-10 20:26:28.082401+00,completed,mutual,916,350,,350,subscription
+923,5286d3b3-b122-4d8b-921f-f26ddedd4909,Prime Video,2000,1 mois,2026-05-02 16:40:17.949522+00,completed,mutual,987,,,504,subscription
+1391,b4ddd2aa-fb82-449d-8b3c-3a8db7cbd0be,Netflix,2500,1 mois,2026-06-09 08:30:42.773575+00,failed,mutual,1051,,,,subscription
+983,0f65981a-d17f-4890-8569-7dc9c18709f8,Netflix,2500,1 mois,2026-05-08 18:44:35.456927+00,completed,mutual,226,,,533,subscription
+1096,29731e79-39ad-4266-bf83-d66240af393b,Surfshark,1500,1 mois,2026-05-16 11:51:43.612141+00,completed,mutual,498,53,,53,subscription
+1233,a53383e5-269d-4be0-8a9e-819711e5fb9b,Disney Plus,2500,1 mois,2026-05-24 23:18:00+00,completed,mutual,427,138,,138,renewal
+1238,b8372b0f-a40a-4613-9880-d6a598f00d5e,Netflix,2500,1 mois,2026-05-28 22:15:37.191727+00,completed,mutual,924,,,618,subscription
+990,dc7b7985-5b0d-44af-b40f-eeca855997e1,Netflix,2500,1 mois,2026-05-09 20:03:57.916393+00,completed,mutual,1001,,,534,subscription
+1146,9d39cef0-0b2e-4f91-9b05-31b73bda0933,Netflix,2500,1 mois,2026-05-21 19:00:04.43677+00,completed,mutual,287,,,582,subscription
+515,90e137e4-43b6-465a-b968-56bc9e4cfb70,Netflix,2500,1 mois,2026-04-07 11:37:07.076831+00,completed,mutual,624,,,,subscription
+1111,76069632-b164-4f26-ac95-eef7b416e91a,Netflix,13000,6 mois,2026-05-18 13:22:57.940572+00,completed,mutual,1014,,,566,subscription
+1242,e7b0acfb-0686-45fd-b1fb-72fb4e203ecd,Surfshark,1500,1 mois,2026-05-28 16:52:43.555697+00,completed,mutual,863,200,,200,renewal
+1160,7c941798-41f2-48a2-a365-327f20625643,Netflix,2500,1 mois,2026-05-21 18:55:00+00,completed,mutual,584,,,,subscription
+1119,ff4c3db6-b2d7-45c4-ac6a-2f644424b697,Crunchyroll,1500,1 mois,2026-05-18 20:49:45.499242+00,completed,mutual,887,,,571,subscription
+1026,29de8fab-6fe3-4b10-90fc-4c3618133bf6,Prime Video,2000,1 mois,2026-05-09 10:16:13.048519+00,completed,mutual,907,329,,329,subscription
+1246,9e6960e0-c43f-4132-b117-cd371ad30d28,Crunchyroll,1500,1 mois,2026-05-27 22:34:23.584348+00,completed,mutual,979,476,,476,renewal
+1152,385ca004-1967-4ef4-adeb-7e569e165e94,Netflix,2500,1 mois,2026-05-22 15:55:58.271977+00,completed,mutual,390,105,,105,subscription
+1250,6b761dbc-2ad0-433f-bcf3-aae058d17511,Netflix,2500,1 mois,2026-05-29 23:46:05.633421+00,completed,mutual,89,,,,subscription
+1132,af343d33-fba1-442e-a086-d1e833f2714a,Netflix,2500,1 mois,2026-05-19 00:00:00+00,completed,mutual,423,425,,425,subscription
+1254,cbe168cd-ab42-4b4a-8dbd-512325b61798,Prime Video,2000,1 mois,2026-05-30 14:44:56.542301+00,completed,mutual,762,,,624,subscription
+1258,a74c3ae5-9508-491a-ac2a-50f0462d2ba5,Prime Video,5500,3 mois,2026-06-26 12:01:00+00,completed,mutual,555,208,,208,extension
+1264,c1881845-2105-4150-892f-56e542fb3e51,Netflix,7000,3 mois,2026-05-31 12:53:13.817306+00,completed,mutual,328,,,630,subscription
+1263,5bb27b41-507e-4b4b-b224-24844d6b3473,Prime Video,5500,3 mois,2026-05-31 12:49:42.596975+00,completed,mutual,328,,,629,subscription
+1167,b2048a2a-8c9b-4066-b6e3-d79c3910f809,Netflix,2500,1 mois,2026-05-24 07:06:06.741907+00,completed,mutual,495,,,591,subscription
+1198,bda442a3-b3c7-4f17-82c2-ed22b5317b55,Prime Video,2000,1 mois,2026-05-27 09:26:38.745124+00,completed,mutual,843,,,603,subscription
+1186,27d776b3-d2b0-4be9-aa74-b4ed419ca0e4,Apple Music,2000,1 mois,2026-05-25 18:52:27.584375+00,completed,mutual,967,,,605,subscription
+1203,5ce0f074-749c-4550-baf0-3208cc756bef,Apple TV,3000,1 mois,2026-05-27 20:11:37.439378+00,completed,mutual,887,,,606,subscription
+932,23f6552b-4c3e-4908-bf06-6fe24e031c16,Netflix,2500,1 mois,2026-05-02 19:21:25.315681+00,completed,mutual,991,,,,subscription
+1592,999864a3-c25f-4bf6-94d5-244df2016f3e,Netflix,2500,1 mois,2026-06-19 19:28:55.566318+00,completed,mutual,771,,,752,subscription
+822,59daeb47-c6e0-4ebd-b3aa-f9b967ee0b05,Hbo Max,7000,3 mois,2026-04-26 07:03:30.548509+00,completed,mutual,228,,,461,subscription
+887,23ce784b-3aff-460c-b6b3-2daea0ad4fbd,Prime Video,2000,1 mois,2026-04-30 07:31:31.547251+00,completed,mutual,21,229,,229,subscription
+772,fb56addb-7d1c-4997-b202-f3dca132e203,Netflix,2500,1 mois,2026-04-24 19:19:19.456998+00,completed,mutual,188,135,,135,subscription
+942,9fd57b9e-e9a7-4470-8912-2b18b624a441,Netflix,2500,1 mois,2026-05-03 09:17:56.367234+00,completed,mutual,995,,,512,subscription
+1214,71b647fe-7e63-4645-ab20-259eab2b011d,Apple TV,3000,1 mois,2026-05-28 10:14:37.413177+00,completed,mutual,859,477,,477,renewal
+780,ce2660a1-8110-4dc4-841b-03b891d63367,Paramount Plus,2500,1 mois,2026-04-22 12:23:05.67915+00,completed,mutual,964,,,447,subscription
+1380,eda7bc43-9ea7-45c6-a626-cdd80119ff21,Prime Video,2000,1 mois,2026-06-08 17:27:09.952286+00,completed,mutual,475,337,,337,renewal
+831,d896a4f8-fe7c-47d9-a740-5946d153a964,Spotify,100000,1 an,2026-05-19 20:25:00+00,completed,mutual,2,,,,subscription
+1027,49e643aa-0ef0-4247-b1f4-549f7aa6a50d,Surfshark,1500,1 mois,2026-05-09 17:02:07.999791+00,completed,mutual,475,335,,335,subscription
+951,31b7f814-6a93-416c-8ee4-6c157bf58f0d,Netflix,2500,1 mois,2026-05-04 19:16:17.305096+00,completed,mutual,353,,,517,subscription
+796,21d49111-423e-4020-822f-e6279dcf2435,Netflix,2500,1 mois,2026-04-23 18:29:33.822991+00,completed,mutual,967,,,454,subscription
+896,0de01041-2451-4a28-b701-64fe8e6ce8ef,Surfshark,1500,1 mois,2026-04-30 22:53:39.757313+00,completed,mutual,957,,,486,subscription
+853,c8f565b1-449f-4855-8605-fa99378d90b0,Apple TV,3000,1 mois,2026-04-28 09:26:53.725344+00,completed,mutual,859,,,477,subscription
+804,5eca3af1-a5a9-4b6b-a1d3-0dda6f683145,Netflix,2500,1 mois,2026-04-24 21:23:22.427745+00,completed,mutual,971,,,458,subscription
+1236,1d964ef5-64e9-4f20-823d-0d06aa9faf44,Surfshark,1500,1 mois,2026-05-24 23:18:00+00,completed,mutual,427,137,,137,renewal
+846,e99d9002-b28a-49a5-89ec-96e8156ce2ef,Netflix,2500,1 mois,2026-05-14 17:12:44.545958+00,completed,mutual,933,391,,391,subscription
+1034,7e3a0563-a76f-4f1b-9438-ccdd2c5595ac,Crunchyroll,1500,1 mois,2026-05-09 17:02:17.202913+00,completed,mutual,475,336,,336,subscription
+811,c37c87f9-876b-47f3-9bd5-8d3e414fa158,Netflix,2500,1 mois,2026-04-24 17:26:44.376721+00,completed,mutual,398,131,,131,subscription
+960,6b54cc9b-d298-4227-ad76-85f84b1843bf,Crunchyroll,1500,1 mois,2026-05-04 09:29:02.647009+00,completed,mutual,609,276,,276,subscription
+904,0d3248c6-7370-4bfc-bebf-6c0c1aa48fa3,Netflix,2500,1 mois,2026-05-01 10:19:31.351557+00,completed,mutual,687,,,492,subscription
+1199,2a9db985-2620-4a32-bc6d-a2868d056aa9,Hbo Max,2500,1 mois,2026-05-27 15:38:29.60858+00,completed,mutual,859,178,,178,extension
+868,64ee2b5e-afb5-410d-8dfc-bdad54166c31,Netflix,2500,1 mois,2026-04-29 08:38:51.892754+00,completed,mutual,255,,,482,subscription
+968,012d3bfe-a95e-4f09-b037-3843ab9b538a,Prime Video,2000,1 mois,2026-05-05 23:03:00+00,completed,mutual,143,10,,10,subscription
+1073,1cbc9ca1-3f4f-46d1-a058-0cf3a11e9f9f,Crunchyroll,1500,1 mois,2026-05-14 13:07:19.301557+00,completed,mutual,937,,,553,subscription
+1239,71702a17-527b-4a6a-938a-40a754cf4e8d,Paramount Plus,2500,1 mois,2026-05-28 16:46:43.047881+00,completed,mutual,863,197,,197,renewal
+875,ce0366c4-35c0-4ee9-a4fe-4a0bf43e9943,Disney Plus,2500,1 mois,2026-04-24 23:18:00+00,completed,mutual,427,138,,138,subscription
+1081,43934baf-6b43-43b2-8b65-920d16025bbb,Spotify,2000,1 mois,2026-04-27 23:50:00+00,completed,mutual,864,216,,216,subscription
+976,71e45f3b-9a8c-4feb-8c8d-cf3f725b7324,Netflix,2500,1 mois,2026-05-06 17:27:27.327603+00,completed,mutual,350,305,,305,subscription
+924,807d0827-3247-452f-bfaa-1fab199ca4eb,Netflix,5500,1 mois,2026-04-27 20:11:14.517208+00,completed,personal,616,183,,183,subscription
+1385,18e9bcee-c30e-43ba-a27c-5bccf4b9a9e3,Paramount Plus,2500,1 mois,2026-06-08 21:55:48.598384+00,completed,mutual,533,,,665,subscription
+1041,3917d40b-22c0-443d-866e-18c1518c4ca8,Netflix,2500,1 mois,2026-05-12 08:16:32.355979+00,completed,mutual,896,,,543,subscription
+984,bf250530-03f4-40b8-a645-b854aaaf6899,Disney Plus,2500,1 mois,2026-05-09 18:13:43.558312+00,completed,mutual,859,341,,341,subscription
+1222,0f27a96e-afa8-437e-81e8-23ddebdd7e0c,Surfshark,1500,1 mois,2026-05-28 16:45:25.956898+00,completed,mutual,387,,,620,subscription
+1174,08e68b17-536d-4a1d-a1b5-51903de71f25,Surfshark,1500,1 mois,2026-05-19 00:00:00+00,failed,mutual,533,48,,,subscription
+1251,feda4b0f-0d0c-4b05-8afb-7c0efa41724f,Netflix,2500,1 mois,2026-06-29 23:46:00+00,completed,mutual,89,622,,622,extension
+991,2cb7dff9-054d-4b69-b01d-4fffb935bc6f,Surfshark,1500,1 mois,2026-05-02 23:27:00+00,completed,mutual,478,274,,274,subscription
+1140,d47e2249-8aca-4eca-9b6b-e4f2fad279e8,Apple TV,3000,1 mois,2026-05-21 14:55:22.860544+00,completed,mutual,964,,,581,subscription
+1104,e7a0d798-9623-415a-a380-aed1567027e3,Netflix,2500,1 mois,2026-05-17 22:15:53.744465+00,completed,mutual,521,,,568,subscription
+1055,65f22331-bdbf-4f2a-8a7e-cbd6f68da691,Prime Video,5000,1 mois,2026-05-12 23:23:00+00,completed,personal,539,388,,388,subscription
+1006,daded6c7-7489-43fa-a857-1341cdf0dca0,Disney Plus,2500,1 mois,2026-05-10 19:07:48.400955+00,completed,mutual,1005,,,540,subscription
+1399,bb5d29e2-ada6-4e10-8413-f881fa9ddbf9,Netflix,2500,1 mois,2026-06-06 23:53:00+00,completed,mutual,501,527,,527,renewal
+1020,8d8d0b0f-1b3b-44a2-bdce-0b5bee62559b,Netflix,2500,1 mois,2026-05-11 16:42:48.087832+00,completed,mutual,812,,,,subscription
+1120,7fce67b3-eae3-4546-91af-8c344c3dd78d,Netflix,4500,1 mois,2026-05-18 21:02:21.205978+00,completed,personal,931,,,572,subscription
+1142,ab3cf68c-7a3c-463a-b02d-9e0f3df54c58,Disney Plus,2500,1 mois,2026-05-24 19:19:46.006945+00,completed,mutual,964,457,,457,subscription
+1255,57a213c9-f681-4933-86a3-88b9fcecd8ba,Spotify,2000,1 mois,2026-05-30 15:42:34.658454+00,completed,mutual,1033,,,626,subscription
+1161,d5e6f999-48c3-4719-b0b7-3b8e32565f69,Netflix,2500,1 mois,2026-05-21 23:59:00+00,completed,mutual,153,151,,151,subscription
+1168,7b936e3f-620f-474f-994e-292d1806d098,Disney Plus,2500,1 mois,2026-05-24 15:01:25.844934+00,completed,mutual,349,,,,subscription
+1259,0df48353-2409-4ed2-a378-bfc62b6e5a3e,Netflix,2500,1 mois,2026-05-30 19:47:53.695382+00,completed,mutual,162,,,627,subscription
+1193,67d2361a-68f8-40a0-a74f-1181d61e8d69,Prime Video,2000,1 mois,2026-05-26 15:09:44.416416+00,completed,mutual,855,166,,166,renewal
+1265,f92159d4-675e-476a-9a08-467fc868ad18,Prime Video,2000,1 mois,2026-05-31 13:14:17.414428+00,completed,mutual,601,,,631,subscription
+1209,f4bbffe3-09c9-4f6e-a68b-bb1bc370be46,Disney Plus,2500,1 mois,2026-05-28 11:23:13.881133+00,completed,mutual,22,,,611,subscription
+496,df686a8f-1897-49e8-af82-942cdee145ab,Disney Plus,2500,1 mois,2026-04-05 20:34:16.716111+00,completed,mutual,893,,,297,subscription
+513,c77c8150-5088-4808-b73f-95b594b07f75,Netflix,2500,1 mois,2026-04-06 23:05:25.083248+00,completed,mutual,899,,,308,subscription
+497,35f57f54-841f-4b08-94cc-b9498923b868,Surfshark,1500,1 mois,2026-04-05 20:45:58.487122+00,completed,mutual,893,,,298,subscription
+510,851514fa-5c24-4236-9b2b-bb92b27bcf79,Netflix,2500,1 mois,2026-04-06 17:24:25.880749+00,completed,mutual,350,,,305,subscription
+1113,a739edc6-16d4-4007-9feb-ce94e18c9f8d,Prime Video,2000,1 mois,2026-05-15 10:06:00+00,completed,mutual,785,4,,4,subscription
+933,8501c40d-197a-4642-9130-b8f81f9da3eb,Netflix,2500,1 mois,2026-05-02 19:35:04.519304+00,completed,mutual,990,,,506,subscription
+823,c2490dd2-0edc-4df4-bd65-ca057f97e2fa,Surfshark,4000,3 mois,2026-04-26 07:05:47.952839+00,completed,mutual,228,,,462,subscription
+765,b8d8cf4c-ce17-4991-80e0-7314d31d041b,Prime Video,2000,1 mois,2026-04-16 00:00:00.989165+00,completed,mutual,787,23,,23,subscription
+832,e8a700a7-486a-4b0f-8fbc-383141770d03,Netflix,7000,3 mois,2026-04-26 19:55:03.273088+00,completed,mutual,975,,,,subscription
+888,23d696eb-b88a-45c4-af1a-8a89a69cb7ba,Prime Video,2000,1 mois,2026-04-29 19:52:41.533392+00,completed,mutual,100,223,,223,subscription
+773,6b9a60a4-2b8a-430d-85d4-525ae70787e7,Prime Video,2000,1 mois,2026-04-24 19:20:25.810749+00,completed,mutual,188,136,,136,subscription
+1067,f910db66-5b56-41d0-b99f-12bbb69f135c,Surfshark,1500,1 mois,2026-05-14 11:23:09.257321+00,completed,mutual,887,,,549,subscription
+1042,0ec08bf5-8562-41b0-906b-4277cd28bc25,Netflix,2500,1 mois,2026-05-11 23:44:00+00,completed,mutual,782,378,,378,subscription
+626,75047ebe-99dc-4896-a0c0-6723a58c93a7,Disney Plus,2500,1 mois,2026-04-13 23:14:39.300163+00,completed,mutual,620,,,382,subscription
+840,24c1401d-57df-41b0-bc33-6874423803ce,Paramount Plus,2500,1 mois,2026-04-27 15:38:35.632981+00,completed,mutual,859,179,,179,subscription
+625,06f35fb4-ea14-4a39-8c14-7e2fa2879023,Prime Video,5500,3 mois,2026-04-13 20:49:04.041431+00,completed,mutual,827,,,386,subscription
+631,1ba51dd9-5e34-4e67-9edb-dc8cadf874f8,Netflix,5500,1 mois,2026-04-14 13:23:12.405569+00,completed,personal,539,,,389,subscription
+629,fb1edbf3-9157-4868-8ab8-2a9cc6c5f03a,Netflix,13000,6 mois,2026-04-14 12:33:26.009022+00,completed,mutual,908,,,384,subscription
+575,cfe33a9d-1c78-43ce-b10a-d1e4b81c1d20,Netflix,2500,1 mois,2026-04-11 11:40:55.84622+00,completed,mutual,92,,,351,subscription
+781,040908ba-d5a4-47a9-8f40-4f65ca35eb02,Netflix,2500,1 mois,2026-04-19 21:56:36.341459+00,completed,mutual,814,82,,82,subscription
+999,c31a2b84-4f42-4803-a5c8-c6c95d89f47a,Crunchyroll,1500,1 mois,2026-05-07 11:43:01.261043+00,completed,mutual,624,312,,312,subscription
+943,ab3d20bd-3cd6-4892-bf59-e2cd03198f1f,Prime Video,2000,1 mois,2026-05-02 20:49:14.033966+00,completed,mutual,876,250,,250,subscription
+789,b0eecad2-bbcf-4672-9829-9848984e056c,Apple Music,2000,1 mois,2026-04-22 13:10:22.21235+00,completed,mutual,827,98,,98,subscription
+1215,37f124f0-d283-45c6-b284-ad13a3eacc94,Prime Video,2000,1 mois,2026-05-29 12:21:07.3395+00,completed,mutual,859,209,,209,extension
+572,b4ab072b-801a-4ae1-80b9-50c2c1565de1,Disney Plus,2500,1 mois,2026-04-11 06:55:05.062922+00,completed,mutual,919,,,352,subscription
+574,8296cb16-4633-444f-8225-1d033dff8bd3,Netflix,7000,3 mois,2026-04-11 11:30:30.331646+00,completed,mutual,772,,,353,subscription
+577,a8ff87cd-9722-48ff-bd71-2c4df8c57c8c,Surfshark,1500,1 mois,2026-04-11 12:59:43.59593+00,completed,mutual,28,,,356,subscription
+897,d9195c99-d697-486c-a2db-b990c4e2ddec,Hbo Max,2500,1 mois,2026-04-30 22:56:17.651552+00,completed,mutual,957,,,487,subscription
+899,e2d1dde6-38e5-4894-b90d-d5328d521fcf,Netflix,2500,1 mois,2026-05-01 09:30:54.842768+00,completed,mutual,429,,,488,subscription
+797,0f193e45-035f-4fdf-86a1-4f815f3235f7,Netflix,2500,1 mois,2026-04-21 23:59:00+00,completed,mutual,153,151,,151,subscription
+862,ed542d0f-ae0f-464a-a31a-4e6227c4054e,Apple TV,3000,1 mois,2026-04-28 18:17:04.274442+00,completed,mutual,863,,,478,subscription
+952,91b80c6e-03fa-4a5a-90a0-b3afdd8670e9,Netflix,2500,1 mois,2026-05-05 10:12:01.279395+00,completed,mutual,914,,,518,subscription
+1074,ccf60f74-120b-4514-8428-73cb3e132e01,Netflix,7000,3 mois,2026-05-14 13:46:04.977024+00,completed,mutual,431,,,554,subscription
+812,0cdc1b71-9dc3-4c22-b4eb-6752193b6a60,Netflix,2500,1 mois,2026-04-23 13:37:48.002779+00,completed,mutual,638,42,,42,subscription
+869,aa6f0a6d-00f0-4110-96eb-6e7d4daff88c,Netflix,2500,1 mois,2026-04-26 15:09:44.159219+00,completed,mutual,855,165,,165,subscription
+911,30131e82-98f5-4818-bfa3-6093ecc83168,Netflix,2500,1 mois,2026-05-01 21:03:24.945885+00,completed,mutual,671,,,496,subscription
+1396,05a69a24-98df-4d30-b333-901e5cdf263d,Netflix,2500,1 mois,2026-06-09 11:51:16.392373+00,completed,mutual,1032,,,671,subscription
+1007,1cd4cf01-cb1f-45df-88f2-4267a6e69c45,Surfshark,1500,1 mois,2026-05-09 23:10:00+00,completed,mutual,773,299,,299,subscription
+961,d3fd88e3-9f86-4b87-bdf6-c804dc3f23db,Apple Music,2000,1 mois,2026-05-05 20:31:50.656608+00,completed,mutual,525,,,520,subscription
+918,c646244e-ce01-4585-b0b8-404b74b908c1,Surfshark,1500,1 mois,2026-05-02 12:40:35.933961+00,completed,mutual,707,,,501,subscription
+969,8e4b344a-ab8c-48d9-afa0-9f451ae21778,Netflix,2500,1 mois,2026-05-05 17:49:55.433235+00,completed,mutual,892,294,,294,subscription
+1082,03bed173-0293-44d2-b95c-413759e79d26,Netflix,7000,3 mois,2026-05-16 13:57:29.65105+00,completed,mutual,726,,,563,subscription
+1240,851b8a39-c324-410b-84ae-71f3a6c511df,Netflix,2500,1 mois,2026-05-28 16:49:13.746506+00,completed,mutual,863,199,,199,renewal
+1014,662f7e9b-b9ea-4c18-8250-2ce715539a24,Apple Music,2000,1 mois,2026-05-09 21:44:31.407523+00,completed,mutual,176,344,,344,subscription
+1134,bc03e065-7430-4a6c-a5e9-7b82ca488bd2,Netflix,2500,1 mois,2026-05-24 21:34:41.436864+00,completed,mutual,971,458,,458,subscription
+1252,24789dbe-9706-452f-a8c1-f16db0174aff,Netflix,13000,6 mois,2026-05-30 11:44:12.467875+00,completed,mutual,426,,,,subscription
+985,5ba7c240-8bfb-49a7-a213-3a188f943546,Surfshark,1500,1 mois,2026-05-09 12:32:06.282414+00,completed,mutual,930,,,531,subscription
+1056,8d7299d2-45f5-4263-aeda-d5ab454fbb91,Netflix,2500,1 mois,2026-05-13 16:13:24.342035+00,completed,mutual,747,,,545,subscription
+992,60d78734-4e96-4316-854e-579fca9697cc,Disney Plus,2500,1 mois,2026-05-02 23:28:00+00,completed,mutual,478,275,,275,subscription
+1147,6585bc56-bf50-49ae-a2bf-dd734796b3c4,Netflix,2500,1 mois,2026-05-21 20:49:45.218405+00,completed,mutual,19,,,583,subscription
+1141,c562e565-e1fc-4e47-8bab-36f3d942835b,Netflix,2500,1 mois,2026-05-19 13:42:07.929327+00,completed,mutual,707,77,,77,subscription
+1035,3e35b519-baa7-47c4-8643-23c345a5c098,Netflix,2500,1 mois,2026-05-10 23:01:00+00,completed,mutual,12,340,,340,subscription
+1154,b6549c05-5765-44d9-958a-b76d128066ed,Surfshark,1500,1 mois,2026-05-22 16:38:54.184137+00,completed,mutual,67,,,,subscription
+1181,b85039dd-bbb9-4219-bf62-87e7e0b3188e,Apple Music,2000,1 mois,2026-04-30 14:31:15.978642+00,completed,mutual,224,232,,232,renewal
+1162,abaa7f5b-617a-4427-aa9e-6cb6dbd68273,Netflix,2500,1 mois,2026-05-23 14:22:05.035919+00,completed,mutual,548,,,588,subscription
+1175,41c1f8d2-1680-4fbe-809f-6f49db115b9e,Netflix,2500,1 mois,2026-05-25 09:30:34.888276+00,completed,mutual,1023,,,595,subscription
+1169,0f33ce94-be8e-4145-be86-5a3ec139dfd6,Netflix,7000,3 mois,2026-05-24 15:02:45.077391+00,completed,mutual,733,,,594,subscription
+1188,0dcb36d3-9a93-45b3-b60f-dccc508f5e7a,Crunchyroll,1500,1 mois,2026-05-25 19:28:17.443787+00,completed,mutual,959,,,600,subscription
+1200,f6d4b3be-bc5a-4988-905b-8d1f9276f9ee,Paramount Plus,2500,1 mois,2026-05-27 15:38:35.632981+00,completed,mutual,859,179,,179,extension
+1205,e7a21320-8fd8-49cb-9a9b-190bd99c7f24,Netflix,2500,1 mois,2026-05-27 20:20:17.019301+00,completed,mutual,887,,,607,subscription
+1210,f9007698-1af9-4f4a-b5d1-7e1e8f839eec,Surfshark,1500,1 mois,2026-05-28 11:28:58.938382+00,completed,mutual,22,,,610,subscription
+934,f239cff2-9a69-4731-80cc-351c8e336447,Prime Video,2000,1 mois,2026-05-02 20:22:54.082583+00,completed,mutual,989,,,,subscription
+870,3931bf8a-c24a-4929-947d-76878e5c4f04,Prime Video,2000,1 mois,2026-04-26 15:09:44.416416+00,completed,mutual,855,166,,166,subscription
+824,d275ce0d-0f91-4fb0-a0d5-d340596c6078,Crunchyroll,4000,3 mois,2026-04-26 07:08:16.055902+00,completed,mutual,228,,,463,subscription
+766,2b21427a-9f85-4f08-a8d8-c9d861196ad8,Netflix,2500,1 mois,2026-04-22 15:55:58.271977+00,completed,mutual,390,105,,105,subscription
+978,6375d5b6-1f64-4d75-a4eb-9b51c160da39,Spotify,2000,1 mois,2026-05-07 14:51:00+00,completed,mutual,840,323,,323,subscription
+944,1f4bae88-f5bc-4980-8248-8e285ffa0eb1,Apple TV,3000,1 mois,2026-05-02 22:15:15.403112+00,completed,mutual,876,255,,255,subscription
+841,1074fe4d-f41b-4b0b-8ba1-a32de785f3d6,Netflix,2500,1 mois,2026-04-27 11:47:28.571812+00,completed,mutual,978,,,472,subscription
+782,37237a3f-9b39-4c2c-85ea-eeb1eea983cf,Netflix,2500,1 mois,2026-04-22 16:49:42.226808+00,completed,mutual,966,,,450,subscription
+1068,b3d43697-236e-4c17-bd08-2ecb2b0a92af,Disney Plus,2500,1 mois,2026-05-14 11:27:49.338512+00,completed,mutual,887,,,550,subscription
+1000,3adf8e73-8d6c-4096-a61b-1b5ddee89756,Netflix,2500,1 mois,2026-05-10 08:22:48.571771+00,completed,mutual,624,,,539,subscription
+790,be32a167-d7d5-4065-b20f-adcfeed2110f,Crunchyroll,1500,1 mois,2026-04-18 21:09:05.808031+00,completed,mutual,807,68,,68,subscription
+798,2331a974-56af-4173-8794-401931872f61,Netflix,13000,6 mois,2026-04-23 18:39:10.012956+00,completed,mutual,198,,,,subscription
+962,8a6eae1d-e8f6-4358-9ffa-1978398d3c46,Paramount Plus,2500,1 mois,2026-05-06 00:53:16.150355+00,failed,mutual,998,,,,subscription
+1394,de0ff3bc-93a6-4a72-9767-f549a0b9257a,Netflix,2500,1 mois,2026-06-09 08:58:22.582731+00,completed,mutual,1051,,,669,subscription
+905,2e3f8b9c-a3bf-4054-bd7f-80711fe643e2,Crunchyroll,1500,1 mois,2026-05-01 12:51:29.190719+00,completed,mutual,395,,,493,subscription
+855,e359abfd-f711-49a6-ae0a-42573da09327,Netflix,2500,1 mois,2026-04-28 15:12:18.261477+00,completed,mutual,983,,,480,subscription
+970,f35c6828-7dc3-46fa-934f-331981f9d4aa,Netflix,2500,1 mois,2026-05-05 17:49:55.433235+00,failed,mutual,892,294,,,subscription
+1075,a2ef6b6a-3fbf-472f-aad8-87189a27e466,Netflix,2500,1 mois,2026-05-15 08:12:25.063979+00,completed,mutual,1010,,,555,subscription
+919,bf0606dd-583a-4b0a-91e5-1b84de459e03,Hbo Max,2500,1 mois,2026-05-02 12:43:20.538443+00,completed,mutual,707,,,502,subscription
+1022,43678b2c-bf9d-4eda-bac9-79e0fb02578f,Netflix,2500,1 mois,2026-05-07 22:09:52.129187+00,completed,mutual,904,319,,319,subscription
+986,1b953e66-0497-42f5-8b4e-1cc7cc1c7555,Disney Plus,2500,1 mois,2026-05-09 12:35:00.725319+00,completed,mutual,930,,,532,subscription
+694,237a4084-bd54-4456-b241-5018db986961,Netflix,2500,1 mois,2026-04-18 13:53:03.249039+00,completed,mutual,952,,,412,subscription
+1008,d4308e71-a639-41ae-a2e4-a447b35cde4b,Disney Plus,2500,1 mois,2026-05-09 23:10:00+00,completed,mutual,773,300,,300,subscription
+1090,a5c86617-b1ab-4b0b-8e5c-ccda74ea8925,Spotify,2000,1 mois,2026-05-16 18:34:04.610713+00,completed,mutual,582,,,560,subscription
+993,755ee05e-8c32-4428-b0b4-28c093f1a3d1,Prime Video,2000,1 mois,2026-05-09 20:32:26.823094+00,completed,mutual,1002,,,536,subscription
+1114,cb6da9b0-3ffd-4eca-800f-f5f8257a5322,Netflix,2500,1 mois,2026-05-14 23:06:00+00,completed,mutual,785,3,,3,subscription
+1057,02999471-dfdb-4c35-b1a4-a218029d3bcc,Prime Video,2000,1 mois,2026-05-10 23:41:00+00,completed,mutual,19,355,,355,subscription
+1015,0fba5c25-4f7b-45e3-94b2-3c8987bae84d,Netflix,2500,1 mois,2026-05-04 16:02:00+00,completed,mutual,34,287,,287,subscription
+1106,2b63415c-fc27-4c8a-a71d-9ffedd4080fd,Netflix,2500,1 mois,2026-05-19 21:56:36.341459+00,completed,mutual,814,82,,82,subscription
+695,8f2800bd-983e-4f35-98d9-ff3bb3d42881,Prime Video,2000,1 mois,2026-04-18 13:58:08.412403+00,completed,mutual,953,,,413,subscription
+1029,cf2892a7-fcc5-4137-9249-1835081349f1,Paramount Plus,2500,1 mois,2026-05-09 18:28:59.815479+00,completed,mutual,475,342,,342,subscription
+1043,74a65b49-f628-4344-a45e-fc8a70edd3c2,Netflix,2500,1 mois,2026-05-12 10:54:51.264368+00,completed,mutual,161,,,544,subscription
+698,7084348c-bd57-40f5-b0a6-1c58a4380456,Surfshark,1500,1 mois,2026-04-18 15:53:10.206235+00,completed,mutual,954,,,414,subscription
+1135,9fa2ac73-1076-4faa-a471-8cb9bb9b0ee9,Netflix,2500,1 mois,2026-05-21 07:44:15.465198+00,completed,mutual,176,,,578,subscription
+1122,98adc975-8590-4217-8813-136f3e5230d4,Netflix,2500,1 mois,2026-05-19 05:48:01.562878+00,completed,mutual,464,,,573,subscription
+681,d0ffd606-7bb3-48a9-930f-f8db1bd7f78c,Netflix,2500,1 mois,2026-04-17 19:58:46.481871+00,completed,mutual,946,,,407,subscription
+687,dd682322-41d5-4422-86d3-5d452110f2bb,Netflix,7000,3 mois,2026-04-18 08:02:03.212864+00,completed,mutual,228,,,411,subscription
+731,4d4e9f13-2166-460e-899b-71ac6319aab2,Disney Plus,7000,3 mois,2026-04-20 11:01:22.081649+00,completed,mutual,884,,,430,subscription
+733,9f1e3d7e-f3d4-4532-90aa-38eb17809f9f,Surfshark,4000,3 mois,2026-04-20 11:11:50.992282+00,completed,mutual,884,,,431,subscription
+715,3a004a4f-4fe6-4b81-830f-dad6d34e7285,Netflix,13000,6 mois,2026-04-19 10:01:19.251779+00,completed,mutual,816,,,423,subscription
+718,939d428b-5fdc-4ba6-a2ff-cb9b112261ea,Spotify,2000,1 mois,2026-04-19 16:22:33.333959+00,completed,mutual,957,,,426,subscription
+739,5a0d922c-a6b8-4e71-acef-45386a34d978,Paramount Plus,2500,1 mois,2026-04-20 12:29:45.956855+00,completed,mutual,959,,,433,subscription
+308,d8217b8d-1dd5-4582-9bfc-ddd43c3a0cc1,Prime Video,2000,1 mois,2026-03-28 12:25:09.824887+00,completed,mutual,540,,,173,subscription
+188,70aad2e8-6045-4888-b13a-a5123d38faed,Crunchyroll,1500,1 mois,2026-03-23 13:35:31.681266+00,completed,mutual,826,,,102,subscription
+506,6d173d3d-0120-4edf-a0a4-348096a69bf5,Netflix,2500,1 mois,2026-04-06 14:10:40.41642+00,completed,mutual,158,,,303,subscription
+296,7fe0c603-b651-4e20-8668-9823afbc1a8f,Spotify,10000,6 mois,2026-03-27 15:44:05.185938+00,completed,mutual,856,,,167,subscription
+192,78961e87-05ed-487b-8339-44f2740e9ed1,Netflix,2500,1 mois,2026-03-23 15:38:24.177411+00,completed,mutual,390,,,105,subscription
+127,951bd920-edef-4437-9a33-973d319ee304,Netflix,2500,1 mois,2026-03-21 12:50:45.433171+00,completed,mutual,812,,,84,subscription
+199,e3ebd97f-5842-4cae-aa43-694da9b699c7,Netflix,2500,1 mois,2026-03-23 18:23:04.366085+00,completed,mutual,85,,,111,subscription
+501,ebbb6bda-e2b0-4997-b31a-5fa991445e7f,Surfshark,1500,1 mois,2026-04-06 10:37:38.93166+00,completed,mutual,773,,,299,subscription
+193,216cb11a-ae86-4dfd-8e42-3f545120d2d2,Netflix,2500,1 mois,2026-03-23 15:54:57.819473+00,completed,mutual,830,,,106,subscription
+93,6799b496-888d-464f-af67-970679c196e3,Disney Plus,2500,1 mois,2026-03-19 20:04:53.10362+00,completed,mutual,804,,,65,subscription
+73,4255f460-3309-4a9c-9427-7c779bf43712,Surfshark,1500,1 mois,2026-03-19 00:02:49.971212+00,completed,mutual,498,,,53,subscription
+42,39d5e3c8-1b98-4865-891b-4a13c33f00e9,Netflix,2500,1 mois,2026-03-17 18:58:16.125136+00,completed,mutual,56,,,27,subscription
+741,4819b689-ddb9-4f63-a154-f306f7cdfaa7,Netflix,2500,1 mois,2026-04-20 14:04:24.121167+00,completed,mutual,151,,,434,subscription
+727,80a609cf-1897-48c1-9c54-04cfb2a9d3ef,Surfshark,1500,1 mois,2026-04-19 22:32:19.988982+00,completed,mutual,533,48,,48,subscription
+729,da38add6-97b9-42fb-b556-21f04d8bba54,Crunchyroll,1500,1 mois,2026-04-19 23:08:25.18685+00,completed,mutual,393,81,,81,subscription
+724,05dcaeb6-17ca-4c87-856c-125215f640f3,Disney Plus,2500,1 mois,2026-04-19 22:30:24.301149+00,completed,mutual,533,47,,47,subscription
+730,6df63085-f93a-42dc-9556-4bb6c84d4c7c,Surfshark,4000,3 mois,2026-04-20 09:11:04.056645+00,completed,mutual,847,153,,153,subscription
+135,d9e65a2e-6171-4422-a6ab-1fb4daa560b4,Netflix,2500,1 mois,2026-03-21 21:08:27.978323+00,completed,mutual,425,,,89,subscription
+91,09b961e9-2b92-41b3-967f-37823dce7c7f,Netflix,2500,1 mois,2026-03-19 19:48:26.88382+00,completed,mutual,803,,,64,subscription
+2124,1d3e002d-493b-4403-80d0-ab43e9362870,Netflix,2500,1 mois,2026-07-13 18:52:24.640796+00,completed,mutual,1283,,,985,subscription
+130,7acef185-611c-48e0-902f-f90aa9a23589,Netflix,2500,1 mois,2026-03-21 15:46:25.04851+00,completed,mutual,123,,,86,subscription
+100,d287efdf-ba73-4fbd-9c20-434aa795229e,Prime Video,2000,1 mois,2026-03-19 20:59:09.644367+00,completed,mutual,618,,,69,subscription
+202,890b0677-2eb1-4df3-b869-64844f7de606,Prime Video,5500,3 mois,2026-03-23 18:41:40.61892+00,completed,mutual,832,,,113,subscription
+43,8c884309-82bf-494e-bee5-29a947681bcb,Prime Video,2000,1 mois,2026-03-17 19:00:42.673331+00,completed,mutual,792,,,28,subscription
+87,2515ee74-fe7f-4b89-b635-06e1036df27d,Netflix,2500,1 mois,2026-03-19 14:04:57.671336+00,completed,mutual,632,,,62,subscription
+129,c24bbea7-e82a-414e-a947-b6091a0b47e8,Netflix,2500,1 mois,2026-03-21 15:44:00.37458+00,completed,mutual,191,,,88,subscription
+128,25ea812e-b7f5-4462-9d5a-99ae6fb24a97,Apple Music,2000,1 mois,2026-03-21 13:22:21.415851+00,completed,mutual,621,,,85,subscription
+10,8000042b-6ebe-4758-bf9a-3db4458d1eef,Netflix,2500,1 mois,2026-03-16 11:27:19.328313+00,completed,mutual,785,,,3,subscription
+84,1253045f-5769-4343-820c-fc40362fa779,Netflix,2500,1 mois,2026-03-19 13:09:07.815819+00,completed,mutual,626,,,58,subscription
+106,046cd358-9a74-4b8d-832d-8a4807b69b37,Netflix,2500,1 mois,2026-03-20 10:31:30.276976+00,completed,mutual,810,,,72,subscription
+143,dd775642-e447-475e-871c-c62843f37062,Netflix,2500,1 mois,2026-03-22 00:14:27.670126+00,completed,mutual,817,,,91,subscription
+111,dde7cc66-5b1c-4a90-bdf0-3cc2765499ab,Netflix,2500,1 mois,2026-03-20 13:04:26.041139+00,completed,mutual,648,,,76,subscription
+164,731a4e32-dca0-4d23-b665-52df4770045f,Netflix,2500,1 mois,2026-03-22 18:18:41.490816+00,completed,mutual,792,,,92,subscription
+69,ae36b7cf-2154-4084-a647-4bfb315df192,Onoff,7000,1 mois,2026-03-18 23:40:42.972391+00,completed,personal,143,,,49,subscription
+55,3e2631b7-1eda-405f-8242-74f9fd7b6496,Netflix,2500,1 mois,2026-03-18 09:01:16.309346+00,completed,mutual,569,,,34,subscription
+124,17fa6b37-aba5-4c11-8fc5-d6b80a72a16b,Netflix,2500,1 mois,2026-03-20 21:53:10.968664+00,completed,mutual,815,,,83,subscription
+98,9b4b1409-0e71-4359-a962-727072b93288,Crunchyroll,1500,1 mois,2026-03-19 20:41:10.218117+00,completed,mutual,807,,,68,subscription
+108,8da3234a-78c0-4a27-98da-e06ec5263dfe,Disney Plus,2500,1 mois,2026-03-20 11:03:44.034109+00,completed,mutual,19,,,73,subscription
+210,e496dfed-c867-4883-9cad-e4ba558547c3,Netflix,7000,3 mois,2026-03-24 09:18:34.246327+00,completed,mutual,833,,,116,subscription
+28,bfe2aadb-5ed0-419a-b005-58980fbe6cee,Apple Music,2000,1 mois,2026-03-17 08:10:39.304861+00,completed,mutual,271,,,16,subscription
+132,9604fda2-a862-42f2-9c98-ac5c1e831af1,Prime Video,2000,1 mois,2026-03-21 19:14:24.195071+00,completed,mutual,816,,,87,subscription
+213,624e3a9b-2818-43dc-a3c6-a1b54786e675,Netflix,7000,3 mois,2026-03-24 10:29:53.538281+00,completed,mutual,36,,,118,subscription
+96,0b4d2275-a2f6-4aae-a687-8fcc32337784,Surfshark,1500,1 mois,2026-03-19 20:10:53.014255+00,completed,mutual,804,,,66,subscription
+59,1943240a-6253-44e3-aebb-bbf3a8abacbe,Netflix,2500,1 mois,2026-03-18 12:28:25.56265+00,completed,mutual,112,,,41,subscription
+209,0e0f6f2d-8d52-4d40-bd73-87d72ec541fd,Prime Video,5500,3 mois,2026-03-24 09:14:12.809697+00,completed,mutual,741,,,119,subscription
+104,4ac0a1f1-3807-44d8-a490-a9a36ed694ff,Netflix,2500,1 mois,2026-03-20 02:25:50.778276+00,completed,mutual,707,,,77,subscription
+97,e57d923a-6800-443e-9003-25567bfad94e,Prime Video,2000,1 mois,2026-03-19 20:18:22.614787+00,completed,mutual,715,,,67,subscription
+80,b4bc64cd-a7c2-4c91-8841-0dbadd407c95,Netflix,2500,1 mois,2026-03-19 11:49:42.00239+00,completed,mutual,170,,,61,subscription
+60,0f29821e-55d2-4eb7-99a7-70de94e86d70,Netflix,2500,1 mois,2026-03-18 13:02:08.949399+00,completed,mutual,638,,,42,subscription
+83,760232f9-a967-41bb-9fa0-e41be6b895aa,Netflix,2500,1 mois,2026-03-19 12:33:51.609337+00,completed,mutual,801,,,60,subscription
+56,f4ecc967-da38-4667-9573-0c0397a45e2b,Prime Video,2000,1 mois,2026-03-18 09:21:59.595082+00,completed,mutual,56,,,35,subscription
+221,75e07f4c-e84e-4f36-84b8-fec954d4bd0a,Netflix,2500,1 mois,2026-03-24 14:09:29.675068+00,completed,mutual,835,,,121,subscription
+66,4e4df3c5-723f-450c-8c96-7322ac9e31cd,Netflix,2500,1 mois,2026-03-18 19:08:20.634679+00,completed,mutual,29,,,45,subscription
+123,1258af5c-7157-4978-bf3a-08251873bb72,Netflix,2500,1 mois,2026-03-20 21:48:33.690182+00,completed,mutual,814,,,82,subscription
+215,6e50363e-5cd0-4683-ac30-f4cffb687eca,Netflix,7000,3 mois,2026-03-24 11:57:03.411556+00,completed,mutual,726,,,122,subscription
+223,06a54f90-a1ec-44c5-b46c-bc3f4ed1fffb,Netflix,2500,1 mois,2026-03-24 16:53:00.089496+00,completed,mutual,837,,,123,subscription
+224,3696fde1-ab14-4db5-9b7d-acff62d8c94f,Surfshark,1500,1 mois,2026-03-24 18:16:15.255591+00,completed,mutual,625,,,124,subscription
+227,f7e2c9c1-68f0-46e1-b258-1ec8e8594886,Crunchyroll,1500,1 mois,2026-03-24 20:09:44.416511+00,completed,mutual,831,,,125,subscription
+194,1572bcf0-9ba2-48f7-8718-edbb29bac530,Netflix,2500,1 mois,2026-03-23 17:41:53.676695+00,completed,mutual,450,,,127,subscription
+235,7e51998d-8a1f-4587-aad6-44f586685063,Netflix,5500,1 mois,2026-03-25 10:51:43.087543+00,completed,personal,839,,,128,subscription
+229,c9beacd4-318d-4622-8e08-1d846804169d,Netflix,2500,1 mois,2026-03-24 21:56:03.440043+00,completed,mutual,838,,,126,subscription
+232,fc142746-4a40-410a-b140-c7afc555ebc1,Netflix,2500,1 mois,2026-03-25 10:41:30.468957+00,completed,mutual,840,,,129,subscription
+255,89da6358-2dac-4c26-89b8-3830aeea86d5,Netflix,2500,1 mois,2026-03-26 07:03:37.635591+00,completed,mutual,119,,,142,subscription
+238,4129f64c-cd7a-4808-b1d5-9a4dede8fd9b,Spotify,2000,1 mois,2026-03-25 14:00:48.134439+00,completed,mutual,28,,,134,subscription
+293,ca978f23-7dd8-4ab7-b9c3-c214f93d321a,Prime Video,2000,1 mois,2026-03-27 14:27:36.927676+00,completed,mutual,855,,,166,subscription
+322,5f03aaa7-2abf-44e7-b35f-76945d7814a5,Netflix,2500,1 mois,2026-03-28 18:02:20.674983+00,completed,mutual,473,,,220,subscription
+245,8f144ecc-f3d0-4eb7-80a5-6bf6431b32f0,Netflix,2500,1 mois,2026-03-25 19:08:23.574842+00,completed,mutual,188,,,135,subscription
+374,acf64b66-3ce2-4a44-9ae2-40070bc06327,Netflix,2500,1 mois,2026-03-30 19:26:13.658057+00,completed,mutual,100,,,221,subscription
+373,3f65b622-43cd-4c6a-af3b-91768d890f75,Netflix,2500,1 mois,2026-03-30 19:25:57.9133+00,completed,mutual,867,,,222,subscription
+246,7f0bd4b3-a632-438b-b355-d3228eebc7db,Prime Video,2000,1 mois,2026-03-25 19:16:43.253305+00,completed,mutual,188,,,136,subscription
+297,05413bd5-d3aa-495b-b7f0-04190402fab4,Netflix,2500,1 mois,2026-03-27 15:48:33.514137+00,completed,mutual,366,,,168,subscription
+275,58bfc7ad-07ca-4a75-8be2-d1448200c419,Disney Plus,2500,1 mois,2026-03-26 13:21:59.800208+00,completed,mutual,847,,,154,subscription
+247,1356d229-aec9-44f4-bf14-64d5eb27ad4e,Disney Plus,2500,1 mois,2026-03-25 19:43:58.544878+00,completed,mutual,427,,,138,subscription
+249,60e699ab-1270-4f84-a339-03eb60075fcc,Surfshark,1500,1 mois,2026-03-25 19:54:57.313324+00,completed,mutual,427,,,137,subscription
+378,a1ca3cab-7bea-4e20-b8df-f247f1df50df,Prime Video,2000,1 mois,2026-03-30 19:46:23.343988+00,completed,mutual,100,,,223,subscription
+299,11afc830-4fbc-4a18-8583-877255cde4fe,Netflix,2500,1 mois,2026-03-27 18:57:10.523744+00,completed,mutual,548,,,170,subscription
+386,d8f28850-8561-4fd6-9767-5b9ae09c86d9,Netflix,2500,1 mois,2026-03-30 20:25:50.603843+00,completed,mutual,651,,,224,subscription
+136,7dec614f-3965-4fdb-a09e-4aaab10745f3,Netflix,2500,1 mois,2026-03-21 21:20:03.43202+00,completed,mutual,584,,,,subscription
+250,b07154d1-35e1-435e-84da-c2ce9390fcb6,Prime Video,2000,1 mois,2026-03-25 20:03:52.634794+00,completed,mutual,427,,,140,subscription
+248,357fb34d-39c0-4d47-b082-a974786c9530,Netflix,2500,1 mois,2026-03-25 19:51:10.974127+00,completed,mutual,427,,,139,subscription
+307,77bb2204-3dae-4fa5-8c7d-c44403416d57,Netflix,2500,1 mois,2026-03-28 12:25:07.907334+00,completed,mutual,540,,,172,subscription
+252,7061e105-c1fc-4a28-bb37-fe4693b23658,Prime Video,2000,1 mois,2026-03-25 21:21:44.631331+00,completed,mutual,843,,,141,subscription
+312,7756b709-ab65-4e91-a42a-70c5b683d4c8,Netflix,2500,1 mois,2026-03-28 14:32:19.33576+00,completed,mutual,858,,,174,subscription
+313,d5831ab0-6559-441b-be65-a27871b44e11,Surfshark,1500,1 mois,2026-03-28 15:06:58.673622+00,completed,mutual,28,,,175,subscription
+258,9d965a67-ba2b-414a-86ca-e9f5d404c874,Disney Plus,2500,1 mois,2026-03-26 08:47:10.925207+00,completed,mutual,760,,,143,subscription
+309,d8691733-d76f-4044-9e65-ad043c4ca1d0,Netflix,2500,1 mois,2026-03-28 13:34:39.329264+00,completed,mutual,857,,,176,subscription
+262,23ac3806-ecb9-4216-b0dc-fa8fe84b43c2,Surfshark,1500,1 mois,2026-03-26 09:20:08.595647+00,completed,mutual,760,,,144,subscription
+389,e68f0224-be2c-4af7-9f87-5205e78204b8,Crunchyroll,1500,1 mois,2026-03-30 20:54:46.981364+00,completed,mutual,866,,,226,subscription
+266,43c22dee-4518-4b63-8f8c-110734869ad2,Netflix,2500,1 mois,2026-03-26 09:38:18.366001+00,completed,mutual,849,,,145,subscription
+314,d368a478-9277-47f7-ad45-9a677eaf5e7b,Netflix,5500,1 mois,2026-03-28 15:08:03.536898+00,completed,personal,154,,,177,subscription
+236,14b6e5ae-fb5f-4d7d-bbbf-55a66e0d7e25,Netflix,2500,1 mois,2026-03-25 13:19:40.529655+00,completed,mutual,98,,,146,subscription
+317,0e2176d4-ea98-4856-a6bd-2ca13ea2580d,Hbo Max,2500,1 mois,2026-03-28 15:32:39.113906+00,completed,mutual,859,,,178,subscription
+256,2305070c-73f9-43fb-b61e-2df209c7a514,Netflix,2500,1 mois,2026-03-26 07:54:58.480236+00,completed,mutual,827,,,147,subscription
+316,623879d5-fd9c-4b6c-9bdc-4d38b59f6959,Paramount Plus,2500,1 mois,2026-03-28 15:26:49.124091+00,completed,mutual,859,,,179,subscription
+390,b57fa56e-931d-433b-a550-ea12f79ea114,Hbo Max,2500,1 mois,2026-03-30 21:08:48.738248+00,completed,mutual,533,,,228,subscription
+264,cde4bdfc-9416-4e95-8402-219591e9d66d,Netflix,2500,1 mois,2026-03-26 09:26:45.011585+00,completed,mutual,424,,,148,subscription
+318,8c8241b6-b8d1-4f25-aa02-c0b95d36263a,Surfshark,1500,1 mois,2026-03-28 15:43:49.855414+00,completed,mutual,859,,,180,subscription
+392,ec9a0519-8fa1-4024-89d3-e19d773499c2,Prime Video,2000,1 mois,2026-03-31 07:21:37.600339+00,completed,mutual,21,,,229,subscription
+272,72728664-1bad-4e8e-9fbf-32a0cb373c9b,Crunchyroll,1500,1 mois,2026-03-26 11:40:04.527701+00,completed,mutual,395,,,150,subscription
+315,4c0229fc-3695-4047-8979-e1d4fc81df2c,Netflix,2500,1 mois,2026-03-28 15:26:06.947574+00,completed,mutual,21,,,181,subscription
+395,e781d270-94a5-498f-9e37-0b633eed6b2f,Onoff,7000,1 mois,2026-03-31 12:06:12.868776+00,completed,personal,298,,,231,subscription
+325,596664af-4b48-4398-8d8d-3112bbee9ce8,Netflix,5500,1 mois,2026-03-28 19:40:28.775394+00,completed,personal,616,,,183,subscription
+394,be0522e7-31ff-44fb-acc6-4ebad3caaaae,Apple Music,2000,1 mois,2026-03-31 12:02:47.879969+00,completed,mutual,224,,,232,subscription
+320,2248e2ff-34ea-44ff-8cf9-d34ed585df81,Netflix,2500,1 mois,2026-03-28 16:13:01.957088+00,completed,mutual,47,,,184,subscription
+371,15d15b94-20b4-4903-bd0a-da166c7c8fa3,Crunchyroll,1500,1 mois,2026-03-30 19:17:43.607697+00,completed,mutual,642,,,219,subscription
+277,5e1bf9fe-f5e0-49fe-9f08-be24355a32a3,Netflix,7000,3 mois,2026-03-26 13:38:40.398091+00,completed,mutual,177,,,155,subscription
+279,dc6a9f99-fff4-4a5a-92cd-46b4896243cd,Netflix,7000,3 mois,2026-03-26 15:49:23.800175+00,completed,mutual,622,,,156,subscription
+324,4d9cb9b1-82d2-40b7-bb18-07a6826ea334,Netflix,2500,1 mois,2026-03-28 18:40:51.329443+00,completed,mutual,84,,,185,subscription
+270,29ae8287-0c7d-4390-9aa0-546ce073550e,Netflix,2500,1 mois,2026-03-26 11:10:26.614092+00,completed,mutual,846,,,157,subscription
+370,66b36787-5ea5-41f4-a8f6-e4b068cc4e52,Prime Video,2000,1 mois,2026-03-30 19:13:17.35814+00,completed,mutual,642,,,218,subscription
+281,7ca6005a-05be-48ad-928c-b4aac840d09b,Netflix,2500,1 mois,2026-03-26 18:58:02.646954+00,completed,mutual,850,,,158,subscription
+326,044dcc84-67d7-4796-ba54-094c02012b3e,Spotify,6600,3 mois,2026-03-28 19:41:49.258019+00,completed,personal,860,,,186,subscription
+282,1e2b6213-6fd3-4cdd-a5a7-6bb88d4a3df1,Netflix,2500,1 mois,2026-03-26 19:03:59.456816+00,completed,mutual,851,,,159,subscription
+401,aca77b2f-80bb-4996-be59-1084e16b0b2b,Netflix,2500,1 mois,2026-03-31 16:59:12.788139+00,completed,mutual,87,,,233,subscription
+327,1b5abee7-69f4-4bf2-ab48-0140006f54c4,Disney Plus,2500,1 mois,2026-03-28 21:19:15.389477+00,completed,mutual,861,,,187,subscription
+283,14bc536a-1bc5-4d05-9330-200bcc0b631b,Netflix,2500,1 mois,2026-03-26 19:08:42.12776+00,completed,mutual,327,,,160,subscription
+400,06de376a-dd69-4419-885f-b3a8e891e36a,Netflix,2500,1 mois,2026-03-31 16:36:22.93764+00,completed,mutual,263,,,234,subscription
+285,4f5466fa-ad7d-41b1-80ee-c800966fd53f,Surfshark,1500,1 mois,2026-03-27 04:59:36.228109+00,completed,mutual,852,,,162,subscription
+304,58e62c18-8881-4f25-9915-08a23868f13a,Prime Video,2000,1 mois,2026-03-28 12:22:08.598723+00,completed,mutual,255,,,188,subscription
+329,5e34cacd-43a3-41a1-8dc0-8719936df32e,Surfshark,1500,1 mois,2026-03-28 21:39:02.487475+00,completed,mutual,861,,,189,subscription
+288,98a067e9-44a1-48d6-bf80-80d20235e781,Netflix,2500,1 mois,2026-03-27 11:20:34.746741+00,completed,mutual,327,,,163,subscription
+290,3e077dac-aca8-419e-9767-c6dc5af59aa8,Netflix,2500,1 mois,2026-03-27 12:44:13.671372+00,completed,mutual,854,,,164,subscription
+332,60ea8fd0-9a47-429f-aa33-cf42efb9a785,Netflix,2500,1 mois,2026-03-28 22:01:19.662366+00,completed,mutual,326,,,190,subscription
+369,35354fe8-23b4-4d62-b0dc-07e08fd24aeb,Netflix,5500,1 mois,2026-03-30 18:58:51.538616+00,completed,personal,642,,,227,subscription
+404,58d64181-45a2-4bb3-8192-0e009c4afd29,Netflix,2500,1 mois,2026-03-31 18:34:58.320321+00,completed,mutual,160,,,236,subscription
+331,1157a240-cc86-4e27-96d8-86816b18860c,Netflix,13000,6 mois,2026-03-28 21:58:07.390442+00,completed,mutual,566,,,191,subscription
+338,baa048fa-8407-4e99-b39f-c9c6da90be95,Netflix,2500,1 mois,2026-03-29 13:14:43.631515+00,completed,mutual,778,,,192,subscription
+406,24575c42-b9e1-4475-8136-47d53b8f6ddd,Prime Video,5000,1 mois,2026-04-01 16:54:58.907961+00,completed,personal,870,,,237,subscription
+336,c85f503d-3da9-4603-a7f1-f1b00c1cf176,Disney Plus,2500,1 mois,2026-03-29 13:00:08.39019+00,completed,mutual,862,,,194,subscription
+337,25fcf3c7-dde2-44b0-af19-76aba5b31374,Surfshark,1500,1 mois,2026-03-29 13:05:34.297461+00,completed,mutual,862,,,193,subscription
+340,559a44c6-0350-46e8-a562-8ae8f7e10072,Crunchyroll,4000,3 mois,2026-03-29 15:17:10.618237+00,completed,mutual,372,,,195,subscription
+345,9f8bc72e-a624-481f-9b00-6ab659a4dfcd,Disney Plus,2500,1 mois,2026-03-29 16:40:43.38475+00,completed,mutual,863,,,196,subscription
+346,1be2db28-e1d9-44b6-ae82-f568fba6cf17,Paramount Plus,2500,1 mois,2026-03-29 16:44:06.305036+00,completed,mutual,863,,,197,subscription
+1092,f2afc86a-a194-4941-bdb7-602bce02e857,Spotify,2000,1 mois,2026-05-16 19:53:01.552336+00,completed,mutual,60,,,,subscription
+347,8e12775a-a45f-415c-92f7-e47a8ac64d42,Hbo Max,2500,1 mois,2026-03-29 16:45:43.682882+00,completed,mutual,863,,,198,subscription
+945,5f49f6fd-5897-4bc2-b4e9-f34b39aad1f8,Disney Plus,2500,1 mois,2026-04-27 21:27:18.172544+00,completed,mutual,861,187,,187,subscription
+1115,8399259a-faf4-449f-8edb-ccb360ded7fa,Netflix,2500,1 mois,2026-05-14 17:46:43.522962+00,completed,mutual,165,392,,392,subscription
+979,3704381b-6db1-4da7-9c52-da6f1c2aedf3,Netflix,2500,1 mois,2026-05-08 13:45:13.587569+00,completed,mutual,501,,,,subscription
+410,0a78d88e-cf67-4a9e-9d01-a04d14fb1a28,Netflix,2500,1 mois,2026-04-01 18:20:49.334052+00,completed,mutual,869,,,241,subscription
+348,20360ada-c74e-473f-b8ab-5e40ef684cb8,Netflix,2500,1 mois,2026-03-29 16:47:18.156887+00,completed,mutual,863,,,199,subscription
+349,252cc4c5-9502-4602-8d6a-b53c03f99c1a,Surfshark,1500,1 mois,2026-03-29 16:49:05.44576+00,completed,mutual,863,,,200,subscription
+411,ca6cb76a-6f7e-4df6-bccd-8851a0c79900,Netflix,2500,1 mois,2026-04-01 19:25:15.90479+00,completed,mutual,120,,,242,subscription
+413,c7fac325-c306-49f8-9f12-153e524a1615,Netflix,2500,1 mois,2026-04-01 19:58:54.019419+00,completed,mutual,187,,,243,subscription
+417,82890754-b867-4b5c-b73b-385eb7303b81,Netflix,2500,1 mois,2026-04-02 12:12:00.863676+00,completed,mutual,873,,,244,subscription
+355,7838fd2f-d294-4250-a0b2-6836672c5605,Netflix,2500,1 mois,2026-03-30 11:34:03.85953+00,completed,mutual,607,,,205,subscription
+419,f4a71f5a-00e7-4384-ac8a-a606d5fe5eed,Disney Plus,2500,1 mois,2026-04-02 16:18:11.502218+00,completed,mutual,575,,,245,subscription
+420,ce97a588-88df-4d9c-b74a-6d9af2b1bc1c,Surfshark,1500,1 mois,2026-04-02 16:20:36.503511+00,completed,mutual,575,,,246,subscription
+382,f2c13d04-2994-4570-8567-40a6942de102,Netflix,2500,1 mois,2026-03-30 20:21:46.923143+00,completed,mutual,868,,,225,subscription
+354,8ada9303-eb02-4584-940d-de95b25b6c4c,Prime Video,5500,3 mois,2026-03-30 06:40:55.322646+00,completed,mutual,555,,,208,subscription
+421,0a09d95e-5b5a-4ddf-a478-c7a534bdd6e5,Netflix,2500,1 mois,2026-04-02 17:56:28.849976+00,completed,mutual,875,,,247,subscription
+341,1001aa9e-11b3-489d-9fd0-89193e937a17,Prime Video,2000,1 mois,2026-03-29 15:55:03.345407+00,completed,mutual,859,,,209,subscription
+422,6ad8d6c4-7fa6-4c27-b685-6ababddf46b5,Crunchyroll,4000,3 mois,2026-04-02 18:27:53.736289+00,completed,mutual,431,,,248,subscription
+423,9cbca40d-32ca-458c-b3e1-118eb1ce822f,Crunchyroll,1500,1 mois,2026-04-02 19:17:26.916576+00,completed,mutual,452,,,249,subscription
+425,5ff4e081-a8de-4fd7-b5bb-5fae3f0b7f8f,Prime Video,2000,1 mois,2026-04-02 20:43:57.279937+00,completed,mutual,876,,,250,subscription
+426,c210337a-f268-43ea-b9c9-e38c809577b8,Spotify,2000,1 mois,2026-04-02 21:10:54.893484+00,completed,mutual,85,,,252,subscription
+365,e43d5dd2-54cc-4892-bb05-d01a7d24cd33,Spotify,2000,1 mois,2026-03-30 15:46:47.399745+00,completed,mutual,864,,,216,subscription
+368,e5c15c53-ff63-4ac7-9dd2-9d01c1cd938b,Prime Video,2000,1 mois,2026-03-30 16:05:04.913327+00,completed,mutual,865,,,217,subscription
+427,d6556afe-13fb-4b1f-aa88-3e8d5e837e9e,Netflix,2500,1 mois,2026-04-02 21:38:14.881366+00,completed,mutual,852,,,254,subscription
+428,969ef5ba-0901-45eb-931b-52b16abf56cf,Apple TV,3000,1 mois,2026-04-02 22:11:59.776284+00,completed,mutual,876,,,255,subscription
+429,341b1c53-088f-42b0-8840-35bf01c6eab1,Netflix,2500,1 mois,2026-04-03 09:59:28.621056+00,completed,mutual,530,,,256,subscription
+430,49ad1bb2-95a6-452a-b7cb-77de587bce6c,Crunchyroll,1500,1 mois,2026-04-03 11:49:36.738619+00,completed,mutual,524,,,257,subscription
+431,66b65f23-4254-46f5-ba3d-84169ead24bc,Surfshark,1500,1 mois,2026-04-03 12:40:12.927801+00,completed,mutual,179,,,258,subscription
+433,2cab7087-7e14-4692-9e4b-c3926b6dacf6,Prime Video,2000,1 mois,2026-04-03 13:04:05.803108+00,completed,mutual,877,,,259,subscription
+435,e60164c6-27a2-4ceb-b0c5-55c33c062650,Netflix,2500,1 mois,2026-04-03 17:19:13.160208+00,completed,mutual,879,,,260,subscription
+440,c8620180-809b-493e-9e2f-7645a0994ce7,Prime Video,2000,1 mois,2026-04-03 18:24:58.391924+00,completed,mutual,881,,,262,subscription
+504,347f0164-c907-4966-b754-3589b2c80ca1,Prime Video,2000,1 mois,2026-04-06 12:14:48.751777+00,completed,mutual,896,,,302,subscription
+441,4be5feaf-ae25-4a75-9a2b-4246fb38f01a,Prime Video,2000,1 mois,2026-04-03 18:27:08.455418+00,completed,mutual,179,,,263,subscription
+542,ab708b80-6216-4524-90b9-2026eecf08df,Prime Video,2000,1 mois,2026-04-09 09:07:52.791877+00,completed,mutual,907,,,329,subscription
+442,682e100b-ae48-4be0-bf1a-51a3b6971734,Netflix,2500,1 mois,2026-04-03 18:35:26.092182+00,completed,mutual,300,,,264,subscription
+443,cd03133b-258d-4ef1-8fa5-241e83aaf827,Spotify,2000,1 mois,2026-04-03 18:53:53.8286+00,completed,mutual,571,,,265,subscription
+508,859a24d5-22c7-41a7-9ea6-43d054c63e47,Netflix,7000,3 mois,2026-04-06 15:14:59.218937+00,completed,mutual,898,,,304,subscription
+446,0cab8a1c-7fa9-40e5-bdf4-31c8efcc0a9d,Prime Video,5500,3 mois,2026-04-03 19:07:20.65994+00,completed,mutual,579,,,266,subscription
+447,35a5a57c-cbb4-4379-86c9-a64c77e72863,Netflix,24000,1 an,2026-04-03 20:29:54.259072+00,completed,mutual,882,,,267,subscription
+511,3ca91eb9-68af-44ae-87d7-13ce68e37cda,Spotify,2000,1 mois,2026-04-06 18:05:32.205967+00,completed,mutual,671,,,307,subscription
+512,e82c14cc-46ee-4340-b88a-08ced69fe08b,Prime Video,2000,1 mois,2026-04-06 18:05:58.067666+00,completed,mutual,671,,,306,subscription
+449,dd9ca92e-f710-48e2-997f-7d9bd179fe40,Surfshark,1500,1 mois,2026-04-03 21:10:46.926256+00,completed,mutual,883,,,268,subscription
+448,17bd6f95-a14e-467d-92da-c9551702a325,Disney Plus,2500,1 mois,2026-04-03 21:06:08.76191+00,completed,mutual,883,,,269,subscription
+452,21cbc14d-4dd6-4fee-a743-078cb0ac3ee7,Apple TV,8500,3 mois,2026-04-03 22:31:05.384746+00,completed,mutual,884,,,270,subscription
+455,c8947eeb-3e04-4ea9-b050-742b39a7f760,Disney Plus,7000,3 mois,2026-04-03 22:57:07.132519+00,completed,mutual,884,,,271,subscription
+493,4c174065-f57a-4de6-a3e8-170fd0799d57,Netflix,2500,1 mois,2026-04-05 17:50:25.681119+00,completed,mutual,891,,,295,subscription
+456,f03ec794-5d4f-4028-97da-7c37af9887b7,Surfshark,4000,3 mois,2026-04-03 23:02:42.126794+00,completed,mutual,884,,,272,subscription
+514,0d9f4f64-70e4-425a-8946-d84afdaa1b9c,Prime Video,2000,1 mois,2026-04-06 23:08:57.640849+00,completed,mutual,226,,,309,subscription
+198,612b0297-832e-470f-b039-8c84b5dc27bc,Surfshark,1500,1 mois,2026-03-23 18:20:29.295511+00,completed,mutual,85,,,110,subscription
+197,bbffbf80-7c64-4970-9824-25987248cfc3,Hbo Max,2500,1 mois,2026-03-23 18:19:38.220199+00,completed,mutual,85,,,109,subscription
+461,1795f70e-084b-40ab-87fc-92eb8b48750b,Surfshark,1500,1 mois,2026-04-04 09:23:45.468767+00,completed,mutual,478,,,274,subscription
+459,d848c667-ab97-457c-a5c4-f0f94b53b479,Disney Plus,2500,1 mois,2026-04-04 09:16:05.951934+00,completed,mutual,478,,,275,subscription
+196,3a4ee417-a82f-4e29-a312-caa92510f04f,Prime Video,2000,1 mois,2026-03-23 17:48:53.494508+00,completed,mutual,85,,,108,subscription
+460,2d7c8df6-55ec-468c-a1ac-9e8f5e243672,Crunchyroll,1500,1 mois,2026-04-04 09:23:15.87564+00,completed,mutual,609,,,276,subscription
+517,d650effd-64da-427e-8912-ea53294c4366,Crunchyroll,1500,1 mois,2026-04-07 11:39:44.03282+00,completed,mutual,624,,,312,subscription
+457,25d1a254-cd77-4e6c-9b30-adcb6d952f2d,Spotify,2000,1 mois,2026-04-04 09:04:33.598369+00,completed,mutual,609,,,277,subscription
+1386,0795d504-3a14-4d0d-a822-4938ee02f7a6,Netflix,2500,1 mois,2026-06-09 07:32:26.173814+00,completed,mutual,1047,,,666,subscription
+1076,6774cfd6-b120-44a6-8667-55c368e02904,Netflix,2500,1 mois,2026-05-16 00:00:00.329889+00,completed,mutual,790,29,,29,subscription
+466,ca684c6a-0f1f-43c1-8611-9943839310bf,Netflix,2500,1 mois,2026-04-04 12:46:39.500531+00,completed,mutual,886,,,279,subscription
+438,939070ce-74d5-4e1c-ba8a-3bed02f191e2,Netflix,2500,1 mois,2026-04-03 18:12:14.031893+00,completed,mutual,593,,,261,subscription
+467,4c1166d7-c0e1-401a-8a91-86594ee77b71,Prime Video,2000,1 mois,2026-04-04 14:28:53.953568+00,completed,mutual,887,,,280,subscription
+518,30212718-49e8-4b82-a086-f91d7d10d8ae,Hbo Max,2500,1 mois,2026-04-07 11:52:54.675063+00,completed,mutual,624,,,313,subscription
+471,aa2ad104-fa53-437c-97ce-855390632e1a,Prime Video,2000,1 mois,2026-04-04 18:13:01.040438+00,completed,mutual,745,,,281,subscription
+465,eef01deb-2073-42ba-bbdb-949defcd66d9,Apple Music,2000,1 mois,2026-04-04 11:10:26.639817+00,completed,mutual,885,,,278,subscription
+516,08070f8d-b00b-46ac-b518-e47a324b670c,Prime Video,2000,1 mois,2026-04-07 11:38:54.75316+00,completed,mutual,624,,,,subscription
+109,f54f4a4a-ce0f-4c6f-947c-a6fbf6d1d60e,Spotify,2000,1 mois,2026-03-20 11:04:22.571779+00,completed,mutual,19,,,,subscription
+477,0f27c52f-20f3-4517-8e57-47f9d07a747d,Netflix,2500,1 mois,2026-04-05 13:44:16.072607+00,completed,mutual,289,,,283,subscription
+1593,2d34431f-bc94-45df-af42-b2ae307b9e34,Netflix,2500,1 mois,2026-06-19 20:55:00.165656+00,completed,mutual,1110,,,754,subscription
+479,3c36132f-4d32-4a1c-96db-affad91a6077,Crunchyroll,1500,1 mois,2026-04-05 14:14:24.649308+00,completed,mutual,120,,,284,subscription
+519,5a42bfa6-acda-4c38-bfaf-219126d1e432,Apple TV,3000,1 mois,2026-04-07 12:00:38.587815+00,completed,mutual,624,,,315,subscription
+480,87efb270-b34e-414f-94ef-464b98fe8d50,Apple TV,8500,3 mois,2026-04-05 14:31:38.306361+00,completed,mutual,232,,,285,subscription
+481,64ea2511-3003-4e9b-9ea1-941d6ef9fc1d,Netflix,7000,3 mois,2026-04-05 14:35:26.288547+00,completed,mutual,232,,,286,subscription
+521,10319760-4e01-45a6-bd0d-e403b84366a2,Prime Video,2000,1 mois,2026-04-07 15:59:37.093274+00,completed,mutual,900,,,316,subscription
+522,6ba5d14a-e609-4c07-8050-d7c789769881,Netflix,2500,1 mois,2026-04-07 17:07:37.668522+00,completed,mutual,17,,,317,subscription
+523,507bccf7-4a4d-4e3d-a4ca-c38066c6fd17,Netflix,7000,3 mois,2026-04-07 19:14:51.191205+00,completed,mutual,901,,,318,subscription
+825,eec4a758-0d9b-438e-995d-b64a9182e7a7,Apple TV,8500,3 mois,2026-04-26 07:22:01.996313+00,completed,mutual,228,,,464,subscription
+526,41714b5c-3b61-4c7c-a889-ba772bc38187,Netflix,2500,1 mois,2026-04-07 21:54:31.63923+00,completed,mutual,904,,,319,subscription
+546,f51e8b89-a8ce-4906-88cb-38f7fa6bd4b7,Prime Video,5500,3 mois,2026-04-09 10:16:08.940831+00,completed,mutual,268,,,331,subscription
+528,b9d98e3a-193a-4ee7-ae93-26287c2fb93c,Netflix,7000,3 mois,2026-04-08 05:57:02.062537+00,completed,mutual,180,,,320,subscription
+483,ad9e8a6e-7e9a-4a02-841b-6a78eaa30322,Netflix,2500,1 mois,2026-04-05 14:50:02.281691+00,completed,mutual,34,,,287,subscription
+534,ace0adb0-83e4-4fdf-9c55-4f26989b5ce8,Paramount Plus,2500,1 mois,2026-04-08 12:31:54.123288+00,completed,mutual,228,,,321,subscription
+492,cd6cbd55-0c30-44ac-9e7d-b2184fe41744,Netflix,2500,1 mois,2026-04-05 17:37:27.28712+00,completed,mutual,892,,,294,subscription
+488,dd8d8e24-35da-42b9-b8aa-dfe41fea269a,Netflix,2500,1 mois,2026-04-05 17:18:27.602583+00,completed,mutual,446,,,293,subscription
+537,4751c372-9a01-409a-bb45-288fb2b5e0c6,Netflix,2500,1 mois,2026-04-08 14:45:14.826809+00,completed,mutual,457,,,322,subscription
+495,bf2de491-57ca-43ad-8330-a2bb0ff32eb4,Netflix,2500,1 mois,2026-04-05 19:55:46.706441+00,completed,mutual,697,,,296,subscription
+538,ca4364fb-5738-4201-b612-1a3d9e439a61,Surfshark,1500,1 mois,2026-04-08 14:52:50.122718+00,completed,mutual,531,,,325,subscription
+532,1a76b82b-21b4-43db-a27f-24503d475c70,Disney Plus,2500,1 mois,2026-04-08 10:04:17.190953+00,completed,mutual,531,,,324,subscription
+529,9b7bced4-d38e-4f22-94f4-311de05b87c1,Spotify,2000,1 mois,2026-04-08 08:46:47.469826+00,completed,mutual,840,,,323,subscription
+535,2e42e06d-8789-4cb6-8c22-3b98d58802e7,Netflix,2500,1 mois,2026-04-08 13:05:04.256556+00,completed,mutual,72,,,326,subscription
+545,2e35011d-5679-4c28-a18c-40d5555f8eee,Netflix,7000,3 mois,2026-04-09 10:14:28.958652+00,completed,mutual,268,,,332,subscription
+541,cd947a5f-b547-497b-9f0f-0cb73aaddb92,Prime Video,2000,1 mois,2026-04-09 06:19:50.072453+00,completed,mutual,906,,,333,subscription
+551,b2fa29fc-31a7-403e-8f36-0446a2ffd940,Surfshark,1500,1 mois,2026-04-09 16:12:19.282906+00,completed,mutual,475,,,335,subscription
+552,ad859603-f0a8-433d-9d72-a079e75a6b25,Crunchyroll,1500,1 mois,2026-04-09 16:13:19.042553+00,completed,mutual,475,,,336,subscription
+550,276cf80b-710e-403d-bc46-ce6db2c7e098,Prime Video,2000,1 mois,2026-04-09 16:11:31.473671+00,completed,mutual,475,,,337,subscription
+549,dcb14189-08f6-4155-972e-01417337bee5,Hbo Max,2500,1 mois,2026-04-09 16:11:05.671665+00,completed,mutual,475,,,338,subscription
+548,5b658008-64d1-4dd8-b34f-21443b7ad1a2,Netflix,2500,1 mois,2026-04-09 16:09:25.125289+00,completed,mutual,475,,,339,subscription
+539,f95fe5c9-5140-4ebc-b1e3-7ae5bda67697,Netflix,2500,1 mois,2026-04-08 18:11:58.062084+00,completed,mutual,12,,,340,subscription
+557,ddbf1d34-2d6d-480f-b4f4-e381a835f786,Disney Plus,2500,1 mois,2026-04-09 18:05:31.082603+00,completed,mutual,859,,,341,subscription
+558,97456538-e78c-4b3c-9361-49bef9ddfeb0,Paramount Plus,2500,1 mois,2026-04-09 18:18:54.711691+00,completed,mutual,475,,,342,subscription
+553,f466a346-7a75-4bd8-86df-71a5a618ff20,Prime Video,2000,1 mois,2026-04-09 16:31:07.936506+00,completed,mutual,4,,,334,subscription
+565,446146ce-fafc-4c4e-9ae4-7a73939bfa6e,Spotify,2000,1 mois,2026-04-10 10:23:56.466134+00,completed,mutual,913,,,347,subscription
+560,fd06625c-85f6-46bd-9972-e3f0ab3beee3,Apple Music,2000,1 mois,2026-04-09 21:31:30.421709+00,completed,mutual,176,,,344,subscription
+559,6c0ff018-238d-45d1-b873-d4f30da1ac9b,Netflix,2500,1 mois,2026-04-09 21:20:01.864023+00,completed,mutual,912,,,343,subscription
+561,b9c63453-6752-4b4e-833c-5b7df84b499f,Surfshark,1500,1 mois,2026-04-10 09:52:54.585471+00,completed,mutual,859,,,346,subscription
+564,3c88a91b-5993-4a03-89a7-4cfb34a58507,Prime Video,2000,1 mois,2026-04-10 10:14:42.16925+00,completed,mutual,62,,,345,subscription
+568,079e822b-f8ff-4ce4-b497-8cc1c8d13dbe,Prime Video,2000,1 mois,2026-04-10 16:37:11.420497+00,completed,mutual,914,,,349,subscription
+567,d57f2f61-0c7b-4b02-acc5-f4cdf9fa9ea0,Prime Video,2000,1 mois,2026-04-10 13:13:25.234073+00,completed,mutual,915,,,348,subscription
+569,e8c13078-7b80-41d7-ba1b-814edc0d28ad,Netflix,2500,1 mois,2026-04-10 20:17:42.960807+00,completed,mutual,916,,,350,subscription
+544,0b1d9441-f0a2-4bf1-a426-9e7d21dffc48,Prime Video,2000,1 mois,2026-04-09 09:51:53.032521+00,completed,mutual,19,,,355,subscription
+578,244bab55-7518-489f-a3c3-106fb67df85e,Prime Video,8000,1 mois,2026-04-11 13:21:26.333022+00,completed,personal,467,,,357,subscription
+580,3d36c2b6-ad39-4a84-b961-913f48e9cf29,Prime Video,5500,3 mois,2026-04-11 13:59:12.739331+00,completed,mutual,921,,,358,subscription
+586,9f0691b2-0f64-46b1-adc3-ec78d44f13c5,Apple TV,3000,1 mois,2026-04-11 15:40:13.46996+00,completed,mutual,922,,,359,subscription
+585,0500978b-e1ac-47ca-b7e8-3297978f1718,Surfshark,1500,1 mois,2026-04-11 15:38:49.70805+00,completed,mutual,922,,,360,subscription
+590,0f385244-8fcc-412f-9156-e6cf28e2b09e,Netflix,2500,1 mois,2026-04-11 16:30:15.675511+00,completed,mutual,737,,,361,subscription
+592,298dc6fa-d0c9-456a-93ad-36c0ad7c303a,Prime Video,2000,1 mois,2026-04-11 17:02:31.040062+00,completed,mutual,737,,,363,subscription
+593,66a69a70-074e-4173-b68c-5c79888b14b8,Netflix,2500,1 mois,2026-04-11 17:02:41.279177+00,completed,mutual,27,,,362,subscription
+594,36880edd-f074-4628-bc96-dc8cbda08a27,Surfshark,1500,1 mois,2026-04-11 19:07:22.811748+00,completed,mutual,919,,,364,subscription
+595,92f73a6b-0e65-47dc-b1b6-0787e706e7bd,Spotify,2000,1 mois,2026-04-11 20:39:29.549503+00,completed,mutual,924,,,365,subscription
+597,a1c18211-20bf-42f9-82ba-7ca297994a8e,Netflix,2500,1 mois,2026-04-11 22:22:34.82874+00,completed,mutual,926,,,366,subscription
+598,d4b10765-ec20-4a21-9258-375481dbe703,Crunchyroll,1500,1 mois,2026-04-12 07:17:02.986117+00,completed,mutual,914,,,367,subscription
+606,ab078c28-d3c8-4120-bda6-47a55bb2daf7,Netflix,2500,1 mois,2026-04-12 12:13:57.575416+00,completed,mutual,657,,,368,subscription
+628,d604ca35-1f5f-4b5d-9212-419ab0cde523,Onoff,7000,1 mois,2026-04-14 11:56:43.883618+00,completed,personal,28,,,383,subscription
+627,d7f093da-3300-4d58-bd11-c2ff89825d8c,Netflix,2500,1 mois,2026-04-14 11:37:44.413843+00,completed,mutual,931,,,385,subscription
+520,14d31866-edae-4680-95f4-09f0ec031c66,Surfshark,1500,1 mois,2026-04-07 12:02:56.100204+00,completed,mutual,624,,,,subscription
+475,45fb9b6a-fda1-4d91-a6d8-8f1b9d49795b,Apple Music,2000,1 mois,2026-04-04 19:14:01.617671+00,completed,mutual,,,,,subscription
+971,25432d52-3933-4bcf-9616-ee0a37b0df33,Disney Plus,2500,1 mois,2026-05-07 13:07:27.050737+00,completed,mutual,1000,,,523,subscription
+599,f6dd9fb3-ea3b-4c36-83b8-7c27708d9b0b,Apple Music,2000,1 mois,2026-04-12 07:49:28.177342+00,completed,mutual,676,,,369,subscription
+609,331f655b-bb55-4071-bc28-621b63d4f509,Prime Video,2000,1 mois,2026-04-12 14:30:09.581123+00,completed,mutual,925,,,370,subscription
+18,50ea650d-39c4-41d5-8f60-060b5efb56f3,Prime Video,2000,1 mois,2026-03-16 18:06:04.984976+00,completed,mutual,143,,,10,subscription
+624,15c01788-4d8d-4650-87e9-56c3a5415d71,Prime Video,10000,6 mois,2026-04-13 19:02:57.83832+00,completed,mutual,884,,,387,subscription
+607,8cb5a649-baff-4111-9daa-21688e4e26ca,Hbo Max,2500,1 mois,2026-04-12 14:04:15.779703+00,completed,mutual,922,,,372,subscription
+605,990cae13-7bb3-4f6c-b16f-8775d0a7cad3,Prime Video,2000,1 mois,2026-04-12 12:07:05.379679+00,completed,mutual,620,,,373,subscription
+630,8b5e5833-ff42-49a4-b867-93ad82eebfd7,Prime Video,5000,1 mois,2026-04-14 13:22:43.808669+00,completed,personal,539,,,388,subscription
+612,22acab02-c452-4a0c-954d-3d97284b9dd0,Netflix,7000,3 mois,2026-04-12 16:28:28.178457+00,completed,mutual,23,,,374,subscription
+611,656051c9-7d7f-4142-8987-9415a9379d65,Netflix,2500,1 mois,2026-04-12 16:03:55.054437+00,completed,mutual,22,,,375,subscription
+615,1ff388c2-ce4c-4f91-81f2-ff89c32154a5,Prime Video,2000,1 mois,2026-04-12 22:51:18.543467+00,completed,mutual,77,,,376,subscription
+633,99dc62f2-70c1-4de8-bda8-b15c0231c84c,Netflix,2500,1 mois,2026-04-14 14:37:10.151518+00,completed,mutual,395,,,390,subscription
+616,c9eee82a-11ed-43ec-8b7e-11d5b479ad96,Crunchyroll,4000,3 mois,2026-04-12 22:55:17.438822+00,completed,mutual,77,,,377,subscription
+635,8d53bf8b-453a-46de-9db9-8bdd9c180b0c,Netflix,2500,1 mois,2026-04-14 15:24:05.05389+00,completed,mutual,933,,,391,subscription
+614,91c3e56a-c474-4ebf-b4ef-5e905bf81661,Netflix,2500,1 mois,2026-04-12 19:55:25.174683+00,completed,mutual,782,,,378,subscription
+636,5ed23332-1308-4329-9b30-00ec10fba703,Netflix,2500,1 mois,2026-04-14 16:40:51.290168+00,completed,mutual,165,,,392,subscription
+621,725d9662-d58b-4e19-ae09-c91ec8bb86ff,Prime Video,2000,1 mois,2026-04-13 14:57:49.156998+00,completed,mutual,845,,,380,subscription
+618,34268a07-f365-4c79-839d-77f952075245,Prime Video,2000,1 mois,2026-04-13 09:26:35.537345+00,completed,mutual,691,,,379,subscription
+622,39cc4d38-10f8-4db6-9be1-4dce490fc1ea,Apple TV,3000,1 mois,2026-04-13 15:25:18.608128+00,completed,mutual,930,,,381,subscription
+17,9977b58f-8ac9-45ff-b42e-fc8391bf6999,Surfshark,1500,1 mois,2026-03-16 17:42:31.609276+00,completed,mutual,768,,,21,subscription
+639,a8aa7635-48c9-46c9-8eb7-8527f99d7d38,Netflix,2500,1 mois,2026-04-15 08:05:15.226198+00,completed,mutual,554,,,393,subscription
+641,73b44232-21e6-45c7-9113-a67fa08a6e51,Netflix,2500,1 mois,2026-04-15 08:43:15.613793+00,completed,mutual,464,,,394,subscription
+642,2ed03acd-9b7b-487e-89e7-6a42cb69a1e9,Prime Video,2000,1 mois,2026-04-15 10:12:51.351712+00,completed,mutual,934,,,395,subscription
+608,ba0b66a4-b9b5-444e-b7e0-204ad579b518,Netflix,2500,1 mois,2026-04-12 14:06:46.175023+00,completed,mutual,929,,,371,subscription
+500,81eb551a-3ce5-4685-b9c1-5de85636d0b0,Disney Plus,2500,1 mois,2026-04-06 10:34:49.468051+00,completed,mutual,773,,,300,subscription
+120,69ec9255-a59c-4390-9095-73efb6ba3a90,Spotify,2000,1 mois,2026-03-20 20:37:18.552542+00,completed,mutual,793,,,80,subscription
+652,d6cb1f9c-52b6-4fc4-8f55-a76f45f04abf,Netflix,2500,1 mois,2026-04-15 13:32:46.956065+00,completed,mutual,118,,,396,subscription
+654,5aeb3c29-8993-40e8-bc84-a8098b24a3b1,Netflix,2500,1 mois,2026-04-15 15:46:45.953556+00,completed,mutual,118,,,397,subscription
+658,323365e2-f328-4e25-a382-15d30aff97df,Prime Video,2000,1 mois,2026-04-16 11:46:30.873985+00,completed,mutual,27,,,398,subscription
+659,5f73ca36-1da8-4f98-88bc-e09d1eb7877b,Netflix,2500,1 mois,2026-04-16 11:51:11.524689+00,completed,mutual,937,,,399,subscription
+660,54770c67-4ea5-441e-8437-99fe1fad9136,Netflix,2500,1 mois,2026-04-16 12:15:43.964016+00,completed,mutual,349,,,400,subscription
+674,04ac2263-843c-4aac-b993-76ae7d5c4cee,Prime Video,2000,1 mois,2026-04-17 13:31:31.718896+00,completed,mutual,770,,,403,subscription
+673,dcca68a2-c4c0-4c14-80ec-ccb34af0ca55,Netflix,2500,1 mois,2026-04-17 13:29:12.622735+00,completed,mutual,770,,,404,subscription
+268,77525511-e7ca-48d8-b703-1067eb1daefb,Netflix,2500,1 mois,2026-03-26 10:56:45.576517+00,completed,mutual,153,,,151,subscription
+680,0210f75d-04c5-4208-a06f-ebfdf1fa13fd,Netflix,2500,1 mois,2026-04-17 19:14:20.115551+00,completed,mutual,945,,,405,subscription
+678,80590e5d-0029-497a-8da7-b7289be31dad,Disney Plus,2500,1 mois,2026-04-17 17:56:43.62441+00,completed,mutual,944,,,406,subscription
+682,05dd6b2f-3f18-4fff-9f27-e1c03516d027,Netflix,2500,1 mois,2026-04-17 20:25:03.748391+00,completed,mutual,947,,,408,subscription
+126,9b664395-781a-4a86-b0c6-153d9ae8a028,Spotify,2000,1 mois,2026-03-21 07:11:02.639648+00,completed,mutual,47,,,90,subscription
+22,64f104f5-d42a-4b55-824f-4ef4ed75041f,Apple TV,2500,1 mois,2026-03-16 18:17:40.671977+00,completed,mutual,768,,,13,subscription
+21,cbbee969-9e2a-4d33-9b51-df28c92214d1,Prime Video,2000,1 mois,2026-03-16 18:11:25.580059+00,completed,mutual,687,,,12,subscription
+11,88df18e7-4992-4afb-a402-d459f11f5013,Prime Video,2000,1 mois,2026-03-16 11:27:56.766572+00,completed,mutual,785,,,4,subscription
+699,41e1b54f-caea-4280-9dba-92a9a0349494,Surfshark,1500,1 mois,2026-04-18 17:00:30.663976+00,completed,mutual,944,,,415,subscription
+700,7e223536-ce3c-4453-921c-c298a984ad31,Netflix,2500,1 mois,2026-04-18 17:59:17.502207+00,completed,mutual,955,,,417,subscription
+701,06e537e3-58cd-4187-bf07-9676d6aa0db0,Netflix,2500,1 mois,2026-04-18 18:28:29.688669+00,completed,mutual,951,,,416,subscription
+707,d6ff7518-8f00-4713-82ae-4c673799d101,Crunchyroll,1500,1 mois,2026-04-19 07:15:27.848537+00,completed,mutual,792,,,418,subscription
+708,b05e5cf8-1d59-4ad3-9c47-8ced7e3ecdb4,Surfshark,1500,1 mois,2026-04-19 08:42:55.665241+00,completed,mutual,395,,,419,subscription
+714,db11c41c-0146-4948-a3bf-a0cbf8daa3ba,Surfshark,7000,6 mois,2026-04-19 09:57:19.986846+00,completed,mutual,816,,,421,subscription
+716,6122ffeb-d7f2-4ca5-b292-9aa34d51f409,Crunchyroll,7000,6 mois,2026-04-19 10:05:04.106306+00,completed,mutual,816,,,424,subscription
+711,1e22af0e-0f07-44b5-a215-082fea7c8f90,Netflix,2500,1 mois,2026-04-19 09:47:33.153042+00,completed,mutual,940,,,422,subscription
+717,8c090300-3380-454b-85b6-baca2888ea8a,Netflix,2500,1 mois,2026-04-19 13:12:32.449798+00,completed,mutual,423,,,425,subscription
+1378,501b59cc-b4db-4b38-8bbb-45356d5909bd,Surfshark,1500,1 mois,2026-06-08 17:02:07.999791+00,completed,mutual,475,335,,335,renewal
+834,13bfe8e1-5905-4e1e-baab-4d9a29218dc5,Crunchyroll,7000,6 mois,2026-04-26 20:03:49.198262+00,completed,mutual,975,,,466,subscription
+713,9a0c2778-6af5-46a6-96e2-6e8320fc5c04,Apple TV,16000,6 mois,2026-04-19 09:56:12.069932+00,completed,mutual,816,,,420,subscription
+767,fabf0d51-383f-49d8-aa93-08bfe89ba97c,Netflix,2500,1 mois,2026-04-21 19:04:57.980994+00,completed,mutual,756,,,441,subscription
+826,9a7adec3-60ab-428b-b0f6-f03438c352c3,Crunchyroll,1500,1 mois,2026-04-26 08:59:39.191268+00,completed,mutual,394,,,465,subscription
+783,a943fc52-78a6-430c-9f96-18b9459cdc56,Onoff,7000,1 mois,2026-03-23 23:51:00+00,completed,personal,143,49,,49,subscription
+775,8d47a2e9-82d0-467f-9ef6-1867910ade23,Netflix,7000,3 mois,2026-04-22 05:46:10.688992+00,completed,mutual,221,,,448,subscription
+799,a34fa728-5936-4890-819a-929e0e90fede,Netflix,7000,3 mois,2026-04-23 18:50:00.982179+00,completed,mutual,294,,,,subscription
+791,278d7778-8de5-4b7b-bad4-a9a1f074d3ed,Netflix,2500,1 mois,2026-04-19 13:42:07.929327+00,completed,mutual,707,77,,77,subscription
+891,234528d6-d5d7-489c-b8b8-aa8062df30e5,Hbo Max,2500,1 mois,2026-04-28 21:26:00+00,completed,mutual,533,228,,228,subscription
+547,2f1a3b3b-d48c-45fe-bfa7-2278bc2bb99e,Crunchyroll,4000,3 mois,2026-04-09 10:19:54.082869+00,completed,mutual,268,,,,subscription
+1163,f3a5fb7f-5ea1-4b67-b184-4b5bb394b93c,Netflix,2500,1 mois,2026-05-23 15:11:55.9352+00,completed,mutual,1020,,,587,subscription
+1379,a6b7b0f6-c1eb-4882-8bfa-9a8e5603c5f0,Crunchyroll,1500,1 mois,2026-06-08 17:02:17.202913+00,completed,mutual,475,336,,336,renewal
+1393,fd23fdc4-5a78-4c4a-82ec-c135bf037b67,Disney Plus,2500,1 mois,2026-06-16 08:27:11.745142+00,completed,mutual,478,275,,275,extension
+1388,2b97001d-db75-4824-bb55-03828839c19e,Netflix,2500,1 mois,2026-06-09 07:53:56.198948+00,completed,mutual,1048,,,667,subscription
+1389,808f2bdf-77f9-45c2-9981-c7f1c02faa5f,Netflix,2500,1 mois,2026-06-09 08:17:53.389134+00,completed,mutual,1050,,,670,subscription
+1858,3ba38a12-0eb3-41b2-9905-048ebbb8ca28,Netflix,2500,1 mois,2026-07-01 22:54:14.544181+00,completed,mutual,1012,,,871,subscription
+1600,7a5b90e3-1890-439a-b30b-5c13c2b060e9,Disney Plus,2500,1 mois,2026-06-23 19:19:46.006945+00,completed,mutual,964,457,,457,extension
+1306,eb87b4a7-03d3-44d1-9fa1-f57e2a6341e3,Prime Video,2000,1 mois,2026-06-05 19:56:51.355565+00,completed,mutual,859,521,,521,extension
+1594,f5bcf526-0987-4d7f-8409-c5abbbae92c9,Disney Plus,2500,1 mois,2026-06-20 07:48:05.538527+00,completed,mutual,1111,,,755,subscription
+1397,3d4e2f65-0efe-4b64-9199-09e1f7b4ce35,Crunchyroll,1500,1 mois,2026-06-09 15:10:46.425252+00,completed,mutual,1052,,,672,subscription
+928,34a156bc-105f-43c5-8e45-5bff1ba7d8bf,Prime Video,2000,1 mois,2026-05-02 17:53:39.331342+00,completed,mutual,87,,,,subscription
+1282,4146e572-c851-4d54-8d3b-220c8238894e,Netflix,2500,1 mois,2026-06-01 14:37:32.413481+00,completed,mutual,887,500,,500,renewal
+1271,2c7b8f6b-2926-4b89-b9c6-de363b75bc6d,Prime Video,2000,1 mois,2026-05-31 17:15:34.097147+00,completed,mutual,87,,,632,subscription
+1292,5bd512be-5c4d-4deb-a233-1bc8b6084e3f,Netflix,2500,1 mois,2026-06-09 09:13:38.00604+00,completed,mutual,469,,,642,extension
+1266,9178e0e8-c513-42f3-bbe7-e9d0c39e3cde,Apple Music,2000,1 mois,2026-04-25 13:25:48.558585+00,completed,mutual,621,85,,85,renewal
+1283,d3328d38-6876-4f13-9d60-5ccf423acdfc,Netflix,2500,1 mois,2026-05-31 23:44:00+00,completed,mutual,991,507,,507,renewal
+1273,faa0ea89-d179-4b3d-9f49-4a9e6791f75b,Apple TV,3000,1 mois,2026-05-31 18:41:24.113986+00,completed,mutual,255,,,633,subscription
+1272,2b9e541e-4c39-42c6-8f77-fcd2b5b0d59d,Netflix,2500,1 mois,2026-05-31 18:40:49.752052+00,completed,mutual,745,,,634,subscription
+1284,cd520a4b-3461-4713-92ec-ef5533c66f00,Crunchyroll,1500,1 mois,2026-06-01 20:15:18.854487+00,completed,mutual,876,,,637,subscription
+1278,7146d770-7f76-4f7f-af67-346883d099c0,Hbo Max,2500,1 mois,2026-05-28 21:26:00+00,completed,mutual,533,228,,228,renewal
+1286,cf3955f6-bd4d-4f42-8f3a-eb385ec9fcdb,Netflix,2500,1 mois,2026-06-01 19:39:15.606307+00,completed,mutual,990,506,,506,renewal
+1275,015d3005-7f07-41fa-8c7f-abe79194af79,Netflix,2500,1 mois,2026-05-31 20:46:21.500833+00,completed,mutual,3,,,636,subscription
+1279,16981049-b0c3-4151-8e74-ec5d779d51be,Spotify,2000,1 mois,2026-05-27 23:50:00+00,completed,mutual,864,216,,216,renewal
+1295,2b6cdd96-2446-4353-9180-65b01e0e6820,Netflix,2500,1 mois,2026-06-02 19:37:54.813203+00,completed,mutual,1037,,,643,subscription
+1281,57796cac-b51d-43ee-822f-696824a8bfcb,Surfshark,1500,1 mois,2026-05-30 22:59:22.001075+00,completed,mutual,957,486,,486,renewal
+1280,7cc5dc8b-ec88-457e-b3f3-187a401b0c00,Hbo Max,2500,1 mois,2026-05-30 22:59:24.860549+00,completed,mutual,957,487,,487,renewal
+1320,a29d5c58-3694-44f8-a37f-f79c296fefd0,Netflix,2500,1 mois,2026-06-03 20:58:17.992928+00,completed,mutual,349,,,,subscription
+1287,01d206c1-f2c8-45e4-9a7f-d50b0b346506,Netflix,2500,1 mois,2026-06-01 21:28:45.990956+00,completed,mutual,703,,,638,subscription
+402,825c3b26-c3c9-4ce4-9de3-e46aa7637783,Netflix,2500,1 mois,2026-03-31 17:08:29.309878+00,completed,mutual,703,,,,subscription
+1309,13a2e775-78e5-4b3d-8dce-be48f7ee3f5a,Netflix,2500,1 mois,2026-05-31 10:25:48.443201+00,completed,mutual,429,488,,488,renewal
+1288,32dd6e59-3411-4d96-b9de-24dbc321c828,Netflix,2500,1 mois,2026-06-02 07:45:54.974598+00,completed,mutual,120,,,639,subscription
+1296,1e8788dc-6ec0-4d11-ba68-cf3867faffd8,Netflix,31000,3 mois,2026-06-02 17:10:56.465452+00,completed,personal,993,513,,513,renewal
+1290,69fa4359-7f0a-48eb-9b8d-dcdff040368b,Netflix,2500,1 mois,2026-06-02 08:57:26.564425+00,completed,mutual,980,,,640,subscription
+1299,a3c34efc-abaa-4847-940b-096039e94074,Prime Video,2000,1 mois,2026-06-10 06:36:06.632707+00,completed,mutual,989,508,,508,extension
+1289,4b2a6111-55c5-4c32-99f6-3f0dd9ec6b5f,Netflix,2500,1 mois,2026-06-02 08:57:24.790495+00,completed,mutual,418,,,641,subscription
+536,5c149834-a548-474c-8d54-5da6478d12c8,Netflix,2500,1 mois,2026-04-08 13:20:59.370393+00,completed,mutual,469,,,,subscription
+1321,453514d4-5cd9-4056-862a-9ed9e9b0b747,Prime Video,2000,1 mois,2026-06-03 20:58:41.277986+00,completed,mutual,349,,,,subscription
+1310,5a91e59d-8bb2-4938-8d28-188fddc97a55,Hbo Max,2500,1 mois,2026-05-31 10:25:57.740472+00,completed,mutual,429,489,,489,renewal
+1316,e0558af6-2295-4a39-ada7-032760180cfc,Surfshark,1500,1 mois,2026-05-31 10:26:05.352959+00,completed,mutual,429,491,,491,renewal
+1305,1a2ba3c2-defc-4664-9221-7456922f6422,Disney Plus,2500,1 mois,2026-06-08 18:13:43.558312+00,completed,mutual,859,341,,341,extension
+1307,b3a39572-ade6-44f1-9780-07ab1dcd2921,Surfshark,1500,1 mois,2026-06-09 10:20:52.739871+00,completed,mutual,859,346,,346,extension
+1318,64213739-a796-4af0-8dae-11a38299e86c,Disney Plus,2500,1 mois,2026-05-27 21:27:18.172544+00,completed,mutual,861,187,,187,renewal
+1311,0770e878-4ced-4a01-973a-9e6a318d6122,Surfshark,1500,1 mois,2026-06-03 14:04:35.164436+00,completed,mutual,607,,,644,subscription
+1325,a82b6718-3fad-4890-8a06-5e43fac0e405,Netflix,2500,1 mois,2026-06-04 07:06:19.306147+00,completed,mutual,876,,,649,subscription
+1312,055b5bd5-857a-4c69-96cb-ac867ee50304,Prime Video,2000,1 mois,2026-05-31 10:26:04.815347+00,completed,mutual,429,490,,490,renewal
+1327,bf7b2318-4f8c-42b8-a563-b79514620970,Netflix,2500,1 mois,2026-06-04 08:14:50.777621+00,completed,mutual,327,,,650,subscription
+1313,79cee90e-7b7e-42e5-9f0a-2ef31acf18f7,Disney Plus,2500,1 mois,2026-06-03 14:08:54.263792+00,completed,mutual,607,,,645,subscription
+1319,12dd6bf5-f904-46c9-83ad-bc25f57d4e79,Spotify,5500,3 mois,2026-06-03 15:44:54.376909+00,completed,mutual,397,,,646,subscription
+1328,8483a956-4499-4fe7-ba44-c3b77eeb84df,Spotify,2000,1 mois,2026-05-30 23:13:00+00,completed,mutual,85,252,,252,renewal
+267,a51a75cb-4ff3-4f69-b261-67be753bbef3,Netflix,2500,1 mois,2026-03-26 10:05:18.438981+00,completed,mutual,327,,,,subscription
+1326,50223e45-c8b4-4f5d-b549-3706a64e8350,Prime Video,2000,1 mois,2026-06-01 20:49:14.033966+00,completed,mutual,876,250,,250,renewal
+1329,0d904830-58e2-4292-bc01-b7891ae9e984,Netflix,2500,1 mois,2026-06-04 12:49:11.574939+00,completed,mutual,85,,,,subscription
+1330,2849f746-4055-4752-a84d-2788f4952427,Prime Video,2000,1 mois,2026-06-05 19:57:03.622965+00,completed,mutual,999,522,,522,extension
+1331,3bee3837-8d4a-458c-b211-28c1c2eddf11,Netflix,2500,1 mois,2026-06-04 11:15:15.25034+00,completed,mutual,914,518,,518,renewal
+1333,61c9d0d3-7892-4b01-8204-03b301bbfda6,Crunchyroll,12000,1 an,2026-06-04 16:11:26.345649+00,completed,mutual,301,,,652,subscription
+1334,a9b7f6e7-d199-4db2-90c4-e80ab7231dd7,Apple Music,2000,1 mois,2026-06-04 16:55:58.155436+00,completed,mutual,676,,,,subscription
+2127,73484dcb-bac3-4884-9635-da24ce3b89a2,Netflix,2500,1 mois,2026-07-13 20:39:00.717524+00,completed,mutual,1285,,,,subscription
+1369,9211822a-c322-4cdb-8062-99c97bdeb303,Prime Video,2000,1 mois,2026-06-01 22:56:16.193282+00,completed,mutual,881,509,,509,renewal
+1381,96e6749b-93e4-4fc0-9b33-6838fcc79c06,Hbo Max,2500,1 mois,2026-06-08 17:27:10.615523+00,completed,mutual,475,338,,338,renewal
+1335,7dfef6e7-928a-47b5-a01c-9538ec722ac4,Netflix,2500,1 mois,2026-06-24 18:11:33.804368+00,completed,mutual,521,568,,568,extension
+1356,7a343c5f-26d2-467b-ab1a-aac915535ac9,Netflix,2500,1 mois,2026-06-06 15:55:48.483727+00,completed,mutual,569,,,658,subscription
+1599,f872a159-604d-4953-8203-21d9df70722b,Surfshark,1500,1 mois,2026-06-20 21:12:48.690462+00,completed,mutual,964,443,,443,extension
+1387,51cde290-45fc-449c-8cd9-4afeff5cf035,Netflix,2500,1 mois,2026-06-09 07:34:52.808977+00,completed,mutual,875,,,668,subscription
+1392,511def11-15e7-4a3a-82a9-fac2f63d3337,Surfshark,1500,1 mois,2026-06-01 23:27:00+00,completed,mutual,478,274,,274,renewal
+1337,7f8f5283-39b6-4d49-9468-6e2b5433b0d4,Prime Video,2000,1 mois,2026-06-05 17:40:34.581288+00,completed,mutual,77,,,654,subscription
+1595,c66da1e1-c745-4c66-ab35-5a87a38af5b7,Prime Video,2000,1 mois,2026-06-12 15:22:50.873095+00,completed,mutual,691,379,,379,renewal
+1605,6b6401d7-218e-44a4-b69b-ff02dc58a519,Netflix,7000,3 mois,2026-06-20 12:34:28.997224+00,completed,mutual,1113,,,757,subscription
+1395,d0977dfc-83df-4d52-bf53-585723921659,Netflix,2500,1 mois,2026-06-09 23:01:00+00,completed,mutual,12,340,,340,extension
+1609,aac365a6-7871-4657-b006-180a9e5f673c,Apple TV,3000,1 mois,2026-06-20 12:56:44.122001+00,completed,mutual,1114,,,764,subscription
+1370,0cb60c47-9988-4d3f-8223-f45089d2c162,Netflix,2500,1 mois,2026-06-07 20:58:29.924159+00,completed,mutual,1045,,,661,subscription
+1874,bea04846-f1fe-493d-a540-bc12b97c5d8f,Netflix,2500,1 mois,2026-07-03 05:08:24.35982+00,failed,mutual,386,,,,subscription
+1341,069089c0-0f9a-4354-8d99-38524c503b0e,Prime Video,2000,1 mois,2026-06-05 20:30:35.395251+00,completed,mutual,1039,,,655,subscription
+1403,1f198bd4-0086-4e39-aed9-b00c33a324bf,Hbo Max,2500,1 mois,2026-06-07 23:58:00+00,completed,mutual,85,109,,109,renewal
+1360,be168bc2-f968-445b-acc8-0396b89f7992,Apple Music,2000,1 mois,2026-06-04 20:37:19.190771+00,completed,mutual,525,520,,520,renewal
+1404,d7bd3817-9928-4cd3-ac38-6446d8eba9dc,Surfshark,1500,1 mois,2026-06-07 23:57:00+00,completed,mutual,85,110,,110,renewal
+1344,44782291-dbd1-4643-b7e9-3c91fa803eda,Netflix,2500,1 mois,2026-06-06 17:10:16.457461+00,completed,mutual,17,317,,317,extension
+1616,ce467553-97b5-4cba-b26f-ff0d995778a9,Netflix,2500,1 mois,2026-06-21 11:45:28.688653+00,completed,mutual,1121,,,768,subscription
+1361,e57228fd-ebec-4f56-8220-87370df7fd47,Netflix,2500,1 mois,2026-06-13 19:44:55.293321+00,completed,mutual,615,519,,519,extension
+1406,977c999d-5fc7-4f4a-9f97-ee41971cdbd7,Prime Video,2000,1 mois,2026-06-07 23:58:00+00,completed,mutual,85,108,,108,renewal
+1407,6a8efcee-279b-4b17-b938-903c11552619,Prime Video,2000,1 mois,2026-06-09 09:37:31.294198+00,completed,mutual,987,504,,504,renewal
+1346,cc518a20-39dd-4194-8f86-12914ef7c4da,Spotify,2000,1 mois,2026-06-05 19:44:36.644451+00,completed,mutual,671,307,,307,renewal
+1413,edab0bac-f0f7-4008-873c-86fc009750af,Prime Video,5000,1 mois,2026-06-08 23:21:00+00,completed,personal,467,357,,357,renewal
+1352,50c4a540-51e6-4c89-beb1-8edec9deb022,Netflix,2500,1 mois,2026-06-04 23:52:00+00,completed,mutual,912,343,,343,renewal
+1415,88df0dff-b6cd-4c77-9d05-4779c921838e,Surfshark,1500,1 mois,2026-06-10 04:46:45.486844+00,completed,mutual,1031,,,673,subscription
+1351,241df196-1cb1-48a1-8bd6-2f6b1b71a4da,Crunchyroll,4000,3 mois,2026-06-06 11:35:38.000218+00,completed,mutual,89,,,656,subscription
+1414,6b6cbfd0-5418-465d-8e95-ff087a00218c,Disney Plus,2500,1 mois,2026-06-08 23:10:00+00,completed,mutual,773,300,,300,renewal
+1424,7ffdd06a-99b4-474f-9627-a012d6af4111,Netflix,2500,1 mois,2026-06-10 22:38:24.662009+00,completed,mutual,1056,,,,subscription
+1416,02340c96-5288-4c85-b9aa-827fe47783cb,Netflix,2500,1 mois,2026-06-09 18:38:11.380132+00,completed,mutual,1004,537,,537,renewal
+1363,be9e5b25-1396-4521-8040-89ac68aa4469,Netflix,2500,1 mois,2026-06-05 17:27:27.327603+00,completed,mutual,350,305,,305,renewal
+1372,778cee39-5b36-401e-a464-bae87344ea22,Netflix,5500,1 mois,2026-06-06 23:10:00+00,completed,personal,982,474,,474,renewal
+1362,e0c3e9e5-e939-43e2-9896-7834158f4dff,Spotify,2000,1 mois,2026-06-05 23:34:00+00,completed,mutual,19,657,,657,renewal
+1418,1e9bcda7-26c2-449e-8cb2-6bdc75d281d5,Crunchyroll,1500,1 mois,2026-06-10 11:23:37.962821+00,completed,mutual,842,,,674,subscription
+1364,7ab6cbae-f0b9-435d-92a1-5fe95459b168,Prime Video,2000,1 mois,2026-06-09 23:41:00+00,completed,mutual,19,355,,355,extension
+1365,2666f585-49a4-4fd6-b9bd-70a1cc9b815d,Apple Music,2000,1 mois,2026-06-07 09:53:05.331196+00,completed,mutual,913,,,,subscription
+977,d0e7bb78-d21b-46c8-8cb0-52610cf0fc85,Prime Video,2000,1 mois,2026-05-07 22:46:11.415926+00,completed,mutual,618,,,526,subscription
+1366,72d2a43f-0be4-40ea-ac9b-fde1ad24056d,Netflix,2500,1 mois,2026-06-07 10:34:10.836199+00,completed,mutual,411,,,660,subscription
+1422,df31c8ae-2726-4f7a-b3c7-066fc82ae335,Netflix,2500,1 mois,2026-06-10 19:55:01.597848+00,completed,mutual,1055,,,675,subscription
+1423,3b7dcd8b-1cf8-42a9-87c9-7be9a569f07b,Netflix,2500,1 mois,2026-06-10 20:07:38.549637+00,completed,mutual,1054,,,676,subscription
+1425,17eb21ab-7947-4e50-aeb0-943a886bdc97,Netflix,2500,1 mois,2026-06-11 00:33:30.893473+00,completed,mutual,1058,,,678,subscription
+1371,2477c063-fccd-45c1-bbc7-d7099da867c0,Spotify,2000,1 mois,2026-06-06 14:51:00+00,completed,mutual,840,323,,323,renewal
+1368,635aa534-fda4-4a20-b1a3-dd252247d714,Spotify,2000,1 mois,2026-06-06 14:51:00+00,completed,mutual,840,323,,323,renewal
+1373,4b8d535f-e6b7-4a06-a717-af7e08095055,Prime Video,2000,1 mois,2026-06-01 15:24:34.498889+00,completed,mutual,715,503,,503,renewal
+1374,ad48d83b-78c8-42aa-acfb-bae2433b8611,Netflix,2500,1 mois,2026-06-15 12:28:32.985622+00,completed,mutual,34,287,,287,extension
+1375,614f8788-78a2-4a57-9660-720083368c8d,Netflix,2500,1 mois,2026-06-08 12:58:22.880124+00,completed,mutual,737,,,662,subscription
+1434,dd886267-0889-4fe4-a594-07beabd07c00,Netflix,2500,1 mois,2026-06-11 13:03:19.798344+00,completed,mutual,1062,,,,subscription
+1433,3884ba5b-43d2-46a0-9223-fc5aadfa6973,Netflix,2500,1 mois,2026-06-10 23:44:00+00,completed,mutual,782,378,,378,renewal
+1429,17992713-2ddb-403e-8192-f82b7caa5d77,Surfshark,1500,1 mois,2026-06-08 23:10:00+00,completed,mutual,773,299,,299,renewal
+1435,7f2a6158-da20-4601-8c82-f708f1dc3be5,Spotify,2000,1 mois,2026-06-11 16:55:58.059468+00,completed,mutual,1063,,,681,subscription
+1427,ec92d42b-784c-48b9-a037-5b0b861852ec,Netflix,2500,1 mois,2026-06-11 00:56:07.197124+00,completed,mutual,1057,,,680,subscription
+1596,5588fa44-b35a-47e4-bf55-3ac6fa6308ef,Apple Music,2000,1 mois,2026-06-26 12:26:31.187525+00,completed,mutual,967,605,,605,extension
+1606,64510f8b-3962-4503-9b3b-2617e666bfa7,Disney Plus,2500,1 mois,2026-06-20 12:54:43.013162+00,completed,mutual,1114,,,763,subscription
+1612,cde57a43-9c7e-4965-8e51-2c566813fa67,Crunchyroll,1500,1 mois,2026-06-20 13:26:15.799091+00,completed,mutual,683,,,758,subscription
+2156,320bb41e-53c2-47b9-a2ca-df646657e37d,Surfshark,1500,1 mois,2026-07-16 11:19:49.117591+00,completed,mutual,387,,,999,subscription
+1468,4be94202-9ed4-4695-be44-3ed4b2ef1e67,Disney Plus,7000,3 mois,2026-06-13 18:42:45.017049+00,completed,mutual,184,,,694,subscription
+1445,66624c86-d37d-49d2-a26e-71bf7a0102e8,Surfshark,1500,1 mois,2026-06-11 19:46:41.28759+00,completed,mutual,1065,,,682,subscription
+1458,a249f67e-94a9-4783-9bb5-f19a84d74a2c,Crunchyroll,1500,1 mois,2026-05-18 23:17:00+00,completed,mutual,928,444,,444,renewal
+1442,1931c473-9238-4c6a-96e1-52b826c55d9c,Disney Plus,2500,1 mois,2026-06-11 19:01:50.607202+00,completed,mutual,1065,,,683,subscription
+1613,30ef4a7a-f9da-417b-9512-4b4b6da48761,Prime Video,2000,1 mois,2026-06-20 15:30:39.270641+00,completed,mutual,1116,,,765,subscription
+1440,2fe3401f-b5ff-412f-91fa-4f3da4556c02,Prime Video,2000,1 mois,2026-06-18 15:00:45.76198+00,completed,mutual,925,370,,370,extension
+1457,aabff95a-31f9-4f41-bb42-978c53ab124c,Crunchyroll,1500,1 mois,2026-06-12 23:22:58.882477+00,completed,mutual,1069,,,689,subscription
+1620,44de1f46-049d-4d54-a6cf-23d00cbaaa02,Netflix,2500,1 mois,2026-06-18 21:56:36.341459+00,completed,mutual,814,82,,82,renewal
+1446,85f93ead-4be6-4c5e-8288-4a179e8e0935,Crunchyroll,1500,1 mois,2026-06-12 09:22:46.240055+00,completed,mutual,671,,,684,subscription
+1471,a5cdfbfb-475d-4574-9f09-426e357ba3a4,Surfshark,1500,1 mois,2026-06-13 23:19:00+00,completed,mutual,862,193,,193,renewal
+1448,4957785b-31e9-49e5-babf-5d6263b0ce70,Apple Music,2000,1 mois,2026-06-08 21:44:31.407523+00,completed,mutual,176,344,,344,renewal
+1449,5944c581-ff12-4fe8-9643-b92a4ff1d280,Netflix,4500,1 mois,2026-06-11 23:23:00+00,completed,personal,539,389,,389,renewal
+1460,7295760a-9b22-46cf-a6a3-a8c29cd13b36,Crunchyroll,1500,1 mois,2026-06-13 11:28:44.073801+00,completed,mutual,1070,,,690,subscription
+1450,9cddfe8c-78a0-4a9a-8c86-481a91370242,Disney Plus,2500,1 mois,2026-06-12 14:23:26.105408+00,completed,mutual,763,,,685,subscription
+1470,5e0ab905-8a4b-4846-84b0-e434ff6c4ce7,Prime Video,5500,3 mois,2026-06-13 23:14:58.023348+00,completed,mutual,228,,,695,subscription
+1451,ff3316df-a0d5-4fea-ab73-e6fa7f013026,Surfshark,1500,1 mois,2026-06-12 14:27:53.295194+00,completed,mutual,763,,,686,subscription
+1452,af1bdea1-7569-423b-bf3e-216fc12cb46b,Netflix,5500,1 mois,2026-06-12 17:06:05.698703+00,completed,personal,926,546,,546,extension
+1462,0fee9c05-9f83-400a-8a92-053ef15d921f,Netflix,2500,1 mois,2026-06-17 18:09:27.596729+00,completed,mutual,915,542,,542,extension
+1453,d41fed28-4330-443a-ba5d-30e09966f8e4,Netflix,7000,3 mois,2026-06-12 18:22:44.317696+00,completed,mutual,489,,,687,subscription
+1455,5e286629-9471-483f-8973-8a410f3f885b,Netflix,13000,6 mois,2026-06-12 20:23:58.839648+00,completed,mutual,1068,,,688,subscription
+1463,b9547b02-148d-4071-861b-289ba77ebdcd,Netflix,2500,1 mois,2026-06-13 14:37:20.602444+00,completed,mutual,33,,,691,subscription
+1484,34ef06c1-6009-4ef2-a77b-2641359f8e63,Netflix,2500,1 mois,2026-06-15 07:24:49.217726+00,completed,mutual,1071,,,702,subscription
+1467,bd4bdffb-937c-4572-b552-c00772fe9e56,Crunchyroll,1500,1 mois,2026-06-13 17:30:36.392911+00,completed,mutual,770,,,692,subscription
+1466,14e32bcb-f6a7-487a-b8a3-d0982c31df94,Netflix,2500,1 mois,2026-06-13 17:27:55.76824+00,completed,mutual,770,,,693,subscription
+1465,a3ca0fdb-5a74-4531-86b1-22b4f77a263c,Prime Video,2000,1 mois,2026-05-17 13:38:14.401904+00,completed,mutual,770,403,,403,renewal
+1472,e826a415-2c31-45e8-884c-81165a292489,Netflix,7000,3 mois,2026-06-14 13:52:13.592807+00,completed,mutual,1072,,,697,subscription
+1487,11525b02-9f33-4b99-9b2d-0fb09c348b8b,Disney Plus,2500,1 mois,2026-06-15 11:28:46.104343+00,completed,mutual,108,,,700,subscription
+1473,e64f15e7-dbf4-4770-88bb-5a1f2afa0a67,Surfshark,1500,1 mois,2026-06-13 11:40:59.941937+00,completed,mutual,887,549,,549,renewal
+1479,beeb5847-c3c1-42cc-872e-cb172cb41c78,Spotify,2000,1 mois,2026-06-14 17:51:54.414326+00,completed,mutual,194,,,698,subscription
+1474,297c2dc1-0f95-4bf1-acb5-6b28738090d9,Disney Plus,2500,1 mois,2026-06-13 11:41:01.149018+00,completed,mutual,887,550,,550,renewal
+1494,2c07f536-07d7-44d5-a243-d9c970cd7544,Prime Video,2000,1 mois,2026-06-15 20:45:47.356176+00,completed,mutual,671,,,708,subscription
+1478,34a07788-e609-4675-9e30-6e99ea4ac074,Surfshark,1500,1 mois,2026-06-14 14:55:41.469986+00,completed,mutual,179,,,696,subscription
+1486,eef61a26-d655-44e9-ac94-96ac380d58eb,Surfshark,1500,1 mois,2026-06-15 11:26:28.686493+00,completed,mutual,108,,,701,subscription
+1483,92452bd1-da03-411d-a670-23c78eaa2aa3,Prime Video,2000,1 mois,2026-06-15 03:14:30.324025+00,completed,mutual,707,,,699,subscription
+1498,ac4970ce-98b3-4238-8cc1-bfd499156ae8,Netflix,2500,1 mois,2026-06-13 22:09:52.129187+00,completed,mutual,904,319,,319,renewal
+1499,ba1adc04-532e-4957-ba6a-c1922e06d7a0,Prime Video,2000,1 mois,2026-06-16 11:26:11.358028+00,completed,mutual,1077,,,,subscription
+1496,8561e988-c884-4319-83b1-dc5ab71a04a9,Spotify,2000,1 mois,2026-06-16 10:29:16.344084+00,completed,mutual,610,,,703,subscription
+1497,b5d44f5e-a2b9-42dd-8a3e-09dc2d26838b,Netflix,2500,1 mois,2026-06-16 10:47:21.736195+00,completed,mutual,1073,,,,subscription
+1491,c81b7210-8256-4843-b03b-46a6b6a876a9,Netflix,2500,1 mois,2026-06-15 18:54:48.384528+00,completed,mutual,1076,,,707,subscription
+1495,9eb8d9a4-9f43-4277-b71b-3d5197fdf2c8,Netflix,2500,1 mois,2026-06-15 21:28:41.105689+00,completed,mutual,450,,,705,subscription
+1500,3f222c4d-6426-42fe-87d8-c5deffc9c81f,Crunchyroll,1500,1 mois,2026-06-17 20:54:11.571743+00,completed,mutual,887,571,,571,extension
+1501,ed2f9d44-443f-48ac-8bfc-7d6ff1059877,Surfshark,1500,1 mois,2026-06-16 11:40:31.622313+00,completed,mutual,887,,,709,subscription
+1503,485abe01-f563-432c-a899-64393789e678,Netflix,2500,1 mois,2026-06-16 16:07:00.666149+00,completed,mutual,1078,,,,subscription
+1502,d51547da-90f9-46df-a967-3a9b97f91050,Netflix,2500,1 mois,2026-06-14 13:34:22.622844+00,completed,mutual,300,556,,556,renewal
+1489,657755e0-49d8-431d-999b-0bd540a462f0,Crunchyroll,1500,1 mois,2026-06-15 16:19:15.666162+00,failed,mutual,543,,9,,subscription
+1505,8ad841f2-5036-4ed9-ab3d-162ab26d9310,Netflix,7000,3 mois,2026-06-22 15:49:27.211165+00,completed,mutual,726,122,,122,extension
+1504,63e5afb2-96ff-4235-9598-2dd2082255cf,Spotify,36000,1 an,2026-06-16 17:07:32.996724+00,completed,personal,1080,,,711,subscription
+1853,9ca10bb7-4800-4e43-9513-9aa917c72bcb,Netflix,2500,1 mois,2026-07-01 19:51:53.02112+00,completed,mutual,896,,,867,subscription
+1868,f04e7a24-08cf-41ff-bfa2-2122b76c85de,Netflix,2500,1 mois,2026-07-02 08:27:08.19041+00,completed,mutual,120,639,,639,renewal
+1597,1adeb35a-b062-4557-83bb-b9246572d8aa,Apple TV,3000,1 mois,2026-06-20 17:25:24.209948+00,completed,mutual,964,581,,581,extension
+1508,5397f141-edfe-426e-8ed5-7d4cd63082f2,Netflix,2500,1 mois,2026-06-16 19:06:13.117272+00,completed,mutual,1081,,,712,subscription
+1604,89fd88a8-cae9-4957-9695-e1336425c344,Surfshark,1500,1 mois,2026-06-20 12:32:23.248034+00,completed,mutual,1114,,,759,subscription
+1529,48a8e09e-4a29-4082-9b2d-6dd6ec192364,Netflix,2500,1 mois,2026-06-16 23:20:00+00,completed,mutual,803,64,,64,renewal
+1511,dea06a5c-b440-4881-850f-447a7b12c4b3,Netflix,2500,1 mois,2026-06-16 20:24:32.443366+00,completed,mutual,1082,,,713,subscription
+1615,c2dfcf45-43ed-4fca-a083-73bb0c6b6d8f,Netflix,2500,1 mois,2026-06-21 11:40:43.127768+00,completed,mutual,1120,,,767,subscription
+1530,cc58aa34-9244-4998-930e-e032fa148ba6,Netflix,2500,1 mois,2026-06-17 13:04:49.882067+00,completed,mutual,1085,,,,subscription
+1883,e9199ff9-51be-4a6a-84d6-88e394d4beda,Prime Video,5500,3 mois,2026-07-03 15:13:13.7714+00,completed,mutual,1209,,,880,subscription
+1539,67b6768a-e91c-4638-b9f2-93911ebf5a7a,Netflix,2500,1 mois,2026-06-17 18:48:55.82337+00,completed,mutual,136,,,722,subscription
+1517,80e2e814-e4ec-4d7e-b026-953c3cc94b95,Spotify,2000,1 mois,2026-06-15 23:36:00+00,completed,mutual,60,625,,625,renewal
+1531,68c33be4-e562-40e4-a43f-ff0e85daf2a7,Netflix,2500,1 mois,2026-06-16 14:19:38.668075+00,completed,mutual,837,564,,564,renewal
+1515,8bab8ac5-22b4-40bb-94cd-9fdd3f19203a,Netflix,2500,1 mois,2026-06-17 08:56:22.472733+00,completed,mutual,827,,,714,subscription
+1514,0905f42c-f1ef-4947-83c8-8bfd532ae18c,Surfshark,1500,1 mois,2026-06-17 08:37:59.283018+00,completed,mutual,827,,,715,subscription
+1513,7c79017f-4a95-4a51-a64e-ea965d5894be,Netflix,2500,1 mois,2026-06-17 07:50:26.477207+00,completed,mutual,87,,,716,subscription
+1540,748be2e9-1c89-44b0-9ae9-0fbe38929033,Netflix,2500,1 mois,2026-06-17 19:22:42.986625+00,completed,mutual,1089,,,723,subscription
+1512,4432c1f0-b969-47fe-ad89-bb811b1ff880,Netflix,7000,3 mois,2026-06-15 17:22:55.276642+00,completed,mutual,56,27,,27,renewal
+1518,b4a82200-9939-475d-a3d7-c1ee9939313e,Netflix,2500,1 mois,2026-06-17 23:46:00+00,completed,mutual,457,322,,322,extension
+1535,1040a745-e682-47fc-8b36-554386360a96,Netflix,2500,1 mois,2026-06-17 15:54:28.223033+00,completed,mutual,1086,,,,subscription
+1519,e7e15cb3-ff4a-452a-8fcd-dbc6731ad733,Netflix,2500,1 mois,2026-06-17 11:31:15.653683+00,completed,mutual,1084,,,717,subscription
+1521,0b59c07c-9304-4680-b0ca-22121b070595,Netflix,2500,1 mois,2026-06-04 23:02:00+00,completed,mutual,143,9,,9,renewal
+1523,c1570617-7b7c-4261-94b2-6f994ca923d0,Netflix,2500,1 mois,2026-06-13 23:06:00+00,completed,mutual,785,3,,3,renewal
+1524,27e3d898-34da-4c5c-8ddb-27a315289979,Prime Video,2000,1 mois,2026-06-14 10:06:00+00,completed,mutual,785,4,,4,renewal
+1533,e1e43186-0605-45f4-891f-1c48737adf8a,Netflix,2500,1 mois,2026-06-26 15:47:05.551045+00,completed,mutual,979,470,,470,extension
+1541,ed6151b2-d6aa-49dd-9691-0b7df7b37e18,Spotify,2000,1 mois,2026-06-17 19:31:48.395321+00,completed,mutual,913,,,725,subscription
+1536,0a854bf1-c7fc-4bd5-8064-cd9439dcea87,Surfshark,1500,1 mois,2026-06-17 16:08:48.947866+00,completed,mutual,1087,,,720,subscription
+1534,86994778-71e4-4541-8c9b-8fce1162000d,Hbo Max,2500,1 mois,2026-06-17 15:51:05.248992+00,completed,mutual,1087,,,721,subscription
+1549,eb593b48-1084-4c30-8c2c-7a7c150c69fe,Prime Video,2000,1 mois,2026-06-09 19:11:21.465787+00,completed,mutual,624,538,,538,renewal
+1550,46cec83a-8c0e-428e-836f-0f5e683caa59,Netflix,2500,1 mois,2026-06-18 04:31:11.872336+00,completed,mutual,624,,,729,subscription
+1544,6d03bf75-6931-49ff-b2c6-06a036680e2c,Netflix,2500,1 mois,2026-06-17 21:00:45.392158+00,completed,mutual,1090,,,726,subscription
+1543,c1b08f86-6c46-4726-b138-f854fba92fe6,Netflix,2500,1 mois,2026-06-17 20:11:30.056428+00,completed,mutual,515,,,727,subscription
+1545,f5fc6d2f-1f0a-4ad2-936e-0f4f2dc9832d,Netflix,7000,3 mois,2026-06-17 13:27:33.544369+00,completed,mutual,109,59,,59,renewal
+1559,4ef64f0a-c99d-4b33-9711-4f358d1ddf95,Surfshark,1500,1 mois,2026-06-18 08:26:23.780286+00,completed,mutual,624,,,,subscription
+1557,6de3fc5b-ef19-4829-a68e-3fe4f543923f,Crunchyroll,1500,1 mois,2026-06-06 11:43:01.261043+00,completed,mutual,624,312,,312,renewal
+1555,5b4e8a26-8e0d-43a6-b724-f398b5bf15ff,Disney Plus,2500,1 mois,2026-06-18 07:57:24.539393+00,completed,mutual,624,,,730,subscription
+1563,d9a85c0a-d1d5-4060-a86f-affe47effdf8,Netflix,2500,1 mois,2026-06-18 13:26:00.679832+00,completed,mutual,1097,,,736,subscription
+1558,f2c53c6b-d4d5-49e5-bb10-dbd87b900577,Prime Video,2000,1 mois,2026-06-18 08:24:29.077465+00,completed,mutual,1093,,,732,subscription
+1561,a74799ed-2017-4866-822d-b88d9b5363c6,Netflix,2500,1 mois,2026-06-18 08:57:32.317983+00,completed,mutual,1091,,,734,subscription
+1560,d6bd223b-7ee0-4305-a659-a3be89dd9189,Disney Plus,2500,1 mois,2026-06-18 08:41:41.409892+00,completed,mutual,,,,,subscription
+1565,11db8ecc-0fd3-455f-9e2e-d1045291bfab,Netflix,2500,1 mois,2026-06-18 18:25:58.097334+00,completed,mutual,1099,,,738,subscription
+1562,aa1772fc-f86c-48ff-b56e-2467cfce2d7a,Prime Video,2000,1 mois,2026-06-18 09:05:55.194671+00,completed,mutual,1095,,,735,subscription
+1564,f20fa63b-9df3-458a-b95d-84befb0cde7c,Netflix,2500,1 mois,2026-06-18 13:44:15.381498+00,completed,mutual,1098,,,737,subscription
+1566,20584b16-0086-4e44-b499-db14a82ae114,Prime Video,2000,1 mois,2026-06-18 19:29:01.536721+00,completed,mutual,1100,,,739,subscription
+1567,f299bb0c-4ed6-4eed-a3e2-35cb3c71ed06,Prime Video,2000,1 mois,2026-06-18 19:43:53.264687+00,completed,mutual,1096,,,740,subscription
+1542,dda5a1df-797c-4f85-b24b-368eaa6e3e1b,Paramount Plus,2500,1 mois,2026-06-17 19:36:39.262972+00,completed,mutual,838,,,,subscription
+1569,d6b97631-51a5-4f28-b3cf-77881e32ee17,Surfshark,1500,1 mois,2026-06-18 21:05:56.439104+00,completed,mutual,838,,,741,subscription
+1568,71cb19c6-4775-4d2d-bfde-c9405ff2d17b,Netflix,2500,1 mois,2026-06-18 20:55:23.695609+00,completed,mutual,830,,,742,subscription
+1572,c0a4bd14-06cb-437d-b920-08ebb4d44283,Spotify,2000,1 mois,2026-06-18 22:02:47.369463+00,completed,mutual,1101,,,,subscription
+1571,8582b2b9-52eb-4fb9-9db3-a39dde126c72,Spotify,2000,1 mois,2026-06-18 00:00:00+00,failed,mutual,957,426,,,renewal
+1574,dcb85f2c-df6c-442b-a310-a4463d5743f6,Crunchyroll,1500,1 mois,2026-06-18 22:12:22.448803+00,completed,mutual,1102,,,,subscription
+1850,7a1ad677-c375-41c7-b1c8-d950f73e45f3,Netflix,2500,1 mois,2026-07-01 15:26:47.512135+00,completed,mutual,68,,,868,subscription
+1862,db87b6b5-6e6b-4e6c-b2d5-f017c4e8dc7a,Prime Video,5500,3 mois,2026-06-30 23:11:00+00,completed,mutual,579,266,,266,renewal
+1591,a5560d02-4cd9-4545-832a-08d32d181b4d,Netflix,7000,3 mois,2026-06-19 18:11:42.348464+00,completed,mutual,884,,,751,subscription
+1576,8dcbcd14-8574-4c00-a984-5e24f024f2d1,Spotify,2000,1 mois,2026-06-18 00:00:00+00,completed,mutual,957,426,,426,renewal
+2148,11e7a16b-9c00-41f7-89c7-d7c7c28d8cd6,Netflix,2500,1 mois,2026-07-15 19:19:23.864031+00,completed,mutual,1292,,,996,subscription
+1633,22254dbb-af97-4240-8378-441e12630f49,Netflix,2500,1 mois,2026-06-21 15:55:58.271977+00,completed,mutual,390,105,,105,renewal
+2129,3457b72b-a1ab-401f-ac04-8ac88a023591,Netflix,2500,1 mois,2026-07-13 21:44:40.271506+00,completed,mutual,697,,,990,subscription
+1626,f8d0fe08-e8ab-4f88-ab9d-faff50d02dae,Netflix,2500,1 mois,2026-06-21 19:51:15.792505+00,completed,mutual,1126,,,773,subscription
+1577,1ae47e98-c0f6-4e20-8b98-72a757a38c37,Prime Video,2000,1 mois,2026-06-18 23:36:58.394071+00,completed,mutual,1104,,,745,subscription
+1584,928b937a-a9ad-4808-88f1-fdb6eec45dc9,Netflix,2500,1 mois,2026-06-19 13:38:39.567857+00,completed,mutual,1107,,,753,subscription
+1869,18cfcb40-1660-4ea2-a982-301e670bcb2b,Netflix,2500,1 mois,2026-07-02 20:30:16.85537+00,completed,mutual,131,,,875,subscription
+1876,c05174da-3c03-4091-8d78-867b8bdadcfd,Netflix,7000,3 mois,2026-07-04 11:15:15.25034+00,completed,mutual,914,518,,518,extension
+1880,1fbd8b4f-bb71-4a71-89c3-c8c7a53d95c4,Netflix,2500,1 mois,2026-07-01 14:37:32.413481+00,completed,mutual,887,500,,500,renewal
+1628,1bad05e5-537d-4447-959e-a49fbaa38b9d,Netflix,2500,1 mois,2026-06-21 20:10:06.235032+00,completed,mutual,851,,,774,subscription
+1580,8c2f73a2-5ec8-4eef-9d31-607930084b32,Apple Music,2000,1 mois,2026-06-19 11:04:36.47368+00,completed,mutual,885,,,746,subscription
+1582,b1b12831-55b0-4a13-88ed-00afbd830425,Netflix,7000,3 mois,2026-07-24 09:42:13.68295+00,failed,mutual,849,145,,,extension
+1598,f1c34384-8ae8-49e3-b306-76fd566d9838,Hbo Max,2500,1 mois,2026-06-20 21:07:10.759552+00,completed,mutual,964,442,,442,extension
+1586,fc2def17-acfc-49c6-b1ca-63debb29b16d,Hbo Max,2500,1 mois,2026-06-19 15:02:27.740658+00,completed,mutual,1108,,,747,subscription
+1603,744cdca6-d322-413b-9138-46a6722c5220,Netflix,2500,1 mois,2026-06-20 11:32:02.801388+00,completed,mutual,792,,,756,subscription
+1627,bc2385fd-d6c6-4757-8acf-19f4046c13d3,Netflix,2500,1 mois,2026-06-18 00:00:00+00,completed,mutual,423,425,,425,renewal
+1610,96290d6c-c1d3-422c-9f58-0f422b19d2b6,Spotify,2000,1 mois,2026-06-20 12:57:30.211037+00,completed,mutual,1114,,,760,subscription
+1608,c7fd5450-87f3-4332-85db-f035d49efe19,Hbo Max,2500,1 mois,2026-06-20 12:56:08.117775+00,completed,mutual,1114,,,761,subscription
+1587,4133913d-57bb-4bad-a010-db2e78854df4,Surfshark,1500,1 mois,2026-06-19 15:22:19.543031+00,completed,mutual,1063,,,748,subscription
+1585,6a6f5641-c7d0-4b77-bf1c-fa4fca522f10,Disney Plus,2500,1 mois,2026-06-19 15:01:01.63229+00,completed,mutual,1063,,,749,subscription
+1588,337ce2fc-8bc9-4bf0-976c-203291cd7f4c,Netflix,2500,1 mois,2026-06-18 06:00:00.332762+00,completed,mutual,464,573,,573,renewal
+1590,e62be00f-d3df-4804-8a43-8867f1ac8193,Netflix,2500,1 mois,2026-06-19 17:18:19.933951+00,completed,mutual,1109,,,750,subscription
+1617,656395eb-6db7-4980-b6bd-6953c648e992,Crunchyroll,1500,1 mois,2026-06-21 12:07:28.769756+00,completed,mutual,1122,,,769,subscription
+1614,2f4371fe-88e8-4bcf-9d3b-e4e25e9dc63f,Netflix,2500,1 mois,2026-06-21 11:30:20.814784+00,completed,mutual,1123,,,,subscription
+1635,db8050df-9e97-444e-b93e-e73b8c39a478,Crunchyroll,7000,6 mois,2026-06-22 10:28:34.319806+00,completed,mutual,635,,,777,subscription
+1624,fa6de46c-48af-44b2-ab4d-18364cf3c89c,Crunchyroll,1500,1 mois,2026-06-26 22:34:23.584348+00,completed,mutual,979,476,,476,extension
+1629,a9cab8b6-a7a4-4c0a-b8df-6954f43fc762,Disney Plus,2500,1 mois,2026-06-18 00:00:00+00,completed,mutual,533,47,,47,renewal
+1630,ce4249ee-a3b4-4a6a-83bd-19aeb4d16c9a,Surfshark,1500,1 mois,2026-06-18 00:00:00+00,completed,mutual,533,48,,48,renewal
+1631,3151b034-883e-4f84-801c-8a28eac4b88b,Disney Plus,2500,1 mois,2026-06-21 20:51:37.158009+00,completed,mutual,1127,,,775,subscription
+1639,06885473-4b18-4a4b-838b-f8a6531dc3e4,Netflix,2500,1 mois,2026-07-24 23:17:00+00,completed,mutual,975,467,,467,extension
+1632,bc18e59e-3304-4785-a8f9-c538deaab382,Surfshark,1500,1 mois,2026-06-21 21:12:01.457759+00,completed,mutual,1127,,,776,subscription
+1652,e9b8cd11-d52c-4f24-835a-6ca90c22558e,Hbo Max,2500,1 mois,2026-06-22 20:45:06.924882+00,completed,mutual,232,,,785,subscription
+1640,26a1e8d9-da05-4c9b-bfc1-fb35fa2a5492,Netflix,2500,1 mois,2026-06-22 13:29:52.948478+00,completed,mutual,1130,,,778,subscription
+1651,c4de725e-c96c-4374-8c5d-d31a9b2f61ab,Surfshark,1500,1 mois,2026-06-22 20:37:36.385853+00,completed,mutual,1138,,,783,subscription
+1649,7b983d99-4fbc-4fab-a64a-35426f457a5f,Netflix,2500,1 mois,2026-06-22 19:21:40.513851+00,completed,mutual,1137,,,781,subscription
+1648,fde16e7b-b3f0-45d4-b31b-c95ac7f026f1,Netflix,2500,1 mois,2026-06-22 15:25:35.819803+00,completed,mutual,1020,587,,587,renewal
+1641,474050b7-eda9-4597-9dd7-8509b0648c9d,Netflix,2500,1 mois,2026-06-22 14:29:17.690759+00,completed,mutual,1132,,,779,subscription
+1650,63bad5ae-aba5-4389-b6bf-b95d16aece3c,Disney Plus,2500,1 mois,2026-06-22 20:26:33.476258+00,completed,mutual,1138,,,784,subscription
+1647,0df6f392-b8aa-4c64-a5da-8bf9acf0e45a,Netflix,2500,1 mois,2026-06-22 18:50:14.095997+00,completed,mutual,1136,,,780,subscription
+1643,61257959-3673-407d-8e37-de792ff9d42d,Surfshark,4000,3 mois,2026-06-22 16:02:51.818869+00,completed,mutual,795,,,782,subscription
+1656,c36fef24-f1b8-493d-9a3f-7a9599194c3f,Netflix,2500,1 mois,2026-06-22 23:23:55.519716+00,completed,mutual,1131,,,786,subscription
+1657,90c11fb6-1fa5-4feb-952b-30e642bddf3d,Netflix,2500,1 mois,2026-06-23 00:03:47.977617+00,completed,mutual,1142,,,,subscription
+1661,4f3809ad-3dab-47c1-a72c-75ba86c089e3,Netflix,2500,1 mois,2026-06-23 09:54:48.632841+00,completed,mutual,1133,,,,subscription
+1658,0951bbf7-6c37-467a-979a-19cec2e93f3c,Netflix,2500,1 mois,2026-06-23 06:13:51.037291+00,completed,mutual,1143,,,789,subscription
+1655,d5676f7b-0fd2-4950-a770-641e13fa6ea8,Prime Video,2000,1 mois,2026-06-22 22:41:22.70117+00,completed,mutual,1141,,,791,subscription
+1662,d5440688-ecae-4b60-a1d8-66148ae05bc7,Prime Video,2000,1 mois,2026-06-23 10:15:46.013559+00,completed,mutual,928,,,790,subscription
+1851,44a769c6-adcc-4305-aad8-ef290fa71467,Crunchyroll,1500,1 mois,2026-06-27 12:13:50.8637+00,completed,mutual,1031,613,,613,renewal
+1663,985e5777-98fb-44a8-9fc2-c612e2a1239e,Netflix,2500,1 mois,2026-06-23 13:35:11.152267+00,completed,mutual,1147,,,792,subscription
+1681,6a42598e-ac2c-4498-8828-e3cb83073953,Netflix,2500,1 mois,2026-06-23 19:49:01.239494+00,completed,mutual,1153,,,802,subscription
+1664,690f729d-f048-4dcc-a5ef-6d5900f831e5,Netflix,2500,1 mois,2026-06-23 13:56:30.758552+00,completed,mutual,1150,,,793,subscription
+1859,7e65f77e-e4e6-46d5-b856-204dad3124ca,Netflix,2500,1 mois,2026-07-01 23:29:15.725315+00,completed,mutual,1204,,,872,subscription
+1665,371cb7d1-6268-4169-b185-a3649cb4afe5,Netflix,2500,1 mois,2026-06-23 13:57:00.309136+00,completed,mutual,1149,,,794,subscription
+1693,de18cfc9-5ff3-4acb-9ac1-25013b19c517,Netflix,2500,1 mois,2026-06-22 13:37:48.002779+00,completed,mutual,638,42,,42,renewal
+1679,947a049e-a15c-4900-944f-16150e8eb68f,Prime Video,2000,1 mois,2026-06-23 19:22:56.727703+00,completed,mutual,1152,,,803,subscription
+1666,61e5b6a3-02f6-4471-b5e3-6515f1f6fb8b,Apple Music,10000,6 mois,2026-06-23 14:09:28.82989+00,completed,mutual,1148,,,795,subscription
+1870,2d8bb94a-a7e8-44e4-8dc9-55e37be5dfa5,Prime Video,2000,1 mois,2026-07-02 22:06:44.93958+00,completed,mutual,521,,,877,subscription
+1879,909fb4f6-33c7-435b-b9d1-698e64316a97,Netflix,2500,1 mois,2026-07-03 14:00:26.817954+00,completed,mutual,1208,,,879,subscription
+2173,c4980a78-9ec9-4a1c-a8dd-0ef88f9a2b3a,Netflix,7000,3 mois,2026-07-15 16:45:42.022468+00,completed,mutual,1071,702,,702,renewal
+1896,12c9dbb8-9dc3-460b-b046-2f6e8d9f7489,Disney Plus,13000,6 mois,2026-09-13 21:40:25.005714+00,completed,mutual,184,694,,694,extension
+1669,dbd8c3bd-910b-4f89-89fa-e823e503661d,Netflix,2500,1 mois,2026-06-23 14:55:59.799733+00,completed,mutual,118,,,796,subscription
+2183,98c0f99a-10a9-4d46-bbbc-9f60550d1140,Netflix,7000,3 mois,2026-07-04 14:39:29.326206+00,completed,mutual,232,286,,286,renewal
+1668,daf73699-dbe0-4735-a364-f2c456d2837c,Netflix,2500,1 mois,2026-06-23 14:51:21.024586+00,completed,mutual,118,,,797,subscription
+1667,63f69a5c-913c-4b82-a024-ca3bc7eae9c1,Netflix,2500,1 mois,2026-06-23 14:24:39.896791+00,completed,mutual,1140,,,,subscription
+1683,b271d74b-969a-43bd-b4dc-74f23d83e007,Netflix,2500,1 mois,2026-06-23 21:14:16.506951+00,completed,mutual,1155,,,804,subscription
+1671,25526227-7dac-4552-a93d-036c733dcb27,Netflix,2500,1 mois,2026-06-23 15:26:43.321174+00,completed,mutual,1151,,,799,subscription
+1712,02f0ab1e-b42f-4960-aa5d-be13679967d2,Netflix,2500,1 mois,2026-06-24 09:49:15.080965+00,completed,mutual,1023,595,,595,renewal
+1674,9e12f7a9-a3d5-4942-9918-8a0c99a2f542,Netflix,2500,1 mois,2026-06-23 16:21:19.693571+00,completed,mutual,84,,,805,subscription
+1672,a23cde3d-00a5-4872-9bb9-0f099496717b,Netflix,2500,1 mois,2026-06-23 12:28:21.161939+00,completed,mutual,840,129,,129,renewal
+1682,43688397-d919-473a-add0-b4047c67855e,Netflix,2500,1 mois,2026-06-23 20:19:48.944365+00,completed,mutual,1154,,,806,subscription
+1673,5f9c79f4-67f7-4dba-9809-43c4e8a1f317,Prime Video,2000,1 mois,2026-06-23 12:38:00.635518+00,completed,mutual,1022,592,,592,renewal
+1675,8ba30299-30b8-4b69-a49f-24440b6fc450,Netflix,2500,1 mois,2026-06-20 20:55:34.391682+00,completed,mutual,19,583,,583,renewal
+1676,6adb61a0-7066-475b-acd2-d34c41645d91,Netflix,2500,1 mois,2026-06-20 19:45:30.653746+00,completed,mutual,287,582,,582,renewal
+1677,b0e86178-ed50-4cb7-8941-0bb158669ca5,Netflix,2500,1 mois,2026-06-23 17:20:22.093787+00,completed,mutual,1129,,,,subscription
+1694,f2a10838-cb22-46c3-bcf4-badf65203338,Netflix,7000,3 mois,2026-06-24 09:57:11.009949+00,completed,mutual,832,,,810,subscription
+1686,2c4d193c-7874-4fac-b2eb-6c3b05bbb08a,Prime Video,2000,1 mois,2026-06-23 23:55:07.593614+00,completed,mutual,1157,,,,subscription
+1680,6aa53e7a-c61c-48fb-af10-42e99a774433,Netflix,2500,1 mois,2026-06-23 19:43:03.557444+00,completed,mutual,1145,,,801,subscription
+1696,af4e336e-bb78-497c-86b7-f3871fd0d41c,Netflix,2500,1 mois,2026-06-24 09:58:27.672291+00,completed,mutual,1159,,,811,subscription
+1689,4822df1a-79ce-4494-be56-8a8247137e46,Surfshark,1500,1 mois,2026-06-24 07:47:36.758863+00,completed,mutual,1152,,,808,subscription
+1691,229546e0-2f8c-4b8e-b641-1513b4487f67,Hbo Max,2500,1 mois,2026-06-24 08:10:20.878056+00,completed,mutual,1152,,,809,subscription
+1704,6a061d17-f128-44fa-a672-6509d6c9e78b,Surfshark,1500,1 mois,2026-06-26 15:52:14.937408+00,completed,mutual,859,180,,180,extension
+1699,279c910c-1f74-4123-bbba-798a8945222d,Spotify,2000,1 mois,2026-06-24 14:07:42.777468+00,completed,mutual,1161,,,812,subscription
+1698,1c2e3142-b352-4691-8685-41d7d0155718,Netflix,2500,1 mois,2026-06-24 13:50:26.747602+00,completed,mutual,1160,,,813,subscription
+1707,291a4f23-daa8-474c-b877-cee7d41bbccb,Prime Video,2000,1 mois,2026-06-25 08:06:47.263215+00,completed,mutual,979,,,814,subscription
+1705,b87f58f1-0237-4ee3-b579-06a4480abc1b,Netflix,2500,1 mois,2026-06-25 08:03:01.10961+00,completed,mutual,1162,,,815,subscription
+1718,7cdc4396-c93c-4484-a8de-842b04081d56,Netflix,2500,1 mois,2026-06-25 19:34:25.539721+00,completed,mutual,916,,,820,subscription
+1700,651b48a9-d859-42ee-a93f-547131f55d07,Netflix,2500,1 mois,2026-06-24 15:47:22.430842+00,completed,mutual,928,,,816,subscription
+1701,24ead4f8-00b9-4337-bcf9-661c2dbcbbb9,Hbo Max,2500,1 mois,2026-06-26 15:38:29.60858+00,completed,mutual,859,178,,178,extension
+1703,65752a3e-96d3-4699-9912-be409d5bc45b,Paramount Plus,2500,1 mois,2026-06-26 15:38:35.632981+00,completed,mutual,859,179,,179,extension
+1710,e1966ddd-114c-4a61-aed9-7d01c2d37cbb,Netflix,2500,1 mois,2026-07-06 17:10:16.457461+00,completed,mutual,17,317,,317,extension
+1711,93324104-de77-4efc-a0c4-4ec7c9f7267a,Spotify,2000,1 mois,2026-06-25 23:15:00+00,completed,mutual,17,171,,171,extension
+1713,c1f96e51-f6e9-4469-9e87-278c91d18ea5,Netflix,2500,1 mois,2026-06-25 16:45:06.931743+00,completed,mutual,601,,,817,subscription
+1716,714cf966-8953-4f17-aaa8-4ad479745cd0,Netflix,2500,1 mois,2026-06-25 18:24:46.031449+00,completed,mutual,119,,,818,subscription
+1717,26063a38-3135-4da1-a9e0-2fccbd9273af,Netflix,7000,3 mois,2026-06-25 18:38:00.752468+00,completed,mutual,1144,,,819,subscription
+1720,cc525c0e-bb03-43d5-a6b2-0261a21a8fb9,Paramount Plus,2500,1 mois,2026-06-25 21:29:40.202654+00,completed,mutual,1166,,,821,subscription
+1721,d00ffebd-6c3c-4f45-8838-8f9adf9528af,Netflix,2500,1 mois,2026-06-26 07:05:13.849982+00,completed,mutual,1167,,,822,subscription
+1724,dec390cc-0d98-45f3-ba7a-3cb93c82708c,Netflix,7000,3 mois,2026-06-26 13:00:37.643174+00,completed,mutual,1168,,,824,subscription
+1725,d7fc9664-e3de-4985-bf73-c67ea0f90ac7,Netflix,2500,1 mois,2026-06-26 13:30:55.47661+00,completed,mutual,1169,,,825,subscription
+1719,ef76ec65-304a-4c08-8bba-998f477b6811,Prime Video,5500,3 mois,2026-06-25 21:03:18.666647+00,completed,mutual,1165,,,,subscription
+1726,bf2a06c3-b465-4517-9a3f-c53226282f45,Netflix,2500,1 mois,2026-06-26 15:37:22.401729+00,completed,mutual,1170,,,,subscription
+1727,ba6b6f25-cf2b-4d9f-89fb-0b45c09c5229,Netflix,2500,1 mois,2026-06-23 07:43:49.06991+00,completed,mutual,495,591,,591,renewal
+1728,ee01ed57-906d-4159-89b5-dd1181a199a4,Surfshark,1500,1 mois,2026-06-26 18:26:37.144928+00,completed,mutual,1166,,,,subscription
+1746,9e916460-759d-480f-bf66-d74319566e7d,Disney Plus,2500,1 mois,2026-06-27 21:27:18.172544+00,completed,mutual,861,187,,187,extension
+1729,73548c9a-fb19-4c6a-ae12-5fa049b17d0c,Prime Video,2000,1 mois,2026-06-26 20:39:51.520125+00,completed,mutual,1171,,,828,subscription
+1871,74ab9f5c-2a7f-4798-8edf-0994fff05abd,Disney Plus,2500,1 mois,2026-07-02 22:11:20.078955+00,completed,mutual,521,,,876,subscription
+1855,fd1e720b-983b-4100-b88f-ac384733b568,Netflix,2500,1 mois,2026-07-01 22:33:07.031696+00,completed,mutual,1202,,,869,subscription
+1770,6c80656f-6b6c-4b5b-90fd-f59f2b67e415,Netflix,2500,1 mois,2026-06-27 19:40:08.24038+00,completed,mutual,857,616,,616,renewal
+1731,4c5bad19-f0ff-4937-9d7b-6d48fb1fd5ac,Netflix,5500,1 mois,2026-06-25 23:02:00+00,completed,personal,154,177,,177,renewal
+2138,cc3b1c3c-5277-42f1-ab3f-540e3400363c,Netflix,2500,1 mois,2026-07-18 07:47:44.969994+00,completed,mutual,624,729,,729,extension
+1732,fbb0deb0-28b9-423d-b7c2-f15ef088a1ac,Netflix,5500,1 mois,2026-06-25 23:04:00+00,completed,personal,154,177,,177,renewal
+1873,8d1dded3-1bf0-4c1f-ab3e-2d3c8fba3603,Surfshark,1500,1 mois,2026-07-02 22:50:10.330704+00,completed,mutual,521,,,878,subscription
+1734,5ca85e31-b830-4ba3-b524-d4bf5c444e81,Netflix,2500,1 mois,2026-06-26 22:08:40.477768+00,completed,mutual,1172,,,,subscription
+1863,fd520791-10a1-43c9-b11f-0b36ee78217e,Netflix,2500,1 mois,2026-07-02 10:47:33.823962+00,completed,mutual,1009,,,873,subscription
+2131,46553b9a-5909-407f-8562-b565b8c6df14,Netflix,2500,1 mois,2026-07-14 17:02:13.843684+00,completed,mutual,1004,,,992,subscription
+1743,d74515ef-fec2-4bc4-bcca-c7ddcbfeaf7d,Netflix,13000,6 mois,2026-06-27 12:13:41.817477+00,completed,mutual,1174,,,832,subscription
+2157,be0c2129-832c-418b-98e3-6bd1bb68fcae,Netflix,2500,1 mois,2026-07-16 11:26:17.313027+00,completed,mutual,703,,,1000,subscription
+1895,bf12cc1c-0059-40d7-8ace-de88d8a065aa,Netflix,2500,1 mois,2026-07-03 17:20:13.89343+00,completed,mutual,258,,,883,subscription
+1737,400ed93c-67ba-4a28-bcf2-c0fb0acea957,Netflix,5500,1 mois,2026-06-26 20:11:14.517208+00,completed,personal,616,183,,183,renewal
+1750,09ae074a-a47b-4b97-8995-caf90f62ad12,Netflix,2500,1 mois,2026-06-27 22:40:12.513363+00,failed,mutual,1175,,,,subscription
+1739,29f160e8-7743-4422-a755-23c167779e2d,Surfshark,1500,1 mois,2026-06-26 12:24:03.147672+00,completed,mutual,887,604,,604,renewal
+2174,44505921-03cb-45eb-8369-f970a285b2f1,Disney Plus,2500,1 mois,2026-07-16 08:27:11.745142+00,completed,mutual,478,275,,275,renewal
+1740,da5bf88f-7e03-4124-875b-9d0a2e85ecc3,Netflix,2500,1 mois,2026-06-26 20:24:20.650794+00,completed,mutual,887,607,,607,renewal
+1898,a54d4cbc-d20b-4172-b338-d41ca6f5e2fc,Surfshark,7000,6 mois,2026-07-03 19:43:19.874379+00,completed,mutual,184,,,885,subscription
+1753,0eef1d64-ceab-4507-9814-96199ce16452,Netflix,22000,3 mois,2026-06-28 11:38:18.312706+00,completed,personal,1176,,,,subscription
+1754,2b87aff2-80ea-46b5-9de8-c33c45f3c7a8,Prime Video,14500,3 mois,2026-06-28 11:39:34.118601+00,completed,mutual,1176,,,,subscription
+1742,8cef968d-030c-440c-bedd-50d7521e60f0,Netflix,2500,1 mois,2026-06-27 11:17:05.175857+00,completed,mutual,790,,,830,subscription
+1902,2d895d02-74bf-4d2b-b66c-2c0281cff65f,Netflix,2500,1 mois,2026-07-03 21:10:08.202733+00,completed,mutual,1213,,,887,subscription
+1741,e1f64c04-c5c3-4bad-b56d-9bbe9b72ad71,Netflix,7000,3 mois,2026-06-21 23:14:00+00,completed,mutual,177,155,,155,renewal
+1904,3278f6aa-1392-4e6a-b5b9-8acfa84b7376,Prime Video,2000,1 mois,2026-07-03 22:07:07.350379+00,completed,mutual,1215,,,888,subscription
+1765,bdb8deec-a52f-404e-8c07-2453cc9a5bdb,Netflix,2500,1 mois,2026-06-28 12:45:28.986251+00,completed,mutual,1180,,,843,subscription
+1772,dedd0cba-e047-4abb-8ec7-8bbbf281a8ff,Spotify,10000,3 mois,2026-06-26 21:04:31.452298+00,completed,personal,860,186,,186,renewal
+1748,1c8d4d47-7988-43f4-a135-e551b742d629,Netflix,2500,1 mois,2026-06-27 21:11:53.019721+00,completed,mutual,165,,,,subscription
+1747,25e79a20-ffd1-4fe1-ac75-d931620ae39f,Netflix,2500,1 mois,2026-06-27 18:19:29.045518+00,completed,mutual,1,,,831,subscription
+1755,172d84cc-96e6-45c7-9bf7-3913c9acc1b5,Paramount Plus,2500,1 mois,2026-06-28 11:52:42.583624+00,completed,mutual,22,,,836,subscription
+1756,7a3fa078-8b3f-4414-a009-98b04f957dc0,Disney Plus,2500,1 mois,2026-06-28 12:00:45.044705+00,completed,mutual,1177,,,,subscription
+1757,dcbbb5a6-6c11-4329-ae3b-0949d1fdfc49,Paramount Plus,2500,1 mois,2026-06-28 12:01:03.601754+00,completed,mutual,1177,,,,subscription
+1758,a8ede7a0-05cd-48f7-a51a-c283f5d829a2,Hbo Max,2500,1 mois,2026-06-28 12:01:25.289218+00,completed,mutual,1177,,,,subscription
+1759,95768f0f-e5eb-469d-97e6-f2b513499796,Apple TV,3000,1 mois,2026-06-28 12:01:45.474455+00,completed,mutual,1177,,,,subscription
+1749,01204a16-ad28-4250-a272-fced81997717,Netflix,2500,1 mois,2026-06-27 22:39:11.148065+00,completed,mutual,1175,,,,subscription
+1760,610d4b1f-933a-462f-a44c-17961be27390,Spotify,759000,1 an,2026-01-01 12:13:00+00,completed,mutual,2,598,,598,renewal
+1761,c623cb0b-9a24-4c54-a723-668fa2c54f59,Spotify,693500,1 an,2026-02-01 12:18:00+00,completed,mutual,2,598,,598,renewal
+1763,a4f8bb45-4427-4dd1-a129-4d700187be73,Netflix,2500,1 mois,2026-06-28 12:32:32.74045+00,completed,mutual,1178,,,,subscription
+1762,a6fc377c-ae01-4936-82ed-66112ab940f4,Spotify,467000,1 an,2026-03-01 12:18:00+00,completed,mutual,2,598,,598,renewal
+1766,f23a096c-7e01-4c3b-9eb3-7dd5897f87fd,Netflix,2500,1 mois,2026-06-28 13:48:59.248768+00,completed,mutual,1181,,,844,subscription
+1773,2bf434c0-b210-4080-a906-eb6b8f115b3b,Prime Video,2000,1 mois,2026-06-25 15:09:44.416416+00,completed,mutual,855,166,,166,renewal
+1785,9072e860-546d-4308-a4dd-600bd5f02425,Prime Video,2000,1 mois,2026-06-29 10:11:51.709853+00,completed,mutual,1184,,,,subscription
+1767,9b1bbee2-7400-4ff7-8d48-8bd2090e3142,Spotify,2000,1 mois,2026-06-22 12:36:31.588933+00,completed,mutual,432,586,,586,renewal
+1774,aa0a88b8-3940-422e-8219-b632229607e8,Netflix,2500,1 mois,2026-06-25 15:09:44.159219+00,completed,mutual,855,165,,165,renewal
+1775,37cf8681-3032-42a6-96ff-4ad7ae6dfde8,Disney Plus,2500,1 mois,2026-06-23 23:18:00+00,completed,mutual,427,138,,138,renewal
+1776,879ac975-54b0-43d3-8ffc-71b96b897b88,Surfshark,1500,1 mois,2026-06-30 23:18:00+00,completed,mutual,427,137,,137,extension
+1781,eccb9c8a-9e94-4fe8-be6b-adeebb33ab95,Prime Video,5500,3 mois,2026-09-24 12:01:00+00,pending_payment,mutual,555,208,,,extension
+1786,2b2dc0fb-e120-4ece-aff5-744e053907e7,Netflix,2500,1 mois,2026-06-29 10:12:01.322225+00,completed,mutual,67,,,846,subscription
+1841,b6571669-df40-45ac-8ac4-10d323709aca,Netflix,2500,1 mois,2026-06-30 19:32:55.971936+00,completed,mutual,1198,,,864,subscription
+1777,56d594d0-1b22-4d3d-8035-05d0749b400d,Netflix,2500,1 mois,2026-06-27 23:59:00+00,completed,mutual,153,151,,151,renewal
+1811,5c783aca-9ed4-4380-89b8-c3624e33a8a3,Spotify,2000,1 mois,2026-06-28 12:10:57.095636+00,completed,mutual,876,619,,619,renewal
+1791,fe1dc7d4-f81f-4f10-87bb-c455341ed62d,Netflix,2500,1 mois,2026-06-29 13:17:24.557278+00,completed,mutual,1182,,,847,subscription
+1846,b3035304-971e-4f3e-9cda-29e0fe6820c9,Netflix,2500,1 mois,2026-06-27 09:36:22.150531+00,completed,mutual,176,578,,578,renewal
+2130,4c8e144d-1388-4f7f-8576-bfcd6f5eded8,Netflix,2500,1 mois,2026-07-14 11:56:01.17106+00,completed,mutual,161,,,991,subscription
+1794,1b731595-563e-4bce-8c97-732b29d10a74,Netflix,7000,3 mois,2026-06-29 10:30:59.792528+00,completed,mutual,36,118,,118,renewal
+1795,b32ee5ea-37f3-48c2-a6d2-a1d7d566c46f,Disney Plus,7000,3 mois,2026-06-29 16:27:26.473903+00,completed,mutual,1186,,,,subscription
+1848,7d82ad0a-61b8-45cc-9e41-37f19a6a3511,Crunchyroll,1500,1 mois,2026-07-01 08:58:35.076278+00,completed,mutual,839,,,865,subscription
+2132,7e0add84-6ec2-465d-92f6-8a62440151a0,Netflix,9000,1 mois,2026-07-14 18:32:05.920305+00,completed,personal,1287,,,988,subscription
+1812,6904d458-72d4-4e2b-9d9d-680c4636af3c,Netflix,2500,1 mois,2026-06-29 23:00:48.392621+00,completed,mutual,959,,,852,subscription
+1796,3a90c67a-f881-4d94-b17c-993c65bbbf66,Surfshark,1500,1 mois,2026-06-27 11:39:19.133786+00,completed,mutual,22,610,,610,renewal
+1844,b87da4c3-95bd-4e20-905c-57a77456ca6b,Netflix,2500,1 mois,2026-06-30 22:07:09.413054+00,completed,mutual,730,,,866,subscription
+1802,e62d9e34-f891-435e-a7b6-1b70bd5b3fea,Netflix,7000,3 mois,2026-06-29 20:06:11.83621+00,completed,mutual,1188,,,,subscription
+1797,36c69604-b434-489c-96f9-6a2416379000,Spotify,2000,1 mois,2026-06-27 11:39:12.450716+00,completed,mutual,10,609,13,609,renewal
+1878,58068dc3-75b3-4fe9-8f67-ecfa75489997,Spotify,2000,1 mois,2026-06-29 17:36:24.843215+00,completed,mutual,1033,626,,626,renewal
+1792,c2b17531-4f44-4756-9812-52fd57b93a57,Netflix,2500,1 mois,2026-06-29 14:57:00.39338+00,completed,mutual,1185,,,,subscription
+1864,815db7ad-15a0-4966-968d-c4a5337ef944,Apple TV,8500,3 mois,2026-07-02 13:17:13.069955+00,completed,mutual,1,,15,,subscription
+1799,d44e1eb1-617c-4518-b2f6-b84823c1f5f8,Netflix,2500,1 mois,2026-06-28 19:43:09.356338+00,completed,mutual,100,221,,221,renewal
+1899,54018d56-fa9a-40b8-9721-6f1dcdec52fd,Prime Video,10000,6 mois,2026-07-03 19:46:26.440426+00,completed,mutual,184,,,886,subscription
+1893,a93005bf-7a08-401f-9cac-61684da30147,Netflix,2500,1 mois,2026-07-03 17:14:23.737863+00,completed,mutual,255,,,882,subscription
+1882,be2be054-db7f-4e6a-8c8a-b3a22789bf33,Netflix,16000,3 mois,2026-07-03 15:06:36.982243+00,completed,personal,118,,,881,subscription
+2175,6ee69c44-f3c7-4634-ad3a-ba0a313614d6,Surfshark,1500,1 mois,2026-07-17 00:14:15.039351+00,completed,mutual,478,,,,subscription
+2158,8f9d04f1-202c-41df-b1e8-17f9d984e151,Prime Video,2000,1 mois,2026-07-16 11:34:43.420388+00,completed,mutual,1294,,,1001,subscription
+1885,7d46f481-1502-4c1a-874c-e666f11afde6,Netflix,2500,1 mois,2026-07-03 16:06:56.989963+00,completed,mutual,966,,,884,subscription
+1800,6be09279-036c-4c61-b0f0-59dda5db4544,Netflix,2500,1 mois,2026-06-27 16:49:13.746506+00,completed,mutual,863,199,,199,renewal
+2167,0a442cb8-7fa0-4e55-9665-04c7e7b7b370,Netflix,2500,1 mois,2026-07-16 18:08:51.093991+00,completed,mutual,1297,,,1004,subscription
+1804,6014f400-caa2-4101-940a-fd979c379948,Paramount Plus,2500,1 mois,2026-06-27 16:46:43.047881+00,completed,mutual,863,197,,197,renewal
+2184,2d3bfe0a-4fe5-4dec-a43a-f8f3810da751,Apple TV,8500,3 mois,2026-07-04 14:37:19.10873+00,completed,mutual,232,285,,285,renewal
+1806,8cd74d59-fea8-4f91-934b-3cc9e1a1dc6b,Prime Video,2000,1 mois,2026-06-27 18:55:03.357929+00,completed,mutual,863,479,,479,renewal
+1807,a7109b92-2bef-4091-b4c6-4946b2b61b34,Crunchyroll,1500,1 mois,2026-06-29 20:37:55.914491+00,completed,mutual,457,,,,subscription
+1809,a30a5282-42ce-4fd4-9242-a3c8ed205161,Netflix,2500,1 mois,2026-06-27 23:52:00+00,completed,mutual,584,608,,608,renewal
+1825,ee2d2915-c519-4ecc-a26f-1e555118c604,Netflix,2500,1 mois,2026-06-30 16:26:55.183892+00,completed,mutual,21,,,855,subscription
+1826,89955ea3-2e86-42f7-b00a-5bd47cf01b13,Netflix,4500,1 mois,2026-06-30 16:39:27.986907+00,failed,personal,1194,,,,subscription
+1907,fcb38e7c-6fa0-4ade-9ebe-a3d85198e932,Netflix,2500,1 mois,2026-07-04 12:16:24.463244+00,completed,mutual,1220,,,889,subscription
+1820,0e821db4-a425-46a0-a6b9-5fcb96f43c57,Crunchyroll,12000,1 an,2026-06-27 16:02:46.53217+00,completed,mutual,372,195,,195,renewal
+1819,65252d3c-bae4-4ce0-aaea-5ab20fb77fd5,Netflix,5500,1 mois,2026-06-23 12:16:46.02103+00,completed,personal,839,128,,128,renewal
+1872,150e08bd-0438-4de8-a7b7-c0b00fff51ae,Netflix,2500,1 mois,2026-07-24 18:11:33.804368+00,completed,mutual,521,568,,568,extension
+1817,d35be731-cd69-4149-b705-01bc06960caf,Spotify,3500,1 mois,2026-06-30 07:28:58.765556+00,completed,personal,1191,,,861,subscription
+1830,492bbbd5-78c7-45f5-a05d-88043c248eaf,Netflix,2500,1 mois,2026-06-30 17:54:30.765551+00,completed,mutual,112,,,859,subscription
+1823,b5eb1438-eaf2-4ba7-a1e9-4fc8b688b63d,Prime Video,2000,1 mois,2026-06-29 07:31:31.547251+00,completed,mutual,21,229,,229,renewal
+1824,17c463c2-e162-4a65-96ff-fd7903a882ed,Netflix,4500,1 mois,2026-06-17 21:32:27.687007+00,completed,personal,931,572,,572,renewal
+1822,68f0e532-001c-47ce-85a0-00e7a3c604c8,Netflix,2500,1 mois,2026-06-30 16:12:17.207193+00,completed,mutual,1193,,,854,subscription
+1915,d83b0128-45ca-4f5c-a0dc-a68e4e484052,Netflix,2500,1 mois,2026-07-04 16:01:25.786705+00,completed,mutual,1216,,,895,subscription
+1905,0ff748f0-f968-418d-abc6-af9387579530,Apple Music,2000,1 mois,2026-07-04 08:16:43.162843+00,completed,mutual,224,,,914,subscription
+1828,a6eef8a0-73be-48f4-a43d-699eca1ad0b9,Crunchyroll,7000,6 mois,2026-06-30 16:48:37.278761+00,completed,mutual,1195,,,856,subscription
+1813,ebf0e531-879c-4d12-b5f3-0caaab58f37c,Spotify,2000,1 mois,2026-06-29 23:53:09.679349+00,completed,mutual,1190,,,,subscription
+1838,0fa9b927-3586-4c45-bfd7-34bd6f785a99,Netflix,2500,1 mois,2026-06-30 19:02:44.88068+00,completed,mutual,1194,,,862,subscription
+1833,f4269e0f-b5de-49f3-bbf0-0644d0510c4b,Netflix,2500,1 mois,2026-06-30 18:43:17.536671+00,completed,mutual,1189,,,,subscription
+1837,d0ef1634-6947-483e-9ddf-a83e28c47111,Hbo Max,2500,1 mois,2026-06-28 21:26:00+00,completed,mutual,533,228,,228,renewal
+1831,231259ef-f8ac-4905-a6ce-1568a0d4eb71,Netflix,2500,1 mois,2026-06-30 18:20:03.92009+00,completed,mutual,1197,,,860,subscription
+1843,9602bfa3-f5c1-42ef-8476-3fc57525c065,Netflix,2500,1 mois,2026-07-27 23:33:00+00,pending_payment,mutual,1170,833,,,extension
+1842,ef193a6e-2345-4f8a-8295-5e7b9c5fe1a9,Netflix,2500,1 mois,2026-06-30 19:44:37.970855+00,completed,mutual,1200,,,,subscription
+2133,0f312bfa-924d-427b-b3a9-044c83fd94f4,Prime Video,5000,1 mois,2026-07-14 18:32:48.845981+00,completed,personal,1287,,,989,subscription
+2143,6ae191ce-537f-44d3-b826-7565a8851289,Netflix,7000,3 mois,2026-07-15 14:41:59.403904+00,completed,mutual,1289,,,993,subscription
+1934,4037a931-611e-43a8-9634-463b7fc04ac3,Netflix,2500,1 mois,2026-07-04 23:52:00+00,completed,mutual,912,343,,343,renewal
+1919,f1f566bd-6a20-485d-bbcf-ec3cfb413f87,Prime Video,2000,1 mois,2026-07-04 18:18:50.785937+00,completed,mutual,1120,,,890,subscription
+1943,9843a8d0-3a70-43af-b55b-80cdb3e6bd5a,Netflix,7000,3 mois,2026-07-05 18:03:14.158483+00,completed,mutual,1199,,,906,subscription
+1918,86de38a1-21e7-4c33-b374-a407e8e84a78,Prime Video,2000,1 mois,2026-07-04 18:04:41.330345+00,completed,mutual,569,,,891,subscription
+2159,377b8f9d-c9ec-4a85-b46b-6d12f8eae054,Netflix,2500,1 mois,2026-07-17 17:02:00+00,completed,mutual,1076,707,,707,extension
+2168,ae43d472-7743-407f-8fb8-9be807fa24d9,Netflix,2500,1 mois,2026-07-16 07:58:47.815631+00,completed,mutual,1048,667,,667,renewal
+1921,552dcce7-f7bb-478f-93af-059bf5749b22,Crunchyroll,1500,1 mois,2026-07-04 18:44:21.3299+00,completed,mutual,548,,,892,subscription
+1936,ed2b884e-0108-43d0-b5ef-72ecfbc9774d,Hbo Max,2500,1 mois,2026-07-05 14:00:42.96823+00,completed,mutual,358,,,900,subscription
+1924,e2cbd5d9-c005-4dcd-98eb-672276cb07b8,Hbo Max,2500,1 mois,2026-06-30 22:59:24.860549+00,completed,mutual,957,487,,487,renewal
+1935,4c6392aa-50dd-46e1-84f2-f8eb0db92528,Surfshark,1500,1 mois,2026-07-05 13:57:25.185569+00,completed,mutual,358,,,901,subscription
+1923,05b89098-ebb7-4236-b8bf-16328b9d06f2,Surfshark,1500,1 mois,2026-06-30 22:59:22.001075+00,completed,mutual,957,486,,486,renewal
+1917,04ca21c6-b5b6-41e0-bc13-f54c5d18d3c9,Crunchyroll,1500,1 mois,2026-07-04 17:29:20.559409+00,completed,mutual,1012,,,893,subscription
+1937,443dccbb-d362-4a9f-95fc-55813b615867,Netflix,2500,1 mois,2026-06-30 23:44:00+00,completed,mutual,991,507,,507,renewal
+1916,2ab3c7f2-c62d-4d76-84b1-cfbd8e864457,Surfshark,4000,3 mois,2026-07-04 16:36:56.372777+00,completed,mutual,1186,,,894,subscription
+1913,4f027cfa-eedf-489f-bd2d-168477d846a6,Disney Plus,2500,1 mois,2026-07-08 18:13:43.558312+00,completed,mutual,859,341,,341,extension
+1909,0c17998f-085e-4d59-8ce8-699f561c366d,Prime Video,2000,1 mois,2026-07-05 19:56:51.355565+00,completed,mutual,859,521,,521,extension
+1927,9d478204-fd0f-47c0-b458-cefc4709dfc7,Spotify,2000,1 mois,2026-07-04 22:52:54.92854+00,completed,mutual,392,,,,subscription
+1928,f54d41fe-93c3-40fd-b1b7-400746eb7db4,Netflix,2500,1 mois,2026-07-04 23:55:34.087043+00,completed,mutual,957,,,897,subscription
+1938,52823db9-9dcf-4ea9-98c8-34e50da76de5,Netflix,2500,1 mois,2026-07-05 14:16:37.689429+00,completed,mutual,608,,,902,subscription
+1929,12665e6b-f2cd-4502-badf-d04875092462,Netflix,2500,1 mois,2026-07-05 00:26:07.756603+00,completed,mutual,1223,,,898,subscription
+1931,501bef06-e006-49b6-a6e0-2d4c1ab9b3b1,Crunchyroll,1500,1 mois,2026-07-04 16:59:07.713956+00,completed,mutual,741,615,,615,renewal
+1932,ea4e0912-b79f-4000-b083-04966de6d103,Prime Video,2000,1 mois,2026-07-05 13:06:40.234738+00,completed,mutual,741,,,899,subscription
+1947,887c4609-0e00-4733-acad-be3e2fbf7d81,Prime Video,2000,1 mois,2026-07-06 10:53:42.824536+00,completed,mutual,1210,,,907,subscription
+1939,906f281a-9540-43a7-a174-36c1cfb3af97,Netflix,2500,1 mois,2026-07-05 15:03:54.951207+00,completed,mutual,1225,,,903,subscription
+1940,21ad6f14-0a07-4dad-8ad4-8cd4654c2aa8,Netflix,2500,1 mois,2026-07-05 15:14:09.71642+00,completed,mutual,1226,,,904,subscription
+1941,177ca8c3-c308-492d-b38e-8290e91ea97a,Spotify,2000,1 mois,2026-07-05 15:33:21.451526+00,completed,mutual,1227,,,905,subscription
+1906,d7065183-0da6-467e-938c-10d5bbf63c84,Netflix,2500,1 mois,2026-07-04 10:12:31.013007+00,completed,mutual,1219,,,917,subscription
+1959,754aff8c-d6b3-4be7-ad34-26558989185c,Apple Music,2000,1 mois,2026-07-07 07:32:22.679512+00,completed,mutual,1232,,,912,subscription
+1945,4c412ad7-72a0-42f0-b57b-3df23d121946,Netflix,2500,1 mois,2026-07-05 22:41:42.835961+00,completed,mutual,1143,,,909,subscription
+1950,01a2a188-ca7a-4ef7-b535-78b415932e5e,Prime Video,2000,1 mois,2026-07-06 17:39:26.234784+00,completed,mutual,887,,,908,subscription
+1961,877ab4fa-d036-4e7a-8755-04e59183d463,Netflix,2500,1 mois,2026-07-07 11:46:04.202524+00,completed,mutual,1234,,,916,subscription
+1963,0d735bb3-42ca-45f3-9f7f-aec0fce2f779,Netflix,2500,1 mois,2026-07-07 12:33:29.483147+00,completed,mutual,1236,,,918,subscription
+1957,000cb019-d8d7-4b31-8d0e-a8ae81610be1,Netflix,2500,1 mois,2026-07-26 15:47:05.551045+00,completed,mutual,979,470,,470,extension
+1954,886e1316-2937-4634-b558-c26b59947982,Hbo Max,2500,1 mois,2026-07-06 20:00:15.192204+00,completed,mutual,1229,,,910,subscription
+1953,df4887ba-0a63-4ff7-9c81-adec6ae6f56e,Apple Music,2000,1 mois,2026-07-04 20:37:19.190771+00,completed,mutual,525,520,,520,renewal
+1958,4b946a85-df07-4f0e-a2b4-3f40dfec3f36,Surfshark,1500,1 mois,2026-07-07 07:25:46.658129+00,completed,mutual,1229,,,911,subscription
+1960,0b4c798e-f770-493e-af98-6b1f51a9eb40,Netflix,2500,1 mois,2026-07-07 09:58:32.69085+00,completed,mutual,1233,,,913,subscription
+1967,eb931d91-c317-47d6-8632-3bb21bbef0b3,Netflix,2500,1 mois,2026-07-07 16:21:43.112003+00,completed,mutual,952,,,927,subscription
+1951,138c9826-057e-4738-8058-a00836df1faa,Crunchyroll,4000,3 mois,2026-07-06 18:24:39.89386+00,completed,mutual,367,,,915,subscription
+1972,76090834-a321-4744-8b2f-ad5fe6b87940,Prime Video,2000,1 mois,2026-07-07 18:10:08.26522+00,completed,mutual,1182,,,921,subscription
+1975,82e0c681-b0c9-414a-bbe3-0d5c9927a715,Netflix,2500,1 mois,2026-07-02 23:59:00+00,completed,mutual,349,647,,647,renewal
+1974,e7a5b399-420c-4bee-be5d-ecd13b35397c,Netflix,2500,1 mois,2026-07-07 18:54:57.571255+00,completed,mutual,1238,,,926,subscription
+1973,3758f822-f86b-4033-b81a-f971b312a8ac,Prime Video,2000,1 mois,2026-07-07 18:30:10.504097+00,completed,mutual,1238,,,925,subscription
+1966,d4e9d379-685e-4fb9-a969-0349c8b9ae4d,Spotify,2000,1 mois,2026-07-07 15:58:37.92132+00,completed,mutual,438,,,922,subscription
+1964,3011ecc7-dbd9-438a-8139-d47ff19fd720,Netflix,2500,1 mois,2026-07-07 13:02:11.572004+00,completed,mutual,1235,,,920,subscription
+1970,7ec77483-cfde-4579-8c39-209b5b1d6ecf,Prime Video,2000,1 mois,2026-07-07 17:47:26.908965+00,completed,mutual,745,,,919,subscription
+1965,d4514f04-e8f1-4d29-bee2-60600e5afeac,Surfshark,1500,1 mois,2026-06-30 10:26:05.352959+00,completed,mutual,429,491,,491,renewal
+1969,af1c1cc3-0509-4251-9469-d5c808cd0aaf,Prime Video,5500,3 mois,2026-07-07 17:39:02.010899+00,completed,mutual,1165,,,924,subscription
+1976,24e5aaab-1538-401a-a8e8-8b5104049878,Disney Plus,2500,1 mois,2026-07-06 23:17:00+00,completed,mutual,349,593,,593,renewal
+2144,2da501ef-d627-46dc-8bc3-4670a2b331f1,Surfshark,1500,1 mois,2026-07-15 16:13:02.074406+00,completed,mutual,1177,,,,subscription
+1980,ce4bf164-b74b-44bb-8629-19a86a0396b1,Spotify,2000,1 mois,2026-07-05 23:34:00+00,completed,mutual,19,657,,657,renewal
+1981,813d7dc7-b181-428d-8e3e-295b574b5c37,Prime Video,2000,1 mois,2026-07-09 23:41:00+00,completed,mutual,19,355,,355,extension
+2169,5c21c316-cbc3-4efc-8e56-0c6192218698,Netflix,2500,1 mois,2026-07-16 18:30:29.710797+00,completed,mutual,1296,,,,subscription
+1998,9fd8425b-68af-4249-a971-f68ce2af5964,Prime Video,2000,1 mois,2026-07-08 14:02:26.904286+00,completed,mutual,1244,,,936,subscription
+2004,874be124-3e9c-45c9-8d8e-5ee985a81705,Crunchyroll,1500,1 mois,2026-07-08 17:02:17.202913+00,completed,mutual,475,336,,336,extension
+1983,bceb86eb-bf9e-4103-8329-6a4879f00a5f,Prime Video,2000,1 mois,2026-07-07 20:03:26.121153+00,completed,mutual,1219,,,928,subscription
+2160,749a455a-dc6b-4cad-ab80-4877aa6b6646,Surfshark,1500,1 mois,2026-07-16 16:21:49.846062+00,completed,mutual,28,,,1002,subscription
+1996,bc3e4f08-e3f1-436d-854a-7fc4c94b1f2f,Netflix,2500,1 mois,2026-07-08 13:49:28.73607+00,completed,mutual,1243,,,937,subscription
+2177,d54d8bf5-2efd-47f1-912b-bb368fdec5d2,Spotify,2000,1 mois,2026-07-15 23:36:00+00,completed,mutual,60,625,,625,renewal
+2181,0be6e6bd-b8b9-442a-8975-9948e258225d,Hbo Max,7000,3 mois,2026-07-17 19:22:31.767478+00,completed,mutual,1278,,,1010,subscription
+1984,87fadf75-9579-42f0-8bfd-50d6bcd1119d,Disney Plus,2500,1 mois,2026-08-08 18:13:43.558312+00,completed,mutual,859,341,,341,extension
+2042,6ab20906-5e8c-4575-98fa-880cfcc9ec51,Netflix,2500,1 mois,2026-07-09 21:59:51.104253+00,completed,mutual,1255,,,,subscription
+2023,94903ed1-ab84-4cd6-9cee-0a3f43814a22,Crunchyroll,1500,1 mois,2026-07-01 20:48:39.100532+00,completed,mutual,876,637,,637,renewal
+1988,64425998-d934-4dc4-9141-e96322e24a44,Surfshark,1500,1 mois,2026-07-07 20:55:40.471255+00,completed,mutual,590,,,930,subscription
+1989,e6d84edc-ac5e-41f7-9032-89558e3ce233,Prime Video,2000,1 mois,2026-07-07 21:35:22.25423+00,completed,mutual,1241,,,931,subscription
+1990,3121a255-66ff-4e3e-a462-28b5ab1a9bc0,Netflix,2500,1 mois,2026-07-07 21:35:57.66082+00,completed,mutual,1240,,,932,subscription
+2015,0fc887b0-21b4-484c-b843-70b4f738b95b,Netflix,2500,1 mois,2026-07-08 23:43:40.198939+00,completed,mutual,1247,,,939,subscription
+1991,3f64a3aa-0a01-4ab1-827f-e5ff131f280c,Netflix,2500,1 mois,2026-07-07 23:56:17.264551+00,completed,mutual,892,,,933,subscription
+1992,695b693b-36f1-4fd6-a7a1-59ecb1be70e1,Netflix,2500,1 mois,2026-07-08 11:24:51.799891+00,completed,mutual,1214,,,,subscription
+1993,2e5dec45-a9ca-424f-91cb-c706146e95b9,Spotify,2000,1 mois,2026-07-06 14:51:00+00,completed,mutual,840,323,,323,renewal
+1994,350f288f-8a0a-4465-adcf-4e59efbb8b57,Crunchyroll,4000,3 mois,2026-07-08 11:53:22.026099+00,completed,mutual,1242,,,935,subscription
+2007,b8c41cd5-b212-4207-9260-914bd0c8d45a,Netflix,2500,1 mois,2026-07-15 17:30:56.71945+00,completed,mutual,475,339,,339,extension
+2024,927ffea2-2be4-4f6a-ac8c-5448d4eb38d6,Prime Video,2000,1 mois,2026-07-01 20:49:14.033966+00,completed,mutual,876,250,,250,renewal
+2000,31afe8b6-880e-4f30-8b7d-ed55846ed7b2,Surfshark,1500,1 mois,2026-07-09 10:20:52.739871+00,completed,mutual,859,346,,346,extension
+2025,6750d710-5382-4b9a-bdd7-960d31bfab3c,Netflix,2500,1 mois,2026-07-04 07:09:14.722126+00,completed,mutual,876,649,,649,renewal
+2003,5acda93c-e14c-4b47-823e-8b0bedb4c5c6,Surfshark,1500,1 mois,2026-07-08 17:02:07.999791+00,completed,mutual,475,335,,335,extension
+2008,e357aa74-a041-415e-91ba-0cb8a5e3e9f8,Netflix,5500,1 mois,2026-07-06 23:10:00+00,completed,personal,982,474,,474,renewal
+2006,42d3edfc-173f-4dc0-9a25-6b5dc10dc974,Hbo Max,2500,1 mois,2026-07-08 17:27:10.615523+00,completed,mutual,475,338,,338,extension
+2017,ca5780a8-29df-4086-a0f8-8c7d425c8377,Netflix,2500,1 mois,2026-07-09 07:40:37.588703+00,completed,mutual,1248,,,940,subscription
+2005,c55d7a8f-4ad7-4422-9ba3-fa0b90498144,Prime Video,2000,1 mois,2026-07-08 17:27:09.952286+00,completed,mutual,475,337,,337,extension
+2001,175fba1d-bd7e-4fa7-b18b-2ffd5f573c64,Netflix,2500,1 mois,2026-07-06 23:53:00+00,completed,mutual,501,527,,527,renewal
+2034,c57d3364-cfa7-4626-9ffb-00020eb6e323,Netflix,13000,6 mois,2026-07-09 16:00:08.113172+00,completed,mutual,1253,,,,subscription
+2014,058cb8d4-e15d-4b35-8582-f5e96139e0f1,Netflix,2500,1 mois,2026-07-08 23:04:00+00,completed,mutual,1062,679,,679,renewal
+2010,ebf292dd-40a0-4921-857e-6abc2398b366,Netflix,2500,1 mois,2026-07-08 20:13:52.582212+00,completed,mutual,1245,,,938,subscription
+2022,14295fa3-7584-4748-ba13-e0d66051b89e,Prime Video,5000,1 mois,2026-07-08 23:21:00+00,completed,personal,467,357,,357,renewal
+2026,35b020fb-42ae-4308-9386-e5f935566b2f,Spotify,2000,1 mois,2026-07-28 12:10:57.095636+00,completed,mutual,876,619,,619,extension
+2027,dedc5215-aecd-4e49-9d02-4de355312612,Apple Music,2000,1 mois,2026-07-03 23:56:00+00,completed,mutual,676,653,,653,renewal
+2011,f3a57f1a-cbe4-4b0d-9a3a-558c969cc991,Netflix,2500,1 mois,2026-07-08 20:15:07.404989+00,completed,mutual,1246,,,942,subscription
+2020,7a6c295c-3395-484e-8af6-534640b84af5,Prime Video,2000,1 mois,2026-07-09 11:11:37.697973+00,completed,mutual,915,,,941,subscription
+2029,b5bbfca2-a893-4951-bc39-c49a82ec8ecc,Netflix,2500,1 mois,2026-07-09 15:25:16.642146+00,completed,mutual,640,,,946,subscription
+2018,b2d192fc-24d7-4128-8e94-50509c93c904,Hbo Max,2500,1 mois,2026-07-09 07:44:10.657746+00,completed,mutual,1249,,,943,subscription
+2028,652f1625-41cb-4b96-bf26-10966ae33ecf,Netflix,7000,3 mois,2026-07-09 14:48:11.890717+00,completed,mutual,1250,,,944,subscription
+2031,594e2246-258b-432e-8862-4f4350794c56,Netflix,7000,3 mois,2026-07-09 15:28:23.311941+00,completed,mutual,23,,,945,subscription
+2030,b312116e-9a05-48cd-9405-54a63d887b6b,Crunchyroll,1500,1 mois,2026-07-09 15:27:33.796032+00,completed,mutual,1251,,,947,subscription
+2032,4ab5e283-739b-4156-b0c8-32d0c70072f3,Prime Video,2000,1 mois,2026-07-09 15:49:47.876939+00,completed,mutual,1252,,,949,subscription
+2035,baf30499-17c8-47d4-8a0d-dec61fbc364d,Spotify,2000,1 mois,2026-07-05 19:44:36.644451+00,completed,mutual,671,307,,307,renewal
+2036,a25f9f01-af93-4f40-97f2-18a2fc5d03f9,Netflix,2500,1 mois,2026-07-09 16:13:29.657319+00,completed,mutual,1252,,,950,subscription
+2038,bff24ab8-aa18-4b34-9f90-0e57c5312378,Netflix,7000,3 mois,2026-07-08 23:27:00+00,completed,mutual,772,353,,353,renewal
+2040,d3a0e7ac-8d9d-4724-b799-3dcf063cf7ef,Netflix,2500,1 mois,2026-07-09 19:17:52.098267+00,completed,mutual,418,,,951,subscription
+1948,9e7fe839-9120-4f73-a4c7-9e58e989cf29,Apple TV,3000,1 mois,2026-07-06 13:21:05.348665+00,completed,mutual,590,,,929,subscription
+2041,3c75f790-788c-41b2-8b72-0437c03bde55,Surfshark,1500,1 mois,2026-07-09 21:39:48.236628+00,completed,mutual,498,,,954,subscription
+1987,60f2f913-b544-4de1-a769-4f22506dfa92,Spotify,3500,1 mois,2026-07-07 20:39:59.9544+00,completed,personal,582,,,952,subscription
+2043,6f2b458f-0b5c-4c43-baf5-714002a7c4dd,Prime Video,2000,1 mois,2026-07-09 23:13:30.85395+00,completed,mutual,1172,,,,subscription
+2135,814c2a00-6b4d-4e56-9fac-6204f6e8acb4,Prime Video,2000,1 mois,2026-07-09 19:11:21.465787+00,completed,mutual,624,538,,538,renewal
+2054,68e49bef-398a-4a32-9c8b-e88843580c2c,Prime Video,2000,1 mois,2026-07-10 23:16:42.518766+00,completed,mutual,188,,,965,subscription
+2045,eb9f89a4-8851-4f1b-9da4-f9197d4fbb0e,Prime Video,2000,1 mois,2026-07-09 23:25:25.903697+00,completed,mutual,1256,,,956,subscription
+2145,13b29476-7692-4620-bddc-adeaa02cbb20,Spotify,2000,1 mois,2026-07-15 16:32:30.611386+00,completed,mutual,1291,,,997,subscription
+2048,cfe908e2-aeee-43de-9b28-0c4674d9d185,Crunchyroll,1500,1 mois,2026-07-26 22:34:23.584348+00,completed,mutual,979,476,,476,extension
+2154,feb544ba-a3bc-4a6f-8abf-f684b641a6e7,Prime Video,2000,1 mois,2026-07-16 09:34:06.392426+00,completed,mutual,1293,,,998,subscription
+2062,39396358-cd3b-46cb-b38d-fb1f46d08ce4,Apple TV,3000,1 mois,2026-07-11 13:12:51.152674+00,completed,mutual,1263,,,966,subscription
+2074,d75672bd-5190-4dea-bcbc-9992f6feec2e,Netflix,2500,1 mois,2026-07-12 10:02:07.135979+00,completed,mutual,1269,,,971,subscription
+2049,e31f83c4-1647-4b4f-8102-c58e117f462c,Onoff,7000,1 mois,2026-07-10 15:56:46.349973+00,completed,personal,1257,,,957,subscription
+2056,d29dee1a-5eb1-4368-a4f6-7fb5cd1998a4,Netflix,2500,1 mois,2026-07-14 22:01:09.119273+00,completed,mutual,1045,661,,661,extension
+2050,16e0ad39-3b7d-4a15-a020-6ea5e7a1fff3,Netflix,2500,1 mois,2026-07-10 16:06:57.899766+00,completed,mutual,1258,,,958,subscription
+2161,149f161f-be67-43d3-b584-6864d6be7db1,Onoff,7000,1 mois,2026-07-16 16:45:34.216019+00,completed,personal,28,,,1003,subscription
+2170,80011c16-4a05-4eba-856c-387d5c017b71,Netflix,2500,1 mois,2026-07-16 19:19:36.558725+00,completed,mutual,1295,,,1007,subscription
+2180,839a9992-90e5-485a-9a24-504a9b18aad7,Prime Video,2000,1 mois,2026-07-17 16:25:35.960191+00,completed,mutual,1002,,,1011,subscription
+2052,ab130366-8b62-4175-8aaf-e021c763590d,Surfshark,1500,1 mois,2026-07-10 20:14:31.123269+00,completed,mutual,1259,,,959,subscription
+2063,1daf6a8c-8bdf-40e1-8e02-21575895a2cd,Netflix,2500,1 mois,2026-07-11 15:06:49.820993+00,completed,mutual,554,,,967,subscription
+2051,4fcf7934-217d-4d4a-b3a3-ba5abda00396,Prime Video,2000,1 mois,2026-07-10 20:09:24.653209+00,completed,mutual,1259,,,960,subscription
+2178,9f2915a8-e4b9-4678-ad24-f3ff083acece,Crunchyroll,3500,1 mois,2026-07-17 13:09:38.548162+00,completed,personal,1298,,,1009,subscription
+2079,3adf5e28-f685-4b49-ae13-c511bccf639c,Surfshark,1500,1 mois,2026-07-12 14:30:24.260379+00,completed,mutual,358,,,974,subscription
+2055,1e387f07-aa6a-497b-8e79-50f36d308078,Netflix,7500,1 mois,2026-07-11 00:22:05.802464+00,completed,personal,1261,,,961,subscription
+2058,c9ca4834-889f-4a12-b117-cb88da5ee8ff,Netflix,2500,1 mois,2026-07-11 10:12:49.518859+00,completed,mutual,1260,,,962,subscription
+2059,b260f1a2-1558-44f9-9188-ffc51ff1ea44,Prime Video,2000,1 mois,2026-07-11 12:23:37.623732+00,completed,mutual,427,,,,subscription
+2057,c23eede5-f1cc-468d-8171-a51a5ff2577f,Netflix,2500,1 mois,2026-07-11 06:01:34.050695+00,completed,mutual,1262,,,964,subscription
+2077,e9f64fd9-821f-444f-b112-46d05fc05560,Apple Music,2000,1 mois,2026-07-12 10:23:27.077005+00,completed,mutual,28,,,972,subscription
+2066,dd923a93-0000-497a-810a-9eccee502727,Apple Music,2000,1 mois,2026-07-11 22:04:02.198055+00,completed,mutual,793,,,968,subscription
+2076,8bafcfcb-5e97-4a2a-b29f-bc06b7ba5a42,Netflix,2500,1 mois,2026-07-30 16:21:27.943733+00,completed,mutual,1193,854,17,854,extension
+2068,7dc729eb-15c5-4500-aa72-bd8fc06faabf,Netflix,2500,1 mois,2026-07-11 22:40:08.287714+00,completed,mutual,1265,,,969,subscription
+2088,96c2a626-eb68-4d17-be99-e86e4c1044e7,Netflix,2500,1 mois,2026-07-13 06:46:20.446728+00,completed,mutual,418,,,978,subscription
+2085,4e948ddd-f7b8-4c74-8984-9248e87efa33,Prime Video,2000,1 mois,2026-07-12 17:23:18.112529+00,completed,mutual,1273,,,975,subscription
+2082,ded80900-c1bf-4e70-8e68-94bac86faeba,Netflix,2500,1 mois,2026-07-13 17:34:22.51999+00,completed,mutual,770,693,,693,extension
+2073,e6f66455-c077-45f1-8f4b-223cec9ac9b6,Netflix,2500,1 mois,2026-07-12 09:12:34.65335+00,completed,mutual,1267,,,970,subscription
+2069,4635cacb-adc6-4efc-8930-a55ef90634d7,Prime Video,2000,1 mois,2026-07-06 23:33:00+00,completed,mutual,881,509,,509,renewal
+2065,093160ab-c03d-480d-82d2-fd7d956b53f3,Netflix,2500,1 mois,2026-07-10 23:44:00+00,completed,mutual,782,378,,378,renewal
+2081,af2b97d9-3f23-452e-9db7-204211be40d3,Crunchyroll,1500,1 mois,2026-07-13 17:34:17.245339+00,completed,mutual,770,692,,692,extension
+2078,2046e83a-5555-4c93-879d-8f2c7eb993a2,Crunchyroll,3500,1 mois,2026-07-12 13:21:13.244092+00,completed,personal,1271,,,973,subscription
+2080,bb3ecf67-ff8a-42e9-9e38-e8dd1eaffb81,Prime Video,2000,1 mois,2026-07-12 23:31:00+00,completed,mutual,770,403,,403,extension
+2083,ad0946e2-2229-4922-a7b1-c016237f3059,Netflix,4500,1 mois,2026-07-11 23:23:00+00,completed,personal,539,389,,389,renewal
+2091,4d156635-54d7-411d-9ded-de76d9072ec0,Prime Video,5500,3 mois,2026-07-13 10:58:55.612367+00,completed,mutual,1277,,,976,subscription
+2089,325aec1c-814d-42bf-8a8a-486359d0e592,Netflix,2500,1 mois,2026-07-13 09:27:34.257549+00,completed,mutual,1275,,,977,subscription
+2094,4a72ed2a-ad67-448d-8def-786ef9b4dd9a,Netflix,2500,1 mois,2026-07-13 12:01:35.687256+00,completed,mutual,1279,,,979,subscription
+2097,c26bbdcf-325e-4f7e-9a59-bd9f18d53bdb,Netflix,2500,1 mois,2026-07-13 12:33:20.893261+00,failed,mutual,1280,,,,subscription
+2096,6682a468-8165-432e-a174-c6ee84b2d254,Spotify,2000,1 mois,2026-07-13 12:30:02.881783+00,completed,mutual,44,,,980,subscription
+2101,8e4f78bb-c660-4bc4-9a71-ea6713d23650,Crunchyroll,1500,1 mois,2026-07-13 12:56:00.203668+00,completed,mutual,44,,,981,subscription
+2098,4452ac75-f512-4dbb-a490-c55cca02a9c3,Prime Video,2000,1 mois,2026-07-13 12:38:11.212002+00,completed,mutual,390,,,982,subscription
+2095,1d1c1c67-4e19-4542-908a-f718f376f1c7,Apple Music,2000,1 mois,2026-07-19 13:12:44.84619+00,completed,mutual,885,746,,746,extension
+2100,eb989f9a-1076-40c2-9ccc-1b41ff4833c4,Disney Plus,2500,1 mois,2026-07-13 11:41:01.149018+00,completed,mutual,887,550,,550,renewal
+2099,033bca42-ac10-45bb-a893-0c9c094557c5,Surfshark,1500,1 mois,2026-07-13 11:40:59.941937+00,completed,mutual,887,549,,549,renewal
+2119,3708ec51-1969-4301-a8e3-e652414ee744,Netflix,2500,1 mois,2026-07-09 23:01:00+00,completed,mutual,12,340,,340,renewal
+2182,c2cfc709-7052-450c-8f28-0b2d11550dd9,Spotify,2000,1 mois,2026-07-17 21:07:18.148165+00,completed,mutual,1241,,,1012,subscription
+2121,a76824fb-0158-4fe5-86c9-98d544103917,Prime Video,2000,1 mois,2026-07-25 08:37:56.764888+00,completed,mutual,979,814,,814,extension
+2104,ee5d2c57-70e0-4663-a8f9-2cb38036d6e7,Netflix,5500,1 mois,2026-07-12 17:06:05.698703+00,completed,personal,926,546,,546,renewal
+2188,d295eecf-0929-4efb-9553-fddae3ec97e7,Netflix,2500,1 mois,2026-07-17 21:33:22.183189+00,completed,mutual,1299,,,1013,subscription
+2123,ab07dc20-3878-4bc1-85ca-61250adb9d40,Netflix,2500,1 mois,2026-07-13 18:28:03.603391+00,completed,mutual,1031,,,986,subscription
+2107,2234a6f7-1754-40bc-82f5-7c36f61b4cdf,Paramount Plus,2500,1 mois,2026-07-08 22:03:03.602377+00,completed,mutual,533,665,,665,renewal
+2109,dad71611-c969-4c41-9ea3-338f972f21f3,Surfshark,1500,1 mois,2026-07-07 23:57:00+00,completed,mutual,85,110,,110,renewal
+2176,14e10d2b-2cc0-4229-bb01-c3878c51e330,Netflix,2500,1 mois,2026-07-17 09:12:43.176066+00,completed,mutual,707,,,1014,subscription
+2110,3d805f0e-d427-4f9e-b3a6-a8b1c0785b56,Hbo Max,2500,1 mois,2026-07-07 23:58:00+00,completed,mutual,85,109,,109,renewal
+2111,85ddfbd1-2931-4849-8729-1300e457d4d4,Prime Video,2000,1 mois,2026-07-07 23:58:00+00,completed,mutual,85,108,,108,renewal
+2146,bd8f72ed-526a-491d-a281-11eb86ddb964,Prime Video,2000,1 mois,2026-07-15 16:46:08.239388+00,completed,mutual,1226,,,995,subscription
+2112,d4a2549c-1f4d-481d-8de8-fb4fc0cdbb99,Spotify,2000,1 mois,2026-06-30 23:13:00+00,completed,mutual,85,252,,252,renewal
+2114,b12ed1a0-f62b-4774-935b-8e7868fd8399,Crunchyroll,1500,1 mois,2026-07-12 12:04:28.495005+00,completed,mutual,671,684,,684,renewal
+2115,91321f1a-b49d-4de3-8f41-b84b23018b50,Prime Video,2000,1 mois,2026-07-16 11:30:41.476839+00,completed,mutual,671,708,,708,extension
+2162,a05a81cf-fd44-4c4a-bd9d-14fd1f996fcc,Netflix,2500,1 mois,2026-07-19 18:12:51.545729+00,completed,mutual,1109,750,,750,extension
+2116,b7903ff6-bacb-4e75-8dd0-b4a9ef6872c0,Surfshark,1500,1 mois,2026-07-13 16:17:48.989887+00,completed,mutual,1229,,,983,subscription
+2171,f0bfc0c0-dc48-42f3-a078-6df4cad5cbdb,Crunchyroll,1500,1 mois,2026-07-16 20:08:45.778843+00,completed,mutual,743,,,1006,subscription
+2122,54f7ba3b-fd21-4ca5-91c3-bb6bb86f87a0,Netflix,7000,3 mois,2026-07-28 20:28:07.887205+00,completed,mutual,651,224,,224,extension
+2117,a0659292-b6df-43ee-bdb7-b34758f4fcef,Netflix,2500,1 mois,2026-07-13 16:39:05.841798+00,completed,mutual,1278,,,984,subscription
+2200,d6780021-04c7-4324-8cd2-413361c00cf0,Netflix,2500,1 mois,2026-07-17 10:09:13.205319+00,completed,mutual,87,716,,716,renewal
+2179,1ada9d83-e735-4564-92c3-a3957d04bec6,Surfshark,1500,1 mois,2026-07-16 11:50:17.365302+00,completed,mutual,887,709,,709,renewal
+2193,e4fe8ea3-7a20-4cff-86f4-d3038840f282,Netflix,2500,1 mois,2026-07-15 12:28:32.985622+00,completed,mutual,34,287,,287,renewal
+2208,7305e6f1-7d0d-4b95-8af6-6dcfd4d67523,Prime Video,5500,3 mois,2026-07-18 19:34:47.644271+00,completed,mutual,232,,,,subscription
+2209,409f7cae-72df-4e44-b92e-ed87a469695e,Netflix,2500,1 mois,2026-07-18 20:23:13.499012+00,completed,mutual,671,,,1021,subscription
+2187,016dfafb-29ad-419e-bb3f-98eda95de8ac,Netflix,7000,3 mois,2026-07-17 09:19:34.0268+00,completed,mutual,228,411,,411,renewal
+2185,008290d6-245b-453f-aad9-b140b7f1ab84,Netflix,2500,1 mois,2026-07-17 19:48:06.560845+00,completed,mutual,1089,723,,723,renewal
+2198,d199af16-4efb-4fc2-996d-aaa02bf919c8,Netflix,2500,1 mois,2026-07-18 11:10:37.449144+00,completed,mutual,1301,,,1017,subscription
+2189,add500fd-e603-468d-a0f4-bcd86000acc3,Apple TV,3000,1 mois,2026-07-17 22:25:06.261754+00,completed,mutual,1300,,,1015,subscription
+2207,e43fd9d0-1415-40a3-be5a-43d058b58d34,Netflix,2500,1 mois,2026-07-17 18:09:27.596729+00,completed,mutual,915,542,,542,renewal
+2192,7a6368d0-8889-4e68-861f-8adb8b700e80,Surfshark,4000,3 mois,2026-07-17 23:38:12.28648+00,completed,mutual,1278,,,1016,subscription
+2201,aaf769a5-7447-4043-8140-7d92f6b7a81e,Netflix,2500,1 mois,2026-07-16 23:20:00+00,completed,mutual,803,64,,64,renewal
+2214,cde958c7-d79a-411c-9bad-c950b06d6277,Crunchyroll,1500,1 mois,2026-07-19 08:31:26.93542+00,completed,mutual,1127,,,1023,subscription
+2186,7116cae4-946a-423d-9979-d4a66b622ce6,Netflix,2500,1 mois,2026-07-17 21:18:40.504207+00,completed,mutual,1058,,,1018,subscription
+2213,9eb61cfb-ad4e-4608-bef8-0268aa96e168,Surfshark,1500,1 mois,2026-07-15 12:15:37.620564+00,completed,mutual,108,701,,701,renewal
+2210,c2ae9cfd-82f3-44ea-acfe-35e268c099aa,Netflix,2500,1 mois,2026-07-18 21:18:22.650912+00,completed,mutual,1304,,,1020,subscription
+2211,0f2e530e-5416-4b2f-b7c4-a7e6461190ce,Spotify,2000,1 mois,2026-07-18 00:00:00+00,completed,mutual,957,426,,426,renewal
+2203,873bf3f1-6117-4c0f-a5df-60a1351de59e,Netflix,2500,1 mois,2026-07-18 18:15:18.037025+00,completed,mutual,1303,,,1022,subscription
+2202,79e1caca-bad5-4aac-802e-4a8ec573d04d,Netflix,2500,1 mois,2026-07-16 23:20:00+00,completed,mutual,803,64,,64,renewal
+2206,2dba6832-23c5-48b4-ba99-06839cc825d1,Disney Plus,2500,1 mois,2026-07-15 12:15:31.703833+00,completed,mutual,108,700,,700,renewal
+2216,cb407530-5917-4f2e-8b1c-67bfdcc223a6,Netflix,7000,3 mois,2026-07-19 09:35:23.299027+00,completed,mutual,1164,,,1024,subscription
+2215,2f8d32ae-1ab8-4ad6-a335-d416c09061bd,Netflix,2500,1 mois,2026-07-17 21:19:34.248482+00,completed,mutual,515,727,,727,renewal
+2218,1a95c9c9-bc0a-4dd7-af9d-7395935878cd,Netflix,2500,1 mois,2026-07-19 10:35:34.031478+00,completed,mutual,747,,,,subscription
+2220,f281f816-4e70-4e59-8cb5-d4a20cdfaacf,Netflix,2500,1 mois,2026-07-19 11:22:45.213322+00,completed,mutual,695,,,1027,subscription
+2219,45f65144-d15c-47f6-9233-30ac598860e4,Netflix,2500,1 mois,2026-07-19 10:57:22.947168+00,completed,mutual,22,,,1026,subscription
+2221,cf358661-f6f7-4820-8d8b-e1cbba4acf5c,Netflix,2500,1 mois,2026-07-19 13:07:17.549272+00,completed,mutual,695,,,1028,subscription
+2232,6e89ff07-7a92-44df-9df4-ba888e155c09,Netflix,2500,1 mois,2026-07-23 16:09:48.889213+00,completed,mutual,1151,799,,799,extension
+2229,a6737c03-aef4-4a9e-84f3-e5934ce8340b,Netflix,2500,1 mois,2026-07-20 07:13:20.902935+00,completed,mutual,1307,,,1030,subscription
+2217,c8f36e4b-9a03-457c-968d-2333558b702f,Surfshark,1500,1 mois,2026-07-19 09:37:13.14398+00,completed,mutual,1111,,,1029,subscription
+2223,e85fc311-ec20-44c1-b6dc-8d3dfab00538,Disney Plus,2500,1 mois,2026-07-20 09:11:42.270756+00,completed,mutual,1111,755,,755,extension
+2236,80fb6b14-13f2-45d3-9ea6-b78e03e52b7f,Netflix,2500,1 mois,2026-07-20 20:55:34.391682+00,completed,mutual,19,583,,583,extension
+2234,f93ca57b-d645-4c0c-8191-486952571a7c,Netflix,2500,1 mois,2026-07-18 06:00:00.332762+00,completed,mutual,464,573,,573,renewal
+2231,4a38e0e2-1e58-47b3-a57f-b6c9ace8ffb5,Prime Video,2000,1 mois,2026-07-18 09:40:41.462196+00,completed,mutual,1095,735,,735,renewal
+2250,a2f5123e-ca29-4f6c-b2de-53762a86798b,Apple TV,3000,1 mois,2026-07-20 15:07:43.278837+00,completed,mutual,1114,764,,764,renewal
+2238,7469c764-be76-4db3-83db-7146fbdcbb89,Netflix,2500,1 mois,2026-07-17 21:06:39.635985+00,completed,mutual,1090,726,,726,renewal
+2240,91fc030b-a478-48a6-8bee-b5b1d06f0145,Netflix,2500,1 mois,2026-07-18 09:55:00+00,completed,mutual,1133,788,,788,renewal
+2253,d2f811da-d161-495d-9a22-60ff2f79c6cf,Hbo Max,2500,1 mois,2026-07-20 15:06:33.778699+00,completed,mutual,1114,761,,761,renewal
+2251,36d8d889-bcde-49a0-97bf-157f0104ced4,Disney Plus,2500,1 mois,2026-07-20 15:06:45.413581+00,completed,mutual,1114,763,,763,renewal
+2246,f02ef6fc-1da8-4c1c-8753-2a7107e019c8,Apple TV,3000,1 mois,2026-07-20 17:25:24.209948+00,completed,mutual,964,581,,581,renewal
+2247,4ff2a391-34c9-4d46-9861-6abd5e8a2098,Hbo Max,2500,1 mois,2026-07-20 21:07:10.759552+00,completed,mutual,964,442,,442,renewal
+2252,940f9787-9d69-45c7-a239-12812f6ded04,Paramount Plus,2500,1 mois,2026-07-20 15:06:37.60468+00,completed,mutual,1114,762,,762,renewal
+2243,008d2861-4686-4243-aa52-55043c11bb1a,Surfshark,1500,1 mois,2026-07-20 21:12:48.690462+00,completed,mutual,964,443,,443,renewal
+2254,e86198f0-9516-4f8d-8a95-69746f0cbd4d,Spotify,2000,1 mois,2026-07-20 15:06:29.681667+00,completed,mutual,1114,760,,760,renewal
+2248,cf10c028-93e7-4b8e-a5a5-644f732769a5,Disney Plus,2500,1 mois,2026-07-23 19:19:46.006945+00,completed,mutual,964,457,,457,extension
+2255,af951c17-3249-469d-af28-0222acd7b69a,Surfshark,1500,1 mois,2026-07-20 15:06:25.447306+00,completed,mutual,1114,759,,759,renewal
+2239,8807ae0e-d753-400a-9075-e70c4f8862c0,Netflix,2500,1 mois,2026-07-20 19:14:27.661861+00,completed,mutual,1309,,,,subscription
+2256,c5730952-c6b8-4efc-ad5e-ea607d0fb290,Netflix,2500,1 mois,2026-07-21 12:25:35.288711+00,completed,mutual,1037,,,,subscription
+2257,ca7c0347-e683-47d2-b92e-b09e34ad9a45,Netflix,2500,1 mois,2026-07-21 12:38:23.432691+00,completed,mutual,812,,,,subscription
+2258,9baa12ab-7f06-4f26-9bd0-74a13002b3e5,Netflix,4500,1 mois,2026-07-21 14:24:21.662636+00,failed,personal,,,,,subscription
+2262,18d986cf-1a94-4dd7-9198-a8043bf44af1,Netflix,7000,3 mois,2026-07-21 12:30:17.195215+00,completed,mutual,221,448,,448,renewal
+2261,77bf5597-f25b-4af7-a44c-08fe204bab60,Netflix,2500,1 mois,2026-07-21 14:42:15.837789+00,completed,mutual,1311,,,1034,subscription
+2268,5c7d3930-c8c3-4ba8-95e2-e56ef827c368,Netflix,2500,1 mois,2026-07-20 14:56:37.497205+00,completed,mutual,33,691,,691,renewal
+2284,28123de5-5ebc-42cf-9655-451f6385ef2f,Netflix,2500,1 mois,2026-07-22 11:29:17.148451+00,completed,mutual,1091,,,1040,subscription
+2271,ce85806a-bc7f-45fd-ba51-3840e1a65fa3,Prime Video,2000,1 mois,2026-07-26 20:50:09.41559+00,completed,mutual,1171,828,,828,extension
+2272,a0b0aa8f-a3d1-4972-a224-7c01bc52ea6d,Surfshark,1500,1 mois,2026-07-18 00:00:00+00,completed,mutual,533,48,,48,renewal
+2273,83cf4400-bc02-4e0d-bdb6-ee8b582cf5fa,Disney Plus,2500,1 mois,2026-07-18 00:00:00+00,completed,mutual,533,47,,47,renewal
+2270,9cbb54a8-c3f6-4657-b3a5-ad7f68aa0ec4,Netflix,2500,1 mois,2026-07-21 20:40:23.073609+00,completed,mutual,1312,,,1035,subscription
+2275,a271976a-9243-466a-a949-3bd8a5d9a03c,Netflix,2500,1 mois,2026-07-19 20:48:20.351357+00,completed,mutual,1107,753,,753,renewal
+2276,291a19a2-8f04-44fd-8138-d63e49ee1e08,Netflix,2500,1 mois,2026-07-21 15:55:58.271977+00,completed,mutual,390,105,,105,renewal
+2285,33386b49-35e7-48e1-8b0a-5adffcf49888,Netflix,2500,1 mois,2026-07-21 12:00:13.381909+00,completed,mutual,1121,768,,768,renewal
+2277,0a3d275b-2b16-4752-affa-83358de5d1e9,Paramount Plus,2500,1 mois,2026-07-21 21:17:57.698418+00,completed,mutual,964,,,1036,subscription
+2290,b584976f-1d57-4a67-a20c-64795a3e8c45,Netflix,2500,1 mois,2026-07-22 13:55:21.778412+00,completed,mutual,371,,,,subscription
+2308,06c20d68-dfc2-4459-b30f-4198e4946de9,Netflix,2500,1 mois,2026-07-23 14:06:37.291946+00,completed,mutual,1149,794,,794,renewal
+2292,4af7f904-51ee-4385-83d5-7ce7f8a9fdca,Netflix,2500,1 mois,2026-07-22 14:24:14.898041+00,completed,mutual,1317,,,,subscription
+2293,9e827730-bf76-4a17-844a-d590864b7c8e,Netflix,2500,1 mois,2026-07-22 15:18:32.13656+00,completed,mutual,92,,,,subscription
+2280,78d0be71-7d11-48a9-aac4-7c2365185d39,Spotify,5500,3 mois,2026-07-22 09:57:01.617297+00,completed,mutual,1315,,,1037,subscription
+2282,3ef9bd92-afd9-41e1-9ab5-c5c3d4357a2d,Prime Video,5500,3 mois,2026-07-22 10:00:55.094979+00,completed,mutual,1315,,,1038,subscription
+2281,2063775b-9d0e-4067-a965-6d84b0da257d,Netflix,7000,3 mois,2026-07-22 09:59:22.415527+00,completed,mutual,1315,,,1039,subscription
+2295,d230c001-ab71-4291-8365-d1b171fa7d13,Netflix,2500,1 mois,2026-07-20 23:21:00+00,completed,mutual,1123,770,,770,renewal
+2283,a5778d37-7967-432f-bc97-03ee81f33762,Prime Video,2000,1 mois,2026-07-23 12:38:00.635518+00,completed,mutual,1022,592,,592,extension
+2294,bd85eb62-165a-4687-9399-3c645df9a840,Apple TV,3000,1 mois,2026-06-27 10:14:37.413177+00,completed,mutual,859,477,,477,renewal
+2299,b326283b-ecd9-4a90-8ab8-9995d071892b,Netflix,2500,1 mois,2026-08-19 18:12:51.545729+00,pending_payment,mutual,1109,750,,,extension
+2309,254d70a1-9ae2-4ed8-b939-1eb512dec558,Netflix,13000,6 mois,2026-08-24 23:17:00+00,completed,mutual,975,467,,467,extension
+2301,84e54ff5-7215-440c-aff9-7fb60c48dbd4,Netflix,2500,1 mois,2026-07-23 10:39:27.864296+00,completed,mutual,69,,,1045,subscription
+2302,ab6b21b2-e30b-4e03-a4f2-a6a2215a036b,Prime Video,2000,1 mois,2026-07-23 10:52:38.091562+00,completed,mutual,69,,,,subscription
+2305,eb617348-ee1f-4460-8fd1-471ce2ce9f60,Prime Video,5500,3 mois,2026-07-23 13:20:46.070104+00,completed,mutual,1141,791,,791,extension
+2312,c866b737-8376-40c3-a946-60547a684b5c,Surfshark,1500,1 mois,2026-07-24 09:56:32.595517+00,completed,mutual,709,,,1052,subscription
+2329,10d8e00a-d34d-4d21-86eb-c20d5a4cf327,Netflix,2500,1 mois,2026-07-24 20:08:12.169491+00,completed,mutual,1314,,,,subscription
+2307,112beb3e-0cd5-453e-96ad-bca91a074713,Surfshark,1500,1 mois,2026-07-23 15:17:14.680176+00,completed,mutual,763,,,1049,subscription
+2306,a1f48d9a-a4ce-4f39-9c45-928873ce17f1,Netflix,2500,1 mois,2026-07-23 14:28:21.712862+00,completed,mutual,423,,,1050,subscription
+2311,d595849a-7044-4911-a4be-25714661537b,Spotify,2000,1 mois,2026-07-16 10:42:51.093452+00,completed,mutual,610,703,,703,renewal
+2310,1bce3857-0dc7-4e6f-8293-3c4f68e2f88f,Hbo Max,2500,1 mois,2026-07-23 21:03:23.393775+00,completed,mutual,709,,,1051,subscription
+2326,3a4cba61-40cb-4772-8d95-916c7bb6ff0c,Netflix,2500,1 mois,2026-07-22 19:46:57.658893+00,completed,mutual,1137,781,,781,renewal
+2322,d77c567d-fe37-4980-aab7-fdf82bee7f26,Netflix,2500,1 mois,2026-07-23 22:20:25.296654+00,completed,mutual,1154,806,,806,renewal
+2323,b41a3862-696d-4b73-ad9f-c33ab1fe290e,Netflix,2500,1 mois,2026-07-24 15:06:48.591432+00,completed,mutual,1319,,,,subscription
+2324,deace787-1d36-43d8-9cc1-1d06929bcbc6,Prime Video,2000,1 mois,2026-07-24 15:07:11.943515+00,completed,mutual,1319,,,,subscription
+2325,0d554f1a-55c6-44d8-9735-053dc8c0b176,Netflix,2500,1 mois,2026-07-22 15:25:35.819803+00,completed,mutual,1020,587,,587,renewal
+2327,84c9b26a-97b3-4d5c-99b9-dac1a39ad413,Crunchyroll,1500,1 mois,2026-07-24 16:09:37.543215+00,completed,mutual,928,,,,subscription
+2321,e97ea7da-8871-430e-909e-41c04ed7e3e5,Netflix,2500,1 mois,2026-07-24 14:49:04.865538+00,completed,mutual,1318,,,,subscription
+2314,a50b0e02-8af1-40f4-ad50-3a11cd9f4006,Spotify,3500,1 mois,2026-07-24 13:51:56.982153+00,completed,personal,610,,,1058,subscription
+2328,67e381f7-950d-451b-b1f1-86d3a9c6e747,Netflix,13000,6 mois,2026-07-24 16:37:54.442959+00,completed,mutual,1320,,,1057,subscription
+2330,5c499a9b-3fb5-439d-8a7c-aba526e3b731,Netflix,2500,1 mois,2026-07-23 07:43:49.06991+00,completed,mutual,495,591,,591,renewal
+2333,ba5b771c-801b-43ff-84c8-7735033f585d,Surfshark,1500,1 mois,2026-07-24 22:30:07.024762+00,completed,mutual,1321,,,1062,subscription
+2332,0dd1e99e-69e5-4ba5-889b-57dd41b7bfbf,Paramount Plus,2500,1 mois,2026-07-24 22:27:03.34538+00,completed,mutual,1321,,,1061,subscription
+2331,d18a1d53-e133-4578-a862-1d4672b9d097,Disney Plus,2500,1 mois,2026-07-24 22:21:00.351868+00,completed,mutual,1321,,,1060,subscription
+2334,478f47a4-7463-44f4-85ba-5b86279d4e46,Apple Music,2000,1 mois,2026-07-08 21:44:31.407523+00,completed,mutual,176,344,,344,renewal
+2335,3c32d8f0-daee-46ab-b341-42ca216b2c4f,Netflix,2500,1 mois,2026-07-25 07:35:38.911897+00,completed,mutual,1047,,,,subscription
+2343,bb1ce334-ca10-4bbf-aad4-e3e7211666fa,Netflix,2500,1 mois,2026-07-21 23:21:00+00,completed,mutual,1129,800,,800,renewal
+2336,7ebcc3ab-ce29-4fd3-8274-f263590efea4,Spotify,0,1 an,2026-04-01 12:18:00+00,completed,mutual,2,598,,598,renewal
+2339,d718f5dc-cd4c-4893-b2cd-44eaeb748494,Netflix,2500,1 mois,2026-07-13 23:06:00+00,completed,mutual,785,3,,3,renewal
+2340,3e054626-5da2-414a-9502-d11b84161a27,Prime Video,2000,1 mois,2026-07-14 10:06:00+00,completed,mutual,785,4,,4,renewal
+2347,d03d5262-6d0f-4adb-a83d-5de87427d01f,Apple Music,2000,1 mois,2026-07-26 12:26:31.187525+00,completed,mutual,967,605,,605,extension
+2348,3f98e598-9027-46e3-809b-18392d8e220c,Netflix,2500,1 mois,2026-07-25 17:04:15.112497+00,completed,mutual,1325,,,,subscription
+2341,5730b101-b8c2-4e3c-a8c2-a27c53680cb9,Netflix,2500,1 mois,2026-07-25 10:37:52.969017+00,completed,mutual,1322,,,1064,subscription
+2354,8d682662-470b-45b0-ada8-75e86e220520,Netflix,13000,3 mois,2026-07-25 19:50:38.248214+00,pending_validation,personal,1328,,,,subscription
+2345,268fc1c2-9489-4e58-9ea0-78f640f7fc2f,Netflix,2500,1 mois,2026-07-22 23:34:41.320228+00,completed,mutual,1131,786,,786,renewal
+2346,8aa510b5-d9e7-4d67-bbce-3aa6ea71a76f,Prime Video,5500,3 mois,2026-07-25 16:25:18.210239+00,completed,mutual,1316,,,,subscription
+2350,559b50fd-1c70-4e3c-85be-be59cc0c81ec,Netflix,7000,3 mois,2026-07-25 18:02:13.301722+00,completed,mutual,1326,,,,subscription
+2344,e70c8ebc-eece-477a-b59c-cdf051139e4d,Prime Video,2000,1 mois,2026-07-25 14:35:20.653326+00,completed,mutual,541,,,1066,subscription
+2349,0ad70721-d55a-441d-8657-1734779b5e1d,Netflix,5500,1 mois,2026-07-25 17:14:36.848659+00,completed,personal,118,,,1069,subscription
+2351,b1fc2efd-f3f5-4799-b243-2f4a2525d37a,Netflix,2500,1 mois,2026-07-25 18:54:54.777963+00,completed,mutual,1327,,,,subscription
+2353,e07ec92a-e2ee-4981-aeea-a0fdfc8b9c20,Netflix,2500,1 mois,2026-07-24 10:14:27.147849+00,completed,mutual,1159,811,,811,renewal
+2359,c68fc1cf-471e-4921-834b-7a8954140abf,Netflix,2500,1 mois,2026-07-25 22:18:34.6277+00,completed,mutual,990,,,1071,subscription
+2355,8c5cf979-808c-4ee2-a398-cbacef06a924,Prime Video,2000,1 mois,2026-07-25 20:59:02.853879+00,completed,mutual,1329,,,1072,subscription
+2358,41cad50f-ab06-4050-bf27-52ca350b17d2,Netflix,2500,1 mois,2026-07-25 15:09:44.159219+00,completed,mutual,855,165,,165,renewal
+2360,3ccf54dc-1fea-4fdb-8a6b-a39c5749cb0c,Prime Video,2000,1 mois,2026-07-25 15:09:44.416416+00,completed,mutual,855,166,,166,renewal
+2356,2749e051-d2c1-487c-a98a-84d34f96e0af,Spotify,2000,1 mois,2026-07-25 23:15:00+00,completed,mutual,17,171,,171,extension
+2386,1cfa0011-74d8-4cb5-ae69-f96c90cc282a,Apple Music,5500,3 mois,2026-08-19 13:12:44.84619+00,completed,mutual,885,746,,746,extension
+2387,68531498-a722-4c07-ba6c-1ca0ed0695da,Netflix,2500,1 mois,2026-07-28 12:26:31.992733+00,pending_payment,mutual,393,,,,subscription
+2388,d7c9ad5e-6736-4429-b902-c4f7e3b7be2c,Netflix,2500,1 mois,2026-07-27 23:33:00+00,pending_payment,mutual,1170,833,,,extension
+2362,d63e79a6-574e-4aca-8996-7d249e4bbfcf,Hbo Max,2500,1 mois,2026-07-26 15:38:29.60858+00,completed,mutual,859,178,,178,extension
+2363,baafd73d-6192-471b-a531-a87087d686ce,Paramount Plus,2500,1 mois,2026-07-26 15:38:35.632981+00,completed,mutual,859,179,,179,extension
+2364,ffc76884-5b8a-406e-b5b6-c40b92f7b0fe,Surfshark,4000,3 mois,2026-07-26 15:52:14.937408+00,completed,mutual,859,180,,180,extension
+2365,1a5101ea-b35a-4d2d-89ee-6ecc2f1cb0f3,Netflix,2500,1 mois,2026-07-26 11:57:50.82736+00,completed,mutual,1330,,,,subscription
+2389,2ba61e3b-cf22-413d-8dc1-b5f1456f367e,Netflix,7000,3 mois,2026-07-21 11:36:28.111097+00,completed,mutual,299,446,,446,renewal
+2367,3b7360bd-d3a2-4852-a70c-856e84c35253,Netflix,2500,1 mois,2026-07-23 12:28:21.161939+00,completed,mutual,840,129,,129,renewal
+2384,2f50fc5a-b685-40da-889a-90a989df9a75,Surfshark,1500,1 mois,2026-07-27 21:22:05.67423+00,completed,mutual,883,,,1074,subscription
+2368,9446e935-978e-40f0-b1a3-f8fb4ced84f6,Disney Plus,2500,1 mois,2026-07-08 23:10:00+00,completed,mutual,773,300,,300,renewal
+2370,53de549e-5f7d-424f-9692-231f0655ff82,Netflix,2500,1 mois,2026-08-25 22:35:15.204577+00,pending_payment,mutual,990,1071,,,extension
+2376,7581e669-7761-4dc8-bb1c-443130274b7f,Disney Plus,2500,1 mois,2026-07-27 08:45:21.036696+00,completed,mutual,883,,,1075,subscription
+2375,7a131ad6-2ad6-4498-bdd3-9c16a4f34593,Apple Music,2000,1 mois,2026-07-06 23:53:00+00,completed,mutual,913,659,,659,renewal
+2377,ae60cd08-88e2-453e-88b0-e8fc8fddd3c3,Netflix,2500,1 mois,2026-07-27 13:02:27.706668+00,pending_validation,mutual,406,,,,subscription
+2385,66350e1e-8646-46d8-95aa-c92277946b72,Apple Music,2000,1 mois,2026-08-27 11:00:00+00,pending_payment,mutual,913,659,,,extension

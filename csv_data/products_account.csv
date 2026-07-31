@@ -1,0 +1,110 @@
+id,number,platform,email,password,profiles,max_profile,type,place,start_date,end_date,month_count,remaining_day,status,created_at,card_id
+42,13,Spotify,streampartner13@gmail.com,Ezechiel300@@,6,6,mutual,6,,2026-04-15 23:00:00+00,1,0,desactivate,2026-03-21 22:18:46.934821+00,
+18,SP1,Spotify,streampartnersp1@gmail.com,Brice10000,6,6,mutual,6,,2026-07-06 23:00:00+00,4,12,desactivate,2026-03-17 15:54:12.946784+00,
+39,11,Spotify,streampartner11@gmail.com,Mejoufo400,6,6,mutual,6,,2026-04-15 23:00:00+00,1,0,desactivate,2026-03-21 20:35:26.213042+00,
+25,2E,Spotify,streampartner2@gmail.com,Christian20000,6,6,mutual,6,,2026-04-14 23:00:00+00,1,0,desactivate,2026-03-18 14:10:59.943628+00,
+27,2P,Onoff,streampartner1+7@gmail.com,Brice100@,1,1,personal,1,,2026-04-23 23:00:00+00,1,0,desactivate,2026-03-18 23:39:20.325368+00,
+37,TA,Spotify,tayavant60@gmail.com,Princesse500,6,6,mutual,6,,2026-04-18 23:00:00+00,1,0,desactivate,2026-03-20 20:47:35.805385+00,
+16,10,Apple Music,streampartners1@gmail.com,Brice100@,6,6,mutual,6,,2026-04-17 23:00:00+00,1,0,desactivate,2026-03-17 14:46:23.461225+00,
+36,1P,Spotify,josephtsala29@gmail.com,Pas de mot de passe,1,1,personal,1,,2026-05-19 23:00:00+00,2,0,desactivate,2026-03-20 16:58:29.136527+00,
+20,11,Apple Music,streampartner11@gmail.com,Christian200@,6,6,mutual,6,,2026-04-17 23:00:00+00,1,0,desactivate,2026-03-17 17:14:53.251361+00,
+73,4P,Spotify,streampartner10+1@gmail.com,Christian200@@,1,1,personal,1,,2026-06-12 23:00:00+00,1,0,desactivate,2026-05-14 19:55:01.640944+00,
+78,1,TINDER,676806901@GMAIL.COM,Pas de mot de passe,0,1,personal,2,,2026-06-28 23:00:00+00,1,0,desactivate,2026-06-12 16:05:51.810303+00,1
+14,14,Netflix,streampartner1+14@gmail.com,Brice100,5,5,mutual,7,,2026-08-19 23:00:00+00,5,23,activate,2026-03-16 20:52:14.913025+00,1
+31,13,Netflix,streampartner4+13@gmail.com,Leonie600,5,5,mutual,2,,2026-08-22 23:00:00+00,3,26,activate,2026-03-19 13:06:21.939871+00,9
+46,12,Netflix,streampartner1+12@gmail.com,Mejoufo400,5,5,mutual,7,,2026-08-18 23:00:00+00,5,22,activate,2026-03-25 01:38:42.718898+00,1
+34,10,Netflix,streampartners1@gmail.com,Ezechiel300,5,5,mutual,7,,2026-08-17 23:00:00+00,5,21,activate,2026-03-19 17:18:27.03276+00,21
+4,23,Netflix,streampartner1+23@gmail.com,Ezechiel300,5,5,mutual,7,,2026-08-18 23:00:00+00,5,22,activate,2026-03-16 11:18:20.370997+00,21
+12,2,Disney Plus,streampartner2@gmail.com,Ezechiel300,7,7,mutual,100,,2026-08-16 23:00:00+00,5,20,activate,2026-03-16 19:48:29.916161+00,17
+33,19,Netflix,streampartner2+19@gmail.com,Leonie600,5,5,mutual,2,,2026-08-16 23:00:00+00,5,20,activate,2026-03-19 13:55:48.265442+00,18
+53,22,Netflix,streampartner4+22@gmail.com,Christian200,5,5,mutual,7,,2026-08-16 23:00:00+00,5,20,activate,2026-03-28 17:37:33.280967+00,2
+30,1,Paramount Plus,streampartner1@gmail.com,Brice100@,6,6,mutual,100,2026-05-16 23:00:00+00,2026-08-16 23:00:00+00,3,20,activate,2026-03-19 01:10:59.630534+00,16
+105,5,Spotify,streampartner2+5@gmail.com,Brice10000,6,6,mutual,6,2026-07-14 23:00:00+00,2026-08-14 23:00:00+00,1,18,activate,2026-07-16 12:53:32.398265+00,3
+3,3,Prime Video,streampartner1+3@gmail.com,Christian200,6,6,mutual,10,,2026-08-15 23:00:00+00,3,19,activate,2026-03-16 11:01:50.286625+00,1
+24,8,Netflix,streampartner2+8@gmail.com,Mejoufo400,5,5,mutual,7,,2026-08-16 23:00:00+00,5,20,activate,2026-03-18 11:57:10.239434+00,2
+29,1,Hbo Max,streampartner1@gmail.com,Ezechiel300,5,5,mutual,100,2026-03-16 23:00:00+00,2026-08-16 23:00:00+00,5,20,activate,2026-03-19 01:03:48.157648+00,16
+21,16,Netflix,streampartner2+16@gmail.com,Princesse500,5,5,mutual,7,,2026-08-13 23:00:00+00,5,17,activate,2026-03-17 18:50:29.637103+00,20
+72,4P,Prime Video,nkwete23+1@gmail.com,198406@elvis,1,1,mutual,1,2026-05-14 23:00:00+00,2026-08-14 23:00:00+00,3,18,activate,2026-05-14 12:08:01.79883+00,3
+41,CH,Spotify,christianwouokap@gmail.com,Pas de mot de passe,1,1,personal,1,,2026-08-13 23:00:00+00,5,17,activate,2026-03-21 21:59:53.122977+00,1
+5,4,Prime Video,streampartner3+4@gmail.com,Ezechiel300,6,6,mutual,10,,2026-08-12 23:00:00+00,3,16,activate,2026-03-16 16:10:40.383343+00,1
+35,9,Netflix,streampartner9@gmail.com,Brice100,5,5,mutual,7,,2026-08-08 23:00:00+00,3,12,activate,2026-03-20 13:37:30.251369+00,13
+22,17,Netflix,streampartner3+17@gmail.com,Leonie600,5,5,mutual,7,,2026-08-08 23:00:00+00,5,12,activate,2026-03-18 09:04:39.80368+00,11
+1,1,Prime Video,streampartner3+1@gmail.com,Brice100,6,6,mutual,10,,2026-08-05 23:00:00+00,3,9,activate,2026-03-16 10:47:47.845277+00,2
+60,A1,METAVERIFIED,streampartner1@gmail.com,Pas de mot de passe,0,1,mutual,1,,2026-08-08 23:00:00+00,5,12,activate,2026-03-31 14:13:58.398395+00,1
+8,7,Prime Video,streampartner2+7@gmail.com,Brice100,6,6,mutual,10,,2026-08-04 23:00:00+00,3,8,activate,2026-03-16 17:16:12.881781+00,1
+6,5,Prime Video,streampartner2+5@gmail.com,Christian200,6,6,mutual,10,,2026-08-05 23:00:00+00,3,9,activate,2026-03-16 16:24:56.812505+00,1
+19,1,Crunchyroll,streampartner1@gmail.com,Princesse500,5,5,mutual,100,,2026-08-02 23:00:00+00,5,6,activate,2026-03-17 15:59:50.668786+00,1
+2,2,Prime Video,streampartner1+2@gmail.com,Christian200,6,6,mutual,10,,2026-07-28 23:00:00+00,2,1,activate,2026-03-16 10:56:16.895855+00,3
+45,5,Netflix,streampartners5@gmail.com,Leonie600,5,6,mutual,6,,2026-07-27 23:00:00+00,2,0,activate,2026-03-24 18:08:06.168053+00,15
+9,13,Apple TV,streampartner13@gmail.com,Christian200@,6,6,mutual,100,,2026-06-26 23:00:00+00,3,0,activate,2026-03-16 18:48:33.773007+00,3
+43,2P,Spotify,michaelnoussi237@gmail.com,Mike100000,1,1,personal,1,,2026-07-26 23:00:00+00,4,0,activate,2026-03-21 22:27:55.192453+00,1
+40,1,Netflix,streampartner3+1@gmail.com,Brice100,5,5,mutual,6,,2026-07-26 23:00:00+00,4,0,activate,2026-03-21 21:43:09.918499+00,9
+28,1P,Netflix,r.nolekouo@yahoo.com,Pas de mot de passe,1,1,personal,1,,2026-07-26 23:00:00+00,3,0,activate,2026-03-18 23:43:51.125885+00,2
+26,7,Netflix,streampartner3+7@gmail.com,Ezechiel300,5,5,mutual,7,,2026-07-25 23:00:00+00,4,0,activate,2026-03-18 19:16:44.627565+00,20
+13,15,Netflix,streampartner3+15@gmail.com,Ezechiel300,5,5,mutual,7,,2026-07-21 23:00:00+00,4,0,activate,2026-03-16 20:36:16.304126+00,6
+85,27,Netflix,streampartner1+27@gmail.com,Brice100,5,5,mutual,7,,2026-07-22 23:00:00+00,1,0,activate,2026-06-23 22:32:23.995714+00,5
+102,1P,Crunchyroll,abdoulabdoul09@gmail.com,Fatima#123#,1,1,personal,1,2026-06-18 23:00:00+00,2026-07-18 23:00:00+00,1,0,activate,2026-07-12 13:54:27.560051+00,2
+23,18,Netflix,streampartner2+18@gmail.com,Brice100,5,5,mutual,7,,2026-07-22 23:00:00+00,4,0,activate,2026-03-18 09:25:57.30323+00,2
+7,6,Prime Video,streampartner4+6@gmail.com,Tresor700,6,6,mutual,10,2026-07-23 23:00:00+00,2026-08-23 23:00:00+00,1,27,activate,2026-03-16 16:41:31.345622+00,9
+69,8D,Prime Video,streampartner2+8@gmail.com,Christian200,6,6,mutual,10,,2026-06-13 23:00:00+00,1,0,desactivate,2026-04-14 12:50:39.877954+00,
+56,3P,Spotify,streampartnerc1@gmail.com,Brice10000,1,1,personal,1,,2026-06-28 23:00:00+00,3,0,desactivate,2026-03-30 15:49:06.184247+00,
+57,1P,Prime Video,andrybrianamazon@gmail.com,Brice100,1,1,personal,1,,2026-07-11 23:00:00+00,3,0,desactivate,2026-03-30 17:43:03.466899+00,1
+59,1P,Onoff,streampartner1+10@gmail.com,Brice100@@,1,1,personal,1,,2026-04-29 23:00:00+00,1,0,desactivate,2026-03-31 13:50:12.691638+00,
+64,6P,Netflix,jonathankouokam9@gmail.com,Cabrel1506,1,1,personal,1,,2026-04-29 23:00:00+00,1,0,desactivate,2026-03-31 20:56:00.662909+00,
+61,A2,CAPCUT,streampartner1@gmail.com,Pas de mot de passe,0,1,mutual,1,,2026-04-24 23:00:00+00,1,0,desactivate,2026-03-31 14:16:28.584139+00,
+68,4P,Onoff,streampartner1+11@gmail.com,Brice10000,1,1,mutual,1,,2026-05-13 23:00:00+00,1,0,desactivate,2026-04-14 12:16:04.12476+00,
+65,3P,Prime Video,dilomarly27@gmail.com,Lovely@dilo2,1,1,personal,1,,2026-05-30 23:00:00+00,2,0,desactivate,2026-04-01 17:26:11.201953+00,
+58,2P,Prime Video,empirebmultiservice@gmail.com,Brice100@,1,1,personal,1,,2026-06-13 23:00:00+00,3,0,desactivate,2026-03-30 17:46:39.023114+00,
+76,12,Onoff,streampartner1+12@gmail.com,Brice100@@,1,1,personal,1,,2026-06-18 23:00:00+00,1,0,desactivate,2026-05-20 20:03:26.231259+00,
+74,2,Spotify,streampartner2+2@gmail.com,Brice100@@,6,6,mutual,6,,2026-07-14 23:00:00+00,2,0,desactivate,2026-05-16 17:19:53.346929+00,3
+111,7P,Spotify,nsiaange@icloud.com,BeauTif8l,1,1,mutual,1,,2026-08-23 23:00:00+00,1,27,activate,2026-07-24 18:53:06.708316+00,10
+47,4,Netflix,streampartner4@gmail.com,Ezechiel300,5,5,mutual,7,,2026-08-21 23:00:00+00,5,25,activate,2026-03-25 11:16:35.034206+00,1
+88,5P,Prime Video,streampartnerc1+1@gmail.com,Brice100,1,1,personal,1,2026-07-22 23:00:00+00,2026-08-22 23:00:00+00,1,26,activate,2026-06-28 11:50:13.198991+00,9
+51,21,Netflix,streampartner4+21@gmail.com,Tresor700,5,5,mutual,7,,2026-08-18 23:00:00+00,2,22,activate,2026-03-27 12:50:51.689191+00,13
+95,8,Prime Video,streampartner4+8@gmail.com,Tresor700,6,6,mutual,8,2026-07-23 23:00:00+00,2026-08-23 23:00:00+00,1,27,activate,2026-07-03 23:34:09.090318+00,9
+79,EV1,Spotify,streampartnerev1@gmail.com,Brice10000,1,1,personal,1,,2026-08-15 23:00:00+00,2,19,activate,2026-06-16 17:38:27.468799+00,2
+49,6,Netflix,streampartner6@gmail.com,Christian200,5,5,mutual,7,,2026-08-14 23:00:00+00,5,18,activate,2026-03-26 07:58:01.186017+00,11
+103,13P,Netflix,ginienga+1@yahoo.fr,Scorpion2111,1,1,personal,1,2026-07-13 23:00:00+00,2026-08-13 23:00:00+00,1,17,activate,2026-07-14 18:36:15.665486+00,23
+44,2P,Netflix,empirebmultiservice@gmail.com,Tresor700,1,1,personal,1,,2026-08-13 23:00:00+00,5,17,activate,2026-03-21 22:31:37.495935+00,9
+71,8P,Netflix,natachazobo07@gmail.com,god2jesus,1,1,personal,1,,2026-08-11 23:00:00+00,3,15,activate,2026-05-13 17:05:18.135657+00,14
+38,2,Netflix,streampartner2@gmail.com,Christian200,5,5,mutual,7,2026-04-08 23:00:00+00,2026-08-08 23:00:00+00,4,12,activate,2026-03-21 20:25:30.24593+00,10
+101,12P,Netflix,onanachrist96+1@gmail.com,Blabla9976,1,1,personal,1,,2026-08-10 23:00:00+00,1,14,activate,2026-07-11 01:33:57.21882+00,10
+98,6P,Spotify,juancharles509@gmail.com,09012008hbd,0,1,personal,1,,2026-08-08 23:00:00+00,1,12,activate,2026-07-09 22:47:55.955502+00,9
+32,3,Netflix,streampartner3@gmail.com,Christian200,5,5,mutual,7,,2026-08-06 23:00:00+00,5,10,activate,2026-03-19 13:23:58.332293+00,23
+67,1,Spotify,streampartner2+1@gmail.com,Christian200,6,6,mutual,6,,2026-08-04 23:00:00+00,3,8,activate,2026-04-11 20:51:55.728986+00,1
+63,3P,CHAT GPT,christianwouokap@gmail.com,Pas de mot de passe,0,1,mutual,1,,2026-08-06 23:00:00+00,3,10,activate,2026-03-31 14:22:26.952005+00,1
+93,11P,Netflix,ishagasehou@gmail.com,95753939,1,1,mutual,1,,2026-08-02 23:00:00+00,1,6,activate,2026-07-03 15:55:29.757271+00,12
+89,29,Netflix,streampartner2+29@gmail.com,Brice100,5,5,mutual,7,,2026-07-31 23:00:00+00,1,4,activate,2026-06-28 12:28:14.88572+00,8
+90,30,Netflix,streampartner3+30@gmail.com,Brice100,5,5,mutual,7,,2026-07-31 23:00:00+00,1,4,activate,2026-06-30 16:22:22.084582+00,8
+92,31,Netflix,streampartner1+31@gmail.com,Brice100,5,5,mutual,2,,2026-07-30 23:00:00+00,1,3,activate,2026-07-01 21:30:48.600265+00,8
+75,9P,Netflix,swamba78@gmail.com,maman_1990,1,1,personal,1,,2026-07-29 23:00:00+00,1,2,activate,2026-05-18 21:30:11.185787+00,14
+91,4,Spotify,streampartner2+4@gmail.com,Brice10000,6,6,mutual,6,,2026-07-28 23:00:00+00,1,1,activate,2026-06-30 18:44:39.13858+00,1
+54,5P,Netflix,danielletoto8519@gmail.com,Pas de mot de passe,1,1,personal,1,,2026-07-27 23:00:00+00,2,0,activate,2026-03-28 20:10:15.857757+00,15
+55,24,Netflix,streampartner1+24@gmail.com,Leonie600,5,5,mutual,7,,2026-07-27 23:00:00+00,5,0,activate,2026-03-28 20:26:27.826308+00,15
+77,3,Spotify,streampartner2+3@gmail.com,Brice100@@,6,6,mutual,6,,2026-07-21 23:00:00+00,1,0,activate,2026-05-23 12:38:22.431546+00,2
+86,28,Netflix,streampartner1+28@gmail.com,Ezechiel300,5,5,mutual,7,,2026-07-24 23:00:00+00,1,0,activate,2026-06-25 13:01:14.872104+00,6
+50,20,Netflix,streampartners5+20@gmail.com,Tresor700,5,5,mutual,7,,2026-07-25 23:00:00+00,4,0,activate,2026-03-26 09:41:15.736849+00,18
+52,4P,Netflix,angevision2025@gmail.com,dimitri2025,1,1,personal,1,,2026-07-25 23:00:00+00,1,0,activate,2026-03-28 15:19:32.609289+00,3
+81,AM+1,Spotify,streampartneram+1@gmail.com,Brice10000,1,1,personal,1,2026-06-16 23:00:00+00,2026-07-16 23:00:00+00,1,0,activate,2026-06-18 22:00:30.880692+00,
+84,26,Netflix,streampartner2+26@gmail.com,Brice100@,5,5,mutual,7,,2026-07-22 23:00:00+00,1,0,activate,2026-06-22 23:38:14.270211+00,5
+100,34,Netflix,streampartner1+34@gmail.com,Brice100,5,5,mutual,7,2026-06-23 23:00:00+00,2026-07-23 23:00:00+00,1,0,activate,2026-07-10 16:46:41.933696+00,10
+82,14,Apple Music,streampartner14@gmail.com,Brice100@,6,6,mutual,6,,2026-07-19 23:00:00+00,1,0,activate,2026-06-21 14:28:49.294237+00,1
+80,C1+1,Spotify,streampartner@gmail.com,Brice10000,1,1,personal,1,2026-06-16 23:00:00+00,2026-07-16 23:00:00+00,1,0,activate,2026-06-17 20:36:55.300595+00,
+83,25,Netflix,streampartner1+25@gmail.com,Christian200,5,5,mutual,7,,2026-07-21 23:00:00+00,1,0,activate,2026-06-22 12:53:25.081459+00,5
+87,10P,Netflix,streampartnerc1@gmail.com,Brice100,1,1,personal,1,,2026-07-26 23:00:00+00,1,0,activate,2026-06-28 11:49:15.78743+00,5
+108,2P,Crunchyroll,streampartneram@gmail.com,Brice100,1,1,personal,2,2026-07-16 23:00:00+00,2026-08-16 23:00:00+00,1,20,activate,2026-07-17 19:34:34.584209+00,3
+17,10,Surfshark,streampartners1@gmail.com,Brice100@,6,6,mutual,100,,2027-03-20 23:00:00+00,12,236,activate,2026-03-17 15:43:42.11627+00,1
+70,7P,Netflix,jboyomo14@gmail.com,PW:B@bayaga94!,1,1,personal,1,2026-07-15 23:00:00+00,2026-09-15 23:00:00+00,2,50,activate,2026-05-08 20:08:19.029449+00,14
+112,14P,Netflix,hadidjatouhidaya@gmail.com,Yaounde237,1,1,mutual,1,2026-07-24 23:00:00+00,2026-08-24 23:00:00+00,1,28,activate,2026-07-25 19:27:43.793854+00,4
+110,6,Spotify,streampartner2+6@gmail.com,Brice10000,0,6,mutual,6,2026-07-21 23:00:00+00,2026-08-21 23:00:00+00,1,25,activate,2026-07-22 09:26:38.658096+00,4
+109,35,Netflix,streampartner3+35@gmail.com,Christian200,5,5,mutual,7,,2026-08-18 23:00:00+00,1,22,activate,2026-07-19 12:12:17.644809+00,4
+107,15P,Onoff,streampartner1+15@gmail.com,Brice100@@,1,1,personal,1,2026-07-15 23:00:00+00,2026-08-15 23:00:00+00,1,19,activate,2026-07-16 17:10:11.992932+00,2
+104,6P,Prime Video,ginienga@yahoo.fr,Scorpion2111,1,1,personal,1,,2026-08-13 23:00:00+00,1,17,activate,2026-07-14 18:37:30.216589+00,2
+99,14,Onoff,streampartner1+14@gmail.com,Brice100@,1,1,mutual,1,,2026-08-09 23:00:00+00,1,13,activate,2026-07-10 16:39:16.728659+00,1
+97,33,Netflix,streampartner2+33@gmail.com,Brice100,5,5,mutual,7,,2026-08-05 23:00:00+00,1,9,activate,2026-07-07 07:15:07.709793+00,12
+96,5P,Spotify,kamta.armel@gmail.com,Pas de mot de passe,1,1,personal,1,,2026-08-04 23:00:00+00,1,8,activate,2026-07-05 11:22:33.901227+00,1
+15,11,Netflix,streampartner2+11@gmail.com,Brice100,5,5,mutual,7,,2026-08-03 23:00:00+00,5,7,activate,2026-03-16 21:29:04.145074+00,3
+66,9,Apple Music,streampartner9@gmail.com,Ezechiel300,6,6,mutual,6,,2026-08-03 23:00:00+00,3,7,activate,2026-04-04 18:53:46.483728+00,3
+94,32,Netflix,streampartner3+32@gmail.com,Brice100,5,5,mutual,7,,2026-08-02 23:00:00+00,1,6,activate,2026-07-03 19:05:25.982144+00,12
+62,A3,GOOGLEONE,christianwouokap@gmail.com,Pas de mot de passe,0,0,mutual,0,,2026-07-30 23:00:00+00,5,3,activate,2026-03-31 14:18:07.681537+00,1
+48,3P,Netflix,priscaashu@yahoo.co.uk,Prisca100@,1,1,personal,1,,2026-07-29 23:00:00+00,1,2,activate,2026-03-25 12:16:06.745805+00,7
