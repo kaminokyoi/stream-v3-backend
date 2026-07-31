@@ -57,18 +57,14 @@ CSRF_TRUSTED_ORIGINS = [
     'https://api.streampartner.in'
 ]
 
-# CORS Configuration — allow Next.js frontends to consume the API
+# CORS Configuration — allow Next.js and Flutter frontends to consume the API
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
     'http://localhost:3001',
-    'http://localhost:8081',
-    'http://127.0.0.1:3000',
-    'http://127.0.0.1:3001',
-    'http://127.0.0.1:8081',
-    'https://stream-v3-web-user.vercel.app',
+    'http://localhost:3002',
+    'https://stream-v3-web-user-production.up.railway.app',
+    'https://stream-v3-web-admin-production.up.railway.app',
     'https://cadmin.streampartner.in',
     'https://streampartner.in',
-    'https://user.streampartner.in',
 ]
 _extra_cors = os.getenv('CORS_ALLOWED_ORIGINS', '').strip()
 if _extra_cors:
