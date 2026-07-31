@@ -226,6 +226,13 @@ class Command(BaseCommand):
                     if not pk: skipped += 1; continue
                     platform = map_platform(r.get('platform', ''))
                     card_id = parse_int(r.get('card_id'))
+                    start_date = parse_datetime(r.get('start_date'))
+                    end_date = parse_datetime(r.get('end_date'))
+                    month_count = parse_int(r.get('month_count')) or 0
+                    # Derive start_date from end_date if missing
+                    if not start_date and end_date and month_count:
+                        from dateutil.relativedelta import relativedelta
+                        start_date = end_date - relativedelta(months=month_count)
                     obj, was_created = Account.objects.update_or_create(
                         pk=pk,
                         defaults={
@@ -237,9 +244,9 @@ class Command(BaseCommand):
                             'max_profile': parse_int(r.get('max_profile')) or 5,
                             'type': r.get('type', 'mutual'),
                             'place': parse_int(r.get('place')) or 2,
-                            'start_date': parse_datetime(r.get('start_date')),
-                            'end_date': parse_datetime(r.get('end_date')),
-                            'month_count': parse_int(r.get('month_count')) or 0,
+                            'start_date': start_date,
+                            'end_date': end_date,
+                            'month_count': month_count,
                             'remaining_day': parse_int(r.get('remaining_day')) or 0,
                             'status': r.get('status', 'activate'),
                         },

@@ -190,6 +190,9 @@ class Account(models.Model):
     def save(self, *args, **kwargs):
         if self.type == 'personal':
             self.max_profile = 1
+        # Derive start_date from end_date if missing
+        if not self.start_date and self.end_date and self.month_count:
+            self.start_date = self.end_date - relativedelta(months=self.month_count)
         # Auto-calculate end_date from start_date + month_count
         if self.start_date and self.month_count:
             self.end_date = self.start_date + relativedelta(months=self.month_count)
