@@ -6,6 +6,7 @@ applied via SubscriptionAccessService (audit §5.7).
 """
 import logging
 
+from django.conf import settings
 from django.shortcuts import get_object_or_404
 from rest_framework import status, viewsets, mixins
 from rest_framework.decorators import action
@@ -17,7 +18,7 @@ from rest_framework.parsers import MultiPartParser, JSONParser
 from core.models import Review
 from core.services import SubscriptionAccessService, ReviewService
 from core.utils import calculate_price
-from payments.models import Order, Subscription, PaymentProof, GiftCode
+from payments.models import Order, Subscription, PaymentProof, GiftCode, PaymentNumber
 from payments.services import PaymentCompletionService
 from notifications.services import notify_purchase_received
 
@@ -75,6 +76,23 @@ class DashboardView(APIView):
     """User dashboard: subscriptions (masked), orders, notifications, pricing."""
     permission_classes = [IsAuthenticated]
 
+    @staticmethod
+    def _payment_numbers(provider):
+        """Active PaymentNumbers for a provider, falling back to settings only if none exist."""
+        numbers = list(
+            PaymentNumber.objects.filter(provider=provider, is_active=True)
+            .order_by('created_at')
+            .values('number', 'name')
+        )
+        if not numbers:
+            fallback = (
+                settings.MOBILE_MONEY_ORANGE if provider == 'orange'
+                else settings.MOBILE_MONEY_MTN
+            )
+            if fallback.get('number'):
+                numbers = [{'number': fallback['number'], 'name': fallback['name']}]
+        return numbers
+
     def get(self, request):
         user = request.user
         subs_data, notifs_data = SubscriptionAccessService.build_dashboard_subscriptions(user)
@@ -89,6 +107,10 @@ class DashboardView(APIView):
             'pending_orders': pending_orders_data,
             'orders': orders_data,
             'notifications': notifs_data,
+            'payment_numbers': {
+                'orange': self._payment_numbers('orange'),
+                'mtn': self._payment_numbers('mtn'),
+            },
             'platforms': [
                 {'id': p.id, 'name': p.name, 'has_personal': p.has_personal}
                 for p in Platform.objects.filter(price_tiers__isnull=False).distinct()

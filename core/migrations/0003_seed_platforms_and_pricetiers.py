@@ -6,15 +6,15 @@ from django.db import migrations
 PLATFORMS = [
     # name, order, has_personal, color
     ('Disney+',       0,  False, '#A855F7'),
-    ('Paramount+',    1,  False, '#7DD3FC'),
-    ('Apple TV',      2,  False, '#000000'),
+    ('Paramount+',    1,  False, '#0064FF'),
+    ('Apple TV',      2,  False, '#1B1C1C'),
     ('HBO Max',       3,  True,  '#9CA3AF'),
-    ('Netflix',       4,  True,  '#EF4444'),
-    ('Prime Video',   5,  True,  '#3B82F6'),
-    ('Crunchyroll',   6,  True,  '#F97316'),
+    ('Netflix',       4,  True,  '#E50914'),
+    ('Prime Video',   5,  True,  '#177BCE'),
+    ('Crunchyroll',   6,  True,  '#FF5E00'),
     ('Spotify',       7,  True,  '#22C55E'),
-    ('Apple Music',   8,  True,  '#F472B6'),
-    ('Surfshark',     9,  True,  '#7DD3FC'),
+    ('Apple Music',   8,  True,  '#FF4E6B'),
+    ('Surfshark',     9,  True,  '#1EBFBF'),
     ('Onoff',         10, False, '#3B82F6'),
 ]
 
@@ -30,14 +30,18 @@ PRICE_TIERS = [
     ('Crunchyroll',   'mutual',   '',         1500,  ''),
     ('Surfshark',     'mutual',   '',         1500,  ''),
     ('Netflix',       'personal', 'Mobile',    4500, '1 écran, qualité 480p'),
-    ('Netflix',       'personal', 'Essentiel', 5500, '1 écran, qualité 1080p'),
-    ('Netflix',       'personal', 'Premium',  10500, '4 écrans, qualité 4K'),
-    ('Prime Video',   'personal', '',         8000,  ''),
-    ('Crunchyroll',   'personal', '',         5000,  ''),
+    ('Netflix',       'personal', 'Essentiel', 5500, '1 écran, qualité 720p'),
+    ('Netflix',       'personal', 'Standard', 7000, '1 écran, qualité 1080p'),
+    ('Netflix',       'personal', 'Premium',  9000, '4 écrans, qualité 4K'),
+    ('Prime Video',   'personal', '',         5000,  ''),
+    ('Crunchyroll',   'personal', 'Fan',         3000,  ''),
+    ('Crunchyroll',   'personal', 'Mega Fan',         3500,  ''),
     ('Apple Music',   'personal', '',         5000,  ''),
+    ('Spotify',       'personal', '',         3500,  ''),
     ('Spotify',       'personal', '',         5000,  ''),
     ('Surfshark',     'personal', '',         5000,  ''),
     ('HBO Max',       'personal', '',         7500,  ''),
+    ('Onoff',       'personal', '',         7000,  ''),
 ]
 
 
