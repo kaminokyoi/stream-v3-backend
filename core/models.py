@@ -1,6 +1,8 @@
 # core/models.py
 import os
 
+from django.core.exceptions import ValidationError
+from django.core.validators import FileExtensionValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
@@ -9,21 +11,43 @@ User = get_user_model()
 
 
 # Create your models here.
+def _ext(filename):
+    return filename.rsplit('.', 1)[-1].lower() if '.' in filename else ''
+
+
+def validate_logo_image(value):
+    """SVG-safe image validator (Pillow-based ImageField rejects SVG)."""
+    ext = _ext(value.name)
+    allowed = {'svg', 'png', 'jpg', 'jpeg', 'webp', 'gif'}
+    if ext not in allowed:
+        raise ValidationError(
+            _("Format non supporté. Utilisez un fichier SVG, PNG, JPG, JPEG, WEBP ou GIF.")
+        )
+    if value.size > 2 * 1024 * 1024:
+        raise ValidationError(_("Le fichier est trop volumineux (2 Mo maximum)."))
+    if ext == 'svg':
+        head = value.read(512)
+        value.seek(0)
+        if b'<svg' not in head and b'xmlns' not in head:
+            raise ValidationError(_("Le fichier SVG est invalide ou corrompu."))
+    return value
+
+
 def poster_upload_path(instance, filename):
     name = instance.name.lower().replace(" ", "-")
-    filename = f"{name.lower()}-poster.{filename.split('.')[1]}"
+    filename = f"{name.lower()}-poster.{_ext(filename)}"
 
     return os.path.join('posters', name, filename.lower())
 
 def video_upload_path(instance, filename):
     name = instance.name.lower().replace(" ", "-")
-    filename = f"{name.lower()}-video.{filename.split('.')[1]}"
+    filename = f"{name.lower()}-video.{_ext(filename)}"
 
     return os.path.join('videos', name, filename.lower())
 
 def logo_upload_path(instance, filename):
     name = instance.name.lower().replace(" ", "-").replace("+", "plus")
-    filename = f"{name}_logo.{filename.split('.')[1]}"
+    filename = f"{name}_logo.{_ext(filename)}"
     return os.path.join('logos', name, filename.lower())
 
 
@@ -35,7 +59,7 @@ class Platform(models.Model):
     name = models.CharField(verbose_name='Plateforme', max_length=128, unique=True)
     sub = models.CharField(max_length=125, blank=True, verbose_name="Detail")
     color = models.CharField(max_length=7, default='#7DD3FC', verbose_name="Couleur (hex)")
-    logo = models.ImageField(upload_to=logo_upload_path, null=True, blank=True, verbose_name="Logo")
+    logo = models.FileField(upload_to=logo_upload_path, validators=[validate_logo_image], null=True, blank=True, verbose_name="Logo")
     poster = models.ImageField(upload_to=poster_upload_path, null=True, blank=True)
     video = models.FileField(upload_to=video_upload_path, null=True, blank=True)
     has_personal = models.BooleanField(default=False, verbose_name="Offre personnelle disponible")
