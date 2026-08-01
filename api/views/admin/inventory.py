@@ -208,7 +208,7 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
     """Admin account CRUD + renew + markers."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminAccountSerializer
-    queryset = Account.objects.select_related('card').all().order_by('end_date', '-remaining_day', 'status')
+    queryset = Account.objects.select_related('card').all().order_by('-remaining_day')
 
     def get_queryset(self):
         qs = self.queryset.prefetch_related('markers').annotate(
@@ -220,7 +220,7 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
         )
         q = self.request.GET.get('q')
         if q:
-            qs = qs.filter(Q(number__icontains=q) | Q(email__icontains=q))
+            qs = qs.filter(Q(number__icontains=q))
         platform = self.request.GET.get('platform')
         if platform:
             qs = qs.filter(platform=platform)

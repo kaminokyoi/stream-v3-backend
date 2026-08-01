@@ -15,8 +15,8 @@ from payments.models import Order, Subscription, PaymentProof, GiftCode
 # ---------------------------------------------------------------------------
 
 class ProfileUpdateSerializer(serializers.Serializer):
-    """Email update (optional field, validated server-side)."""
-    email = serializers.EmailField(required=False, allow_blank=True)
+    """Email update. Email is mandatory once set: empty/blank values are rejected."""
+    email = serializers.EmailField(required=False, allow_blank=False)
 
 
 # ---------------------------------------------------------------------------

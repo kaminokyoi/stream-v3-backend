@@ -27,6 +27,9 @@ class UserCreateSerializer(UserCreatePasswordRetypeSerializer):
             'password': {'write_only': True},
         }
 
+    def validate_country_code(self, value):
+        return value.lstrip('+') if value else value
+
 
 class UserSerializer(DjoserUserSerializer):
     """Serializer for /auth/users/me/ (current authenticated user)."""

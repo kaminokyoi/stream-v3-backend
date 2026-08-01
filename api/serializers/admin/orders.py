@@ -36,6 +36,9 @@ class AdminUserCreateSerializer(serializers.ModelSerializer):
             'email', 'password', 'is_active', 'is_staff', 'is_superuser',
         )
 
+    def validate_country_code(self, value):
+        return value.lstrip('+') if value else value
+
     def create(self, validated_data):
         password = validated_data.pop('password', '')
         user = User(**validated_data)
