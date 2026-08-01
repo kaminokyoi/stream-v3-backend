@@ -23,7 +23,7 @@ def video_upload_path(instance, filename):
 
 def logo_upload_path(instance, filename):
     name = instance.name.lower().replace(" ", "-").replace("+", "plus")
-    filename = f"{name}-logo.{filename.split('.')[-1]}"
+    filename = f"{name}_logo.{filename.split('.')[1]}"
     return os.path.join('logos', name, filename.lower())
 
 
