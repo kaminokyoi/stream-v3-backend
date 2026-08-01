@@ -10,13 +10,33 @@ Flow:
        - Returns {access, refresh} on success
 """
 from rest_framework import status
+from rest_framework.decorators import action
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 
+from djoser.views import UserViewSet as DjoserUserViewSet
+
 from users.twofa_service import TwoFAService
+
+
+class UserViewSet(DjoserUserViewSet):
+    """Djoser user viewset with phone-based password reset.
+
+    Djoser's default reset_password action sends its own email and never
+    calls serializer.save(); we override it so the link is dispatched
+    through PasswordResetSerializer (notification task, email or admin
+    fallback), matching the phone-based reset flow.
+    """
+
+    @action(["post"], detail=False)
+    def reset_password(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 class TwoFAAwareTokenObtainPairView(TokenObtainPairView):

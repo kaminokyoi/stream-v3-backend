@@ -2,7 +2,7 @@
 from rest_framework import serializers
 
 from payments.models import Subscription, SubscriptionMarker, SubscriptionProfileHistory
-from products.models import Account, Profile
+from products.models import Account, Card, Profile
 
 
 class AdminSubscriptionMarkerSerializer(serializers.ModelSerializer):
@@ -84,6 +84,9 @@ class AdminAccountSerializer(serializers.ModelSerializer):
     """Admin account listing (full credentials visible)."""
     current_remaining_days = serializers.SerializerMethodField()
     card = serializers.SerializerMethodField()
+    card_id = serializers.PrimaryKeyRelatedField(
+        queryset=Card.objects.all(), source='card', allow_null=True, required=False,
+    )
     markers = serializers.SerializerMethodField()
     used_places = serializers.SerializerMethodField()
     available_places = serializers.SerializerMethodField()
@@ -93,7 +96,7 @@ class AdminAccountSerializer(serializers.ModelSerializer):
         fields = (
             'id', 'number', 'platform', 'email', 'password', 'profiles',
             'max_profile', 'type', 'place', 'start_date', 'end_date',
-            'month_count', 'card', 'markers', 'remaining_day', 'current_remaining_days',
+            'month_count', 'card', 'card_id', 'markers', 'remaining_day', 'current_remaining_days',
             'used_places', 'available_places', 'status', 'created_at',
         )
         read_only_fields = ('remaining_day', 'created_at')

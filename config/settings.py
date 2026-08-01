@@ -296,6 +296,8 @@ ANYMAIL = {
     "RESEND_API_KEY": os.getenv("RESEND_API_KEY"),
 }
 DEFAULT_FROM_EMAIL = "Stream Partner <hello@contact.streampartner.in>"
+# Frontend base URL (used for admin-generated links: password reset, etc.)
+FRONTEND_URL = os.getenv('FRONTEND_URL', 'https://streampartner.in')
 # Report System Configuration
 REPORT_RECIPIENT_EMAIL = os.getenv('REPORT_RECIPIENT_EMAIL', 'streampartnernotif@gmail.com')
 REPORT_PERIOD_DAYS = int(os.getenv('REPORT_PERIOD_DAYS', '7'))
@@ -358,6 +360,10 @@ DJOSER = {
         'user': 'api.serializers.auth.UserSerializer',
         'current_user': 'api.serializers.auth.UserSerializer',
         'user_create': 'api.serializers.auth.UserCreateSerializer',
+        'password_reset': 'api.serializers.auth.PasswordResetSerializer',
+    },
+    'EMAIL': {
+        'password_reset': 'api.serializers.auth.NoopPasswordResetEmail',
     },
     'PERMISSIONS': {
         'user': ['rest_framework.permissions.IsAuthenticated'],

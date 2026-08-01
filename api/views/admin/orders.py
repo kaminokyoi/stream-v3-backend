@@ -79,13 +79,14 @@ class AdminUserViewSet(viewsets.ModelViewSet):
     def reset_password(self, request, pk=None):
         """Generate a password reset link for a user (admin action)."""
         from django.contrib.auth.tokens import default_token_generator
-        from django.urls import reverse
         from django.conf import settings
+        from django.utils.encoding import force_bytes
+        from django.utils.http import urlsafe_base64_encode
         user = self.get_object()
         token = default_token_generator.make_token(user)
-        uid = user.pk
+        uid = urlsafe_base64_encode(force_bytes(user.pk))
         frontend_url = getattr(settings, 'FRONTEND_URL', 'https://streampartner.in')
-        reset_url = f"{frontend_url}/password-reset?uid={uid}&token={token}"
+        reset_url = f"{frontend_url}/password-reset/complete?uid={uid}&token={token}"
         return Response({'reset_url': reset_url, 'detail': 'Lien généré.'})
 
     @action(detail=False, methods=['get'])
