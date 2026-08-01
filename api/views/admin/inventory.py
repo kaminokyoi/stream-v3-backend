@@ -70,6 +70,9 @@ class AdminSubscriptionViewSet(viewsets.ModelViewSet):
         if account:
             qs = qs.filter(profile__account__number=account)
 
+        if self.action != 'list':
+            return qs
+
         status_filter = self.request.GET.get('status', 'active')
         if status_filter == 'expired':
             qs = qs.filter(Q(status='expired') | Q(expiration_date__lte=timezone.now())).order_by('-order__purchase_date')
@@ -205,7 +208,7 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
     """Admin account CRUD + renew + markers."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminAccountSerializer
-    queryset = Account.objects.select_related('card').all().order_by('-remaining_day', 'status')
+    queryset = Account.objects.select_related('card').all().order_by('remaining_day', 'status')
 
     def get_queryset(self):
         qs = self.queryset.prefetch_related('markers').annotate(
