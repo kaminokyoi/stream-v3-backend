@@ -208,7 +208,7 @@ class AdminAccountViewSet(viewsets.ModelViewSet):
     """Admin account CRUD + renew + markers."""
     permission_classes = [IsAdminUser]
     serializer_class = AdminAccountSerializer
-    queryset = Account.objects.select_related('card').all().order_by('-remaining_day')
+    queryset = Account.objects.select_related('card').all().order_by('status', F('end_date').asc(nulls_last=True))
 
     def get_queryset(self):
         qs = self.queryset.prefetch_related('markers').annotate(
