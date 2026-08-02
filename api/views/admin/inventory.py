@@ -75,7 +75,7 @@ class AdminSubscriptionViewSet(viewsets.ModelViewSet):
 
         status_filter = self.request.GET.get('status', 'active')
         if status_filter == 'expired':
-            qs = qs.filter(Q(status='expired') | Q(expiration_date__lte=timezone.now())).order_by('-order__purchase_date')
+            qs = qs.filter(Q(status='expired') | Q(expiration_date__lte=timezone.now())).order_by('-expiration_date')
         else:
             qs = qs.filter(status='active', expiration_date__gt=timezone.now()).order_by('-order__purchase_date')
         return qs
