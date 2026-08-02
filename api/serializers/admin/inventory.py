@@ -147,12 +147,14 @@ class AdminProfileSerializer(serializers.ModelSerializer):
     account_platform = serializers.CharField(source='account.platform', read_only=True)
     active_subscriptions_count = serializers.SerializerMethodField()
     active_subscriptions = serializers.SerializerMethodField()
+    all_subscriptions = serializers.SerializerMethodField()
 
     class Meta:
         model = Profile
         fields = (
             'id', 'number', 'code', 'account', 'account_platform', 'place',
             'created_at', 'active_subscriptions_count', 'active_subscriptions',
+            'all_subscriptions',
         )
         read_only_fields = ('created_at',)
 
@@ -162,4 +164,8 @@ class AdminProfileSerializer(serializers.ModelSerializer):
 
     def get_active_subscriptions(self, obj):
         subs = [s for s in obj.subscriptions.all() if s.status == 'active']
+        return AdminProfileSubscriptionSerializer(subs, many=True).data
+
+    def get_all_subscriptions(self, obj):
+        subs = list(obj.subscriptions.all())
         return AdminProfileSubscriptionSerializer(subs, many=True).data
