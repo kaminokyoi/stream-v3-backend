@@ -314,7 +314,7 @@ class AdminProfileViewSet(viewsets.ModelViewSet):
         qs = self.queryset
         q = self.request.GET.get('q')
         if q:
-            qs = qs.filter(Q(number__icontains=q) | Q(account__number__icontains=q) | Q(account__platform__icontains=q))
+            qs = qs.filter(Q(account__number__istartswith=q) | Q(account__platform__icontains=q))
         platform = self.request.GET.get('platform')
         if platform:
             qs = qs.filter(account__platform=platform)
