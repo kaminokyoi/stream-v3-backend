@@ -158,8 +158,8 @@ class AdminProfileSerializer(serializers.ModelSerializer):
 
     def get_active_subscriptions_count(self, obj):
         subs = obj.subscriptions.all()
-        return sum(1 for s in subs if s.status in ('active', 'expired'))
+        return sum(1 for s in subs if s.status == 'active')
 
     def get_active_subscriptions(self, obj):
-        subs = [s for s in obj.subscriptions.all() if s.status in ('active', 'expired')]
+        subs = [s for s in obj.subscriptions.all() if s.status == 'active']
         return AdminProfileSubscriptionSerializer(subs, many=True).data
