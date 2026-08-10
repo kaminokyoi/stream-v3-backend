@@ -30,6 +30,7 @@ dependencies = [
     "pyotp>=2.10.0,<3",
     "qrcode[pil]>=8.2,<9",
     "django-structlog>=9.0.0,<10",
+    "sentry-sdk>=2.0.0,<3",
 ]
 
 [dependency-groups]
