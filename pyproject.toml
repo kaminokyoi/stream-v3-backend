@@ -29,6 +29,7 @@ dependencies = [
     "cryptography>=49.0.0,<50",
     "pyotp>=2.10.0,<3",
     "qrcode[pil]>=8.2,<9",
+    "django-structlog>=9.0.0,<10",
 ]
 
 [dependency-groups]

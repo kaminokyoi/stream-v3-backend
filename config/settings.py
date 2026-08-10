@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
+import logging
 import os
 from datetime import timedelta
 from pathlib import Path
@@ -126,6 +127,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django_structlog.middlewares.RequestMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -278,7 +280,7 @@ if REDIS_URL and CACHE_BACKEND_OVERRIDE != 'locmem':
                 'socket_timeout': 2,
                 'socket_connect_timeout': 2,
             },
-        }
+        },
     }
 else:
     CACHES = {
@@ -287,6 +289,28 @@ else:
             'LOCATION': 'streampartner-dev-cache',
         }
     }
+
+# django-structlog: structured request logging (JSON in prod, console in dev)
+# https://django-structlog.readthedocs.io/
+import structlog
+
+structlog.configure(
+    processors=[
+        structlog.contextvars.merge_contextvars,
+        structlog.processors.add_log_level,
+        structlog.processors.TimeStamper(fmt='iso'),
+        structlog.processors.StackInfoRenderer(),
+        structlog.processors.format_exc_info,
+        structlog.processors.JSONRenderer() if IS_PRODUCTION else structlog.dev.ConsoleRenderer(),
+    ],
+    wrapper_class=structlog.make_filtering_bound_logger(logging.INFO),
+    context_class=dict,
+    logger_factory=structlog.PrintLoggerFactory(),
+    cache_logger_on_first_use=True,
+)
+
+# Enable Celery logging via structlog if Celery is loaded
+DJANGO_STRUCTLOG_CELERY_ENABLED = True
 
 # Mobile Money fallback numbers (used only if no active PaymentNumber in DB)
 MOBILE_MONEY_MTN = {
@@ -318,9 +342,9 @@ WHATOMATE_BASE_URL = os.getenv('WHATOMATE_BASE_URL', 'https://wapi.streampartner
 WHATOMATE_API_KEY = os.getenv('WHATOMATE_API_KEY', '')
 WHATOMATE_TEMPLATE_NAME = os.getenv('WHATOMATE_TEMPLATE_NAME', 'otp')
 
-import logging as _logging
+import logging
 if not WHATOMATE_API_KEY:
-    _logging.getLogger(__name__).warning(
+    logging.getLogger(__name__).warning(
         "WHATOMATE_API_KEY is not configured — WhatsApp 2FA OTP will not work."
     )
 
@@ -419,6 +443,10 @@ LOGGING = {
         'django': {
             'handlers': ['console', 'file'],
             'level': 'INFO' if IS_PRODUCTION else 'DEBUG',
+        },
+        'django_structlog': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
         },
         'api': {
             'handlers': ['console', 'file'],

@@ -146,6 +146,9 @@ def use_locmem_cache(settings):
     settings.CELERY_TASK_ALWAYS_EAGER = True
     settings.CELERY_TASK_EAGER_PROPAGATES = True
     settings.CELERY_BROKER_URL = 'memory://'
+    # Clear cache between tests so throttle counters don't persist
+    from django.core.cache import cache
+    cache.clear()
 
 
 @pytest.fixture

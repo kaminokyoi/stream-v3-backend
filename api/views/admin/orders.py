@@ -264,7 +264,7 @@ class AdminPaymentProofViewSet(mixins.ListModelMixin,
         reason = serializer.validated_data.get('reason', 'Refusé')
         proof.rejected = True
         proof.rejection_reason = reason
-        order_id = proof.order.order_id
+        order_id = str(proof.order.order_id)
         proof.save()
         proof.order.status = 'failed'
         proof.order.save()
