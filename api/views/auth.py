@@ -70,11 +70,14 @@ class TwoFAAwareTokenObtainPairView(TokenObtainPairView):
         if method in ('email', 'whatsapp'):
             TwoFAService.create_and_send_otp(user, method)
 
+        from users.twofa_service import OTP_TTL_SECONDS
+
         return Response(
             {
                 '2fa_required': True,
                 'twofa_token': twofa_token,
                 'method': method,
+                'expires_in': OTP_TTL_SECONDS,
             },
             status=status.HTTP_200_OK,
         )
