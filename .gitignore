@@ -5,12 +5,8 @@
 __pycache__/
 *.pyc
 db.sqlite3
-Dockerfile
 tree.txt
 backfill_motifs.py
 foo.py
 media/
-docker/
-docker-compose.yaml
-Dockerfile
-entrypoint.shlogs/
+logs/
