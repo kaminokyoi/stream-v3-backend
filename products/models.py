@@ -188,18 +188,6 @@ class Account(models.Model):
         return f"Compte n°{self.number} {self.platform}"
 
     def save(self, *args, **kwargs):
-        if self.type == 'personal':
-            self.max_profile = 1
-        # Derive start_date from end_date if missing
-        if not self.start_date and self.end_date and self.month_count:
-            self.start_date = self.end_date - relativedelta(months=self.month_count)
-        # Auto-calculate end_date from start_date + month_count
-        if self.start_date and self.month_count:
-            self.end_date = self.start_date + relativedelta(months=self.month_count)
-        # Auto-calculate remaining_day on save if end_date is set
-        if self.end_date:
-            delta = self.end_date - timezone.now()
-            self.remaining_day = max(0, delta.days)
         super().save(*args, **kwargs)
 
     @property

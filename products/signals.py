@@ -4,6 +4,8 @@ import logging
 
 from django.db.models.signals import post_delete, post_save, pre_save
 from django.dispatch import receiver
+from django.utils import timezone
+from dateutil.relativedelta import relativedelta
 
 from .models import Profile, Account
 
@@ -34,6 +36,24 @@ def capture_account_access(sender, instance, **kwargs):
             instance._old_access = None
     else:
         instance._old_access = None
+
+
+@receiver(pre_save, sender=Account)
+def normalize_account_fields(sender, instance, **kwargs):
+    """Derive start_date, end_date, remaining_day on save (L2.21).
+
+    Extracted from Account.save() so that the model's save() only persists
+    the row and the business logic is isolated here for testability.
+    """
+    if instance.type == 'personal':
+        instance.max_profile = 1
+    if not instance.start_date and instance.end_date and instance.month_count:
+        instance.start_date = instance.end_date - relativedelta(months=instance.month_count)
+    if instance.start_date and instance.month_count:
+        instance.end_date = instance.start_date + relativedelta(months=instance.month_count)
+    if instance.end_date:
+        delta = instance.end_date - timezone.now()
+        instance.remaining_day = max(0, delta.days)
 
 
 @receiver(post_save, sender=Account)
