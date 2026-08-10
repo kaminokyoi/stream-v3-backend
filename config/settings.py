@@ -149,6 +149,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django_structlog.middlewares.RequestMiddleware',
+    'api.csrf_middleware.DoubleSubmitCSRFMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
