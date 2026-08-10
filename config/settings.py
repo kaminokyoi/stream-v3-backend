@@ -310,6 +310,12 @@ WHATOMATE_BASE_URL = os.getenv('WHATOMATE_BASE_URL', 'https://wapi.streampartner
 WHATOMATE_API_KEY = os.getenv('WHATOMATE_API_KEY', '')
 WHATOMATE_TEMPLATE_NAME = os.getenv('WHATOMATE_TEMPLATE_NAME', 'otp')
 
+import logging as _logging
+if not WHATOMATE_API_KEY:
+    _logging.getLogger(__name__).warning(
+        "WHATOMATE_API_KEY is not configured — WhatsApp 2FA OTP will not work."
+    )
+
 
 # ---------------------------------------------------------------------------
 # Django REST Framework
