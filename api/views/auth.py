@@ -16,11 +16,12 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.throttling import AnonRateThrottle
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from djoser.views import UserViewSet as DjoserUserViewSet
 
 from users.twofa_service import TwoFAService
+from api.auth_cookies import set_jwt_cookies, clear_jwt_cookies
 
 
 class LoginThrottle(AnonRateThrottle):
@@ -77,7 +78,12 @@ class TwoFAAwareTokenObtainPairView(TokenObtainPairView):
             return Response(serializer.validated_data, status=status.HTTP_200_OK)
 
         if not user.twofa_enabled:
-            return Response(serializer.validated_data, status=status.HTTP_200_OK)
+            response = Response(serializer.validated_data, status=status.HTTP_200_OK)
+            access = serializer.validated_data.get('access')
+            refresh = serializer.validated_data.get('refresh')
+            if access:
+                set_jwt_cookies(response, access, refresh)
+            return response
 
         method = user.twofa_method or 'totp'
         twofa_token = TwoFAService.create_2fa_token(user.id)
@@ -140,10 +146,46 @@ class TwoFAVerifyView(APIView):
         TwoFAService.delete_2fa_token(twofa_token)
 
         refresh = TokenObtainPairSerializer.get_token(user)
-        return Response(
+        access_str = str(refresh.access_token)
+        refresh_str = str(refresh)
+        response = Response(
             {
-                'access': str(refresh.access_token),
-                'refresh': str(refresh),
+                'access': access_str,
+                'refresh': refresh_str,
             },
             status=status.HTTP_200_OK,
         )
+        set_jwt_cookies(response, access_str, refresh_str)
+        return response
+
+
+class CookieTokenRefreshView(TokenRefreshView):
+    """jwt/refresh with HttpOnly cookie support (L3.1).
+
+    Reads the refresh token from the request body (mobile/legacy) OR from the
+    `sp_refresh` cookie (web). Always sets new cookies alongside the JSON
+    response so both auth methods stay in sync.
+    """
+
+    def post(self, request, *args, **kwargs):
+        if not request.data.get('refresh'):
+            cookie_refresh = request.COOKIES.get('sp_refresh')
+            if cookie_refresh:
+                request.data['refresh'] = cookie_refresh
+        response = super().post(request, *args, **kwargs)
+        access = response.data.get('access') if hasattr(response, 'data') else None
+        refresh = response.data.get('refresh') if hasattr(response, 'data') else None
+        if access:
+            set_jwt_cookies(response, access, refresh)
+        return response
+
+
+class LogoutView(APIView):
+    """POST /auth/logout — clear JWT cookies (L3.1)."""
+
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        response = Response({'detail': 'Déconnecté.'}, status=status.HTTP_200_OK)
+        clear_jwt_cookies(response)
+        return response
