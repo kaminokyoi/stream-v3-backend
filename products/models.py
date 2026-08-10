@@ -5,49 +5,11 @@ from django.db import models
 from django.utils import timezone
 from django.conf import settings
 from core.utils import platform_choices
+from core.fields import EncryptedCharField  # noqa: F401  (re-exported for migrations)
 from dateutil.relativedelta import relativedelta
-from cryptography.fernet import Fernet
-import base64
-import hashlib
 import logging
 
 logger = logging.getLogger(__name__)
-
-
-def get_fernet():
-    key = getattr(settings, 'FERNET_KEY', None)
-    if not key:
-        key = base64.urlsafe_b64encode(hashlib.sha256(settings.SECRET_KEY.encode()).digest())
-    return Fernet(key)
-
-
-class EncryptedCharField(models.CharField):
-    def from_db_value(self, value, expression, connection):
-        if value is None:
-            return value
-        try:
-            return get_fernet().decrypt(value.encode()).decode()
-        except Exception:
-            logger.warning(f"EncryptedCharField: failed to decrypt value (len={len(str(value))}). Possible key mismatch.")
-            return value
-
-    def to_python(self, value):
-        if value is None:
-            return value
-        try:
-            return get_fernet().decrypt(value.encode()).decode()
-        except Exception:
-            return value
-
-    def get_prep_value(self, value):
-        value = super().get_prep_value(value)
-        if value is None or value == '':
-            return value
-        try:
-            get_fernet().decrypt(value.encode())
-            return value
-        except Exception:
-            return get_fernet().encrypt(str(value).encode()).decode()
 
 
 class Card(models.Model):
@@ -103,8 +65,8 @@ class AccountMarker(models.Model):
 class Account(models.Model):
     number = models.CharField(max_length=100, verbose_name="Numéro")
     platform = models.CharField(choices=platform_choices, max_length=255, verbose_name="Plateforme")
-    email = models.EmailField(verbose_name="Email")
-    password = models.CharField(max_length=255, verbose_name="Mot de passe")
+    email = EncryptedCharField(max_length=255, verbose_name="Email")
+    password = EncryptedCharField(max_length=255, verbose_name="Mot de passe")
 
     profiles = models.PositiveIntegerField(default=0, verbose_name="N° Profile")
     max_profile = models.PositiveIntegerField(default=5, verbose_name="Profile maximum")
@@ -198,7 +160,6 @@ class Account(models.Model):
         verbose_name_plural = 'Comptes'
         constraints = [
             models.UniqueConstraint(fields=['number', 'platform'], name='unique_account_number_per_platform'),
-            models.UniqueConstraint(fields=['email', 'platform'], name='unique_account_email_per_platform')
         ]
         indexes = [
             models.Index(fields=['status', 'end_date'], name='account_status_end_idx'),

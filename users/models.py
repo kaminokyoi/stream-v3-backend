@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, Permis
 from django.db import models
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
+from core.fields import EncryptedCharField
 
 # Gestionnaire pour notre modèle utilisateur personnalisé
 class UserManager(BaseUserManager):
@@ -63,7 +64,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         default='totp',
         verbose_name="Méthode 2FA"
     )
-    twofa_secret = models.CharField(max_length=64, blank=True, default='', verbose_name="Secret 2FA")
+    twofa_secret = EncryptedCharField(max_length=255, blank=True, default='', verbose_name="Secret 2FA")
     twofa_recovery_codes = models.JSONField(default=list, blank=True, verbose_name="Codes de récupération")
 
     groups = models.ManyToManyField(
