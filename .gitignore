@@ -13,4 +13,4 @@ media/
 docker/
 docker-compose.yaml
 Dockerfile
-entrypoint.sh
+entrypoint.shlogs/

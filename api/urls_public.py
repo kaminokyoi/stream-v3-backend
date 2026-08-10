@@ -3,7 +3,7 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from api.views.auth import TwoFAAwareTokenObtainPairView, TwoFAVerifyView, UserViewSet
-from api.views.public import PlatformViewSet, ReviewViewSet, FaqViewSet
+from api.views.public import PlatformViewSet, ReviewViewSet, FaqViewSet, health_check
 
 router = DefaultRouter()
 router.register(r'platforms', PlatformViewSet, basename='platform')
@@ -14,6 +14,8 @@ user_router = DefaultRouter()
 user_router.register(r'users', UserViewSet, basename='user')
 
 urlpatterns = [
+    # Health check
+    path('health/', health_check, name='health-check'),
     # Auth (Djoser user management + password, with phone-based reset)
     path('auth/', include(user_router.urls)),
     # JWT with 2FA gate

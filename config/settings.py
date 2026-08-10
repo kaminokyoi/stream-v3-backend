@@ -25,56 +25,64 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-please-change-me-in-dev-only')
+# --- Environment ---
+ENVIRONMENT = os.getenv('ENVIRONMENT', 'development')
+if ENVIRONMENT not in ('development', 'staging', 'production'):
+    raise RuntimeError(f"ENVIRONMENT must be one of: development, staging, production — got '{ENVIRONMENT}'")
 
-# Fernet key for field-level encryption (Card.numero).
-# MUST be identical across all environments (local + prod) once cards exist.
-# Generate with:  python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+IS_PRODUCTION = ENVIRONMENT == 'production'
+
+# --- Secrets ---
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-please-change-me-in-dev-only')
 FERNET_KEY = os.getenv('FERNET_KEY', '').strip() or None
 
-# SECURITY WARNING: don't run with debug turned on in production!
-if os.getenv('ENVIRONMENT') == 'production':
-    DEBUG = False
-    if not os.getenv('SECRET_KEY'):
-        raise RuntimeError('SECRET_KEY must be set in production via the .env file.')
-else:
-    DEBUG = True
+if IS_PRODUCTION:
+    if not os.getenv('SECRET_KEY') or len(SECRET_KEY) < 50:
+        raise RuntimeError('SECRET_KEY must be set and at least 50 characters in production.')
+    if not FERNET_KEY:
+        raise RuntimeError('FERNET_KEY must be set in production — field-level encryption depends on it.')
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'stream-v2-production.up.railway.app',
-    'streampartner.in',
-    'api.streampartner.in',
-]
+# --- Debug ---
+DEBUG = os.getenv('DEBUG', 'false').lower() == 'true'
+if IS_PRODUCTION and DEBUG:
+    raise RuntimeError('DEBUG must not be True in production.')
+
+# --- Hosts ---
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
+ALLOWED_HOSTS = [h.strip() for h in ALLOWED_HOSTS if h.strip()]
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost/',
-    'http://127.0.0.1/',
-    'https://stream-v2-production.up.railway.app',
-    'https://streampartner.in',
-    'https://api.streampartner.in'
+    o.strip() for o in os.getenv(
+        'CSRF_TRUSTED_ORIGINS',
+        'http://localhost:3001,http://localhost:3002',
+    ).split(',') if o.strip()
 ]
 
-# CORS Configuration — allow Next.js and Flutter frontends to consume the API
+# --- CORS ---
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3001',
-    'http://localhost:3002',
-    'https://stream-v3-web-user-production.up.railway.app',
-    'https://stream-v3-web-admin-production.up.railway.app',
-    'https://cadmin.streampartner.in',
-    'https://streampartner.in',
+    o.strip() for o in os.getenv(
+        'CORS_ALLOWED_ORIGINS',
+        'http://localhost:3001,http://localhost:3002',
+    ).split(',') if o.strip()
 ]
-_extra_cors = os.getenv('CORS_ALLOWED_ORIGINS', '').strip()
-if _extra_cors:
-    CORS_ALLOWED_ORIGINS += [o.strip() for o in _extra_cors.split(',') if o.strip()]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
     'accept', 'accept-encoding', 'authorization', 'content-type',
     'user-agent', 'x-csrftoken', 'x-requested-with',
 ]
 CORS_EXPOSE_HEADERS = ['Content-Type']
+
+# --- Production security headers ---
+if IS_PRODUCTION:
+    SECURE_SSL_REDIRECT = True
+    SECURE_HSTS_SECONDS = 60 * 60 * 24 * 30
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+    SECURE_CONTENT_TYPE_NOSNIFF = True
+    SECURE_REFERRER_POLICY = 'same-origin'
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
 
 
 # Application definition
@@ -150,7 +158,7 @@ DATABASES = {
     }
 }
 
-if os.getenv('ENVIRONMENT') == 'production':
+if IS_PRODUCTION:
     DATABASES['default'] = dj_database_url.parse(
         os.getenv('DATABASE_URL')
     )
@@ -374,6 +382,69 @@ DJOSER = {
     'PERMISSIONS': {
         'user': ['rest_framework.permissions.IsAuthenticated'],
         'user_list': ['rest_framework.permissions.IsAdminUser'],
+    },
+}
+
+
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '[{asctime}] {levelname} {name}: {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': BASE_DIR / 'logs' / 'django.log',
+            'maxBytes': 10 * 1024 * 1024,
+            'backupCount': 5,
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO' if IS_PRODUCTION else 'DEBUG',
+        },
+        'api': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'payments': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'notifications': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'users': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'core': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'products': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'dashboard': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
     },
 }
 
