@@ -31,6 +31,7 @@ dependencies = [
     "qrcode[pil]>=8.2,<9",
     "django-structlog>=9.0.0,<10",
     "sentry-sdk>=2.0.0,<3",
+    "drf-spectacular>=0.28.0,<1",
 ]
 
 [dependency-groups]

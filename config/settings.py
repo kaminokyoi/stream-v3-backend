@@ -126,6 +126,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'djoser',
+    'drf_spectacular',
     # local
     'payments.apps.PaymentsConfig',
     'users.apps.UsersConfig',
@@ -310,6 +311,15 @@ else:
         }
     }
 
+# drf-spectacular — OpenAPI schema
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'StreamPartner API',
+    'DESCRIPTION': 'REST API for StreamPartner — subscriptions, payments, admin.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'COMPONENT_SPLIT_REQUEST': True,
+}
+
 # django-structlog: structured request logging (JSON in prod, console in dev)
 # https://django-structlog.readthedocs.io/
 import structlog
@@ -383,6 +393,7 @@ REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
     ),
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     'DEFAULT_PAGINATION_CLASS': 'api.pagination.CustomPageNumberPagination',
     'PAGE_SIZE': 20,
     'DEFAULT_FILTER_BACKENDS': (
