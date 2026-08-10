@@ -53,7 +53,6 @@ class EncryptedCharField(models.CharField):
 class Card(models.Model):
     numero = EncryptedCharField(max_length=255, verbose_name="Numéro")
     nom = models.CharField(max_length=255, verbose_name="Nom de la carte")
-    cvv = models.CharField(max_length=10, verbose_name="CVV")
     telephone = models.CharField(max_length=50, verbose_name="Numéro de téléphone")
     expiration_date = models.DateField(verbose_name="Date d'expiration")
     status = models.CharField(

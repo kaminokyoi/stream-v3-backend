@@ -393,8 +393,8 @@ def test_admin_account_renew(admin_client, make_account):
 @pytest.mark.django_db
 def test_admin_account_update_card(admin_client, make_account):
     from datetime import date
-    card1 = Card.objects.create(numero='1111', nom='Carte A', cvv='123', telephone='655000000', expiration_date=date(2030, 1, 1))
-    card2 = Card.objects.create(numero='2222', nom='Carte B', cvv='456', telephone='655000001', expiration_date=date(2030, 1, 1))
+    card1 = Card.objects.create(numero='1111', nom='Carte A', telephone='655000000', expiration_date=date(2030, 1, 1))
+    card2 = Card.objects.create(numero='2222', nom='Carte B', telephone='655000001', expiration_date=date(2030, 1, 1))
     account = make_account(platform_name='Netflix', number='ACC_CARD')
     account.card = card1
     account.save()
@@ -562,7 +562,7 @@ def test_admin_card_crud(admin_client):
     # Create
     resp = admin_client.post('/api/v1/admin/cards/', {
         'numero': '1234567890123456', 'nom': 'Visa Premier',
-        'cvv': '123', 'telephone': '+237690000000',
+        'telephone': '+237690000000',
         'expiration_date': '2027-06-01', 'status': 'actif',
     }, format='json')
     assert resp.status_code == 201
@@ -594,7 +594,7 @@ def test_admin_card_encryption(admin_client):
     """Card numero must be encrypted in DB but decrypted in API response."""
     resp = admin_client.post('/api/v1/admin/cards/', {
         'numero': '9999888877776666', 'nom': 'Test Card',
-        'cvv': '999', 'telephone': '+237690000001',
+        'telephone': '+237690000001',
         'expiration_date': '2027-12-01', 'status': 'actif',
     }, format='json')
     assert resp.status_code == 201

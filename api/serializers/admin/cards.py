@@ -20,7 +20,7 @@ class AdminCardSerializer(serializers.ModelSerializer):
         model = Card
         fields = (
             'id', 'numero', 'masked_numero', 'formatted_numero',
-            'nom', 'cvv', 'telephone', 'expiration_date', 'status',
+            'nom', 'telephone', 'expiration_date', 'status',
             'linked_accounts', 'created_at',
         )
         read_only_fields = ('created_at',)
