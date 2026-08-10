@@ -14,12 +14,25 @@ from rest_framework.decorators import action
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.throttling import AnonRateThrottle
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 
 from djoser.views import UserViewSet as DjoserUserViewSet
 
 from users.twofa_service import TwoFAService
+
+
+class LoginThrottle(AnonRateThrottle):
+    scope = 'login'
+
+
+class OtpThrottle(AnonRateThrottle):
+    scope = 'otp'
+
+
+class RegisterThrottle(AnonRateThrottle):
+    scope = 'register'
 
 
 class UserViewSet(DjoserUserViewSet):
@@ -31,6 +44,11 @@ class UserViewSet(DjoserUserViewSet):
     fallback), matching the phone-based reset flow.
     """
 
+    def get_throttles(self):
+        if self.action == 'create':
+            return [RegisterThrottle()]
+        return super().get_throttles()
+
     @action(["post"], detail=False)
     def reset_password(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -41,12 +59,9 @@ class UserViewSet(DjoserUserViewSet):
 
 class TwoFAAwareTokenObtainPairView(TokenObtainPairView):
     """jwt/create with 2FA gate.
-
-    On valid credentials, if the user has 2FA enabled, we do NOT issue a JWT.
-    Instead we return a short-lived twofa_token (cached) and trigger the OTP.
-    The client then exchanges twofa_token + code at jwt/2fa-verify.
     """
     serializer_class = TokenObtainPairSerializer
+    throttle_classes = [LoginThrottle]
 
     def post(self, request, *args, **kwargs):
         # First validate credentials via the standard serializer.
@@ -86,6 +101,7 @@ class TwoFAAwareTokenObtainPairView(TokenObtainPairView):
 class TwoFAVerifyView(APIView):
     """POST /auth/jwt/2fa-verify — exchange twofa_token + code for a JWT pair."""
     permission_classes = [AllowAny]
+    throttle_classes = [OtpThrottle]
 
     def post(self, request, *args, **kwargs):
         twofa_token = request.data.get('twofa_token', '')
