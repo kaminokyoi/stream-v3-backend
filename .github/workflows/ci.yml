@@ -15,3 +15,38 @@ jobs:
       - run: uv sync --frozen
       - run: uv run pytest --nomigrations -q
       - run: uv run pip-audit 2>/dev/null || true
+
+  migration-rollback:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: streampartner
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgres://postgres:postgres@localhost:5432/streampartner
+      DJANGO_SETTINGS_MODULE: config.settings
+      ENVIRONMENT: development
+      SECRET_KEY: ci-secret
+      FERNET_KEY: ZmDfcTF7_60GrrY167zsiKd_sh4QqW2QuMFRPDf-0Z0=
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - name: Apply all migrations
+        run: uv run manage.py migrate --noinput
+      - name: Reverse all migrations
+        run: |
+          for app in $(uv run manage.py showmigrations --list 2>/dev/null | grep '\[X\]' | awk '{print $2}' | tac); do
+            echo "Reversing $app"
+            uv run manage.py migrate "$app" zero --noinput || true
+          done
