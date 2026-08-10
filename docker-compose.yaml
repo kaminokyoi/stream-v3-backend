@@ -51,6 +51,19 @@ services:
       postgres:
         condition: service_healthy
 
+  flower:
+    build: .
+    command: uv run celery -A config flower --port=5555 --basic-auth=${FLOWER_USER:-admin}:${FLOWER_PASSWORD:-changeme}
+    ports:
+      - "5555:5555"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+
   redis:
     image: redis:8.6.3-alpine
     container_name: stream-redis
