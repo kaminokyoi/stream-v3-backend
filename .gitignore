@@ -10,3 +10,4 @@ backfill_motifs.py
 foo.py
 media/
 logs/
+.coverage
