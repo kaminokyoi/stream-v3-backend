@@ -43,9 +43,14 @@ def update_remaining_days():
 def check_expiring_subscriptions_task():
     """Daily check of expiring/expired subscriptions + notifications.
 
-    - 3 days before expiration -> warn
-    - on expiration day      -> notify
-    - already expired         -> notify + mark status='expired'
+    Idempotent tracking via notified_j3 / notified_j / notified_j1 booleans.
+    Each notification is sent at most once per subscription lifetime. Flags
+    are reset to False on renewal/extension (see _reset_notification_flags).
+
+    Windows:
+      J-3 : expiration_date in [today, today+3] → warn
+      J   : expiration_date ≤ today              → notify
+      J+1 : expiration_date < yesterday           → notify + mark expired
     """
     from datetime import timedelta
     from django.utils import timezone
@@ -57,42 +62,57 @@ def check_expiring_subscriptions_task():
     )
 
     today = timezone.now().date()
-    three_days_later = today + timedelta(days=3)
-    counts = {'3_days': 0, 'today': 0, 'expired': 0}
+    counts = {'j3': 0, 'j': 0, 'j1': 0}
 
-    subs_3days = Subscription.objects.filter(
-        status='active',
-        expiration_date__date=three_days_later,
-    ).select_related('user', 'order', 'profile')
-    for sub in subs_3days:
+    # ── J-3 : warn 3 days before expiration ──────────────────────────
+    subs_j3 = (
+        Subscription.objects
+        .filter(status='active', notified_j3=False, expiration_date__date__lte=today + timedelta(days=3),
+                expiration_date__date__gt=today, user__email__isnull=False)
+        .exclude(user__email='')
+        .select_related('user', 'order', 'profile')
+    )
+    j3_ids = []
+    for sub in subs_j3:
         notify_expiring_soon(sub)
-        counts['3_days'] += 1
+        j3_ids.append(sub.id)
+    if j3_ids:
+        Subscription.objects.filter(id__in=j3_ids).update(notified_j3=True)
+    counts['j3'] = len(j3_ids)
 
-    subs_today = Subscription.objects.filter(
-        status__in=['active', 'expired'],
-        expiration_date__date=today,
-    ).select_related('user', 'order', 'profile')
-    for sub in subs_today:
+    # ── J : notify on expiration day ─────────────────────────────────
+    subs_j = (
+        Subscription.objects
+        .filter(notified_j=False, expiration_date__date__lte=today, user__email__isnull=False)
+        .exclude(user__email='')
+        .select_related('user', 'order', 'profile')
+    )
+    j_ids = []
+    for sub in subs_j:
         notify_expiration_today(sub)
-        counts['today'] += 1
+        j_ids.append(sub.id)
+    if j_ids:
+        Subscription.objects.filter(id__in=j_ids).update(notified_j=True)
+    counts['j'] = len(j_ids)
 
-    subs_expired = Subscription.objects.filter(
-        status__in=['active', 'expired'],
-        expiration_date__date__lt=today,
-    ).select_related('user', 'order', 'profile')
-    expired_ids = []
-    for sub in subs_expired:
+    # ── J+1 : notify + mark expired ──────────────────────────────────
+    subs_j1 = (
+        Subscription.objects
+        .filter(notified_j1=False, expiration_date__date__lt=today, user__email__isnull=False)
+        .exclude(user__email='')
+        .select_related('user', 'order', 'profile')
+    )
+    j1_ids = []
+    for sub in subs_j1:
         notify_subscription_expired(sub)
-        expired_ids.append(sub.id)
-        counts['expired'] += 1
-
-    # Bulk update instead of per-row save
-    if expired_ids:
-        Subscription.objects.filter(id__in=expired_ids).update(status='expired')
+        j1_ids.append(sub.id)
+    if j1_ids:
+        Subscription.objects.filter(id__in=j1_ids).update(notified_j1=True, status='expired')
+    counts['j1'] = len(j1_ids)
 
     logger.info(
-        f"Expiration check: {counts['3_days']} 3-day warnings, "
-        f"{counts['today']} expiring today, {counts['expired']} expired"
+        f"Expiration check: {counts['j3']} J-3 warnings, "
+        f"{counts['j']} expiring today, {counts['j1']} expired"
     )
     return counts
 

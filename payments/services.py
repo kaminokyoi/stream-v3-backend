@@ -107,6 +107,9 @@ class PaymentCompletionService:
 
             sub.expiration_date = start_date + delta
             sub.status = 'active'
+            sub.notified_j3 = False
+            sub.notified_j = False
+            sub.notified_j1 = False
             sub.order = order  # Point to the latest order
             sub.save()
 

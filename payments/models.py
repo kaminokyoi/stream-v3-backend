@@ -122,6 +122,10 @@ class Subscription(models.Model):
 
     status = models.CharField(default="active", verbose_name="Statut", max_length=10)
 
+    notified_j3 = models.BooleanField(default=False, verbose_name="Notif J-3 envoyée")
+    notified_j = models.BooleanField(default=False, verbose_name="Notif J envoyée")
+    notified_j1 = models.BooleanField(default=False, verbose_name="Notif J+1 envoyée")
+
     def __str__(self):
         return f"Abonnement {self.order.platform}"
     
@@ -139,6 +143,7 @@ class Subscription(models.Model):
         indexes = [
             models.Index(fields=['status', 'expiration_date'], name='sub_status_exp_idx'),
             models.Index(fields=['user', 'status'], name='sub_user_status_idx'),
+            models.Index(fields=['status', 'notified_j3', 'expiration_date'], name='sub_notify_j3_idx'),
         ]
 
 

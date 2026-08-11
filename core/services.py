@@ -284,7 +284,10 @@ class ReviewService:
                 if not random_sub.profile:
                     random_sub.profile = cls._relink_last_profile(random_sub)
 
-                random_sub.save(update_fields=['expiration_date', 'status', 'profile'])
+                random_sub.notified_j3 = False
+                random_sub.notified_j = False
+                random_sub.notified_j1 = False
+                random_sub.save(update_fields=['expiration_date', 'status', 'profile', 'notified_j3', 'notified_j', 'notified_j1'])
 
                 platform_name = "votre abonnement"
                 if random_sub.order and random_sub.order.platform:
