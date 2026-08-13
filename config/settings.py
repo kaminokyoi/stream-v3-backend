@@ -44,17 +44,19 @@ else:
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'stream-v2-production.up.railway.app',
     'streampartner.in',
     'api.streampartner.in',
+    'stream-v3-backend.railway.internal',
+    'stream-v3-backend-production.up.railway.app',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost/',
     'http://127.0.0.1/',
-    'https://stream-v2-production.up.railway.app',
     'https://streampartner.in',
     'https://api.streampartner.in'
+    'https://stream-v3-backend.railway.internal',
+    'https://stream-v3-backend-production.up.railway.app',
 ]
 
 # CORS Configuration — allow Next.js and Flutter frontends to consume the API
