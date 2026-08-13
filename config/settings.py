@@ -63,8 +63,8 @@ CSRF_TRUSTED_ORIGINS = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3001',
     'http://localhost:3002',
-    'https://stream-v3-web-user-production.up.railway.app',
-    'https://stream-v3-web-admin-production.up.railway.app',
+    'https://stream-v3-web-admin-production-26b5.up.railway.app',
+    'https://stream-v3-web-user-production-ce68.up.railway.app',
     'https://cadmin.streampartner.in',
     'https://streampartner.in',
 ]
