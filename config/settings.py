@@ -73,6 +73,8 @@ CORS_ALLOWED_ORIGINS = [
     'https://cadmin.streampartner.xyz',
     'https://streampartner.in',
     'https://streampartner.xyz',
+    'https://sp.streampartner.in',
+    'https://asp.streampartner.in',
 ]
 _extra_cors = os.getenv('CORS_ALLOWED_ORIGINS', '').strip()
 if _extra_cors:
