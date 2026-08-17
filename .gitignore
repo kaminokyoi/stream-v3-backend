@@ -5,6 +5,8 @@
 __pycache__/
 *.pyc
 db.sqlite3
+.coverage
+logs/
 Dockerfile
 tree.txt
 backfill_motifs.py
