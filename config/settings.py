@@ -46,6 +46,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'streampartner.in',
     'api.streampartner.in',
+    'api.streampartner.xyz',
     'stream-v3-backend.railway.internal',
     'stream-v3-backend-production.up.railway.app',
 ]
@@ -54,7 +55,8 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost/',
     'http://127.0.0.1/',
     'https://streampartner.in',
-    'https://api.streampartner.in'
+    'https://api.streampartner.in',
+    'https://api.streampartner.xyz',
     'https://stream-v3-backend.railway.internal',
     'https://stream-v3-backend-production.up.railway.app',
 ]
@@ -68,7 +70,9 @@ CORS_ALLOWED_ORIGINS = [
     'https://stream-v3-web-user-production-ce68.up.railway.app',
     'https://stream-v3-web-user.railway.internal',
     'https://cadmin.streampartner.in',
+    'https://cadmin.streampartner.xyz',
     'https://streampartner.in',
+    'https://streampartner.xyz',
 ]
 _extra_cors = os.getenv('CORS_ALLOWED_ORIGINS', '').strip()
 if _extra_cors:
