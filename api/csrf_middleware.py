@@ -34,6 +34,14 @@ class DoubleSubmitCSRFMiddleware:
             return self.get_response(request)
 
         if request.method in UNSAFE_METHODS and not self._is_exempt(request):
+            # Skip CSRF for cross-origin requests — CORS handles those.
+            # SameSite=Lax cookies won't be sent cross-origin anyway, so
+            # requiring a CSRF cookie would block legitimate API clients.
+            origin = request.META.get('HTTP_ORIGIN', '')
+            host = request.get_host()
+            if origin and host not in origin:
+                return self.get_response(request)
+
             cookie_token = request.COOKIES.get(CSRF_COOKIE)
             header_token = request.META.get('HTTP_X_CSRF_TOKEN', '')
             if not cookie_token or not header_token or not secrets.compare_digest(cookie_token, header_token):
