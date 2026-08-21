@@ -37,7 +37,7 @@ jobs:
       DJANGO_SETTINGS_MODULE: config.settings
       ENVIRONMENT: development
       SECRET_KEY: ci-secret
-      FERNET_KEY: ZmDfcTF7_60GrrY167zsiKd_sh4QqW2QuMFRPDf-0Z0=
+      FERNET_KEY: ${{ secrets.FERNET_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5

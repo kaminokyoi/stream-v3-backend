@@ -6,7 +6,9 @@ from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
 
 from products.models import Card, AccountMarker, Account
+from payments.models import SubscriptionMarker
 from api.serializers.admin.cards import AdminCardSerializer, AdminAccountMarkerSerializer
+from api.serializers.admin.inventory import AdminSubscriptionMarkerSerializer
 
 
 class AdminCardViewSet(viewsets.ModelViewSet):
@@ -31,3 +33,10 @@ class AdminAccountMarkerViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAdminUser]
     serializer_class = AdminAccountMarkerSerializer
     queryset = AccountMarker.objects.all().order_by('name')
+
+
+class AdminSubscriptionMarkerViewSet(viewsets.ModelViewSet):
+    """Admin subscription marker CRUD (all markers, for the mark modal)."""
+    permission_classes = [IsAdminUser]
+    serializer_class = AdminSubscriptionMarkerSerializer
+    queryset = SubscriptionMarker.objects.all().order_by('name')

@@ -304,6 +304,19 @@ def test_admin_subscription_mark_and_unmark(admin_client, user, make_subscriptio
 
 
 @pytest.mark.django_db
+def test_admin_subscription_markers_list_all(admin_client, user, make_subscription):
+    """subscription-markers endpoint returns every marker (not just current ones)."""
+    sub1 = make_subscription(platform='Netflix', expiration=timezone.now() + timedelta(days=10))
+    sub2 = make_subscription(platform='Spotify', expiration=timezone.now() + timedelta(days=10))
+    sub1.markers.create(name='VIP', color='#ff0000')
+    sub2.markers.create(name='Famille', color='#00ff00')
+    resp = admin_client.get('/api/v1/admin/subscription-markers/')
+    assert resp.status_code == 200
+    names = {m['name'] for m in resp.data['results']}
+    assert names == {'VIP', 'Famille'}
+
+
+@pytest.mark.django_db
 def test_admin_subscription_profile_history(admin_client, user, make_account, make_profile, make_subscription):
     from payments.models import SubscriptionProfileHistory
     account = make_account(platform_name='Netflix')

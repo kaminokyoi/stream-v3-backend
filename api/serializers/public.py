@@ -59,7 +59,7 @@ class PlatformListSerializer(serializers.ModelSerializer):
 
     def get_logo_url(self, obj):
         if obj.logo:
-            return obj.logo.url
+            return f"/api/v1/public/media/{obj.logo.name}"
         return None
 
     def get_shared_prices(self, obj):

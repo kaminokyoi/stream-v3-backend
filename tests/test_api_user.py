@@ -119,6 +119,19 @@ def test_dashboard_aggregated(authed_client, user, make_subscription, make_price
 
 
 @pytest.mark.django_db
+def test_dashboard_logo_uses_media_proxy(authed_client, user, make_subscription, make_platform):
+    """Dashboard logos point to the media proxy (stable URL, forced Content-Type)."""
+    from core.models import Platform
+    make_platform(name='Netflix')
+    Platform.objects.filter(name='Netflix').update(logo='logos/netflix/netflix_logo.svg')
+    make_subscription(platform='Netflix')
+    resp = authed_client.get('/api/v1/user/dashboard/')
+    assert resp.status_code == 200
+    sub = resp.data['subscriptions'][0]
+    assert sub['logo'] == '/api/v1/public/media/logos/netflix/netflix_logo.svg'
+
+
+@pytest.mark.django_db
 def test_dashboard_subscription_access_masked(authed_client, user, make_account, make_profile, make_subscription):
     """Surfshark subscription: all access fields must be masked (security)."""
     account = make_account(platform_name='Surfshark', max_profile=2, place=2)

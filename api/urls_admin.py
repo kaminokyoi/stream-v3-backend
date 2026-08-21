@@ -13,7 +13,7 @@ from api.views.admin import (
     AdminNotificationViewSet, AdminMessageViewSet,
     AdminDashboardView, DownloadImageView,
 )
-from api.views.admin.cards import AdminCardViewSet, AdminAccountMarkerViewSet
+from api.views.admin.cards import AdminCardViewSet, AdminAccountMarkerViewSet, AdminSubscriptionMarkerViewSet
 from api.views.admin.twofa import (
     twofa_status, twofa_setup, twofa_verify_setup,
     twofa_disable, twofa_regenerate_recovery,
@@ -36,6 +36,7 @@ router.register(r'messaging/notifications', AdminNotificationViewSet, basename='
 router.register(r'messaging/messages', AdminMessageViewSet, basename='admin-message')
 router.register(r'cards', AdminCardViewSet, basename='admin-card')
 router.register(r'account-markers', AdminAccountMarkerViewSet, basename='admin-accountmarker')
+router.register(r'subscription-markers', AdminSubscriptionMarkerViewSet, basename='admin-subscriptionmarker')
 
 urlpatterns = [
     # Dashboard (stats + chart data)

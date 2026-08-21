@@ -50,7 +50,7 @@ class SubscriptionAccessService:
         try:
             platform = Platform.objects.get(name=name)
             color = platform.color or '#ffffff'
-            logo = platform.logo.url if platform.logo else ''
+            logo = f"/api/v1/public/media/{platform.logo.name}" if platform.logo else ''
         except Platform.DoesNotExist:
             color = '#ffffff'
             logo = ''
