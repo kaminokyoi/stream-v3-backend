@@ -265,7 +265,10 @@ STORAGES = {
 }
 
 # Others S3 parameters
-AWS_S3_FILE_OVERWRITE = False
+# file_overwrite=True avoids S3 head_object (403 on T3 Storage with restricted
+# keys). Upload paths are already unique (payment_proofs/{order_uuid}/,
+# logos/{platform}/, posters/, videos/), so no overwrite risk.
+AWS_S3_FILE_OVERWRITE = True
 AWS_QUERYSTRING_EXPIRE = 3600
 
 

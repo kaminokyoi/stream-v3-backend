@@ -10,8 +10,18 @@ from core.utils import platform_choices, calculate_expiration
 
 
 def payment_proof_path(instance, filename):
-    """Upload path for payment proofs."""
-    return f'payment_proofs/{instance.order.order_id}/{filename}'
+    """Upload path for payment proofs.
+
+    Filename is sanitized (extension only, UUID prefix) so a malicious
+    upload can never traverse directories or collide with another proof.
+    """
+    import re
+    from pathlib import Path
+
+    safe_ext = Path(filename).suffix.lower()
+    if not re.match(r'^\.[a-z0-9]{1,5}$', safe_ext):
+        safe_ext = '.jpg'
+    return f'payment_proofs/{instance.order.order_id}/{uuid.uuid4().hex}{safe_ext}'
 
 
 # Create your models here.
