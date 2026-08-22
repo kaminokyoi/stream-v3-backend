@@ -15,7 +15,6 @@ from celery import shared_task
 from django.conf import settings
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
-from weasyprint import HTML
 from logging import getLogger
 
 logger = getLogger(__name__)
@@ -31,6 +30,12 @@ def _generate_and_send_report(period_days):
     """Generate the PDF analytics report and email it."""
     import base64
     from dashboard.report import collect_report_data
+
+    try:
+        from weasyprint import HTML
+    except OSError as e:
+        logger.error(f"WeasyPrint system libraries unavailable: {e}")
+        raise
 
     data = collect_report_data(period_days)
 

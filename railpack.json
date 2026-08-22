@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "buildAptPackages": [
+    "...",
+    "libpango-1.0-0",
+    "libpangocairo-1.0-0",
+    "libgdk-pixbuf-2.0-0",
+    "libffi8",
+    "libcairo2",
+    "libgobject-2.0-0"
+  ],
+  "deploy": {
+    "aptPackages": [
+      "...",
+      "libpango-1.0-0",
+      "libpangocairo-1.0-0",
+      "libgdk-pixbuf-2.0-0",
+      "libffi8",
+      "libcairo2",
+      "libgobject-2.0-0"
+    ]
+  }
+}
