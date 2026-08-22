@@ -279,7 +279,6 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = TIME_ZONE
 CELERY_BROKER_CONNECTION_RETRY_ON_STARTUP = True
-RESULT_BACKEND = 'django-db'
 
 # Limites de temps pour éviter les tâches zombies (hard / soft)
 CELERY_TASK_TIME_LIMIT = 30 * 60

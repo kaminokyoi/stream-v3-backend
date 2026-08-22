@@ -57,9 +57,10 @@ class FaqViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
 @api_view(['GET'])
 @perm_classes([AllowAny])
 def health_check(request):
-    """Health check: verifies DB + cache connectivity."""
+    """Health check: verifies DB + cache + Redis connectivity."""
     from django.db import connection
     from django.core.cache import cache
+    from django.conf import settings
     components = {}
 
     try:
@@ -76,6 +77,21 @@ def health_check(request):
         components['cache'] = 'ok'
     except Exception as e:
         components['cache'] = f'error: {e}'
+
+    redis_url = getattr(settings, 'CELERY_BROKER_URL', None) or getattr(settings, 'REDIS_URL', None)
+    if not redis_url:
+        components['redis'] = 'missing'
+    else:
+        try:
+            import redis as redis_lib
+            client = redis_lib.Redis.from_url(
+                redis_url, socket_connect_timeout=3, socket_timeout=3,
+            )
+            client.ping()
+            client.close()
+            components['redis'] = 'ok'
+        except Exception as e:
+            components['redis'] = f'failed: {e}'
 
     all_ok = all(v == 'ok' for v in components.values())
     return Response(
